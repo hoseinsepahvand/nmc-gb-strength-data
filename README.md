@@ -4,6 +4,8 @@ This repository holds the data and scripts behind the Perspective
 
 > H. Sepahvand, M.M. Fakhrabadi, *Three quantities behind the grain-boundary strength in NMC fracture models* (submitted to Journal of Power Sources, 2026).
 
+Archived version 1.0: https://doi.org/10.5281/zenodo.23019792 (Zenodo).
+
 It contains the review records, the logged literature searches, the values plotted in the figures, and the scripts that turn them into the tables, figures and Supplementary Information. It does not contain the manuscript text, third-party full texts or publisher abstracts.
 
 ## Contents
