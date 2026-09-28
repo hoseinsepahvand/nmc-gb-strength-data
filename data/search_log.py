@@ -16,7 +16,7 @@ Q = ["cohesive zone grain boundary strength intergranular fracture NMC cathode p
      "interfacial strength primary particles secondary particle cracking lithium-ion cathode simulation",
      "intergranular fracture LiCoO2 NCA polycrystal simulation cohesive"]
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "paper-b-sigma-gb search log (mailto:hosein.sepahvand7@gmail.com)"})
+    req = urllib.request.Request(url, headers={"User-Agent": "paper-b-sigma-gb search log (mailto:hosein.sepahvand@ut.ac.ir)"})
     return json.load(urllib.request.urlopen(req, timeout=60))
 log = {"date": str(datetime.date.today()), "queries": []}
 for q in Q:

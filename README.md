@@ -55,4 +55,4 @@ Data (`*.json`, `protocol/`): CC BY 4.0. Code (`*.py`): MIT. See `LICENSE`.
 
 ## Contact
 
-Hosein Sepahvand, School of Mechanical Engineering, College of Engineering, University of Tehran (hosein.sepahvand7@gmail.com).
+Hosein Sepahvand, School of Mechanical Engineering, College of Engineering, University of Tehran (hosein.sepahvand@ut.ac.ir).

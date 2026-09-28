@@ -2,7 +2,7 @@
 and the forward-citation chains, from the WSL bridge. Writes raw results to
 paper/data/s7_search_2026-09-27_wsl.json. Screening is added afterwards (separate key)."""
 import os, json, time, urllib.request, urllib.parse, datetime
-UA = "paperB-s7-rerun (mailto:hosein.sepahvand7@gmail.com)"
+UA = "paperB-s7-rerun (mailto:hosein.sepahvand@ut.ac.ir)"
 def get(url):
     t = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     try:
@@ -13,11 +13,11 @@ def get(url):
         return t, "failed", repr(e)[:200], None
 OA = "https://api.openalex.org/works?"
 def oa_search(q, n=50):
-    return OA + urllib.parse.urlencode({"search": q, "per-page": n, "select": "id,doi,title,publication_year,primary_location", "mailto": "hosein.sepahvand7@gmail.com"})
+    return OA + urllib.parse.urlencode({"search": q, "per-page": n, "select": "id,doi,title,publication_year,primary_location", "mailto": "hosein.sepahvand@ut.ac.ir"})
 def oa_cites(wid):
-    return OA + urllib.parse.urlencode({"filter": "cites:" + wid, "per-page": 200, "select": "id,doi,title,publication_year", "mailto": "hosein.sepahvand7@gmail.com"})
+    return OA + urllib.parse.urlencode({"filter": "cites:" + wid, "per-page": 200, "select": "id,doi,title,publication_year", "mailto": "hosein.sepahvand@ut.ac.ir"})
 def cr(q, n=50):
-    return "https://api.crossref.org/works?" + urllib.parse.urlencode({"query": q, "rows": n, "select": "DOI,title,issued,container-title", "mailto": "hosein.sepahvand7@gmail.com"})
+    return "https://api.crossref.org/works?" + urllib.parse.urlencode({"query": q, "rows": n, "select": "DOI,title,issued,container-title", "mailto": "hosein.sepahvand@ut.ac.ir"})
 def s2(q, n=50):
     return "https://api.semanticscholar.org/graph/v1/paper/search?" + urllib.parse.urlencode({"query": q, "limit": n, "fields": "title,year,externalIds"})
 Q = [
@@ -60,7 +60,7 @@ for qid, service, url in Q:
     print(qid, service, st, len(res), err or "")
     time.sleep(1.5)
 for name, doi in SEEDS:
-    t, st, err, d = get("https://api.openalex.org/works/doi:" + doi + "?mailto=hosein.sepahvand7@gmail.com")
+    t, st, err, d = get("https://api.openalex.org/works/doi:" + doi + "?mailto=hosein.sepahvand@ut.ac.ir")
     ch = {"seed": name, "doi": doi, "resolution": {"timestamp_utc": t, "status": st, "error": err}}
     if d:
         wid = d["id"].split("/")[-1]; ch["openalex_id"] = wid; ch["cited_by_count"] = d.get("cited_by_count")
