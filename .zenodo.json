@@ -3,8 +3,8 @@
  "upload_type": "dataset",
  "description": "Review records, logged literature searches, measured values and scripts behind the Perspective 'Three quantities behind the grain-boundary strength in NMC fracture models' (submitted to Journal of Power Sources, 2026). Data CC BY 4.0, code MIT.",
  "creators": [
-  {"name": "Sepahvand, Hossein", "affiliation": "School of Mechanical Engineering, College of Engineering, University of Tehran"},
-  {"name": "Fakhrabadi, Mir Masoud", "affiliation": "School of Mechanical Engineering, College of Engineering, University of Tehran"}
+  {"name": "Sepahvand, Hosein", "affiliation": "School of Mechanical Engineering, College of Engineering, University of Tehran"},
+  {"name": "Seyyed Fakhrabadi, Mir Masoud", "affiliation": "School of Mechanical Engineering, College of Engineering, University of Tehran"}
  ],
  "license": "cc-by-4.0",
  "keywords": ["NMC cathode", "grain boundary", "cohesive strength", "phase-field fracture", "reproducibility"],

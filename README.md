@@ -2,7 +2,7 @@
 
 This repository holds the data and scripts behind the Perspective
 
-> H. Sepahvand, M.M. Fakhrabadi, *Three quantities behind the grain-boundary strength in NMC fracture models* (submitted to Journal of Power Sources, 2026).
+> H. Sepahvand, M.M. Seyyed Fakhrabadi, *Three quantities behind the grain-boundary strength in NMC fracture models* (submitted to Journal of Power Sources, 2026).
 
 Archived version 1.0: https://doi.org/10.5281/zenodo.23019792 (Zenodo).
 
@@ -55,4 +55,4 @@ Data (`*.json`, `protocol/`): CC BY 4.0. Code (`*.py`): MIT. See `LICENSE`.
 
 ## Contact
 
-Hossein Sepahvand, School of Mechanical Engineering, College of Engineering, University of Tehran (hosein.sepahvand7@gmail.com).
+Hosein Sepahvand, School of Mechanical Engineering, College of Engineering, University of Tehran (hosein.sepahvand7@gmail.com).
