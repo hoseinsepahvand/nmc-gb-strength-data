@@ -1,0 +1,4867 @@
+{
+ "_meta": {
+  "claim_tested": "No measured peak traction (or tensile/fracture strength) of an individual, character-resolved grain boundary (known misorientation/boundary plane) in a layered-oxide cathode (NMC/NCM, NCA, LiCoO2, LiNiO2, Li-rich layered) in a known lithium state has been reported.",
+  "date": "2026-09-26",
+  "timestamp_note": "2026-09-26; clock tool gave no time-of-day; a device `date -u` during the run returned 2026-09-26T21:03:28Z, all queries ran within ~20 min of that (approx. 20:55-21:15 UTC)",
+  "services": {
+   "worked": {
+    "Crossref REST API": 1,
+    "Firecrawl research_search_papers": 4,
+    "WebSearch": 11,
+    "Firecrawl research_related_papers citers": 2
+   },
+   "failed": {
+    "Semantic Scholar Graph API": 3,
+    "OpenAlex API": 3,
+    "Scholar Gateway semanticSearch": 1,
+    "Elicit search_papers": 1,
+    "Crossref REST API": 2,
+    "Firecrawl scrape": 1
+   }
+  },
+  "counts": {
+   "queries_total": 29,
+   "queries_ok": 18,
+   "queries_failed": 11,
+   "hits_total": 232,
+   "unique_results": 187,
+   "screening": {
+    "relevant_but_not_boundary_resolved": 14,
+    "not_relevant": 173
+   }
+  },
+  "dedup_rule": "lower-cased DOI; DOI extracted from publisher URL where present, or mapped via an explicit URL->DOI alias table (repository/PubMed/PMC/OSTI copies of the same paper); otherwise arXiv id or URL",
+  "limitations": [
+   "Semantic Scholar, Scholar Gateway, Elicit failed entirely; OpenAlex only for DOI lookups (searches and cites-filter rate-limited)",
+   "Crossref only 1 search succeeded",
+   "forward citation chains for Wheatcroft 2023 (25 citers per OpenAlex) and Stallard 2022 (28 per Crossref) are INCOMPLETE (2 and 5 citers retrieved via Firecrawl)",
+   "Sedlatschek 2026 backward references listed as OpenAlex IDs only, not screened",
+   "Firecrawl years not returned by service -> null",
+   "Quotes obtained through WebFetch summariser; verify verbatim against PDFs before use",
+   "screening of non-special items is rule-based on title (auto reason)"
+  ],
+  "verdict": "No retrieved item reports a strength/peak traction of an individual, character-resolved grain boundary in a layered-oxide cathode. Closest: Sedlatschek 2026 (average over several uncharacterised boundaries). Negative claim NOT contradicted, within the stated coverage limits."
+ },
+ "queries": [
+  {
+   "id": "Q01",
+   "service": "Crossref REST API (via WebFetch)",
+   "query": "https://api.crossref.org/works?query=grain+boundary+strength+micro-tensile+cathode+NMC&rows=50&select=DOI,title,issued,container-title",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 50,
+   "n_results_reported_by_service": 1340897,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests",
+     "year": 2026,
+     "doi_or_url": "10.2139/ssrn.6429437",
+     "venue": "SSRN"
+    },
+    {
+     "rank": 2,
+     "title": "Evaluation of the relationship between the tensile strength of a grain boundary in electroplated copper thin films and the crystallinity of the grain boundary using micro tensile test",
+     "year": 2017,
+     "doi_or_url": "10.1109/impact.2017.8255902",
+     "venue": "IMPACT 2017"
+    },
+    {
+     "rank": 3,
+     "title": "Development of Micro Tensile Testing Method in an FIB System for Evaluating Grain Boundary Strength",
+     "year": 2011,
+     "doi_or_url": "10.2320/matertrans.m2010320",
+     "venue": "Materials Transactions"
+    },
+    {
+     "rank": 4,
+     "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests",
+     "year": 2026,
+     "doi_or_url": "10.1016/j.jpowsour.2026.240276",
+     "venue": "Journal of Power Sources"
+    },
+    {
+     "rank": 5,
+     "title": "Measurement of the strength of a grain boundary in electroplated copper thin-film interconnections by using micro tensile-test",
+     "year": 2016,
+     "doi_or_url": "10.1109/iemt.2016.7761963",
+     "venue": "IEMT/EMAP 2016"
+    },
+    {
+     "rank": 6,
+     "title": "Crystallinity Dependence of Grain and Grain Boundary Strength of a Bicrystal Structure of Copper",
+     "year": 2020,
+     "doi_or_url": "10.1115/imece2020-23757",
+     "venue": "IMECE2020"
+    },
+    {
+     "rank": 7,
+     "title": "Effect of Fission Defects on Tensile Strength of U3si2 Σ5(210) Grain Boundary from First-Principles Calculations",
+     "year": 2023,
+     "doi_or_url": "10.2139/ssrn.4570629",
+     "venue": "SSRN"
+    },
+    {
+     "rank": 8,
+     "title": "Effect of Fission Defects on Tensile Strength of U3si2 Σ5(210) Grain Boundary from First-Principles Calculations",
+     "year": 2023,
+     "doi_or_url": "10.2139/ssrn.4545706",
+     "venue": "SSRN"
+    },
+    {
+     "rank": 9,
+     "title": "A FEM Model Considering Grain Distribution and Grain Boundary Strength for Micro Upsetting Process",
+     "year": 2014,
+     "doi_or_url": "10.4028/www.scientific.net/amm.703.137",
+     "venue": "Applied Mechanics and Materials"
+    },
+    {
+     "rank": 10,
+     "title": "Theoretical tensile strength of an Al grain boundary",
+     "year": 2004,
+     "doi_or_url": "10.1103/physrevb.69.134106",
+     "venue": "Physical Review B"
+    },
+    {
+     "rank": 11,
+     "title": "Measurement of the grain-boundary tensile strength in columnar freshwater ice",
+     "year": 1999,
+     "doi_or_url": "10.1080/095008399176869",
+     "venue": "Philosophical Magazine Letters"
+    },
+    {
+     "rank": 12,
+     "title": "First-Principles Calculations of the Tensile Strength and Fracture of a Grain Boundary in SiC",
+     "year": 2000,
+     "doi_or_url": "10.1143/ptps.138.96",
+     "venue": "Prog. Theor. Phys. Suppl."
+    },
+    {
+     "rank": 13,
+     "title": "OS12-9 Development of Measurement Method of the Strength of a Grain Boundary",
+     "year": 2015,
+     "doi_or_url": "10.1299/jsmeatem.2015.14.191",
+     "venue": "ATEM abstracts"
+    },
+    {
+     "rank": 14,
+     "title": "Grain Boundary Premelting in Deformed Copper Bicrystals with the Same Grain Boundary and Different Tensile Directions",
+     "year": 1994,
+     "doi_or_url": "10.4028/www.scientific.net/msf.170-172.77",
+     "venue": "Materials Science Forum"
+    },
+    {
+     "rank": 15,
+     "title": "Tensile strength and fracture of a tilt grain boundary in cubic SiC: A first-principles study",
+     "year": 1999,
+     "doi_or_url": "10.1080/095008399176706",
+     "venue": "Philosophical Magazine Letters"
+    },
+    {
+     "rank": 16,
+     "title": "Effects of grain size and grain boundary structure on yield strength of micro- and submicrocrystalline TiAl",
+     "year": 1993,
+     "doi_or_url": "10.1016/0956-716x(93)90425-r",
+     "venue": "Scripta Metall. Mater."
+    },
+    {
+     "rank": 17,
+     "title": "Helium Induced Reduction of the Grain-Boundary Tensile Strength in Tungsten",
+     "year": 2014,
+     "doi_or_url": "10.4172/2325-9809.1000120",
+     "venue": "J. Nucl. Energy Sci. Power Gen. Technol."
+    },
+    {
+     "rank": 18,
+     "title": "Analysis of grain boundary and micro-texture evolution during uniaxial tensile deformation of DP600 steel",
+     "year": 2025,
+     "doi_or_url": "10.1007/s43452-025-01192-9",
+     "venue": "Arch. Civ. Mech. Eng."
+    },
+    {
+     "rank": 19,
+     "title": "Grain Boundary Segregation of Phosphorus, Boron and Manganese in High Tensile Strength Steel Sheet",
+     "year": 1996,
+     "doi_or_url": "10.2320/matertrans1989.37.323",
+     "venue": "Materials Transactions JIM"
+    },
+    {
+     "rank": 20,
+     "title": "Tensile deformation of an ultrafine-grained aluminium alloy: Micro shear banding and grain boundary sliding",
+     "year": 2008,
+     "doi_or_url": "10.1016/j.actamat.2008.01.020",
+     "venue": "Acta Materialia"
+    },
+    {
+     "rank": 21,
+     "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials (SI)",
+     "year": null,
+     "doi_or_url": "10.1021/acs.nanolett.9b04620.s001",
+     "venue": null
+    },
+    {
+     "rank": 22,
+     "title": "Anomalous Effect of Strain Rate on the Tensile Elongation of Coarse-Grained Pure Iron with Grain Boundary Micro-Voids",
+     "year": 2011,
+     "doi_or_url": "10.4028/www.scientific.net/amr.214.334",
+     "venue": "Advanced Materials Research"
+    },
+    {
+     "rank": 23,
+     "title": "Correlation of Machining-Grain-Size Effects on Tensile Strength with Tensile Strength–Grain-Size Behavior",
+     "year": 1993,
+     "doi_or_url": "10.1111/j.1151-2916.1993.tb05339.x",
+     "venue": "J. Am. Ceram. Soc."
+    },
+    {
+     "rank": 24,
+     "title": "Grain-Boundary Structure and High-Temperature Strength of Non-Oxide Ceramics",
+     "year": 1992,
+     "doi_or_url": "10.1007/978-94-011-1878-1_17",
+     "venue": "Grain Boundary Controlled Properties of Fine Ceramics"
+    },
+    {
+     "rank": 25,
+     "title": "Experimental Studies of Non-Equilibrium Grain-Boundary Segregations of Phosphorus under Low Tensile Stresses",
+     "year": 2007,
+     "doi_or_url": "10.4028/0-87849-456-1.396",
+     "venue": "Key Engineering Materials"
+    },
+    {
+     "rank": 26,
+     "title": "Tensile strength of a transverse grain boundary in a single-walled carbon nanotube",
+     "year": 2023,
+     "doi_or_url": "10.2109/jcersj2.23062",
+     "venue": "J. Ceram. Soc. Japan"
+    },
+    {
+     "rank": 27,
+     "title": "Crystallinity Dependence of Grain and Grain Boundary Strength of a Bicrystal Structure of Copper",
+     "year": 2021,
+     "doi_or_url": "10.1115/1.0004336v",
+     "venue": null
+    },
+    {
+     "rank": 28,
+     "title": "Control the Metal Grain Boundary Recrystallization Evolution by the Laser Radiation Electric Field Strength Direction Under Cyclic Thermal Loading",
+     "year": 2017,
+     "doi_or_url": "10.5772/66248",
+     "venue": "Study of Grain Boundary Character"
+    },
+    {
+     "rank": 29,
+     "title": "Effect of zinc-doping on tensile strength of Σ5 bcc Fe symmetric tilt grain boundary",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.commatsci.2019.109204",
+     "venue": "Comput. Mater. Sci."
+    },
+    {
+     "rank": 30,
+     "title": "Towards theoretical connection between tensile strength of a grain boundary and segregated impurity concentration: Helium in iron as an example",
+     "year": 2012,
+     "doi_or_url": "10.1209/0295-5075/98/17001",
+     "venue": "EPL"
+    },
+    {
+     "rank": 31,
+     "title": "Characterizing the Tensile Strength of Metastable Grain Boundaries in Silicon Carbide Using Machine Learning (SI)",
+     "year": null,
+     "doi_or_url": "10.1021/acs.jpcc.0c07590.s001",
+     "venue": null
+    },
+    {
+     "rank": 32,
+     "title": "Modulating Grain Boundary Networks to Achieve Superior Chemomechanical Coupling Properties in Nickel-Rich Cathode Materials (SI)",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.4c11041.s001",
+     "venue": null
+    },
+    {
+     "rank": 33,
+     "title": "Enhancing the Strength of Graphene by a Denser Grain Boundary (SI)",
+     "year": null,
+     "doi_or_url": "10.1021/acsnano.8b00869.s001",
+     "venue": null
+    },
+    {
+     "rank": 34,
+     "title": "Tensile Ductility Dependence on Polycrystal Grain Size",
+     "year": 1985,
+     "doi_or_url": "10.1016/b978-0-08-031642-0.50040-4",
+     "venue": "ICSMA 7"
+    },
+    {
+     "rank": 35,
+     "title": "Effect of grain boundary composition on tensile strength and hydrogen induced stress corrosion cracking of Ni–20Cr",
+     "year": 1991,
+     "doi_or_url": "10.1179/mst.1991.7.2.111",
+     "venue": "Mater. Sci. Technol."
+    },
+    {
+     "rank": 36,
+     "title": "An investigation into the influence of grain boundary misorientation on the tensile strength of SiC bicrystals",
+     "year": 2015,
+     "doi_or_url": "10.1080/15376494.2014.984094",
+     "venue": "Mech. Adv. Mater. Struct."
+    },
+    {
+     "rank": 37,
+     "title": "Effect of grain boundary composition on tensile strength and hydrogen induced stress corrosion cracking of Ni–20Cr",
+     "year": 1991,
+     "doi_or_url": "10.1179/026708391790194851",
+     "venue": "Mater. Sci. Technol."
+    },
+    {
+     "rank": 38,
+     "title": "Competitive Occupation Induced Grain Boundary Enrichment Enables Crack-Free Layered Cathode Materials for Sodium-Ion Batteries (SI)",
+     "year": null,
+     "doi_or_url": "10.1021/acsenergylett.6c01088.s001",
+     "venue": null
+    },
+    {
+     "rank": 39,
+     "title": "Calculation of the contribution made by grain-boundary sliding to total tensile elongation",
+     "year": 1957,
+     "doi_or_url": "10.1016/0043-1648(57)90046-7",
+     "venue": "Wear"
+    },
+    {
+     "rank": 40,
+     "title": "Evolution of ice tensile strength with grain size: Implications for future mass loss from Pine Island Glacier",
+     "year": 2025,
+     "doi_or_url": "10.22541/essoar.175157483.35584138/v1",
+     "venue": "ESSOAr"
+    },
+    {
+     "rank": 41,
+     "title": "Optimization of Fusion Zone Grain Size, Hardness and Ultimate Tensile Strength of Pulsed Current Micro Plasma Arc Welded Inconel 625 Sheets Using Genetic Algorithm",
+     "year": 2012,
+     "doi_or_url": "10.1515/jmsp-2012-0011",
+     "venue": "J. Manuf. Sci. Prod."
+    },
+    {
+     "rank": 42,
+     "title": "Semiconductor devices — Micro-electromechanical devices",
+     "year": null,
+     "doi_or_url": "10.3403/30454371",
+     "venue": null
+    },
+    {
+     "rank": 43,
+     "title": "From grain-scale anisotropy to composite cathode failure: chemo-mechanically coupled phase-field modeling of polycrystalline LiNixCoyMnzO2 (NMC) cathodes for all-solid-state batteries",
+     "year": 2026,
+     "doi_or_url": "10.2139/ssrn.6172718",
+     "venue": "SSRN"
+    },
+    {
+     "rank": 44,
+     "title": "Semiconductor devices — Micro-electromechanical devices",
+     "year": null,
+     "doi_or_url": "10.3403/30454371u",
+     "venue": null
+    },
+    {
+     "rank": 45,
+     "title": "Molecular dynamics study on tensile strength of twist grain boundary structures under uniaxial tension in copper",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.vacuum.2020.109874",
+     "venue": "Vacuum"
+    },
+    {
+     "rank": 46,
+     "title": "Improving the tensile ductility and uniform elongation of high-strength ultrafine-grained Al alloys by lowering the grain boundary misorientation angle",
+     "year": 2014,
+     "doi_or_url": "10.1016/j.scriptamat.2014.01.020",
+     "venue": "Scripta Materialia"
+    },
+    {
+     "rank": 47,
+     "title": "Micro-tensile bond strength of one-step adhesives to dentin",
+     "year": 2009,
+     "doi_or_url": "10.5580/b52",
+     "venue": "Internet J. Dental Sci."
+    },
+    {
+     "rank": 48,
+     "title": "Ceramic tensile strength-grain size relations: grain sizes, slopes, and branch intersections",
+     "year": 1997,
+     "doi_or_url": "10.1023/a:1018511613779",
+     "venue": "J. Mater. Sci."
+    },
+    {
+     "rank": 49,
+     "title": "Grain Effects on Thermal Shock Resistance and Elevated Temperature Crack Propagation, Toughness, and Tensile Strength",
+     "year": 2000,
+     "doi_or_url": "10.1201/9780203908471.ch6",
+     "venue": "Mech. Prop. Ceramics & Composites"
+    },
+    {
+     "rank": 50,
+     "title": "A Roadmap from the Bond Strength to the Grain-Boundary Energies and Macro Strength of Metals",
+     "year": 2024,
+     "doi_or_url": "10.21203/rs.3.rs-4600064/v1",
+     "venue": "Research Square"
+    }
+   ]
+  },
+  {
+   "id": "Q02",
+   "service": "Semantic Scholar Graph API (via WebFetch)",
+   "query": "https://api.semanticscholar.org/graph/v1/paper/search?query=grain+boundary+fracture+strength+layered+oxide+cathode+micropillar&fields=title,year,externalIds,venue&limit=50",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "HTTP 429 client error (rate limited)",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q03",
+   "service": "OpenAlex API (via WebFetch)",
+   "query": "https://api.openalex.org/works?search=grain%20boundary%20strength%20cathode%20micro-cantilever&per_page=50&select=id,doi,title,publication_year",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "HTTP 429 client error",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q04",
+   "service": "Scholar Gateway semanticSearch (MCP)",
+   "query": "Has the fracture strength or cohesive peak traction of an individual grain boundary with known misorientation been measured in a layered oxide lithium-ion battery cathode such as NMC, NCA or LiCoO2 using bicrystal or micro-cantilever tests? (topN=20)",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "INVALID_QUERY: Could not resolve user identity from CONNECT",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q05",
+   "service": "Elicit search_papers (MCP)",
+   "query": "measured grain boundary fracture strength in layered oxide cathode (NMC, NCA, LiCoO2) using micro-cantilever, micropillar or micro-tensile testing with EBSD-identified boundaries (maxResults=25)",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "api_access_denied: This Elicit account's plan doesn't include API access",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q06",
+   "service": "Firecrawl research_search_papers (MCP)",
+   "query": "intergranular fracture strength of individual grain boundaries in NMC cathode secondary particles measured by in situ micromechanical testing (k=25)",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 25,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Mechanistic understanding of intergranular cracking in NCM cathode material: mesoscale simulation with three-dimensional microstructure",
+     "year": null,
+     "doi_or_url": "10.1039/c8cp04927k",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Determining the Fundamental Failure Modes in Ni-rich Lithium Ion Battery Cathodes",
+     "year": null,
+     "doi_or_url": "arXiv:2308.06537",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Air Instability-Induced Mechanical Degradation Plaguing Cyclability of Polycrystalline Nickel-Rich Layered Cathode",
+     "year": null,
+     "doi_or_url": "10.1021/jacs.6c02705",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Effects of Extended Aqueous Processing on Structure, Chemistry, and Performance of Polycrystalline LiNixMnyCozO2 Cathode Powders",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.0c20105",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Oxygen Release Induced Chemomechanical Breakdown of Layered Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acs.nanolett.8b01036",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Intragranular cracking as a critical barrier for high-voltage usage of layer-structured cathode for lithium-ion batteries",
+     "year": null,
+     "doi_or_url": "10.1038/ncomms14101",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Tailoring of Grain Boundary Structure and Chemistry of Cathode Particles for Enhanced Cycle Stability of Lithium Ion Battery",
+     "year": null,
+     "doi_or_url": "arXiv:1710.06050",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "In Situ-Constructed Elastomeric Interphase for Grain Boundary Stabilization in High-Voltage Layered Oxide Cathodes",
+     "year": null,
+     "doi_or_url": "10.1002/adma.74129",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Multiscale Understanding of Surface Structural Effects on High-Temperature Operational Resiliency of Layered Oxide Cathodes",
+     "year": null,
+     "doi_or_url": "10.1002/adma.202107326",
+     "venue": null
+    },
+    {
+     "rank": 10,
+     "title": "Nanowelding to Improve the Chemomechanical Stability of the Ni-Rich Layered Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.0c20100",
+     "venue": null
+    },
+    {
+     "rank": 11,
+     "title": "Sulfate-Containing Composite Based on Ni-Rich Layered Oxide LiNi0.8Mn0.1Co0.1O2 as High-Performance Cathode Material for Li-ion Batteries",
+     "year": null,
+     "doi_or_url": "10.3390/nano10122381",
+     "venue": null
+    },
+    {
+     "rank": 12,
+     "title": "In situ stable crack growth at the micron scale",
+     "year": null,
+     "doi_or_url": "10.1038/s41467-017-00139-w",
+     "venue": null
+    },
+    {
+     "rank": 13,
+     "title": "Morphological Evolution of NMC Secondary Particles Through in situ electrochemical FIB/SEM experiment",
+     "year": null,
+     "doi_or_url": "arXiv:2208.00878",
+     "venue": null
+    },
+    {
+     "rank": 14,
+     "title": "The Role of Intergranular Cracks on Fast Charging and Accelerated Degradation in Polycrystalline Layered Oxide Cathodes",
+     "year": null,
+     "doi_or_url": "10.1002/advs.202515588",
+     "venue": null
+    },
+    {
+     "rank": 15,
+     "title": "Boosting Ni-Rich Cathode Stability Through Grain Boundary Strengthening and Phase Transition Degradation Suppression",
+     "year": null,
+     "doi_or_url": "10.1002/smll.202502609",
+     "venue": null
+    },
+    {
+     "rank": 16,
+     "title": "Effect of Lithium Silicate Addition on the Microstructure and Crack Formation of LiNi0.8Co0.1Mn0.1O2 Cathode Particles",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.9b13017",
+     "venue": null
+    },
+    {
+     "rank": 17,
+     "title": "Enhanced Cyclability of LiNi0.6Co0.2Mn0.2O2 Cathodes by Integrating a Spinel Interphase in the Grain Boundary",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.2c18423",
+     "venue": null
+    },
+    {
+     "rank": 18,
+     "title": "Deciphering the Crystallographic Effect in Radially Architectured Polycrystalline Layered Cathode Materials for Lithium-Ion Batteries",
+     "year": null,
+     "doi_or_url": "10.1002/anie.202503108",
+     "venue": null
+    },
+    {
+     "rank": 19,
+     "title": "Cracking Mechanism and Inhibition Strategies of Polycrystalline NCM Electrode Particles",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.4c11691",
+     "venue": null
+    },
+    {
+     "rank": 20,
+     "title": "Intergranular fracture, grain-boundary structure, and dislocation-density interactions in FCC bicrystals",
+     "year": null,
+     "doi_or_url": "10.1038/s41598-024-72033-7",
+     "venue": null
+    },
+    {
+     "rank": 21,
+     "title": "Finite Element Simulation of NMC Particle Fracture during Calendering: a Route to Optimize Electrode Microstructures",
+     "year": null,
+     "doi_or_url": "arXiv:2601.02879",
+     "venue": null
+    },
+    {
+     "rank": 22,
+     "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acs.nanolett.9b04620",
+     "venue": null
+    },
+    {
+     "rank": 23,
+     "title": "Probing Atomic-Scale Fracture of Grain Boundaries in Low-symmetry 2D Materials",
+     "year": null,
+     "doi_or_url": "10.1002/smll.202102739",
+     "venue": null
+    },
+    {
+     "rank": 24,
+     "title": "Multiscale Failure Mechanisms of Ternary Oxide Cathode Materials for Lithium-Ion Batteries",
+     "year": null,
+     "doi_or_url": "10.1002/adma.202506063",
+     "venue": null
+    },
+    {
+     "rank": 25,
+     "title": "Promotion of the Nucleation of Ultrafine Ni-Rich Layered Oxide Primary Particles by an Atomic Layer-Deposited Thin Film for Enhanced Mechanical Stability",
+     "year": null,
+     "doi_or_url": "10.1021/acs.nanolett.3c01648",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q07",
+   "service": "Firecrawl research_search_papers (MCP)",
+   "query": "bicrystal or single grain boundary micro-cantilever fracture test in LiCoO2 or LiNiO2 layered cathode, grain boundary misorientation dependent strength (k=25)",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 25,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Intergranular fracture, grain-boundary structure, and dislocation-density interactions in FCC bicrystals",
+     "year": null,
+     "doi_or_url": "10.1038/s41598-024-72033-7",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Electrochemically Tuned Crystal Tectonics in Crack-Resistant Textured Oxide Cathode Films for Electrochemical Energy Storage",
+     "year": null,
+     "doi_or_url": "10.1021/jacs.5c15436",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Probing Domain-Boundary-Induced Structural Degradation in Single-Crystalline LiCoO2 by Nanoscale Imaging",
+     "year": null,
+     "doi_or_url": "10.1021/acsnano.5c07834",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acs.nanolett.9b04620",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "A primer on selecting grain boundary sets for comparison of interfacial fracture properties in molecular dynamics simulations",
+     "year": null,
+     "doi_or_url": "10.1038/s41598-017-08637-z",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Design Grain Boundary Strengthening Phase for Enhanced Stability and Ionic Conductivity in Nickel-Rich Cobalt-Free High-Entropy Layered Oxide Cathodes",
+     "year": null,
+     "doi_or_url": "10.1021/acsnano.6c01776",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Intrinsic origin of intra-granular cracking in Ni-rich layered oxide cathode materials",
+     "year": null,
+     "doi_or_url": "10.1039/c7cp06615e",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "A grain boundary model considering the grain misorientation within a geometrically nonlinear gradient-extended crystal viscoplasticity theory",
+     "year": null,
+     "doi_or_url": "10.1098/rspa.2019.0581",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Modulating Grain Boundary Networks to Achieve Superior Chemomechanical Coupling Properties in Nickel-Rich Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.4c11041",
+     "venue": null
+    },
+    {
+     "rank": 10,
+     "title": "First-principles calculations of lithium-ion migration at a coherent grain boundary in a cathode material, LiCoO2",
+     "year": null,
+     "doi_or_url": "10.1002/adma.201202805",
+     "venue": null
+    },
+    {
+     "rank": 11,
+     "title": "Atomistic Simulation Informs Interface Engineering of Nanoscale LiCoO2",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.2c01246",
+     "venue": null
+    },
+    {
+     "rank": 12,
+     "title": "Optimizing Annealing Strategy to Achieve Effective Grain Boundary Modification with Aluminum Oxide for Stable Cycling Ni-Rich Cathodes",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.4c21263",
+     "venue": null
+    },
+    {
+     "rank": 13,
+     "title": "Columnar grain boundaries are the weakest link in hard coatings: Insights from micro-cantilever testing with bridge notches",
+     "year": null,
+     "doi_or_url": "arXiv:2411.12624",
+     "venue": null
+    },
+    {
+     "rank": 14,
+     "title": "Effects of Grain Boundary Misorientation Angle on the Mechanical Behavior of Al Bicrystals",
+     "year": null,
+     "doi_or_url": "10.3390/nano13233031",
+     "venue": null
+    },
+    {
+     "rank": 15,
+     "title": "Gradient Crystal Plasticity: A Grain Boundary Model for Slip Transmission",
+     "year": null,
+     "doi_or_url": "10.3390/ma12223761",
+     "venue": null
+    },
+    {
+     "rank": 16,
+     "title": "Analytical model for predicting induced-stress distributions in polycrystalline materials",
+     "year": null,
+     "doi_or_url": "arXiv:2405.14774",
+     "venue": null
+    },
+    {
+     "rank": 17,
+     "title": "In situ stable crack growth at the micron scale",
+     "year": null,
+     "doi_or_url": "10.1038/s41467-017-00139-w",
+     "venue": null
+    },
+    {
+     "rank": 18,
+     "title": "Concurrent atomistic and continuum simulation of bi-crystal strontium titanate with tilt grain boundary",
+     "year": null,
+     "doi_or_url": "10.1098/rspa.2014.0758",
+     "venue": null
+    },
+    {
+     "rank": 19,
+     "title": "Elucidating the dual role of grain boundaries as dislocation sources and obstacles and its impact on toughness and brittle-to-ductile transition",
+     "year": null,
+     "doi_or_url": "10.1038/s41598-020-59405-5",
+     "venue": null
+    },
+    {
+     "rank": 20,
+     "title": "Grain boundary energies and cohesive strength as a function of geometry",
+     "year": null,
+     "doi_or_url": "arXiv:0707.1060",
+     "venue": null
+    },
+    {
+     "rank": 21,
+     "title": "A Nonlocal Orientation Field Phase-Field Model for Misorientation- and Inclination- Dependent Grain Boundaries",
+     "year": null,
+     "doi_or_url": "arXiv:2508.01688",
+     "venue": null
+    },
+    {
+     "rank": 22,
+     "title": "Atomic-Resolution In Situ Exploration of the Phase Transition Triggered Failure in a Single-Crystalline Ni-Rich Cathode",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.3c18027",
+     "venue": null
+    },
+    {
+     "rank": 23,
+     "title": "Simulations of grain boundaries between ordered hard sphere monolayer domains: Orientation-dependent stiffness and its correlation with grain coarsening dynamics",
+     "year": null,
+     "doi_or_url": "10.1063/1.5029813",
+     "venue": null
+    },
+    {
+     "rank": 24,
+     "title": "Mircomechanical insights into unconstrained grain boundary sliding",
+     "year": null,
+     "doi_or_url": "arXiv:2604.16026",
+     "venue": null
+    },
+    {
+     "rank": 25,
+     "title": "Grain Boundary Plane Orientation Fundamental Zones and Structure-Property Relationships",
+     "year": null,
+     "doi_or_url": "10.1038/srep15476",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q08",
+   "service": "Firecrawl research_search_papers (MCP)",
+   "query": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests (k=5; known-item probe: Sedlatschek 2026 NOT in index)",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 5,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Lithium Transport Pathways Guided by Grain Architectures in Ni-Rich Layered Cathodes",
+     "year": null,
+     "doi_or_url": "10.1021/acsnano.1c07252",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Air Instability-Induced Mechanical Degradation Plaguing Cyclability of Polycrystalline Nickel-Rich Layered Cathode",
+     "year": null,
+     "doi_or_url": "10.1021/jacs.6c02705",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Determining the Fundamental Failure Modes in Ni-rich Lithium Ion Battery Cathodes",
+     "year": null,
+     "doi_or_url": "arXiv:2308.06537",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Operando chemo-mechanical evolution in LiNi0.8Co0.1Mn0.1O2 cathodes",
+     "year": null,
+     "doi_or_url": "10.1093/nsr/nwae254",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Mechanically and Chemically Co-Robust Ni-Rich Cathodes with Ultrahigh Capacity and Prolonged Cycle Life",
+     "year": null,
+     "doi_or_url": "10.1002/anie.202502725",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q09",
+   "service": "Firecrawl research_search_papers (MCP)",
+   "query": "nanoindentation across a grain boundary in LiNi0.8Co0.15Al0.05O2 or NMC cathode primary particles, grain boundary fracture toughness or strength (k=20)",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 20,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Mechanistic understanding of intergranular cracking in NCM cathode material: mesoscale simulation with three-dimensional microstructure",
+     "year": null,
+     "doi_or_url": "10.1039/c8cp04927k",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Determining the Fundamental Failure Modes in Ni-rich Lithium Ion Battery Cathodes",
+     "year": null,
+     "doi_or_url": "arXiv:2308.06537",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Grain boundary effect on nanoindentation: A multiscale discrete dislocation dynamics model",
+     "year": null,
+     "doi_or_url": "arXiv:1901.02681",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Sulfate-Containing Composite Based on Ni-Rich Layered Oxide LiNi0.8Mn0.1Co0.1O2 as High-Performance Cathode Material for Li-ion Batteries",
+     "year": null,
+     "doi_or_url": "10.3390/nano10122381",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acs.nanolett.9b04620",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Direct observation of individual dislocation interaction processes with grain boundaries",
+     "year": null,
+     "doi_or_url": "10.1126/sciadv.1501926",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Direct observation of atomic-scale fracture path within ceramic grain boundary core",
+     "year": null,
+     "doi_or_url": "10.1038/s41467-019-10183-3",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "Microcracking of Ni-rich layered oxide does not occur at single crystal primary particles even abused at 4.7 V",
+     "year": null,
+     "doi_or_url": "10.1039/d2cc03977j",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Regulating Surface and Grain-Boundary Structures of Ni-Rich Layered Cathodes for Ultrahigh Cycle Stability",
+     "year": null,
+     "doi_or_url": "10.1002/smll.201906433",
+     "venue": null
+    },
+    {
+     "rank": 10,
+     "title": "Effect of Lithium Silicate Addition on the Microstructure and Crack Formation of LiNi0.8Co0.1Mn0.1O2 Cathode Particles",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.9b13017",
+     "venue": null
+    },
+    {
+     "rank": 11,
+     "title": "Design Grain Boundary Strengthening Phase for Enhanced Stability and Ionic Conductivity in Nickel-Rich Cobalt-Free High-Entropy Layered Oxide Cathodes",
+     "year": null,
+     "doi_or_url": "10.1021/acsnano.6c01776",
+     "venue": null
+    },
+    {
+     "rank": 12,
+     "title": "Lithium Transport Pathways Guided by Grain Architectures in Ni-Rich Layered Cathodes",
+     "year": null,
+     "doi_or_url": "10.1021/acsnano.1c07252",
+     "venue": null
+    },
+    {
+     "rank": 13,
+     "title": "Intrinsic origin of intra-granular cracking in Ni-rich layered oxide cathode materials",
+     "year": null,
+     "doi_or_url": "10.1039/c7cp06615e",
+     "venue": null
+    },
+    {
+     "rank": 14,
+     "title": "Enhanced Cyclability of LiNi0.6Co0.2Mn0.2O2 Cathodes by Integrating a Spinel Interphase in the Grain Boundary",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.2c18423",
+     "venue": null
+    },
+    {
+     "rank": 15,
+     "title": "Mutual modulation between surface chemistry and bulk microstructure within secondary particles of nickel-rich layered oxides",
+     "year": null,
+     "doi_or_url": "10.1038/s41467-020-18278-y",
+     "venue": null
+    },
+    {
+     "rank": 16,
+     "title": "In Situ-Constructed Elastomeric Interphase for Grain Boundary Stabilization in High-Voltage Layered Oxide Cathodes",
+     "year": null,
+     "doi_or_url": "10.1002/adma.74129",
+     "venue": null
+    },
+    {
+     "rank": 17,
+     "title": "Molecular dynamics simulations of nanoindentation and scratch in Cu grain boundaries",
+     "year": null,
+     "doi_or_url": "10.3762/bjnano.8.228",
+     "venue": null
+    },
+    {
+     "rank": 18,
+     "title": "Modulating Grain Boundary Networks to Achieve Superior Chemomechanical Coupling Properties in Nickel-Rich Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.4c11041",
+     "venue": null
+    },
+    {
+     "rank": 19,
+     "title": "Multiscale Failure Mechanisms of Ternary Oxide Cathode Materials for Lithium-Ion Batteries",
+     "year": null,
+     "doi_or_url": "10.1002/adma.202506063",
+     "venue": null
+    },
+    {
+     "rank": 20,
+     "title": "Current View of Nanoindentation: Recent Developments and Application in Material Characterization",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.5c05434",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q10",
+   "service": "WebSearch (built-in)",
+   "query": "grain boundary strength NMC811 micro-cantilever bicrystal EBSD misorientation fracture measured",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests - ScienceDirect",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S0378775326010268",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "OSTI 1833410 (In Situ TEM Tensile Testing of Bicrystals with Tailored Misorientation Angles) PDF",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/pages/servlets/purl/1833410",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Measurement of grain boundary strength of Inconel X-750 superalloy using in-situ micro-tensile testing techniques in FIB/SEM system",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S0921509322008632",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Stepwise work hardening induced by individual grain boundary in Cu bicrystal micropillars",
+     "year": null,
+     "doi_or_url": "https://www.nature.com/articles/srep15631",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "In Situ TEM Tensile Testing of Bicrystals with Tailored Misorientation Angles (OSTI)",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/pages/biblio/1833410",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Misorientation dependence of grain boundary fracture in molybdenum bicrystals with various (110) twist boundaries",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/etdeweb/biblio/5701574",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Effects of Grain Boundary Misorientation on the High-Cycle Fatigue Behavior of Nickel-Based Superalloy Bicrystals",
+     "year": null,
+     "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/42451817/",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "A quantitative study of stress fields ahead of a slip band blocked by a grain boundary in unalloyed magnesium",
+     "year": null,
+     "doi_or_url": "https://www.nature.com/articles/s41598-020-59684-y",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Grain boundary properties of a nickel-based superalloy: Characterisation and modelling",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S135964541830257X",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q11",
+   "service": "WebSearch (built-in)",
+   "query": "\"grain boundary\" fracture strength LiCoO2 OR NCA OR \"Li-rich\" cathode in situ TEM tensile individual boundary misorientation",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Revealing Grain Boundary Induced Degradation Mechanisms in Li-Rich Cathode Materials (ResearchGate)",
+     "year": null,
+     "doi_or_url": "https://www.researchgate.net/publication/338134438_Revealing_Grain_Boundary_Induced_Degradation_Mechanisms_in_Li-Rich_Cathode_Materials",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Grain boundary engineering enables stable high-voltage LiCoO2 cathodes (Tungsten)",
+     "year": null,
+     "doi_or_url": "https://link.springer.com/article/10.1007/s42864-025-00371-8",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Grain boundary metal–insulator transitions in polycrystalline LiCoO2",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775322008989",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "par.nsf.gov 10392580",
+     "year": null,
+     "doi_or_url": "https://par.nsf.gov/servlets/purl/10392580",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Investigating the effect of lithiation on polycrystalline NMC811 Li-ion battery cathode cracking using in situ SEM micromechanical testing (RSC PDF d5ee00976f)",
+     "year": null,
+     "doi_or_url": "https://pubs.rsc.org/en/content/articlepdf/2018/AP/d5ee00976f",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "In-Situ Nanoindentation Measurement of Local Mechanical Behavior of a Li-Ion Battery Cathode in Liquid Electrolyte",
+     "year": null,
+     "doi_or_url": "https://link.springer.com/doi/10.1007/s11340-018-00451-6",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "par.nsf.gov 10164800",
+     "year": null,
+     "doi_or_url": "https://par.nsf.gov/servlets/purl/10164800",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "J. Mater. Chem. A 2023 issue 15 article d3ta00264k",
+     "year": null,
+     "doi_or_url": "https://pubs.rsc.org/en/content/articlelanding/2023/ta/d3ta00264k/unauth",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Purdue Zhao group paper 125 (PDF)",
+     "year": null,
+     "doi_or_url": "https://engineering.purdue.edu/kjzhao/papers/125.pdf",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q12",
+   "service": "WebSearch (built-in)",
+   "query": "\"grain boundary\" \"micro-cantilever\" NMC OR NCM cathode fracture toughness intergranular",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Synthesis-Dependent Grain Boundary Density Governs Low-Temperature Lithium Diffusion in Single-Crystal NCM Cathodes",
+     "year": null,
+     "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13528682/",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Capacity fading and inter/intra-granular fracture of polycrystalline cathode particle induced by charge/discharge cycles: A numerical study",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S037877532400363X",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Microstructure impact on chemo-mechanical fracture of polycrystalline lithium-ion battery cathode materials",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S0013794424005332",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Microstructure Informed Mechanical Properties and Chemomechanical Degradation of Battery Cathode Particles",
+     "year": null,
+     "doi_or_url": "https://link.springer.com/article/10.1007/s11340-025-01222-w",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Single-crystal nickel-rich layered-oxide battery cathode materials: synthesis, electrochemistry, and intra-granular fracture",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S2405829720300349",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Toughening (Wikipedia)",
+     "year": null,
+     "doi_or_url": "https://en.wikipedia.org/wiki/Toughening",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Nanoindentation measurements of anisotropic mechanical properties of single crystalline NMC cathodes for Li-ion batteries",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S2352431622001961",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "Mechanistic understanding of intergranular cracking in NCM cathode material: mesoscale simulation with three-dimensional microstructure",
+     "year": null,
+     "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/30334023/",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Fracture mechanisms of NCM polycrystalline particles in lithium-ion batteries: A review",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S2352152X24003918",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q13",
+   "service": "WebSearch (built-in)",
+   "query": "single grain boundary tensile strength layered oxide cathode lithium state dependent measurement delithiated",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries (PMC)",
+     "year": null,
+     "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11393410/",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests - ScienceDirect",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S0378775326010268",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Doping Strategy in Nickel-Rich Layered Oxide Cathode for Lithium-Ion Battery",
+     "year": null,
+     "doi_or_url": "https://www.chinesechemsoc.org/doi/10.31635/renewables.023.202200022",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Accelerated Degradation in a Quasi-Single-Crystalline Layered Oxide Cathode for Lithium-Ion Batteries Caused by Residual Grain Boundaries",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/biblio/1887535",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries (Nat Commun)",
+     "year": null,
+     "doi_or_url": "https://www.nature.com/articles/s41467-024-52123-w",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Role of grain-level chemo-mechanics ... (PubMed)",
+     "year": null,
+     "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/39266556/",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "How Surface Reconstruction Drives Heterogeneous Bulk Delithiation in Single-Crystalline Ni-Rich Layered Oxide Cathodes",
+     "year": null,
+     "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13165927/",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "Understanding of Spinel Phases in Lithium-Rich Cathode for High-Energy-Density Lithium-Ion Batteries: A Review",
+     "year": null,
+     "doi_or_url": "https://spj.science.org/doi/10.34133/energymatadv.0115",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Electro-chemo-mechanical behavior of a layered cathode material upon cycling",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S1359645425004434",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q14",
+   "service": "WebSearch (built-in)",
+   "query": "NMC811 micropillar containing grain boundary compression polycrystalline pillar intergranular fracture stress arXiv 2308.06537",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Intergranular fracture, grain-boundary structure, and dislocation-density interactions in FCC bicrystals (PMC)",
+     "year": null,
+     "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11381519/",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests - RWTH Publications",
+     "year": null,
+     "doi_or_url": "https://publications.rwth-aachen.de/record/1036304",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Intergranular fracture ... FCC bicrystals (ResearchGate)",
+     "year": null,
+     "doi_or_url": "https://www.researchgate.net/publication/383863462_Intergranular_fracture_grain-boundary_structure_and_dislocation-density_interactions_in_FCC_bicrystals",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests - ScienceDirect",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S0378775326010268",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Intergranular fracture ... FCC bicrystals (Sci Rep)",
+     "year": null,
+     "doi_or_url": "https://www.nature.com/articles/s41598-024-72033-7",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Fracture modes in micropillar compression of brittle crystals (ResearchGate)",
+     "year": null,
+     "doi_or_url": "https://www.researchgate.net/publication/231975663_Fracture_modes_in_micropillar_compression_of_brittle_crystals",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Unifying the size effect observed in micropillar compression experiments",
+     "year": null,
+     "doi_or_url": "https://www.tandfonline.com/doi/full/10.1080/14786435.2024.2310570",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "Micropillar compression of single-crystal single-phase (Co, Cu, Mg, Ni, Zn)O (NSF PAR)",
+     "year": null,
+     "doi_or_url": "https://par.nsf.gov/biblio/10534015-micropillar-compression-single-crystal-single-phase-co-cu-mg-ni-zn",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "NSF PAR Search award 2029966",
+     "year": null,
+     "doi_or_url": "https://par.nsf.gov/search/award_ids:2029966",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q15",
+   "service": "WebSearch (built-in)",
+   "query": "LiCoO2 bicrystal grain boundary mechanical strength twin boundary fracture experiment",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Atomistic mechanism of cracking degradation at twin boundary of LiCoO2",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S2211285520309411",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Grain boundary barrier strength and local stress evolution: Geometric compatibility effects and the curious case of twin boundaries",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S1359645425009851",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "In Situ TEM tensile testing of bicrystals with tailored misorientation angles",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S1359645421008831",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Controllable fatigue cracking mechanisms of copper bicrystals with a coherent twin boundary",
+     "year": null,
+     "doi_or_url": "https://www.nature.com/articles/ncomms4536",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Strength of individual special tilt and twist boundaries in molybdenum bicrystals",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/biblio/6393102",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Intergranular fracture ... FCC bicrystals (PMC)",
+     "year": null,
+     "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11381519/",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Brittle intergranular failure in 2D microstructures: Experiments and computer simulations",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S1359645496000444",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "Toughening of brittle materials by grain boundary engineering",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S0921509304006537",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Nanotomographic Observation and Statistical Analysis of Overcharging Induced Cracks in LiCoO2 Single Crystalline Particles (NSF PAR 10520946)",
+     "year": null,
+     "doi_or_url": "https://par.nsf.gov/servlets/purl/10520946",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q16",
+   "service": "WebSearch (built-in)",
+   "query": "Li-rich layered oxide OR LiNiO2 in situ TEM grain boundary cracking critical stress measured",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Kinetics and Structural Changes of Li-Rich Layered Oxide 0.5Li2MnO3·0.5LiNi0.292Co0.375Mn0.333O2 ... in Situ XRD",
+     "year": null,
+     "doi_or_url": "https://www.researchgate.net/publication/263933230",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Intragranular cracking as a critical barrier for high-voltage usage of layer-structured cathode for lithium-ion batteries",
+     "year": null,
+     "doi_or_url": "https://www.nature.com/articles/ncomms14101",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Surface-dependent stress-corrosion cracking in Ni-rich layered oxide cathodes",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S1359645421002949",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "In Situ 4D STEM of LiNiO2 Particles Heated in an Oxygen Atmosphere",
+     "year": null,
+     "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/40357829",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials (OSTI)",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/pages/biblio/1633305-revealing-grain-boundary-induced-degradation-mechanisms-li-rich-cathode-materials",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials (OSTI PDF)",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/pages/servlets/purl/1633305",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Understanding Degradation in Single-Crystalline Ni-Rich Li-Ion Battery Cathodes (PMC)",
+     "year": null,
+     "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550819/",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "Li-rich layered oxides: Structure, capacity and voltage fading mechanisms and solving strategies",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S1674200121001206",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Origins and Importance of Intragranular Cracking in Layered Lithium Transition Metal Oxide Cathodes",
+     "year": null,
+     "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/38756866",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q17",
+   "service": "WebSearch (built-in)",
+   "query": "measured grain boundary cohesive strength MPa NMC cathode experiment in situ SEM FIB tensile specimen single grain boundary 2025 2026",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests - ScienceDirect",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S0378775326010268",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Synthesis-Dependent Grain Boundary Density Governs Low-Temperature Lithium Diffusion in Single-Crystal NCM Cathodes",
+     "year": null,
+     "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13528682/",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Development of micro tensile testing method in an FIB system for evaluating grain boundary strength (ETDEWEB)",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/etdeweb/biblio/21512545",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Near-theoretical strength and deformation stabilization achieved via grain boundary segregation and nano-clustering of solutes",
+     "year": null,
+     "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519530",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Grain boundary properties of a nickel-based superalloy: Characterisation and modelling",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S135964541830257X",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Microstructure Informed Mechanical Properties and Chemomechanical Degradation of Battery Cathode Particles",
+     "year": null,
+     "doi_or_url": "https://link.springer.com/article/10.1007/s11340-025-01222-w",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Grain boundary properties of a nickel-based superalloy (ResearchGate)",
+     "year": null,
+     "doi_or_url": "https://www.researchgate.net/publication/324202159",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "Measurement of grain boundary strength of Inconel X-750 ... (OSTI PDF)",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/servlets/purl/1957501",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Atomic-scale insights on grain boundary segregation in a cathode battery material (Pith, arXiv 2506.13940)",
+     "year": null,
+     "doi_or_url": "https://pith.science/paper/2506.13940",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q18",
+   "service": "WebSearch (built-in)",
+   "query": "\"Fracture Testing of Lithium-Ion Battery Cathode Secondary Particles in-situ inside the Scanning Electron Microscope\" cited grain boundary strength",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests - ScienceDirect",
+     "year": null,
+     "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S0378775326010268",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Fracture testing of lithium-ion battery cathode secondary particles in-situ inside the SEM - White Rose",
+     "year": null,
+     "doi_or_url": "https://eprints.whiterose.ac.uk/197956/",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Fracture Testing of Lithium-Ion Battery Cathode Secondary Particles in-situ inside the SEM - Wiley",
+     "year": null,
+     "doi_or_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202300032",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Processing mechanical properties relationships in disordered rocksalt battery cathodes (Oxford Materials)",
+     "year": null,
+     "doi_or_url": "https://www.materials.ox.ac.uk/article/processingmechanical-properties-relationships-in-disordered-rocksalt-battery-cathodes",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Cussen Research Dublin publications",
+     "year": null,
+     "doi_or_url": "https://www.cussengroupdublin.com/publications_serena",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Investigating the effect of lithiation on polycrystalline NMC811 ... in situ SEM micromechanical testing (RSC PDF)",
+     "year": null,
+     "doi_or_url": "https://pubs.rsc.org/en/content/articlepdf/2018/AP/d5ee00976f",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Investigating the effect of lithiation on polycrystalline NMC811 ... (RSC HTML)",
+     "year": null,
+     "doi_or_url": "https://pubs.rsc.org/en/content/articlehtml/2025/ee/d5ee00976f",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "Nanotomographic Observation ... Overcharging Induced Cracks in LiCoO2 (NSF PAR 10520946)",
+     "year": null,
+     "doi_or_url": "https://par.nsf.gov/servlets/purl/10520946",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "In-Situ Nanoindentation Measurement of Local Mechanical Behavior of a Li-Ion Battery Cathode in Liquid Electrolyte",
+     "year": null,
+     "doi_or_url": "https://link.springer.com/doi/10.1007/s11340-018-00451-6",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q19",
+   "service": "WebSearch (built-in)",
+   "query": "NCA LiNi0.8Co0.15Al0.05O2 grain boundary micromechanical test strength focused ion beam cantilever",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 9,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Micromechanical testing of oxidised grain boundaries in Ni Alloy 600",
+     "year": null,
+     "doi_or_url": "https://link.springer.com/article/10.1557/opl.2013.140",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Elucidating the Impact of Li3InCl6-Coated LiNi0.8Co0.15Al0.05O2 on the Electro-Chemo-Mechanics of Li6PS5Cl-Based Solid-State Batteries",
+     "year": null,
+     "doi_or_url": "https://pubs.acs.org/doi/10.1021/acs.chemmater.4c00515",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Microcantilever investigation of fracture toughness and subcritical crack growth ... in Al2O3 (ORA)",
+     "year": null,
+     "doi_or_url": "https://ora.ox.ac.uk/objects/uuid:855f4c04-362b-4464-8abf-67bd58f61a0c/files/m4bdd1647da3cfd7158faa985a1a9d0ee",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Micro-cantilever Testing of Irradiated Materials",
+     "year": null,
+     "doi_or_url": "https://link.springer.com/chapter/10.1007/978-981-95-7202-1_6",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Microcantilever investigation of fracture toughness ... Al2O3 (ResearchGate)",
+     "year": null,
+     "doi_or_url": "https://www.researchgate.net/publication/281352251",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Development of micro tensile testing method in an FIB system for evaluating grain boundary strength (ETDEWEB)",
+     "year": null,
+     "doi_or_url": "https://www.osti.gov/etdeweb/biblio/21493014",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Micro-Cantilever Fracture Testing - Oxford Instruments",
+     "year": null,
+     "doi_or_url": "https://nanoindentation.oxinst.com/applications/in-situ-sem-micromechanical-testing/micro-cantilever-fracture-testing",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "RSC Advances 2017 c7ra04206j",
+     "year": null,
+     "doi_or_url": "https://pubs.rsc.org/en/content/articlehtml/2017/ra/c7ra04206j",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "scholars.duke.edu publication 1558077",
+     "year": null,
+     "doi_or_url": "https://scholars.duke.edu/publication/1558077",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q20",
+   "service": "WebSearch (built-in)",
+   "query": "Stallard single crystal NMC811 micropillar compression 2022 DOI",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 10,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Effect of Lithiation upon the Shear Strength of NMC811 Single Crystals - IOPscience",
+     "year": null,
+     "doi_or_url": "https://iopscience.iop.org/article/10.1149/1945-7111/ac6244",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Mechanical Properties of Cycled Single Crystal NMC811 Particles - Jangde 2025 Batteries & Supercaps",
+     "year": null,
+     "doi_or_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202400691",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "In Situ Fracture Behavior of Single Crystal NMC811 - Wheatcroft 2024 Batteries & Supercaps",
+     "year": null,
+     "doi_or_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/batt.202400077",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "NMC811 single crystal (Ossila product)",
+     "year": null,
+     "doi_or_url": "https://www.ossila.com/products/single-crystal-nmc811-powder",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Micropillar compression of single-crystal single-phase (Co, Cu, Mg, Ni, Zn)O",
+     "year": null,
+     "doi_or_url": "https://pubs.aip.org/aip/apl/article/125/3/031901/3303411",
+     "venue": null
+    },
+    {
+     "rank": 6,
+     "title": "Single crystal Ni-rich NMC cathode materials ... ultra-high volumetric energy density",
+     "year": null,
+     "doi_or_url": "https://pubs.rsc.org/en/content/articlehtml/2022/ya/d2ya00211f",
+     "venue": null
+    },
+    {
+     "rank": 7,
+     "title": "Micropillar compression of single crystal tungsten carbide, Part 1",
+     "year": null,
+     "doi_or_url": "https://eprintspublications.npl.co.uk/9539/",
+     "venue": null
+    },
+    {
+     "rank": 8,
+     "title": "Analysis of the mechanical properties of polycrystalline and single crystal NMC811 materials",
+     "year": null,
+     "doi_or_url": "https://esst.cip.com.cn/EN/Y2022/V11/I11/3478",
+     "venue": null
+    },
+    {
+     "rank": 9,
+     "title": "Micropillar compression deformation of single crystals of alpha-Nb5Si3",
+     "year": null,
+     "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7801114/",
+     "venue": null
+    },
+    {
+     "rank": 10,
+     "title": "Issue 81, 2022 (Chem Commun d2cc03977j)",
+     "year": null,
+     "doi_or_url": "https://pubs.rsc.org/en/content/articlelanding/2022/cc/d2cc03977j",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q21",
+   "service": "Crossref REST API (via WebFetch)",
+   "query": "https://api.crossref.org/works?query=bicrystal+grain+boundary+fracture+LiCoO2+OR+NCA+OR+LiNiO2+cathode&rows=30&select=DOI,title,issued,container-title",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "PROXY_REJECTED: HTTP 429 rate limited by WebFetch proxy",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q22",
+   "service": "Crossref REST API (via WebFetch)",
+   "query": "https://api.crossref.org/works?query=micropillar+micro-cantilever+fracture+NMC+cathode+grain+boundary&rows=30&select=DOI,title,issued,container-title",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "PROXY_REJECTED: HTTP 429 rate limited by WebFetch proxy",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q23",
+   "service": "OpenAlex API (via WebFetch)",
+   "query": "https://api.openalex.org/works?search=grain%20boundary%20strength%20NMC%20micro%20tensile&per_page=25&select=id,doi,title,publication_year",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "HTTP 429 client error",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q24",
+   "service": "OpenAlex API (via Bash curl in container and on user device)",
+   "query": "https://api.openalex.org/works/doi:10.1016/j.jpowsour.2026.240276",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "curl: (56) CONNECT tunnel failed, response 403 (egress proxy policy)",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q25",
+   "service": "Semantic Scholar Graph API (via Bash curl)",
+   "query": "https://api.semanticscholar.org/graph/v1/paper/search?query=grain+boundary+strength+NMC&limit=2",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "curl: (56) CONNECT tunnel failed, response 403",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q26",
+   "service": "Semantic Scholar Graph API (via WebFetch)",
+   "query": "https://api.semanticscholar.org/graph/v1/paper/arXiv:2308.06537?fields=title,authors,year,venue,externalIds,abstract",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "HTTP 429 client error",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q27",
+   "service": "Firecrawl scrape (MCP)",
+   "query": "https://api.openalex.org/works?filter=cites:W7160649750 (and W4324329450; doi:10.1149/1945-7111/ac6244)",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "failed",
+   "error": "Insufficient credits to perform this request",
+   "n_results_returned": 0,
+   "n_results_reported_by_service": null,
+   "results": []
+  },
+  {
+   "id": "Q28",
+   "service": "Firecrawl research_related_papers citers (MCP)",
+   "query": "citers of 10.1002/batt.202300032",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 2,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Phase field modelling of cracking and capacity fade in core-shell cathode particles for lithium-ion batteries",
+     "year": null,
+     "doi_or_url": "10.1016/j.apenergy.2025.127105",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "Advancing direct recycling of lithium-ion batteries: An efficient recovery of NMC cathode particles using high-intensity magnetic separation",
+     "year": null,
+     "doi_or_url": "10.1016/j.wasman.2026.115515",
+     "venue": null
+    }
+   ]
+  },
+  {
+   "id": "Q29",
+   "service": "Firecrawl research_related_papers citers (MCP)",
+   "query": "citers of 10.1149/1945-7111/ac6244",
+   "timestamp_utc": "2026-09-26T21:0xZ (approx, see _meta.timestamp_note)",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 5,
+   "n_results_reported_by_service": null,
+   "results": [
+    {
+     "rank": 1,
+     "title": "The interplay between stack pressure, mechanical expansion and degradation pathways in lithium-ion batteries",
+     "year": null,
+     "doi_or_url": "10.1038/s41560-026-02087-6",
+     "venue": null
+    },
+    {
+     "rank": 2,
+     "title": "LiNi1/3Mn1/3Co1/3O2 nanoparticles produced by flame spray pyrolysis with crystallinity characteristics similar to commercial NMC particles",
+     "year": null,
+     "doi_or_url": "10.1039/d5ra02976g",
+     "venue": null
+    },
+    {
+     "rank": 3,
+     "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries",
+     "year": null,
+     "doi_or_url": "10.1038/s41467-024-52123-w",
+     "venue": null
+    },
+    {
+     "rank": 4,
+     "title": "Understanding Degradation in Single-Crystalline Ni-Rich Li-Ion Battery Cathodes",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemrev.5c00330",
+     "venue": null
+    },
+    {
+     "rank": 5,
+     "title": "Opportunities and Challenges for Next-Generation Thick Cathodes in Lithium-Ion Batteries",
+     "year": null,
+     "doi_or_url": "10.3390/ma18153464",
+     "venue": null
+    }
+   ]
+  }
+ ],
+ "unique_results": [
+  {
+   "key": "10.2139/ssrn.6429437",
+   "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests",
+   "year": 2026,
+   "doi_or_url": "10.2139/ssrn.6429437",
+   "venue": "SSRN",
+   "found_in": [
+    "Q01#1"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "SSRN preprint of Sedlatschek 2026; same content"
+   }
+  },
+  {
+   "key": "10.1109/impact.2017.8255902",
+   "title": "Evaluation of the relationship between the tensile strength of a grain boundary in electroplated copper thin films and the crystallinity of the grain boundary using micro tensile test",
+   "year": 2017,
+   "doi_or_url": "10.1109/impact.2017.8255902",
+   "venue": "IMPACT 2017",
+   "found_in": [
+    "Q01#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.2320/matertrans.m2010320",
+   "title": "Development of Micro Tensile Testing Method in an FIB System for Evaluating Grain Boundary Strength",
+   "year": 2011,
+   "doi_or_url": "10.2320/matertrans.m2010320",
+   "venue": "Materials Transactions",
+   "found_in": [
+    "Q01#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1016/j.jpowsour.2026.240276",
+   "title": "Characterization of the grain boundary strength of polycrystalline NMC811 using in situ micro tensile tests",
+   "year": 2026,
+   "doi_or_url": "10.1016/j.jpowsour.2026.240276",
+   "venue": "Journal of Power Sources",
+   "found_in": [
+    "Q01#4",
+    "Q10#1",
+    "Q13#2",
+    "Q14#2",
+    "Q14#4",
+    "Q17#1",
+    "Q18#1"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "FIB micro-tensile on NMC811 secondary particles; strength = average over the boundaries on the fracture surface (Weibull char. 745 MPa); misorientation not determined (opened, see verified_quotes)"
+   }
+  },
+  {
+   "key": "10.1109/iemt.2016.7761963",
+   "title": "Measurement of the strength of a grain boundary in electroplated copper thin-film interconnections by using micro tensile-test",
+   "year": 2016,
+   "doi_or_url": "10.1109/iemt.2016.7761963",
+   "venue": "IEMT/EMAP 2016",
+   "found_in": [
+    "Q01#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1115/imece2020-23757",
+   "title": "Crystallinity Dependence of Grain and Grain Boundary Strength of a Bicrystal Structure of Copper",
+   "year": 2020,
+   "doi_or_url": "10.1115/imece2020-23757",
+   "venue": "IMECE2020",
+   "found_in": [
+    "Q01#6"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.2139/ssrn.4570629",
+   "title": "Effect of Fission Defects on Tensile Strength of U3si2 Σ5(210) Grain Boundary from First-Principles Calculations",
+   "year": 2023,
+   "doi_or_url": "10.2139/ssrn.4570629",
+   "venue": "SSRN",
+   "found_in": [
+    "Q01#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.2139/ssrn.4545706",
+   "title": "Effect of Fission Defects on Tensile Strength of U3si2 Σ5(210) Grain Boundary from First-Principles Calculations",
+   "year": 2023,
+   "doi_or_url": "10.2139/ssrn.4545706",
+   "venue": "SSRN",
+   "found_in": [
+    "Q01#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.4028/www.scientific.net/amm.703.137",
+   "title": "A FEM Model Considering Grain Distribution and Grain Boundary Strength for Micro Upsetting Process",
+   "year": 2014,
+   "doi_or_url": "10.4028/www.scientific.net/amm.703.137",
+   "venue": "Applied Mechanics and Materials",
+   "found_in": [
+    "Q01#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1103/physrevb.69.134106",
+   "title": "Theoretical tensile strength of an Al grain boundary",
+   "year": 2004,
+   "doi_or_url": "10.1103/physrevb.69.134106",
+   "venue": "Physical Review B",
+   "found_in": [
+    "Q01#10"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1080/095008399176869",
+   "title": "Measurement of the grain-boundary tensile strength in columnar freshwater ice",
+   "year": 1999,
+   "doi_or_url": "10.1080/095008399176869",
+   "venue": "Philosophical Magazine Letters",
+   "found_in": [
+    "Q01#11"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1143/ptps.138.96",
+   "title": "First-Principles Calculations of the Tensile Strength and Fracture of a Grain Boundary in SiC",
+   "year": 2000,
+   "doi_or_url": "10.1143/ptps.138.96",
+   "venue": "Prog. Theor. Phys. Suppl.",
+   "found_in": [
+    "Q01#12"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1299/jsmeatem.2015.14.191",
+   "title": "OS12-9 Development of Measurement Method of the Strength of a Grain Boundary",
+   "year": 2015,
+   "doi_or_url": "10.1299/jsmeatem.2015.14.191",
+   "venue": "ATEM abstracts",
+   "found_in": [
+    "Q01#13"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.4028/www.scientific.net/msf.170-172.77",
+   "title": "Grain Boundary Premelting in Deformed Copper Bicrystals with the Same Grain Boundary and Different Tensile Directions",
+   "year": 1994,
+   "doi_or_url": "10.4028/www.scientific.net/msf.170-172.77",
+   "venue": "Materials Science Forum",
+   "found_in": [
+    "Q01#14"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1080/095008399176706",
+   "title": "Tensile strength and fracture of a tilt grain boundary in cubic SiC: A first-principles study",
+   "year": 1999,
+   "doi_or_url": "10.1080/095008399176706",
+   "venue": "Philosophical Magazine Letters",
+   "found_in": [
+    "Q01#15"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1016/0956-716x(93)90425-r",
+   "title": "Effects of grain size and grain boundary structure on yield strength of micro- and submicrocrystalline TiAl",
+   "year": 1993,
+   "doi_or_url": "10.1016/0956-716x(93)90425-r",
+   "venue": "Scripta Metall. Mater.",
+   "found_in": [
+    "Q01#16"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.4172/2325-9809.1000120",
+   "title": "Helium Induced Reduction of the Grain-Boundary Tensile Strength in Tungsten",
+   "year": 2014,
+   "doi_or_url": "10.4172/2325-9809.1000120",
+   "venue": "J. Nucl. Energy Sci. Power Gen. Technol.",
+   "found_in": [
+    "Q01#17"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1007/s43452-025-01192-9",
+   "title": "Analysis of grain boundary and micro-texture evolution during uniaxial tensile deformation of DP600 steel",
+   "year": 2025,
+   "doi_or_url": "10.1007/s43452-025-01192-9",
+   "venue": "Arch. Civ. Mech. Eng.",
+   "found_in": [
+    "Q01#18"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.2320/matertrans1989.37.323",
+   "title": "Grain Boundary Segregation of Phosphorus, Boron and Manganese in High Tensile Strength Steel Sheet",
+   "year": 1996,
+   "doi_or_url": "10.2320/matertrans1989.37.323",
+   "venue": "Materials Transactions JIM",
+   "found_in": [
+    "Q01#19"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1016/j.actamat.2008.01.020",
+   "title": "Tensile deformation of an ultrafine-grained aluminium alloy: Micro shear banding and grain boundary sliding",
+   "year": 2008,
+   "doi_or_url": "10.1016/j.actamat.2008.01.020",
+   "venue": "Acta Materialia",
+   "found_in": [
+    "Q01#20"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acs.nanolett.9b04620.s001",
+   "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials (SI)",
+   "year": null,
+   "doi_or_url": "10.1021/acs.nanolett.9b04620.s001",
+   "venue": null,
+   "found_in": [
+    "Q01#21"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.4028/www.scientific.net/amr.214.334",
+   "title": "Anomalous Effect of Strain Rate on the Tensile Elongation of Coarse-Grained Pure Iron with Grain Boundary Micro-Voids",
+   "year": 2011,
+   "doi_or_url": "10.4028/www.scientific.net/amr.214.334",
+   "venue": "Advanced Materials Research",
+   "found_in": [
+    "Q01#22"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1111/j.1151-2916.1993.tb05339.x",
+   "title": "Correlation of Machining-Grain-Size Effects on Tensile Strength with Tensile Strength–Grain-Size Behavior",
+   "year": 1993,
+   "doi_or_url": "10.1111/j.1151-2916.1993.tb05339.x",
+   "venue": "J. Am. Ceram. Soc.",
+   "found_in": [
+    "Q01#23"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1007/978-94-011-1878-1_17",
+   "title": "Grain-Boundary Structure and High-Temperature Strength of Non-Oxide Ceramics",
+   "year": 1992,
+   "doi_or_url": "10.1007/978-94-011-1878-1_17",
+   "venue": "Grain Boundary Controlled Properties of Fine Ceramics",
+   "found_in": [
+    "Q01#24"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.4028/0-87849-456-1.396",
+   "title": "Experimental Studies of Non-Equilibrium Grain-Boundary Segregations of Phosphorus under Low Tensile Stresses",
+   "year": 2007,
+   "doi_or_url": "10.4028/0-87849-456-1.396",
+   "venue": "Key Engineering Materials",
+   "found_in": [
+    "Q01#25"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.2109/jcersj2.23062",
+   "title": "Tensile strength of a transverse grain boundary in a single-walled carbon nanotube",
+   "year": 2023,
+   "doi_or_url": "10.2109/jcersj2.23062",
+   "venue": "J. Ceram. Soc. Japan",
+   "found_in": [
+    "Q01#26"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1115/1.0004336v",
+   "title": "Crystallinity Dependence of Grain and Grain Boundary Strength of a Bicrystal Structure of Copper",
+   "year": 2021,
+   "doi_or_url": "10.1115/1.0004336v",
+   "venue": null,
+   "found_in": [
+    "Q01#27"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.5772/66248",
+   "title": "Control the Metal Grain Boundary Recrystallization Evolution by the Laser Radiation Electric Field Strength Direction Under Cyclic Thermal Loading",
+   "year": 2017,
+   "doi_or_url": "10.5772/66248",
+   "venue": "Study of Grain Boundary Character",
+   "found_in": [
+    "Q01#28"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1016/j.commatsci.2019.109204",
+   "title": "Effect of zinc-doping on tensile strength of Σ5 bcc Fe symmetric tilt grain boundary",
+   "year": 2020,
+   "doi_or_url": "10.1016/j.commatsci.2019.109204",
+   "venue": "Comput. Mater. Sci.",
+   "found_in": [
+    "Q01#29"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1209/0295-5075/98/17001",
+   "title": "Towards theoretical connection between tensile strength of a grain boundary and segregated impurity concentration: Helium in iron as an example",
+   "year": 2012,
+   "doi_or_url": "10.1209/0295-5075/98/17001",
+   "venue": "EPL",
+   "found_in": [
+    "Q01#30"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acs.jpcc.0c07590.s001",
+   "title": "Characterizing the Tensile Strength of Metastable Grain Boundaries in Silicon Carbide Using Machine Learning (SI)",
+   "year": null,
+   "doi_or_url": "10.1021/acs.jpcc.0c07590.s001",
+   "venue": null,
+   "found_in": [
+    "Q01#31"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acsami.4c11041.s001",
+   "title": "Modulating Grain Boundary Networks to Achieve Superior Chemomechanical Coupling Properties in Nickel-Rich Cathode Materials (SI)",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.4c11041.s001",
+   "venue": null,
+   "found_in": [
+    "Q01#32"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acsnano.8b00869.s001",
+   "title": "Enhancing the Strength of Graphene by a Denser Grain Boundary (SI)",
+   "year": null,
+   "doi_or_url": "10.1021/acsnano.8b00869.s001",
+   "venue": null,
+   "found_in": [
+    "Q01#33"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1016/b978-0-08-031642-0.50040-4",
+   "title": "Tensile Ductility Dependence on Polycrystal Grain Size",
+   "year": 1985,
+   "doi_or_url": "10.1016/b978-0-08-031642-0.50040-4",
+   "venue": "ICSMA 7",
+   "found_in": [
+    "Q01#34"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1179/mst.1991.7.2.111",
+   "title": "Effect of grain boundary composition on tensile strength and hydrogen induced stress corrosion cracking of Ni–20Cr",
+   "year": 1991,
+   "doi_or_url": "10.1179/mst.1991.7.2.111",
+   "venue": "Mater. Sci. Technol.",
+   "found_in": [
+    "Q01#35"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1080/15376494.2014.984094",
+   "title": "An investigation into the influence of grain boundary misorientation on the tensile strength of SiC bicrystals",
+   "year": 2015,
+   "doi_or_url": "10.1080/15376494.2014.984094",
+   "venue": "Mech. Adv. Mater. Struct.",
+   "found_in": [
+    "Q01#36"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1179/026708391790194851",
+   "title": "Effect of grain boundary composition on tensile strength and hydrogen induced stress corrosion cracking of Ni–20Cr",
+   "year": 1991,
+   "doi_or_url": "10.1179/026708391790194851",
+   "venue": "Mater. Sci. Technol.",
+   "found_in": [
+    "Q01#37"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acsenergylett.6c01088.s001",
+   "title": "Competitive Occupation Induced Grain Boundary Enrichment Enables Crack-Free Layered Cathode Materials for Sodium-Ion Batteries (SI)",
+   "year": null,
+   "doi_or_url": "10.1021/acsenergylett.6c01088.s001",
+   "venue": null,
+   "found_in": [
+    "Q01#38"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1016/0043-1648(57)90046-7",
+   "title": "Calculation of the contribution made by grain-boundary sliding to total tensile elongation",
+   "year": 1957,
+   "doi_or_url": "10.1016/0043-1648(57)90046-7",
+   "venue": "Wear",
+   "found_in": [
+    "Q01#39"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.22541/essoar.175157483.35584138/v1",
+   "title": "Evolution of ice tensile strength with grain size: Implications for future mass loss from Pine Island Glacier",
+   "year": 2025,
+   "doi_or_url": "10.22541/essoar.175157483.35584138/v1",
+   "venue": "ESSOAr",
+   "found_in": [
+    "Q01#40"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1515/jmsp-2012-0011",
+   "title": "Optimization of Fusion Zone Grain Size, Hardness and Ultimate Tensile Strength of Pulsed Current Micro Plasma Arc Welded Inconel 625 Sheets Using Genetic Algorithm",
+   "year": 2012,
+   "doi_or_url": "10.1515/jmsp-2012-0011",
+   "venue": "J. Manuf. Sci. Prod.",
+   "found_in": [
+    "Q01#41"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.3403/30454371",
+   "title": "Semiconductor devices — Micro-electromechanical devices",
+   "year": null,
+   "doi_or_url": "10.3403/30454371",
+   "venue": null,
+   "found_in": [
+    "Q01#42"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.2139/ssrn.6172718",
+   "title": "From grain-scale anisotropy to composite cathode failure: chemo-mechanically coupled phase-field modeling of polycrystalline LiNixCoyMnzO2 (NMC) cathodes for all-solid-state batteries",
+   "year": 2026,
+   "doi_or_url": "10.2139/ssrn.6172718",
+   "venue": "SSRN",
+   "found_in": [
+    "Q01#43"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.3403/30454371u",
+   "title": "Semiconductor devices — Micro-electromechanical devices",
+   "year": null,
+   "doi_or_url": "10.3403/30454371u",
+   "venue": null,
+   "found_in": [
+    "Q01#44"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1016/j.vacuum.2020.109874",
+   "title": "Molecular dynamics study on tensile strength of twist grain boundary structures under uniaxial tension in copper",
+   "year": 2021,
+   "doi_or_url": "10.1016/j.vacuum.2020.109874",
+   "venue": "Vacuum",
+   "found_in": [
+    "Q01#45"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1016/j.scriptamat.2014.01.020",
+   "title": "Improving the tensile ductility and uniform elongation of high-strength ultrafine-grained Al alloys by lowering the grain boundary misorientation angle",
+   "year": 2014,
+   "doi_or_url": "10.1016/j.scriptamat.2014.01.020",
+   "venue": "Scripta Materialia",
+   "found_in": [
+    "Q01#46"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.5580/b52",
+   "title": "Micro-tensile bond strength of one-step adhesives to dentin",
+   "year": 2009,
+   "doi_or_url": "10.5580/b52",
+   "venue": "Internet J. Dental Sci.",
+   "found_in": [
+    "Q01#47"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1023/a:1018511613779",
+   "title": "Ceramic tensile strength-grain size relations: grain sizes, slopes, and branch intersections",
+   "year": 1997,
+   "doi_or_url": "10.1023/a:1018511613779",
+   "venue": "J. Mater. Sci.",
+   "found_in": [
+    "Q01#48"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1201/9780203908471.ch6",
+   "title": "Grain Effects on Thermal Shock Resistance and Elevated Temperature Crack Propagation, Toughness, and Tensile Strength",
+   "year": 2000,
+   "doi_or_url": "10.1201/9780203908471.ch6",
+   "venue": "Mech. Prop. Ceramics & Composites",
+   "found_in": [
+    "Q01#49"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.21203/rs.3.rs-4600064/v1",
+   "title": "A Roadmap from the Bond Strength to the Grain-Boundary Energies and Macro Strength of Metals",
+   "year": 2024,
+   "doi_or_url": "10.21203/rs.3.rs-4600064/v1",
+   "venue": "Research Square",
+   "found_in": [
+    "Q01#50"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1039/c8cp04927k",
+   "title": "Mechanistic understanding of intergranular cracking in NCM cathode material: mesoscale simulation with three-dimensional microstructure",
+   "year": null,
+   "doi_or_url": "10.1039/c8cp04927k",
+   "venue": null,
+   "found_in": [
+    "Q06#1",
+    "Q09#1",
+    "Q12#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "arXiv:2308.06537",
+   "title": "Determining the Fundamental Failure Modes in Ni-rich Lithium Ion Battery Cathodes",
+   "year": null,
+   "doi_or_url": "arXiv:2308.06537",
+   "venue": null,
+   "found_in": [
+    "Q06#2",
+    "Q08#3",
+    "Q09#2"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "In situ micromechanics of NMC811 single-crystal domains; slip systems and critical stresses; polycrystal compared qualitatively, no GB strength per characterised boundary in abstract"
+   }
+  },
+  {
+   "key": "10.1021/jacs.6c02705",
+   "title": "Air Instability-Induced Mechanical Degradation Plaguing Cyclability of Polycrystalline Nickel-Rich Layered Cathode",
+   "year": null,
+   "doi_or_url": "10.1021/jacs.6c02705",
+   "venue": null,
+   "found_in": [
+    "Q06#3",
+    "Q08#2"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "In situ nanoindentation of polycrystalline Ni-rich particles; intergranular Li2CO3 raises particle strength; particle-level"
+   }
+  },
+  {
+   "key": "10.1021/acsami.0c20105",
+   "title": "Effects of Extended Aqueous Processing on Structure, Chemistry, and Performance of Polycrystalline LiNixMnyCozO2 Cathode Powders",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.0c20105",
+   "venue": null,
+   "found_in": [
+    "Q06#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acs.nanolett.8b01036",
+   "title": "Oxygen Release Induced Chemomechanical Breakdown of Layered Cathode Materials",
+   "year": null,
+   "doi_or_url": "10.1021/acs.nanolett.8b01036",
+   "venue": null,
+   "found_in": [
+    "Q06#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1038/ncomms14101",
+   "title": "Intragranular cracking as a critical barrier for high-voltage usage of layer-structured cathode for lithium-ion batteries",
+   "year": null,
+   "doi_or_url": "10.1038/ncomms14101",
+   "venue": null,
+   "found_in": [
+    "Q06#6",
+    "Q16#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "arXiv:1710.06050",
+   "title": "Tailoring of Grain Boundary Structure and Chemistry of Cathode Particles for Enhanced Cycle Stability of Lithium Ion Battery",
+   "year": null,
+   "doi_or_url": "arXiv:1710.06050",
+   "venue": null,
+   "found_in": [
+    "Q06#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/adma.74129",
+   "title": "In Situ-Constructed Elastomeric Interphase for Grain Boundary Stabilization in High-Voltage Layered Oxide Cathodes",
+   "year": null,
+   "doi_or_url": "10.1002/adma.74129",
+   "venue": null,
+   "found_in": [
+    "Q06#8",
+    "Q09#16"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/adma.202107326",
+   "title": "Multiscale Understanding of Surface Structural Effects on High-Temperature Operational Resiliency of Layered Oxide Cathodes",
+   "year": null,
+   "doi_or_url": "10.1002/adma.202107326",
+   "venue": null,
+   "found_in": [
+    "Q06#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acsami.0c20100",
+   "title": "Nanowelding to Improve the Chemomechanical Stability of the Ni-Rich Layered Cathode Materials",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.0c20100",
+   "venue": null,
+   "found_in": [
+    "Q06#10"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.3390/nano10122381",
+   "title": "Sulfate-Containing Composite Based on Ni-Rich Layered Oxide LiNi0.8Mn0.1Co0.1O2 as High-Performance Cathode Material for Li-ion Batteries",
+   "year": null,
+   "doi_or_url": "10.3390/nano10122381",
+   "venue": null,
+   "found_in": [
+    "Q06#11",
+    "Q09#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1038/s41467-017-00139-w",
+   "title": "In situ stable crack growth at the micron scale",
+   "year": null,
+   "doi_or_url": "10.1038/s41467-017-00139-w",
+   "venue": null,
+   "found_in": [
+    "Q06#12",
+    "Q07#17"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "arXiv:2208.00878",
+   "title": "Morphological Evolution of NMC Secondary Particles Through in situ electrochemical FIB/SEM experiment",
+   "year": null,
+   "doi_or_url": "arXiv:2208.00878",
+   "venue": null,
+   "found_in": [
+    "Q06#13"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/advs.202515588",
+   "title": "The Role of Intergranular Cracks on Fast Charging and Accelerated Degradation in Polycrystalline Layered Oxide Cathodes",
+   "year": null,
+   "doi_or_url": "10.1002/advs.202515588",
+   "venue": null,
+   "found_in": [
+    "Q06#14"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/smll.202502609",
+   "title": "Boosting Ni-Rich Cathode Stability Through Grain Boundary Strengthening and Phase Transition Degradation Suppression",
+   "year": null,
+   "doi_or_url": "10.1002/smll.202502609",
+   "venue": null,
+   "found_in": [
+    "Q06#15"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acsami.9b13017",
+   "title": "Effect of Lithium Silicate Addition on the Microstructure and Crack Formation of LiNi0.8Co0.1Mn0.1O2 Cathode Particles",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.9b13017",
+   "venue": null,
+   "found_in": [
+    "Q06#16",
+    "Q09#10"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acsami.2c18423",
+   "title": "Enhanced Cyclability of LiNi0.6Co0.2Mn0.2O2 Cathodes by Integrating a Spinel Interphase in the Grain Boundary",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.2c18423",
+   "venue": null,
+   "found_in": [
+    "Q06#17",
+    "Q09#14"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/anie.202503108",
+   "title": "Deciphering the Crystallographic Effect in Radially Architectured Polycrystalline Layered Cathode Materials for Lithium-Ion Batteries",
+   "year": null,
+   "doi_or_url": "10.1002/anie.202503108",
+   "venue": null,
+   "found_in": [
+    "Q06#18"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acsami.4c11691",
+   "title": "Cracking Mechanism and Inhibition Strategies of Polycrystalline NCM Electrode Particles",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.4c11691",
+   "venue": null,
+   "found_in": [
+    "Q06#19"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1038/s41598-024-72033-7",
+   "title": "Intergranular fracture, grain-boundary structure, and dislocation-density interactions in FCC bicrystals",
+   "year": null,
+   "doi_or_url": "10.1038/s41598-024-72033-7",
+   "venue": null,
+   "found_in": [
+    "Q06#20",
+    "Q07#1",
+    "Q14#1",
+    "Q14#5",
+    "Q15#6"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "arXiv:2601.02879",
+   "title": "Finite Element Simulation of NMC Particle Fracture during Calendering: a Route to Optimize Electrode Microstructures",
+   "year": null,
+   "doi_or_url": "arXiv:2601.02879",
+   "venue": null,
+   "found_in": [
+    "Q06#21"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acs.nanolett.9b04620",
+   "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials",
+   "year": null,
+   "doi_or_url": "10.1021/acs.nanolett.9b04620",
+   "venue": null,
+   "found_in": [
+    "Q06#22",
+    "Q07#4",
+    "Q09#5",
+    "Q11#1",
+    "Q16#5",
+    "Q16#6"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/smll.202102739",
+   "title": "Probing Atomic-Scale Fracture of Grain Boundaries in Low-symmetry 2D Materials",
+   "year": null,
+   "doi_or_url": "10.1002/smll.202102739",
+   "venue": null,
+   "found_in": [
+    "Q06#23"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1002/adma.202506063",
+   "title": "Multiscale Failure Mechanisms of Ternary Oxide Cathode Materials for Lithium-Ion Batteries",
+   "year": null,
+   "doi_or_url": "10.1002/adma.202506063",
+   "venue": null,
+   "found_in": [
+    "Q06#24",
+    "Q09#19"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acs.nanolett.3c01648",
+   "title": "Promotion of the Nucleation of Ultrafine Ni-Rich Layered Oxide Primary Particles by an Atomic Layer-Deposited Thin Film for Enhanced Mechanical Stability",
+   "year": null,
+   "doi_or_url": "10.1021/acs.nanolett.3c01648",
+   "venue": null,
+   "found_in": [
+    "Q06#25"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "In situ compression of secondary particles; particle-level"
+   }
+  },
+  {
+   "key": "10.1021/jacs.5c15436",
+   "title": "Electrochemically Tuned Crystal Tectonics in Crack-Resistant Textured Oxide Cathode Films for Electrochemical Energy Storage",
+   "year": null,
+   "doi_or_url": "10.1021/jacs.5c15436",
+   "venue": null,
+   "found_in": [
+    "Q07#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acsnano.5c07834",
+   "title": "Probing Domain-Boundary-Induced Structural Degradation in Single-Crystalline LiCoO2 by Nanoscale Imaging",
+   "year": null,
+   "doi_or_url": "10.1021/acsnano.5c07834",
+   "venue": null,
+   "found_in": [
+    "Q07#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1038/s41598-017-08637-z",
+   "title": "A primer on selecting grain boundary sets for comparison of interfacial fracture properties in molecular dynamics simulations",
+   "year": null,
+   "doi_or_url": "10.1038/s41598-017-08637-z",
+   "venue": null,
+   "found_in": [
+    "Q07#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acsnano.6c01776",
+   "title": "Design Grain Boundary Strengthening Phase for Enhanced Stability and Ionic Conductivity in Nickel-Rich Cobalt-Free High-Entropy Layered Oxide Cathodes",
+   "year": null,
+   "doi_or_url": "10.1021/acsnano.6c01776",
+   "venue": null,
+   "found_in": [
+    "Q07#6",
+    "Q09#11"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1039/c7cp06615e",
+   "title": "Intrinsic origin of intra-granular cracking in Ni-rich layered oxide cathode materials",
+   "year": null,
+   "doi_or_url": "10.1039/c7cp06615e",
+   "venue": null,
+   "found_in": [
+    "Q07#7",
+    "Q09#13"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1098/rspa.2019.0581",
+   "title": "A grain boundary model considering the grain misorientation within a geometrically nonlinear gradient-extended crystal viscoplasticity theory",
+   "year": null,
+   "doi_or_url": "10.1098/rspa.2019.0581",
+   "venue": null,
+   "found_in": [
+    "Q07#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acsami.4c11041",
+   "title": "Modulating Grain Boundary Networks to Achieve Superior Chemomechanical Coupling Properties in Nickel-Rich Cathode Materials",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.4c11041",
+   "venue": null,
+   "found_in": [
+    "Q07#9",
+    "Q09#18"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/adma.201202805",
+   "title": "First-principles calculations of lithium-ion migration at a coherent grain boundary in a cathode material, LiCoO2",
+   "year": null,
+   "doi_or_url": "10.1002/adma.201202805",
+   "venue": null,
+   "found_in": [
+    "Q07#10"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acs.chemmater.2c01246",
+   "title": "Atomistic Simulation Informs Interface Engineering of Nanoscale LiCoO2",
+   "year": null,
+   "doi_or_url": "10.1021/acs.chemmater.2c01246",
+   "venue": null,
+   "found_in": [
+    "Q07#11"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acsami.4c21263",
+   "title": "Optimizing Annealing Strategy to Achieve Effective Grain Boundary Modification with Aluminum Oxide for Stable Cycling Ni-Rich Cathodes",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.4c21263",
+   "venue": null,
+   "found_in": [
+    "Q07#12"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "arXiv:2411.12624",
+   "title": "Columnar grain boundaries are the weakest link in hard coatings: Insights from micro-cantilever testing with bridge notches",
+   "year": null,
+   "doi_or_url": "arXiv:2411.12624",
+   "venue": null,
+   "found_in": [
+    "Q07#13"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.3390/nano13233031",
+   "title": "Effects of Grain Boundary Misorientation Angle on the Mechanical Behavior of Al Bicrystals",
+   "year": null,
+   "doi_or_url": "10.3390/nano13233031",
+   "venue": null,
+   "found_in": [
+    "Q07#14"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.3390/ma12223761",
+   "title": "Gradient Crystal Plasticity: A Grain Boundary Model for Slip Transmission",
+   "year": null,
+   "doi_or_url": "10.3390/ma12223761",
+   "venue": null,
+   "found_in": [
+    "Q07#15"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "arXiv:2405.14774",
+   "title": "Analytical model for predicting induced-stress distributions in polycrystalline materials",
+   "year": null,
+   "doi_or_url": "arXiv:2405.14774",
+   "venue": null,
+   "found_in": [
+    "Q07#16"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1098/rspa.2014.0758",
+   "title": "Concurrent atomistic and continuum simulation of bi-crystal strontium titanate with tilt grain boundary",
+   "year": null,
+   "doi_or_url": "10.1098/rspa.2014.0758",
+   "venue": null,
+   "found_in": [
+    "Q07#18"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1038/s41598-020-59405-5",
+   "title": "Elucidating the dual role of grain boundaries as dislocation sources and obstacles and its impact on toughness and brittle-to-ductile transition",
+   "year": null,
+   "doi_or_url": "10.1038/s41598-020-59405-5",
+   "venue": null,
+   "found_in": [
+    "Q07#19"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "arXiv:0707.1060",
+   "title": "Grain boundary energies and cohesive strength as a function of geometry",
+   "year": null,
+   "doi_or_url": "arXiv:0707.1060",
+   "venue": null,
+   "found_in": [
+    "Q07#20"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "arXiv:2508.01688",
+   "title": "A Nonlocal Orientation Field Phase-Field Model for Misorientation- and Inclination- Dependent Grain Boundaries",
+   "year": null,
+   "doi_or_url": "arXiv:2508.01688",
+   "venue": null,
+   "found_in": [
+    "Q07#21"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acsami.3c18027",
+   "title": "Atomic-Resolution In Situ Exploration of the Phase Transition Triggered Failure in a Single-Crystalline Ni-Rich Cathode",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.3c18027",
+   "venue": null,
+   "found_in": [
+    "Q07#22"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1063/1.5029813",
+   "title": "Simulations of grain boundaries between ordered hard sphere monolayer domains: Orientation-dependent stiffness and its correlation with grain coarsening dynamics",
+   "year": null,
+   "doi_or_url": "10.1063/1.5029813",
+   "venue": null,
+   "found_in": [
+    "Q07#23"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "arXiv:2604.16026",
+   "title": "Mircomechanical insights into unconstrained grain boundary sliding",
+   "year": null,
+   "doi_or_url": "arXiv:2604.16026",
+   "venue": null,
+   "found_in": [
+    "Q07#24"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1038/srep15476",
+   "title": "Grain Boundary Plane Orientation Fundamental Zones and Structure-Property Relationships",
+   "year": null,
+   "doi_or_url": "10.1038/srep15476",
+   "venue": null,
+   "found_in": [
+    "Q07#25"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acsnano.1c07252",
+   "title": "Lithium Transport Pathways Guided by Grain Architectures in Ni-Rich Layered Cathodes",
+   "year": null,
+   "doi_or_url": "10.1021/acsnano.1c07252",
+   "venue": null,
+   "found_in": [
+    "Q08#1",
+    "Q09#12"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1093/nsr/nwae254",
+   "title": "Operando chemo-mechanical evolution in LiNi0.8Co0.1Mn0.1O2 cathodes",
+   "year": null,
+   "doi_or_url": "10.1093/nsr/nwae254",
+   "venue": null,
+   "found_in": [
+    "Q08#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/anie.202502725",
+   "title": "Mechanically and Chemically Co-Robust Ni-Rich Cathodes with Ultrahigh Capacity and Prolonged Cycle Life",
+   "year": null,
+   "doi_or_url": "10.1002/anie.202502725",
+   "venue": null,
+   "found_in": [
+    "Q08#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "arXiv:1901.02681",
+   "title": "Grain boundary effect on nanoindentation: A multiscale discrete dislocation dynamics model",
+   "year": null,
+   "doi_or_url": "arXiv:1901.02681",
+   "venue": null,
+   "found_in": [
+    "Q09#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1126/sciadv.1501926",
+   "title": "Direct observation of individual dislocation interaction processes with grain boundaries",
+   "year": null,
+   "doi_or_url": "10.1126/sciadv.1501926",
+   "venue": null,
+   "found_in": [
+    "Q09#6"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1038/s41467-019-10183-3",
+   "title": "Direct observation of atomic-scale fracture path within ceramic grain boundary core",
+   "year": null,
+   "doi_or_url": "10.1038/s41467-019-10183-3",
+   "venue": null,
+   "found_in": [
+    "Q09#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1039/d2cc03977j",
+   "title": "Microcracking of Ni-rich layered oxide does not occur at single crystal primary particles even abused at 4.7 V",
+   "year": null,
+   "doi_or_url": "10.1039/d2cc03977j",
+   "venue": null,
+   "found_in": [
+    "Q09#8",
+    "Q20#10"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/smll.201906433",
+   "title": "Regulating Surface and Grain-Boundary Structures of Ni-Rich Layered Cathodes for Ultrahigh Cycle Stability",
+   "year": null,
+   "doi_or_url": "10.1002/smll.201906433",
+   "venue": null,
+   "found_in": [
+    "Q09#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1038/s41467-020-18278-y",
+   "title": "Mutual modulation between surface chemistry and bulk microstructure within secondary particles of nickel-rich layered oxides",
+   "year": null,
+   "doi_or_url": "10.1038/s41467-020-18278-y",
+   "venue": null,
+   "found_in": [
+    "Q09#15"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.3762/bjnano.8.228",
+   "title": "Molecular dynamics simulations of nanoindentation and scratch in Cu grain boundaries",
+   "year": null,
+   "doi_or_url": "10.3762/bjnano.8.228",
+   "venue": null,
+   "found_in": [
+    "Q09#17"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acsami.5c05434",
+   "title": "Current View of Nanoindentation: Recent Developments and Application in Material Characterization",
+   "year": null,
+   "doi_or_url": "10.1021/acsami.5c05434",
+   "venue": null,
+   "found_in": [
+    "Q09#20"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "osti:1833410",
+   "title": "OSTI 1833410 (In Situ TEM Tensile Testing of Bicrystals with Tailored Misorientation Angles) PDF",
+   "year": null,
+   "doi_or_url": "https://www.osti.gov/pages/servlets/purl/1833410",
+   "venue": null,
+   "found_in": [
+    "Q10#2",
+    "Q10#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S0921509322008632",
+   "title": "Measurement of grain boundary strength of Inconel X-750 superalloy using in-situ micro-tensile testing techniques in FIB/SEM system",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S0921509322008632",
+   "venue": null,
+   "found_in": [
+    "Q10#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.nature.com/articles/srep15631",
+   "title": "Stepwise work hardening induced by individual grain boundary in Cu bicrystal micropillars",
+   "year": null,
+   "doi_or_url": "https://www.nature.com/articles/srep15631",
+   "venue": null,
+   "found_in": [
+    "Q10#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.osti.gov/etdeweb/biblio/5701574",
+   "title": "Misorientation dependence of grain boundary fracture in molybdenum bicrystals with various (110) twist boundaries",
+   "year": null,
+   "doi_or_url": "https://www.osti.gov/etdeweb/biblio/5701574",
+   "venue": null,
+   "found_in": [
+    "Q10#6"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://pubmed.ncbi.nlm.nih.gov/42451817/",
+   "title": "Effects of Grain Boundary Misorientation on the High-Cycle Fatigue Behavior of Nickel-Based Superalloy Bicrystals",
+   "year": null,
+   "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/42451817/",
+   "venue": null,
+   "found_in": [
+    "Q10#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.nature.com/articles/s41598-020-59684-y",
+   "title": "A quantitative study of stress fields ahead of a slip band blocked by a grain boundary in unalloyed magnesium",
+   "year": null,
+   "doi_or_url": "https://www.nature.com/articles/s41598-020-59684-y",
+   "venue": null,
+   "found_in": [
+    "Q10#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/pii/S135964541830257X",
+   "title": "Grain boundary properties of a nickel-based superalloy: Characterisation and modelling",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S135964541830257X",
+   "venue": null,
+   "found_in": [
+    "Q10#9",
+    "Q17#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1007/s42864-025-00371-8",
+   "title": "Grain boundary engineering enables stable high-voltage LiCoO2 cathodes (Tungsten)",
+   "year": null,
+   "doi_or_url": "https://link.springer.com/article/10.1007/s42864-025-00371-8",
+   "venue": null,
+   "found_in": [
+    "Q11#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S0378775322008989",
+   "title": "Grain boundary metal–insulator transitions in polycrystalline LiCoO2",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S0378775322008989",
+   "venue": null,
+   "found_in": [
+    "Q11#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://par.nsf.gov/servlets/purl/10392580",
+   "title": "par.nsf.gov 10392580",
+   "year": null,
+   "doi_or_url": "https://par.nsf.gov/servlets/purl/10392580",
+   "venue": null,
+   "found_in": [
+    "Q11#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1039/d5ee00976f",
+   "title": "Investigating the effect of lithiation on polycrystalline NMC811 Li-ion battery cathode cracking using in situ SEM micromechanical testing (RSC PDF d5ee00976f)",
+   "year": null,
+   "doi_or_url": "https://pubs.rsc.org/en/content/articlepdf/2018/AP/d5ee00976f",
+   "venue": null,
+   "found_in": [
+    "Q11#5",
+    "Q18#6",
+    "Q18#7"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "Omirkhan et al. 2025 EES: in situ SEM compression/nanoindentation of polycrystalline NMC811 particles vs lithiation; intergranular cracking but no individual characterised boundary (opened)"
+   }
+  },
+  {
+   "key": "10.1007/s11340-018-00451-6",
+   "title": "In-Situ Nanoindentation Measurement of Local Mechanical Behavior of a Li-Ion Battery Cathode in Liquid Electrolyte",
+   "year": null,
+   "doi_or_url": "https://link.springer.com/doi/10.1007/s11340-018-00451-6",
+   "venue": null,
+   "found_in": [
+    "Q11#6",
+    "Q18#9"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "de Vasconcelos et al. 2019: nanoindentation fracture strength of NMC agglomerates (dry/wet); particle-level (opened)"
+   }
+  },
+  {
+   "key": "https://par.nsf.gov/servlets/purl/10164800",
+   "title": "par.nsf.gov 10164800",
+   "year": null,
+   "doi_or_url": "https://par.nsf.gov/servlets/purl/10164800",
+   "venue": null,
+   "found_in": [
+    "Q11#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://pubs.rsc.org/en/content/articlelanding/2023/ta/d3ta00264k/unauth",
+   "title": "J. Mater. Chem. A 2023 issue 15 article d3ta00264k",
+   "year": null,
+   "doi_or_url": "https://pubs.rsc.org/en/content/articlelanding/2023/ta/d3ta00264k/unauth",
+   "venue": null,
+   "found_in": [
+    "Q11#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://engineering.purdue.edu/kjzhao/papers/125.pdf",
+   "title": "Purdue Zhao group paper 125 (PDF)",
+   "year": null,
+   "doi_or_url": "https://engineering.purdue.edu/kjzhao/papers/125.pdf",
+   "venue": null,
+   "found_in": [
+    "Q11#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13528682/",
+   "title": "Synthesis-Dependent Grain Boundary Density Governs Low-Temperature Lithium Diffusion in Single-Crystal NCM Cathodes",
+   "year": null,
+   "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13528682/",
+   "venue": null,
+   "found_in": [
+    "Q12#1",
+    "Q17#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S037877532400363X",
+   "title": "Capacity fading and inter/intra-granular fracture of polycrystalline cathode particle induced by charge/discharge cycles: A numerical study",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S037877532400363X",
+   "venue": null,
+   "found_in": [
+    "Q12#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S0013794424005332",
+   "title": "Microstructure impact on chemo-mechanical fracture of polycrystalline lithium-ion battery cathode materials",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S0013794424005332",
+   "venue": null,
+   "found_in": [
+    "Q12#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1007/s11340-025-01222-w",
+   "title": "Microstructure Informed Mechanical Properties and Chemomechanical Degradation of Battery Cathode Particles",
+   "year": null,
+   "doi_or_url": "https://link.springer.com/article/10.1007/s11340-025-01222-w",
+   "venue": null,
+   "found_in": [
+    "Q12#4",
+    "Q17#6"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "Han, Ghosh, Lin, Zhao 2025 Exp Mech: flat-punch particle strength ~200 MPa 'dictated by grain boundaries'; particle-level, not boundary-resolved (opened)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S2405829720300349",
+   "title": "Single-crystal nickel-rich layered-oxide battery cathode materials: synthesis, electrochemistry, and intra-granular fracture",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S2405829720300349",
+   "venue": null,
+   "found_in": [
+    "Q12#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://en.wikipedia.org/wiki/Toughening",
+   "title": "Toughening (Wikipedia)",
+   "year": null,
+   "doi_or_url": "https://en.wikipedia.org/wiki/Toughening",
+   "venue": null,
+   "found_in": [
+    "Q12#6"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S2352431622001961",
+   "title": "Nanoindentation measurements of anisotropic mechanical properties of single crystalline NMC cathodes for Li-ion batteries",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S2352431622001961",
+   "venue": null,
+   "found_in": [
+    "Q12#7"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "Nanoindentation anisotropy of single-crystal NMC; no GB"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S2352152X24003918",
+   "title": "Fracture mechanisms of NCM polycrystalline particles in lithium-ion batteries: A review",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S2352152X24003918",
+   "venue": null,
+   "found_in": [
+    "Q12#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1038/s41467-024-52123-w",
+   "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries (PMC)",
+   "year": null,
+   "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11393410/",
+   "venue": null,
+   "found_in": [
+    "Q13#1",
+    "Q13#5",
+    "Q13#6",
+    "Q29#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.31635/renewables.023.202200022",
+   "title": "Doping Strategy in Nickel-Rich Layered Oxide Cathode for Lithium-Ion Battery",
+   "year": null,
+   "doi_or_url": "https://www.chinesechemsoc.org/doi/10.31635/renewables.023.202200022",
+   "venue": null,
+   "found_in": [
+    "Q13#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.osti.gov/biblio/1887535",
+   "title": "Accelerated Degradation in a Quasi-Single-Crystalline Layered Oxide Cathode for Lithium-Ion Batteries Caused by Residual Grain Boundaries",
+   "year": null,
+   "doi_or_url": "https://www.osti.gov/biblio/1887535",
+   "venue": null,
+   "found_in": [
+    "Q13#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13165927/",
+   "title": "How Surface Reconstruction Drives Heterogeneous Bulk Delithiation in Single-Crystalline Ni-Rich Layered Oxide Cathodes",
+   "year": null,
+   "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13165927/",
+   "venue": null,
+   "found_in": [
+    "Q13#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.34133/energymatadv.0115",
+   "title": "Understanding of Spinel Phases in Lithium-Rich Cathode for High-Energy-Density Lithium-Ion Batteries: A Review",
+   "year": null,
+   "doi_or_url": "https://spj.science.org/doi/10.34133/energymatadv.0115",
+   "venue": null,
+   "found_in": [
+    "Q13#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/pii/S1359645425004434",
+   "title": "Electro-chemo-mechanical behavior of a layered cathode material upon cycling",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S1359645425004434",
+   "venue": null,
+   "found_in": [
+    "Q13#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.researchgate.net/publication/383863462_Intergranular_fracture_grain-boundary_structure_and_dislocation-density_interactions_in_FCC_bicrystals",
+   "title": "Intergranular fracture ... FCC bicrystals (ResearchGate)",
+   "year": null,
+   "doi_or_url": "https://www.researchgate.net/publication/383863462_Intergranular_fracture_grain-boundary_structure_and_dislocation-density_interactions_in_FCC_bicrystals",
+   "venue": null,
+   "found_in": [
+    "Q14#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.researchgate.net/publication/231975663_Fracture_modes_in_micropillar_compression_of_brittle_crystals",
+   "title": "Fracture modes in micropillar compression of brittle crystals (ResearchGate)",
+   "year": null,
+   "doi_or_url": "https://www.researchgate.net/publication/231975663_Fracture_modes_in_micropillar_compression_of_brittle_crystals",
+   "venue": null,
+   "found_in": [
+    "Q14#6"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1080/14786435.2024.2310570",
+   "title": "Unifying the size effect observed in micropillar compression experiments",
+   "year": null,
+   "doi_or_url": "https://www.tandfonline.com/doi/full/10.1080/14786435.2024.2310570",
+   "venue": null,
+   "found_in": [
+    "Q14#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://par.nsf.gov/biblio/10534015-micropillar-compression-single-crystal-single-phase-co-cu-mg-ni-zn",
+   "title": "Micropillar compression of single-crystal single-phase (Co, Cu, Mg, Ni, Zn)O (NSF PAR)",
+   "year": null,
+   "doi_or_url": "https://par.nsf.gov/biblio/10534015-micropillar-compression-single-crystal-single-phase-co-cu-mg-ni-zn",
+   "venue": null,
+   "found_in": [
+    "Q14#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://par.nsf.gov/search/award_ids:2029966",
+   "title": "NSF PAR Search award 2029966",
+   "year": null,
+   "doi_or_url": "https://par.nsf.gov/search/award_ids:2029966",
+   "venue": null,
+   "found_in": [
+    "Q14#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S2211285520309411",
+   "title": "Atomistic mechanism of cracking degradation at twin boundary of LiCoO2",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S2211285520309411",
+   "venue": null,
+   "found_in": [
+    "Q15#1"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/pii/S1359645425009851",
+   "title": "Grain boundary barrier strength and local stress evolution: Geometric compatibility effects and the curious case of twin boundaries",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S1359645425009851",
+   "venue": null,
+   "found_in": [
+    "Q15#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S1359645421008831",
+   "title": "In Situ TEM tensile testing of bicrystals with tailored misorientation angles",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S1359645421008831",
+   "venue": null,
+   "found_in": [
+    "Q15#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.nature.com/articles/ncomms4536",
+   "title": "Controllable fatigue cracking mechanisms of copper bicrystals with a coherent twin boundary",
+   "year": null,
+   "doi_or_url": "https://www.nature.com/articles/ncomms4536",
+   "venue": null,
+   "found_in": [
+    "Q15#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.osti.gov/biblio/6393102",
+   "title": "Strength of individual special tilt and twist boundaries in molybdenum bicrystals",
+   "year": null,
+   "doi_or_url": "https://www.osti.gov/biblio/6393102",
+   "venue": null,
+   "found_in": [
+    "Q15#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S1359645496000444",
+   "title": "Brittle intergranular failure in 2D microstructures: Experiments and computer simulations",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S1359645496000444",
+   "venue": null,
+   "found_in": [
+    "Q15#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S0921509304006537",
+   "title": "Toughening of brittle materials by grain boundary engineering",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S0921509304006537",
+   "venue": null,
+   "found_in": [
+    "Q15#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://par.nsf.gov/servlets/purl/10520946",
+   "title": "Nanotomographic Observation and Statistical Analysis of Overcharging Induced Cracks in LiCoO2 Single Crystalline Particles (NSF PAR 10520946)",
+   "year": null,
+   "doi_or_url": "https://par.nsf.gov/servlets/purl/10520946",
+   "venue": null,
+   "found_in": [
+    "Q15#9",
+    "Q18#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.researchgate.net/publication/263933230",
+   "title": "Kinetics and Structural Changes of Li-Rich Layered Oxide 0.5Li2MnO3·0.5LiNi0.292Co0.375Mn0.333O2 ... in Situ XRD",
+   "year": null,
+   "doi_or_url": "https://www.researchgate.net/publication/263933230",
+   "venue": null,
+   "found_in": [
+    "Q16#1"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/abs/pii/S1359645421002949",
+   "title": "Surface-dependent stress-corrosion cracking in Ni-rich layered oxide cathodes",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/abs/pii/S1359645421002949",
+   "venue": null,
+   "found_in": [
+    "Q16#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://pubmed.ncbi.nlm.nih.gov/40357829",
+   "title": "In Situ 4D STEM of LiNiO2 Particles Heated in an Oxygen Atmosphere",
+   "year": null,
+   "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/40357829",
+   "venue": null,
+   "found_in": [
+    "Q16#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1021/acs.chemrev.5c00330",
+   "title": "Understanding Degradation in Single-Crystalline Ni-Rich Li-Ion Battery Cathodes (PMC)",
+   "year": null,
+   "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12550819/",
+   "venue": null,
+   "found_in": [
+    "Q16#7",
+    "Q29#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.sciencedirect.com/science/article/pii/S1674200121001206",
+   "title": "Li-rich layered oxides: Structure, capacity and voltage fading mechanisms and solving strategies",
+   "year": null,
+   "doi_or_url": "https://www.sciencedirect.com/science/article/pii/S1674200121001206",
+   "venue": null,
+   "found_in": [
+    "Q16#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://pubmed.ncbi.nlm.nih.gov/38756866",
+   "title": "Origins and Importance of Intragranular Cracking in Layered Lithium Transition Metal Oxide Cathodes",
+   "year": null,
+   "doi_or_url": "https://pubmed.ncbi.nlm.nih.gov/38756866",
+   "venue": null,
+   "found_in": [
+    "Q16#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.osti.gov/etdeweb/biblio/21512545",
+   "title": "Development of micro tensile testing method in an FIB system for evaluating grain boundary strength (ETDEWEB)",
+   "year": null,
+   "doi_or_url": "https://www.osti.gov/etdeweb/biblio/21512545",
+   "venue": null,
+   "found_in": [
+    "Q17#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519530",
+   "title": "Near-theoretical strength and deformation stabilization achieved via grain boundary segregation and nano-clustering of solutes",
+   "year": null,
+   "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11519530",
+   "venue": null,
+   "found_in": [
+    "Q17#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.researchgate.net/publication/324202159",
+   "title": "Grain boundary properties of a nickel-based superalloy (ResearchGate)",
+   "year": null,
+   "doi_or_url": "https://www.researchgate.net/publication/324202159",
+   "venue": null,
+   "found_in": [
+    "Q17#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.osti.gov/servlets/purl/1957501",
+   "title": "Measurement of grain boundary strength of Inconel X-750 ... (OSTI PDF)",
+   "year": null,
+   "doi_or_url": "https://www.osti.gov/servlets/purl/1957501",
+   "venue": null,
+   "found_in": [
+    "Q17#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://pith.science/paper/2506.13940",
+   "title": "Atomic-scale insights on grain boundary segregation in a cathode battery material (Pith, arXiv 2506.13940)",
+   "year": null,
+   "doi_or_url": "https://pith.science/paper/2506.13940",
+   "venue": null,
+   "found_in": [
+    "Q17#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1002/batt.202300032",
+   "title": "Fracture testing of lithium-ion battery cathode secondary particles in-situ inside the SEM - White Rose",
+   "year": null,
+   "doi_or_url": "https://eprints.whiterose.ac.uk/197956/",
+   "venue": null,
+   "found_in": [
+    "Q18#2",
+    "Q18#3"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "Wheatcroft 2023: in situ SEM fracture of secondary particles; particle-level"
+   }
+  },
+  {
+   "key": "https://www.materials.ox.ac.uk/article/processingmechanical-properties-relationships-in-disordered-rocksalt-battery-cathodes",
+   "title": "Processing mechanical properties relationships in disordered rocksalt battery cathodes (Oxford Materials)",
+   "year": null,
+   "doi_or_url": "https://www.materials.ox.ac.uk/article/processingmechanical-properties-relationships-in-disordered-rocksalt-battery-cathodes",
+   "venue": null,
+   "found_in": [
+    "Q18#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://www.cussengroupdublin.com/publications_serena",
+   "title": "Cussen Research Dublin publications",
+   "year": null,
+   "doi_or_url": "https://www.cussengroupdublin.com/publications_serena",
+   "venue": null,
+   "found_in": [
+    "Q18#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1557/opl.2013.140",
+   "title": "Micromechanical testing of oxidised grain boundaries in Ni Alloy 600",
+   "year": null,
+   "doi_or_url": "https://link.springer.com/article/10.1557/opl.2013.140",
+   "venue": null,
+   "found_in": [
+    "Q19#1"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1021/acs.chemmater.4c00515",
+   "title": "Elucidating the Impact of Li3InCl6-Coated LiNi0.8Co0.15Al0.05O2 on the Electro-Chemo-Mechanics of Li6PS5Cl-Based Solid-State Batteries",
+   "year": null,
+   "doi_or_url": "https://pubs.acs.org/doi/10.1021/acs.chemmater.4c00515",
+   "venue": null,
+   "found_in": [
+    "Q19#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://ora.ox.ac.uk/objects/uuid:855f4c04-362b-4464-8abf-67bd58f61a0c/files/m4bdd1647da3cfd7158faa985a1a9d0ee",
+   "title": "Microcantilever investigation of fracture toughness and subcritical crack growth ... in Al2O3 (ORA)",
+   "year": null,
+   "doi_or_url": "https://ora.ox.ac.uk/objects/uuid:855f4c04-362b-4464-8abf-67bd58f61a0c/files/m4bdd1647da3cfd7158faa985a1a9d0ee",
+   "venue": null,
+   "found_in": [
+    "Q19#3"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://link.springer.com/chapter/10.1007/978-981-95-7202-1_6",
+   "title": "Micro-cantilever Testing of Irradiated Materials",
+   "year": null,
+   "doi_or_url": "https://link.springer.com/chapter/10.1007/978-981-95-7202-1_6",
+   "venue": null,
+   "found_in": [
+    "Q19#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.researchgate.net/publication/281352251",
+   "title": "Microcantilever investigation of fracture toughness ... Al2O3 (ResearchGate)",
+   "year": null,
+   "doi_or_url": "https://www.researchgate.net/publication/281352251",
+   "venue": null,
+   "found_in": [
+    "Q19#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://www.osti.gov/etdeweb/biblio/21493014",
+   "title": "Development of micro tensile testing method in an FIB system for evaluating grain boundary strength (ETDEWEB)",
+   "year": null,
+   "doi_or_url": "https://www.osti.gov/etdeweb/biblio/21493014",
+   "venue": null,
+   "found_in": [
+    "Q19#6"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://nanoindentation.oxinst.com/applications/in-situ-sem-micromechanical-testing/micro-cantilever-fracture-testing",
+   "title": "Micro-Cantilever Fracture Testing - Oxford Instruments",
+   "year": null,
+   "doi_or_url": "https://nanoindentation.oxinst.com/applications/in-situ-sem-micromechanical-testing/micro-cantilever-fracture-testing",
+   "venue": null,
+   "found_in": [
+    "Q19#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://pubs.rsc.org/en/content/articlehtml/2017/ra/c7ra04206j",
+   "title": "RSC Advances 2017 c7ra04206j",
+   "year": null,
+   "doi_or_url": "https://pubs.rsc.org/en/content/articlehtml/2017/ra/c7ra04206j",
+   "venue": null,
+   "found_in": [
+    "Q19#8"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://scholars.duke.edu/publication/1558077",
+   "title": "scholars.duke.edu publication 1558077",
+   "year": null,
+   "doi_or_url": "https://scholars.duke.edu/publication/1558077",
+   "venue": null,
+   "found_in": [
+    "Q19#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1149/1945-7111/ac6244",
+   "title": "Effect of Lithiation upon the Shear Strength of NMC811 Single Crystals - IOPscience",
+   "year": null,
+   "doi_or_url": "https://iopscience.iop.org/article/10.1149/1945-7111/ac6244",
+   "venue": null,
+   "found_in": [
+    "Q20#1"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "Stallard 2022: shear strength of single-crystal NMC811 vs lithiation; no grain boundary"
+   }
+  },
+  {
+   "key": "10.1002/batt.202400691",
+   "title": "Mechanical Properties of Cycled Single Crystal NMC811 Particles - Jangde 2025 Batteries & Supercaps",
+   "year": null,
+   "doi_or_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/10.1002/batt.202400691",
+   "venue": null,
+   "found_in": [
+    "Q20#2"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "Jangde 2025: cycled single-crystal NMC811 particle mechanics; no GB"
+   }
+  },
+  {
+   "key": "10.1002/batt.202400077",
+   "title": "In Situ Fracture Behavior of Single Crystal NMC811 - Wheatcroft 2024 Batteries & Supercaps",
+   "year": null,
+   "doi_or_url": "https://chemistry-europe.onlinelibrary.wiley.com/doi/pdf/10.1002/batt.202400077",
+   "venue": null,
+   "found_in": [
+    "Q20#3"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "Wheatcroft 2024: in situ fracture of single-crystal NMC811; no GB"
+   }
+  },
+  {
+   "key": "https://www.ossila.com/products/single-crystal-nmc811-powder",
+   "title": "NMC811 single crystal (Ossila product)",
+   "year": null,
+   "doi_or_url": "https://www.ossila.com/products/single-crystal-nmc811-powder",
+   "venue": null,
+   "found_in": [
+    "Q20#4"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://pubs.aip.org/aip/apl/article/125/3/031901/3303411",
+   "title": "Micropillar compression of single-crystal single-phase (Co, Cu, Mg, Ni, Zn)O",
+   "year": null,
+   "doi_or_url": "https://pubs.aip.org/aip/apl/article/125/3/031901/3303411",
+   "venue": null,
+   "found_in": [
+    "Q20#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://pubs.rsc.org/en/content/articlehtml/2022/ya/d2ya00211f",
+   "title": "Single crystal Ni-rich NMC cathode materials ... ultra-high volumetric energy density",
+   "year": null,
+   "doi_or_url": "https://pubs.rsc.org/en/content/articlehtml/2022/ya/d2ya00211f",
+   "venue": null,
+   "found_in": [
+    "Q20#6"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "https://eprintspublications.npl.co.uk/9539/",
+   "title": "Micropillar compression of single crystal tungsten carbide, Part 1",
+   "year": null,
+   "doi_or_url": "https://eprintspublications.npl.co.uk/9539/",
+   "venue": null,
+   "found_in": [
+    "Q20#7"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "https://esst.cip.com.cn/EN/Y2022/V11/I11/3478",
+   "title": "Analysis of the mechanical properties of polycrystalline and single crystal NMC811 materials",
+   "year": null,
+   "doi_or_url": "https://esst.cip.com.cn/EN/Y2022/V11/I11/3478",
+   "venue": null,
+   "found_in": [
+    "Q20#8"
+   ],
+   "screening": {
+    "decision": "relevant_but_not_boundary_resolved",
+    "reason": "Poly vs single-crystal NMC811 particle mechanics; particle-level"
+   }
+  },
+  {
+   "key": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7801114/",
+   "title": "Micropillar compression deformation of single crystals of alpha-Nb5Si3",
+   "year": null,
+   "doi_or_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7801114/",
+   "venue": null,
+   "found_in": [
+    "Q20#9"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "not a layered-oxide cathode (other material or simulation/method paper)"
+   }
+  },
+  {
+   "key": "10.1016/j.apenergy.2025.127105",
+   "title": "Phase field modelling of cracking and capacity fade in core-shell cathode particles for lithium-ion batteries",
+   "year": null,
+   "doi_or_url": "10.1016/j.apenergy.2025.127105",
+   "venue": null,
+   "found_in": [
+    "Q28#1"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1016/j.wasman.2026.115515",
+   "title": "Advancing direct recycling of lithium-ion batteries: An efficient recovery of NMC cathode particles using high-intensity magnetic separation",
+   "year": null,
+   "doi_or_url": "10.1016/j.wasman.2026.115515",
+   "venue": null,
+   "found_in": [
+    "Q28#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1038/s41560-026-02087-6",
+   "title": "The interplay between stack pressure, mechanical expansion and degradation pathways in lithium-ion batteries",
+   "year": null,
+   "doi_or_url": "10.1038/s41560-026-02087-6",
+   "venue": null,
+   "found_in": [
+    "Q29#1"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.1039/d5ra02976g",
+   "title": "LiNi1/3Mn1/3Co1/3O2 nanoparticles produced by flame spray pyrolysis with crystallinity characteristics similar to commercial NMC particles",
+   "year": null,
+   "doi_or_url": "10.1039/d5ra02976g",
+   "venue": null,
+   "found_in": [
+    "Q29#2"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  },
+  {
+   "key": "10.3390/ma18153464",
+   "title": "Opportunities and Challenges for Next-Generation Thick Cathodes in Lithium-Ion Batteries",
+   "year": null,
+   "doi_or_url": "10.3390/ma18153464",
+   "venue": null,
+   "found_in": [
+    "Q29#5"
+   ],
+   "screening": {
+    "decision": "not_relevant",
+    "reason": "layered-oxide/battery paper but no micromechanical measurement of a grain-boundary strength (synthesis/degradation/imaging/modelling/transport)"
+   }
+  }
+ ],
+ "verified_quotes": [
+  {
+   "doi": "10.1016/j.jpowsour.2026.240276",
+   "opened_via": "WebFetch https://www.sciencedirect.com/science/article/pii/S0378775326010268",
+   "quotes": [
+    "The measured fracture stress is the average grain boundary strength over the grain boundaries on the fracture surface",
+    "the grain boundary properties...depends on the misorientation between the grains"
+   ],
+   "location": "returned by WebFetch summariser from the article page (section not stated); verify against the PDF before quoting in the manuscript",
+   "note": "summariser also reported a Weibull characteristic strength of 745 MPa and GB stiffness 521 GPa/um (abstract)"
+  },
+  {
+   "doi": "10.1007/s11340-025-01222-w",
+   "opened_via": "WebFetch Springer page",
+   "quotes": [
+    "The particle strength dictated by grain boundaries is measured to be ~ 200 MPa in the three NMC microstructures."
+   ],
+   "location": "abstract (per WebFetch)"
+  },
+  {
+   "doi": "10.1039/d5ee00976f",
+   "opened_via": "WebFetch RSC HTML",
+   "quotes": [
+    "the crack propagates from the centre of the particle along the grain boundaries between the primary particles"
+   ],
+   "location": "Results and Discussion (per WebFetch summariser; ellipsis-truncated)"
+  }
+ ],
+ "citation_chains": [
+  {
+   "seed": "Sedlatschek et al. 2026, J Power Sources 681:240276",
+   "doi": "10.1016/j.jpowsour.2026.240276",
+   "openalex_id": "W7160649750",
+   "resolution": {
+    "service": "OpenAlex (WebFetch)",
+    "url": "https://api.openalex.org/works/doi:10.1016/j.jpowsour.2026.240276",
+    "status": "ok",
+    "cited_by_count": 0
+   },
+   "forward": [
+    {
+     "service": "OpenAlex cites filter",
+     "url": "https://api.openalex.org/works?filter=cites:W7160649750",
+     "status": "failed",
+     "error": "HTTP 429 (two attempts)"
+    },
+    {
+     "service": "Firecrawl research_related_papers mode=citers",
+     "seed": "doi:10.1016/j.jpowsour.2026.240276",
+     "status": "ok",
+     "n": 0,
+     "note": "expansion returned no candidates (paper not in Firecrawl index)"
+    },
+    {
+     "service": "OpenAlex record field cited_by_count",
+     "status": "ok",
+     "n": 0,
+     "note": "OpenAlex reports 0 citing works on 2026-09-26, consistent with no forward chain yet"
+    }
+   ],
+   "backward": {
+    "service": "OpenAlex referenced_works",
+    "status": "ok",
+    "n": 35,
+    "openalex_ids": [
+     "W1543201497",
+     "W1650674500",
+     "W2005261315",
+     "W2061403271",
+     "W2081264083",
+     "W2086933933",
+     "W2089062257",
+     "W2099540110",
+     "W2129104814",
+     "W2294545635",
+     "W2467690158",
+     "W2537298834",
+     "W2552357453",
+     "W2591780975",
+     "W2765192225",
+     "W2766242415",
+     "W2806656784",
+     "W2902685301",
+     "W2958540500",
+     "W2968825387",
+     "W2983410109",
+     "W3088569294",
+     "W3211940623",
+     "W4224225794",
+     "W4280596641",
+     "W4324329450",
+     "W4381996609",
+     "W4382810675",
+     "W4385841350",
+     "W4385919352",
+     "W4385971063",
+     "W4386805585",
+     "W4392983075",
+     "W4407479699",
+     "W4413469212"
+    ],
+    "note": "IDs only; titles not resolvable (OpenAlex batch lookups rate-limited). Includes W4324329450 = Wheatcroft 2023. Not screened by title."
+   }
+  },
+  {
+   "seed": "Wheatcroft et al. 2023, Batteries & Supercaps",
+   "doi": "10.1002/batt.202300032",
+   "openalex_id": "W4324329450",
+   "resolution": {
+    "service": "OpenAlex (WebFetch)",
+    "status": "ok",
+    "cited_by_count": 25,
+    "title": "Fracture Testing of Lithium-Ion Battery Cathode Secondary Particles in-situ inside the Scanning Electron Microscope"
+   },
+   "forward": [
+    {
+     "service": "OpenAlex cites filter",
+     "url": "https://api.openalex.org/works?filter=cites:W4324329450&per_page=50",
+     "status": "failed",
+     "error": "HTTP 429"
+    },
+    {
+     "service": "Firecrawl research_related_papers mode=citers",
+     "status": "ok",
+     "n": 2,
+     "pool_size": 2,
+     "results": [
+      {
+       "title": "Phase field modelling of cracking and capacity fade in core-shell cathode particles for lithium-ion batteries",
+       "doi": "10.1016/j.apenergy.2025.127105"
+      },
+      {
+       "title": "Advancing direct recycling of lithium-ion batteries: An efficient recovery of NMC cathode particles using high-intensity magnetic separation",
+       "doi": "10.1016/j.wasman.2026.115515"
+      }
+     ],
+     "note": "Firecrawl covers only 2 of OpenAlex's 25 citing works; the forward chain is INCOMPLETE"
+    },
+    {
+     "service": "WebSearch title-phrase probe",
+     "status": "ok",
+     "note": "see query log; surfaced Sedlatschek 2026 and Omirkhan 2025 (EES, 10.1039/d5ee00976f) as related"
+    }
+   ]
+  },
+  {
+   "seed": "Stallard et al. 2022, J Electrochem Soc (single-crystal NMC811 micropillar/shear)",
+   "doi": "10.1149/1945-7111/ac6244",
+   "resolution": {
+    "service": "WebSearch + Crossref (WebFetch https://api.crossref.org/works/10.1149/1945-7111/ac6244)",
+    "status": "ok",
+    "title": "Effect of Lithiation upon the Shear Strength of NMC811 Single Crystals",
+    "authors": "Stallard, Vema, Hall, Dennis, Penrod, Grey, Deshpande, Fleck",
+    "year": 2022,
+    "is_referenced_by_count_crossref": 28
+   },
+   "forward": [
+    {
+     "service": "OpenAlex",
+     "status": "failed",
+     "error": "not attempted after repeated 429 / Firecrawl scrape credits exhausted"
+    },
+    {
+     "service": "Firecrawl research_related_papers mode=citers",
+     "status": "ok",
+     "n": 5,
+     "pool_size": 5,
+     "results": [
+      {
+       "title": "The interplay between stack pressure, mechanical expansion and degradation pathways in lithium-ion batteries",
+       "doi": "10.1038/s41560-026-02087-6"
+      },
+      {
+       "title": "LiNi1/3Mn1/3Co1/3O2 nanoparticles produced by flame spray pyrolysis with crystallinity characteristics similar to commercial NMC particles",
+       "doi": "10.1039/d5ra02976g"
+      },
+      {
+       "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries",
+       "doi": "10.1038/s41467-024-52123-w"
+      },
+      {
+       "title": "Understanding Degradation in Single-Crystalline Ni-Rich Li-Ion Battery Cathodes",
+       "doi": "10.1021/acs.chemrev.5c00330"
+      },
+      {
+       "title": "Opportunities and Challenges for Next-Generation Thick Cathodes in Lithium-Ion Batteries",
+       "doi": "10.3390/ma18153464"
+      }
+     ],
+     "note": "5 of Crossref's 28 citing works; INCOMPLETE"
+    }
+   ]
+  }
+ ]
+}

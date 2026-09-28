@@ -1,0 +1,218 @@
+{
+ "_meta": {
+  "purpose": "Citation graph behind the 100 MPa grain-boundary strength used by 8 of the 12 categorised models (review_b01.json). Drawn as Fig. 2.",
+  "compiled": "2026-09-23",
+  "edge_kinds": {
+   "cites": "the child paper attaches an explicit citation to the 100 MPa value, and the cited paper is the parent [observation]",
+   "shared_author": "no citation for the value; the two papers share an author (K. Zhao) and the same 100 MPa [inference - drawn dashed]",
+   "estimate": "the parent is the physical quantity the value was estimated from [observation]"
+  },
+  "correction": "Supersedes the single-root picture in RESULT_B01 §4 and PAPER_SKELETON REV-1 (b): AT LEAST two roots. The NMC-grain-boundary branch starts at Xu et al. 2018 ('We set'); the 2012 spinel paper reaches only M05. The second parent of M05, Zhang & Guo 2018, is unopened and could be a third root. | 2026-09-28: full text still paywalled; its public reference list (Springer page) includes Zhu, Park & Sastry 2012, so ZG18 is probably a relay of ZHU12 rather than a third root (raised by Gemini review, M1). | 2026-09-28 (later): CONFIRMED from the full text (user-supplied PDF): ZG18 Table 1 gives σTS = 100 MPa citing [23] = Zhu, Park & Sastry 2012; ZG18 is a relay of ZHU12, NOT a third root. Roots are exactly two: M12 (Xu 2018) and ZHU12. The branches are not independent: M05 also cites Xu et al. 2018 (its ref [50]) for the fracture energy. | 2026-09-24: M13 (Li et al. 2025) added as a child of M05 (explicit citation in its Table 1)."
+ },
+ "nodes": [
+  {
+   "id": "TiO2",
+   "year": null,
+   "label": "TiO2 (handbook)\n69–103 MPa",
+   "kind": "external",
+   "why": "density 4.24 g/cm3 'similar to LixMn2O4'"
+  },
+  {
+   "id": "ZHU12",
+   "year": 2012,
+   "label": "Zhu et al. 2012\nJ Electrochem Soc",
+   "kind": "root",
+   "doi": "10.1149/2.045204jes",
+   "tags": [
+    "LiMn2O4 spinel",
+    "single isolated particle",
+    "no grain boundary"
+   ],
+   "verbatim": [
+    "The maximum tensile strength was estimated to be 100 MPa for Mn2O4 in the simulation.",
+    "In this work only single isolated ellipsoidal particles were considered"
+   ],
+   "anchor": "private project notes §4"
+  },
+  {
+   "id": "ZG18",
+   "year": 2018,
+   "label": "Zhang & Guo 2018\nActa Mech Sin",
+   "kind": "lineage_only",
+   "doi": "10.1007/s10409-018-0764-1",
+   "tags": [
+    "LiMn2O4 spinel",
+    "single particle XFEM"
+   ],
+   "anchor": "Full text opened 2026-09-28 (user-supplied PDF, references/Zhang_Guo_2018_ActaMechSin.pdf, sha256 f3e3eb63…): Table 1 'Material properties of Mn2O4', p. 709: 'Maximum principal tensile stress (σTS) | MPa | 100 | [23]'; ref 23 = 'Zhu, M., Park, J., Sastry, A.M.: Fracture analysis of the cathode in Li-ion batteries: a simulation study. J. Electrochem. Soc. 159, A492–A498 (2012)'. Superseded 2026-09-28: 'full text NOT opened, what it cites for 100 MPa is unknown'."
+  },
+  {
+   "id": "M12",
+   "year": 2018,
+   "label": "Xu et al. 2018\nExp Mech",
+   "kind": "root",
+   "category": "d",
+   "doi": "10.1007/s11340-017-0292-0",
+   "tags": [
+    "NMC · GB cohesive zone",
+    "'We set ... 100 MPa'"
+   ],
+   "verbatim": [
+    "We set the interfacial strength t0n as 100 MPa"
+   ],
+   "anchor": "review_b01.json M12"
+  },
+  {
+   "id": "M05",
+   "year": 2019,
+   "label": "Zhang et al. 2019\nInt J Mech Sci",
+   "kind": "review",
+   "category": "b",
+   "verbatim": [
+    "Both the tensile and shear strength were defined to be 100 MPa [30,56]."
+   ],
+   "anchor": "review_b01.json M05; refs [30]=ZHU12, [56]=ZG18 read in library text 2026-09-23"
+  },
+  {
+   "id": "M02",
+   "year": 2019,
+   "label": "Xu et al. 2019\nJ Mech Phys Solids",
+   "kind": "review",
+   "category": "e",
+   "anchor": "review_b01.json M02"
+  },
+  {
+   "id": "M03",
+   "year": 2020,
+   "label": "Bai et al. 2020\nScripta Mater",
+   "kind": "review",
+   "category": "e",
+   "anchor": "review_b01.json M03"
+  },
+  {
+   "id": "ZHUX20",
+   "year": 2020,
+   "label": "Zhu X et al. 2020\nInt J Mech Sci",
+   "kind": "lineage_only",
+   "doi": "10.1016/j.ijmecsci.2020.105608",
+   "tags": [
+    "NCM primary particle",
+    "GB status unverified"
+   ],
+   "verbatim": [
+    "Damage initiation stress (MPa) | 100 [9]",
+    "9. R. Xu, L.S. de Vasconcelos, J. Shi, J. Li, K. Zhao. Disintegration of meatball electrodes for LiNixMnyCozO2 cathode materials. Experimental Mechanics, 2018, 58, 549-559."
+   ],
+   "anchor": "author copy https://strathprints.strath.ac.uk/71731/ (Firecrawl scrape 2026-09-23)"
+  },
+  {
+   "id": "M11",
+   "year": 2021,
+   "label": "Taghikhani 2021\nJ Electrochem Soc",
+   "kind": "review",
+   "category": "b",
+   "verbatim": [
+    "The present model considers a constant interfacial ultimate strength of tau_c = 100 MPa between particles [15, 23]."
+   ],
+   "anchor": "review_b01.json M11; ref list OCR of library PDF p.17 (2026-09-23): [15] = Xu et al. 2018 Exp Mech 58:549; [23] = Zhu X et al. 2020 IJMS 178:105608"
+  },
+  {
+   "id": "M10",
+   "year": 2023,
+   "label": "Taghikhani 2023\nElectrochim Acta",
+   "kind": "review",
+   "category": "b",
+   "anchor": "review_b01.json M10; ref list of library PDF: [11] = Xu et al. 2019 JMPS 129:160; [12] = Bai et al. 2020 Scripta 183:45"
+  },
+  {
+   "id": "M09",
+   "year": 2026,
+   "label": "Bi et al. 2026\npreprint",
+   "kind": "review",
+   "category": "b",
+   "anchor": "review_b01.json M09 (cites Bai et al. 2020)"
+  },
+  {
+   "id": "M13",
+   "year": 2025,
+   "label": "Li et al. 2025\nInt J Solids Struct",
+   "kind": "review",
+   "category": "b",
+   "doi": "10.1016/j.ijsolstr.2025.113300",
+   "verbatim": [
+    "Fracture tensile strength of joint unit fnp = fsp 100 MPa Zhang et al. 2019b"
+   ]
+  }
+ ],
+ "edges": [
+  {
+   "from": "ZHU12",
+   "to": "ZG18",
+   "kind": "cites"
+  },
+  {
+   "from": "TiO2",
+   "to": "ZHU12",
+   "kind": "estimate"
+  },
+  {
+   "from": "ZHU12",
+   "to": "M05",
+   "kind": "cites"
+  },
+  {
+   "from": "ZG18",
+   "to": "M05",
+   "kind": "cites"
+  },
+  {
+   "from": "M12",
+   "to": "ZHUX20",
+   "kind": "cites"
+  },
+  {
+   "from": "M12",
+   "to": "M11",
+   "kind": "cites"
+  },
+  {
+   "from": "ZHUX20",
+   "to": "M11",
+   "kind": "cites"
+  },
+  {
+   "from": "M12",
+   "to": "M02",
+   "kind": "shared_author"
+  },
+  {
+   "from": "M12",
+   "to": "M03",
+   "kind": "shared_author"
+  },
+  {
+   "from": "M02",
+   "to": "M10",
+   "kind": "cites"
+  },
+  {
+   "from": "M03",
+   "to": "M10",
+   "kind": "cites"
+  },
+  {
+   "from": "M03",
+   "to": "M09",
+   "kind": "cites"
+  },
+  {
+   "from": "M05",
+   "to": "M13",
+   "kind": "cites"
+  }
+ ],
+ "comparison": {
+  "label": "direct micro-tensile measurement across NMC GBs (n = 3; x_Li not reported)",
+  "source_id": "X6"
+ }
+}

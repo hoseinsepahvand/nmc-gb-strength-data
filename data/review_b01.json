@@ -1,0 +1,389 @@
+{
+ "_meta": {
+  "step": "B-01",
+  "protocol": "protocol/PREREG_B01_review_2026-09-22.md",
+  "compiled": "2026-09-22",
+  "note": "Every included row carries a verbatim source string. Category e requires proof the text was seen. Category f = could not open; NEVER folded into e. | 2026-09-23: 8 PDFs supplied by the user, each verified against the DOI printed inside it (rule R-09). Rezaei 2021 was found to have been in the library all along - my earlier 'missing' claim was wrong. | 2026-09-23 (session 3): M12 Xu et al. 2018 added by snowballing (lineage of the 100 MPa cluster); n = 12. | 2026-09-23: rule D-B01-1 applied (M12 e->d); M05 author list corrected. | 2026-09-23 (later): rule D-B01-1 re-applied to ALL rows: M06 b->d, M07 b->e; table_quote field added (paper's words only; editorial notes in square brackets). | 2026-09-24: Li et al. 2025 IJSS (DOI 10.1016/j.ijsolstr.2025.113300) resolved from (f) to M13, category (b), 100 MPa citing M05; n = 13. Tally bug fixed: RESOLVED is now tested in the blocker text, not in the dict keys. | 2026-09-24 (strict audit): M07 Wheatcroft 2023 moved to excluded (GBs not explicit: one cohesive surface on a pre-set diametral plane). IDs are kept stable, so M07 is now absent; n = 12. | 2026-09-25: documented re-run search (Crossref + OpenAlex, 5 framings each; search_log_2026-09-25.json) found two unscreened candidates (Tian et al. 2022 EFM and JES), added to unresolved_f pending full text. | 2026-09-26 (external audit A1/C2/C4): M01 Guichard d->c (inverse calibration to whole-particle indentation, arXiv full text p. 5); resolved Li 2025 record moved from unresolved_f to resolved_history. | 2026-09-26 (internal audit): Zhu X 2020 added to excluded (had been in no list); Zhang & Guo 2018 reason qualified. | 2026-09-26 (internal audit round 2): Min & Cho 2018, Allen 2021, Shen 2024 read in full and moved (f)->excluded (no numeric GB strength); Zhu X 2020 moved from excluded to (f). | 2026-09-26 (external audit 2, C1): the 272 title-screen records were re-screened and logged in screening_ledger_2026-09-25.json; 10 title-level includes beyond the record were read: 6 excluded, 3 duplicates of already-excluded papers (duplicates_of_screened), 1 to (f) (Sun et al. 2016 EML)."
+ },
+ "included": [
+  {
+   "id": "M01",
+   "cite": "Guichard, Mathieu & Woillez (2026), Batteries & Supercaps",
+   "doi": "10.1002/batt.202500749",
+   "symbol": "t^max",
+   "value_MPa": 400,
+   "interface": "GB (cohesive elements between primary particles)",
+   "source_verbatim": "tmax , which is now adjusted in accordance with experimental results. ... All the curves were obtained with tmax = 0.4 GPa, the value reproducing the experimental results of the left panel the most accurately.",
+   "category": "c",
+   "access": "full text (preprint arXiv:2601.02879 Table 1)",
+   "table_quote": "“Trial and error.” (source column of the parameter table; the running text, pp. 5–6, states that tmax was adjusted to experimental indentation results)",
+   "source_anchor": "arXiv:2601.02879 (preprint of DOI 10.1002/batt.202500749), pp. 5-6, Sec. 2.1 'Fracture of a single secondary particle and model calibration', calibration against flat-platen and cono-spherical nanoindentation peak force vs particle diameter (their Fig. 3, data of their ref. [29])",
+   "category_history": "d until 2026-09-26 (table cell read without the surrounding text); c from 2026-09-26 after external audit finding A1, verified against the full arXiv text (a private copy of the full text)"
+  },
+  {
+   "id": "M02",
+   "cite": "Xu, Yang, Yin, Liu, Cloetens, Liu, Lin & Zhao (2019), JMPS 129:160-183",
+   "doi": "10.1016/j.jmps.2019.05.003",
+   "symbol": "sigma_c,i",
+   "value_MPa": 100,
+   "interface": "GB",
+   "source_verbatim": "Table 1 caption: 'Parameters used in the theoretical modeling.' Row: 'sigma_c_i (MPa) | 100' with NO citation, while the adjacent row reads 'Gc_i (J/m2) | 0.11 (Xu et al., 2017a)'",
+   "category": "e",
+   "access": "full text PDF",
+   "table_quote": "“σc,i (MPa) | 100” [no citation in the row; the adjacent Gc,i row cites Xu et al. 2017a]"
+  },
+  {
+   "id": "M03",
+   "cite": "Bai, Zhao, Liu, Stein & Xu (2020), Scripta Mater 183:45-49",
+   "doi": "10.1016/j.scriptamat.2020.03.027",
+   "symbol": "sigma_max, tau_max",
+   "value_MPa": 100,
+   "interface": "GB",
+   "source_verbatim": "Table 1 caption: 'Material parameters of LiNixMnyCozO2 (NMC).' Row: 'Cohesive strength sigma max, tau max [MPa] 100'. No source column, no per-row citation.",
+   "category": "e",
+   "access": "full text PDF",
+   "table_quote": "“Cohesive strength σmax, τmax [MPa] | 100” [no source column, no per-row citation]"
+  },
+  {
+   "id": "M04",
+   "cite": "Chen, Peng, Wu, Furat, Schmidt & Xu (2025), JMPS 196:106013",
+   "doi": "10.1016/j.jmps.2024.106013",
+   "symbol": "sigma_c,i",
+   "value_MPa": 425,
+   "interface": "GB",
+   "source_verbatim": "Table 3 caption: 'Material parameters in the chemo-mechanical examples taken from [86, 23, 58, 64, 62]' - blanket, no per-row attribution",
+   "category": "b",
+   "access": "full text (arXiv:2407.20259)",
+   "table_quote": "“Material parameters … taken from [86, 23, 58, 64, 62]” [table caption; no per-row source]",
+   "note": " | 2026-09-25: values checked against arXiv 2407.20259 Table 3 (\"Material parameters in the chemo-mechanical examples taken from [23, 58, 62, 64, 86]\"): sigma_c,i 425 MPa, G_i 2.5 N/m, sigma_c,b 600 MPa, G_b 5 N/m, E0 printed as \"93000 [GPa]\" (read as 93 GPa); b 0.06-0.24 um in Fig. of model series. Preprint cites the refs in a different order than the journal table quote."
+  },
+  {
+   "id": "M05",
+   "cite": "Zhang, Zhao & Guo (2019), Int J Mech Sci 155:178-186",
+   "doi": "10.1016/j.ijmecsci.2019.02.042",
+   "symbol": "tensile and shear strength",
+   "value_MPa": 100,
+   "interface": "GB (cohesive zone)",
+   "source_verbatim": "Both the tensile and shear strength were defined to be 100 MPa [30,56].  -- [30] Zhu, Park & Sastry, simulation study; [56] Zhang & Guo, numerical computation. Both are MODELLING papers.",
+   "category": "b",
+   "access": "full text PDF (local library)",
+   "note_2026_09_23": "author list corrected (was 'Zhang, Mao, Wang & Xu'); PDF byline: Yuwei Zhang, Chunwang Zhao, Zhansheng Guo. Same paper also cites Xu et al. 2018 (ref [50]) for the fracture energy - the two lineage branches are not independent.",
+   "table_quote": "“Both the tensile and shear strength were defined to be 100 MPa [30,56].” [both refs are simulation papers]"
+  },
+  {
+   "id": "M06",
+   "cite": "Yamakawa, Nagasako, Yamasaki, Koyama & Asahi (2018), Solid State Ionics 319:209-217",
+   "doi": "10.1016/j.ssi.2018.02.013",
+   "symbol": "sigma_f",
+   "value_MPa": 500,
+   "interface": "GB",
+   "source_verbatim": "the sigma_f value was set to 0.5 GPa, which does not lead to the significant crack propagation  /  a critical strain of the order of 1% is needed to cause a fracture in most ceramic materials [31]. To meet this condition, a sigma_f value set to 1.0 GPa was also examined  -- ref [31] is D.J. Dunstan, 'Strain and strain relaxation in semiconductors'",
+   "category": "d",
+   "access": "full text PDF (local library)",
+   "note": "second value 1000 MPa examined; chosen partly so as not to produce significant cracking | 2026-09-25: author list corrected from Crossref (was \"Yamakawa & Miyazaki\").",
+   "table_quote": "“the σf value was set to 0.5 GPa, which does not lead to the significant crack propagation”",
+   "reclassified_2026_09_23": "b -> d under rule D-B01-1: 'was set to 0.5 GPa, which does not lead to the significant crack propagation' is a statement of the authors' own choice; ref [31] (Dunstan, strain relaxation in semiconductors) is attached only to the 1% critical-strain argument for the alternative 1.0 GPa. Re-read in library text 2026-09-23."
+  },
+  {
+   "id": "M08",
+   "cite": "Han, Ghosh, Lin & Zhao (2026), Experimental Mechanics",
+   "doi": "10.1007/s11340-025-01222-w",
+   "symbol": "t0_n, t0_s",
+   "value_MPa": 200,
+   "interface": "GB (cohesive elements along grain boundaries)",
+   "source_verbatim": "For ease of convergence, we set the tensile strength t0_n as 200 MPa, t0_s as 100 MPa, critical energy release rate for tension as 2 J/m2 and for shear as 1 J/m2.",
+   "category": "d",
+   "access": "full text",
+   "note": "shear value 100 MPa; justification is explicitly numerical, not physical",
+   "table_quote": "“For ease of convergence, we set the tensile strength t0n as 200 MPa”"
+  },
+  {
+   "id": "M09",
+   "cite": "Bi, Dong & Guo (2026), preprint (Shanghai Univ.)",
+   "doi": "10.2139/ssrn.7364221",
+   "symbol": "sigma",
+   "value_MPa": 100,
+   "interface": "GB (intergranular, explicit)",
+   "source_verbatim": "parameter table row: 'sigma | Intergranular fracture strength | 100 MPa | (Bai et al., 2020)' -- and the adjacent row 'G | Intergranular fracture energy | 1 J/m2 | (Xu et al., 2017)'",
+   "category": "b",
+   "access": "full text (local library, 2026-09-23)",
+   "note": "cites Bai et al. 2020, which is itself an (e) row giving no source at all - the chain terminates in nothing",
+   "table_quote": "“Intergranular fracture strength | 100 MPa | (Bai et al., 2020)”"
+  },
+  {
+   "id": "M10",
+   "cite": "Taghikhani, Weddle, Hoffman, Berger & Kee (2023), Electrochim Acta 460:142585",
+   "doi": "10.1016/j.electacta.2023.142585",
+   "symbol": "sigma_Ic = sigma_IIc",
+   "value_MPa": 100,
+   "interface": "GB (cohesive elements between primary particles)",
+   "source_verbatim": "Based on the reports in the literature, current model implements sigma_Ic = sigma_IIc = 100 MPa as the interfacial strength of NMC particles [11, 12].",
+   "category": "b",
+   "access": "full text (local library, 2026-09-23)",
+   "note": "CORRECTION: previously excluded as a cathode/electrolyte interface. The paper also models GB cohesive elements between primary particles - 'the highest stresses are predicted inside the NMC secondary particle, especially at the interfaces between primary particles' - so it belongs in the denominator.",
+   "table_quote": "“Based on the reports in the literature, current model implements σIc = σIIc = 100 MPa … [11, 12].” [both refs are models]"
+  },
+  {
+   "id": "M11",
+   "cite": "Taghikhani, Weddle, Berger & Kee (2021), J Electrochem Soc 168(8):080511",
+   "doi": "10.1149/1945-7111/ac1811",
+   "symbol": "tau_c",
+   "value_MPa": 100,
+   "interface": "GB (between primary particles)",
+   "source_verbatim": "The present model considers a constant interfacial ultimate strength of tau_c = 100 MPa between particles [15, 23].",
+   "category": "b",
+   "access": "scanned PDF, recovered by OCR (no text layer), 2026-09-23; refs [15]=Xu et al. 2018 Exp Mech 58:549, [23]=Zhu X et al. 2020 IJMS 178:105608, read by OCR of PDF p.17 (2026-09-23)",
+   "table_quote": "“a constant interfacial ultimate strength of τc = 100 MPa between particles [15, 23].” [both refs are models]"
+  },
+  {
+   "id": "M12",
+   "cite": "Xu, de Vasconcelos, Shi, Li & Zhao (2018), Exp Mech 58:549-559",
+   "doi": "10.1007/s11340-017-0292-0",
+   "symbol": "t0_n",
+   "value_MPa": 100,
+   "interface": "GB (cohesive zone between primary particles of an NMC secondary particle)",
+   "source_verbatim": "We set the interfacial strength t0n as 100 MPa, t0s and t0t as infinite to ignore the shear damage at the interface. The fracture toughness Gc is set as 0.11 J/m2 (unpublished work).",
+   "category": "d",
+   "access": "full text, author copy https://engineering.purdue.edu/kjzhao/papers/37.pdf (Firecrawl scrape 2026-09-23); DOI verified inside the PDF ('doi:10.1007/s11340-017-0292-0'), rule R-09",
+   "note": "Found 2026-09-23 by snowballing ref [15] of M11 and ref [9] of Zhu X et al. 2020 IJMS 178:105608. Classified (e) not (d): 'We set' gives neither a source nor any of the pre-registered words 'trial and error'/'assumed'/'chosen'. Earliest NMC grain-boundary use of 100 MPa found; received 24 Nov 2016, published online 12 May 2017. Title says 'Experimental Mechanics' but the 100 MPa is a model INPUT of its FE/CZM section.",
+   "classification_rule": "Rule D-B01-1 (2026-09-23, recorded in private project notes): a sentence in which the authors state that they themselves set/chose the value (any verb, with or without a stated reason) = (d); a value with no source and no statement of choice = (e). Applied to all rows: only M12 moves (e->d). M08 ('For ease of convergence, we set') stays (d). Category (a) is unaffected.",
+   "table_quote": "“We set the interfacial strength t0n as 100 MPa”"
+  },
+  {
+   "id": "M13",
+   "cite": "Li et al. (2025), Int J Solids Struct 313:113300",
+   "doi": "10.1016/j.ijsolstr.2025.113300",
+   "symbol": "fnp = fsp",
+   "value_MPa": 100,
+   "interface": "GB (cohesive joint units along grain boundaries of a 2D Voronoi NCM polycrystal particle, FDEM)",
+   "source_verbatim": "Table 1: 'Fracture tensile strength of joint unit fnp = fsp | 100 | MPa | Zhang et al. 2019b'; reference list: 'Zhang, Y., Zhao, C., Guo, Z., 2019b. Simulation of crack behavior of secondary particles in Li-ion battery electrodes during lithiation/de-lithiation cycles. Int. J. Mech. Sci. 155, 178-186.'",
+   "table_quote": "“Fracture tensile strength of joint unit fnp = fsp / 100 / MPa / Zhang et al. 2019b” [Zhang et al. 2019b = Zhang, Zhao & Guo 2019, a model]",
+   "category": "b",
+   "access": "full text supplied by the user 2026-09-24 (the authors' local reference library, read-only); DOI printed in the PDF 'https://doi.org/10.1016/j.ijsolstr.2025.113300' (rule R-09); table read with pdftotext -layout",
+   "note": "Resolved from unresolved_f on 2026-09-24. The cited source Zhang, Zhao & Guo 2019 is M05, whose own 100 MPa traces to Zhu, Park & Sastry 2012 (TiO2 density analogy) and to the unopened Zhang & Guo 2018. So M13 sits on root 2 of the 100 MPa lineage. The same joint units are also used for transgranular cracking with the same strength; only the fracture energy differs (0.5 vs 1.5 J/m2, text: 'The nucleation of a crack occurs when the fractur energy reaches the threshold (0.5 J/m2 for intergranular fracture, and 1.5 J/m2 for transgranular fracture)')."
+  }
+ ],
+ "excluded": [
+  {
+   "cite": "Chen et al. (2024), J Power Sources 596:234054",
+   "reason": "GB differentiated ONLY by fracture energy (G_gb as a fraction of G_grain); the single sigma_c = 600 MPa is a grain property | Note 2026-09-26: the parameter table gives one strength (600 MPa); the text calls the GBs 'relatively weaker GBs, i.e., lower tensile failure strength and fracture energy', but only the halved fracture energy is specified.",
+   "flag": "text says 'weaker GBs, i.e., lower tensile failure strength and fracture energy as compared to grains' but the parameters lower only the energy",
+   "doi": "10.1016/j.jpowsour.2024.234054"
+  },
+  {
+   "cite": "Asheri, Rezaei, Glavas & Xu (2024), Eng Fract Mech 309:110370",
+   "reason": "cohesive zone present but NO numeric strength is stated; parameterised by damage initiation energy Y0 = 0.3 Pa.m and interface stiffness k = 5e16 Pa/m",
+   "flag": "IMPLICIT STRENGTH - a peak traction exists in the model but no reader can read it off the paper",
+   "doi": "10.1016/j.engfracmech.2024.110370"
+  },
+  {
+   "cite": "Singh & Pal (2022), JMPS 163:104839",
+   "reason": "LiMn2O4 spinel, not a layered oxide; and no numeric GB strength (only G_c grain = 5, G_c GB = 1 J/m2)",
+   "doi": "10.1016/j.jmps.2022.104839"
+  },
+  {
+   "cite": "Wang et al. (2025), Eng Fract Mech 325:111250",
+   "reason": "the sigma_c(interface) = 50 MPa is the particle/conductive-matrix interface, not a grain boundary",
+   "doi": "10.1016/j.engfracmech.2025.111250"
+  },
+  {
+   "cite": "Roque, Segurado & Montero-Chacon (2024), Mater Des 248:113464",
+   "reason": "grain boundaries not represented explicitly; stochastic element-wise Weibull strength",
+   "doi": "10.1016/j.matdes.2024.113464"
+  },
+  {
+   "cite": "Xu & Zhao (2018), JMPS 121:258-280",
+   "reason": "interface properties given only as dimensionless groups; no numeric strength",
+   "doi": "10.1016/j.jmps.2018.07.021"
+  },
+  {
+   "cite": "Bistri & Di Leo (2021), J Electrochem Soc",
+   "reason": "LCO/LGPS cathode-solid-electrolyte interface, not a GB",
+   "doi": "10.1149/1945-7111/abe8ea"
+  },
+  {
+   "cite": "Nagda, Ekstrom & Kulachenko (2025), preprint",
+   "reason": "GB weakened via a fracture-energy factor only; no numeric strength",
+   "doi": "10.21203/rs.3.rs-6620040/v1"
+  },
+  {
+   "cite": "Chen et al. (2025), Adv Funct Mater (wetting x fracture)",
+   "reason": "the sigma_c,i = 300 MPa belongs to the alpha-V2O5/platinum interface, not a layered-oxide GB",
+   "doi": "10.1002/adfm.202517282"
+  },
+  {
+   "cite": "Cunez et al. (2026), EES Batteries",
+   "reason": "DEM cohesion ENERGY DENSITY back-calculated from bulk modulus; no strength in MPa",
+   "doi": "10.1039/d6eb00095a"
+  },
+  {
+   "cite": "Zhu, Park & Sastry (2012), J Electrochem Soc 159(4):A492-A498",
+   "reason": "LiMn2O4 spinel, single isolated particle, NO grain boundary exists in the model - lineage source only",
+   "doi": "10.1149/2.045204jes"
+  },
+  {
+   "cite": "Zhang & Guo (2018), Acta Mech Sin 34(4):706-715",
+   "reason": "LiMn2O4 spinel, single particle XFEM - lineage source only (full text opened 2026-09-28, user-supplied PDF: Table 1, p. 709, 'Maximum principal tensile stress (σTS) / MPa / 100 / [23]', [23] = Zhu, Park & Sastry 2012 J Electrochem Soc 159:A492; a relay of that root, not a third root)",
+   "doi": "10.1007/s10409-018-0764-1"
+  },
+  {
+   "cite": "Singh & Pal (2020), Int J Plasticity 127:102636",
+   "doi": "10.1016/j.ijplas.2019.11.015",
+   "reason": "interface strengths are reported only in NORMALISED (dimensionless) form - 'interface strength parameters are normalized as ... sigma_n_max = beta*sigma_nmax'; no value in MPa anywhere. Same ground as Xu & Zhao 2018.",
+   "flag": "the only MPa figure in the paper is the cathode BULK yield strength, 320 MPa - not a grain boundary"
+  },
+  {
+   "cite": "Wheatcroft et al. (2023), Batteries & Supercaps e202300032",
+   "doi": "10.1002/batt.202300032",
+   "reason": "GBs not resolved explicitly (pre-registered exclusion): the FE model is a homogeneous quarter particle with one cohesive surface on the expected diametral fracture plane - 'A tensile cohesive zone surface is placed on the expected fracture plane.' Same rule that excluded Roque et al. 2024.",
+   "moved": "2026-09-24, strict audit (R-13): previously M07, category (e), 200 MPa. Removal is post hoc and disclosed in Section 2; it cannot move any row into category (a). It also retires the R-13 tie-break question about its ref [20], which attaches to the K_IC range ('consistent with the wider literature.[20]').",
+   "former_row": {
+    "id": "M07",
+    "cite": "Wheatcroft et al. (2023), Batteries & Supercaps e202300032",
+    "doi": "10.1002/batt.202300032",
+    "symbol": "sigma_0",
+    "value_MPa": 200,
+    "interface": "GB (FE model of the in-situ compression test)",
+    "source_verbatim": "based upon a cohesive strength s0 =200 MPa and values of fracture toughness in the range KIC =0.05 MPam1/2 to KIC =0.2 MPam1/2 which are consistent with the wider literature",
+    "category": "e",
+    "access": "full text PDF",
+    "note": "primarily an EXPERIMENTAL paper; this 200 MPa is a model INPUT, not its measured 207+/-49 MPa output",
+    "table_quote": "“based upon a cohesive strength σ0 = 200 MPa” [the sentence's ref. [20] follows the K_IC range and reports single-crystal shear strength]",
+    "reclassified_2026_09_23": "b -> e: the only citation in the sentence, [20] = Stallard et al., Joule 6 (2022) 984, 'Effect of Lithiation upon the Shear Strength of NMC811 Single Crystals', follows the K_IC range ('which are consistent with the wider literature.[20]'); its library text contains no cohesive, tensile or fracture strength and no '200 MPa' (grep 2026-09-23). So the 200 MPa itself carries no source. Checked against category (a): [20] is experimental, but it does not report the value."
+   }
+  },
+  {
+   "cite": "Min & Cho (2018), PCCP 20(42):27115",
+   "reason": "close read 2026-09-26 (full text in hand since 2026-09-23): no numeric GB strength is reported; GBs enter a DEM through a shifted-force Lennard-Jones well depth e (Table 1, range given in reduced units) fitted to nanoindentation - fails the pre-registered 'numeric GB strength' inclusion rule (moved from (f) to excluded 2026-09-26 after internal audit round 2)",
+   "doi": "10.1039/c8cp04927k"
+  },
+  {
+   "cite": "Allen et al. (2021), J Power Sources 512:230415",
+   "reason": "close read 2026-09-26: the word 'strength' does not occur in the full text; no numeric GB strength - fails the pre-registered inclusion rule (moved from (f) to excluded 2026-09-26 after internal audit round 2)",
+   "doi": "10.1016/j.jpowsour.2021.230415"
+  },
+  {
+   "cite": "Shen et al. (2024), ACS Appl Mater Interfaces 16(42):57074",
+   "reason": "close read 2026-09-26: energy-based phase-field model; GBs differ only by a lower fracture toughness / critical energy release rate, no GB strength parameter - fails the pre-registered inclusion rule (moved from (f) to excluded 2026-09-26 after internal audit round 2)",
+   "doi": "10.1021/acsami.4c11691"
+  },
+  {
+   "cite": "Liu, Roters, Raabe et al. (2024), Nat Commun 15, 'Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries' (PMC11393410)",
+   "doi": "10.1038/s41467-024-52123-w",
+   "access": "full text read 2026-09-27: publisher PDF (nature.com, open access) and PMC JATS XML, a private copy of the full text",
+   "reason": "Does not model fracture, so no GB strength exists: NMC811 polycrystal with crystal plasticity; 'grain boundaries are represented by two layers of elements located between adjacent grains' with no cohesive or damage law. Quotes checked against the PDF: 'the current model does not explicitly account for mechanical fracture' (p. 3, 'Theoretical framework and model setup'); 'While this study effectively captures the heterogeneous stress response and crystalline defect formation induced by compositional strains, it does not account for crack formation.' (p. 8, 'Crack formation in composite cathodes'; the earlier record gave p. 6). The only MPa/GPa values are electrolyte yield strengths (200-450 MPa sulfide, 2 GPa oxide) and computed stresses.",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  },
+  {
+   "cite": "Boyce, Martinez-Paneda, Wade, Zhang, Bailey, Heenan, Brett & Shearing (2022), J Power Sources 525:231119 (arXiv:2202.09572)",
+   "doi": "10.1016/j.jpowsour.2022.231119",
+   "access": "full text read 2026-09-27: arXiv:2202.09572 PDF (accepted version), a private copy of the full text",
+   "reason": "GBs not represented explicitly (pre-registered exclusion): phase-field model of an XCT-reconstructed NMC622 electrode, 'NMC622 was treated as an isotropic linear-elastic solid'; the authors 'focus exclusively on the large voids and cracks that result from synthesis and manufacture' (Introduction). The strength is a bulk particle strength: Table 1 'σc MPa 100MPa Xu et al. [27]'; 'The Young's modulus and fracture toughness of NMC were obtained from [27] while we estimated the phase field length parameter, l, through its relation with the material strength σc' (Sec. 2, material properties). Checked against the PDF. Lineage note: another member of the 100 MPa / Xu cluster.",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  },
+  {
+   "cite": "Xia, Mu, Xu, Wang, Wei, Liu, Pianetta, Zhao, Yu, Lin & Liu (2018), Nano Energy 53:753-762",
+   "doi": "10.1016/j.nanoen.2018.09.051",
+   "access": "author manuscript (par.nsf.gov/servlets/purl/10110399) could not be retrieved on 2026-09-27 (timeout from WSL, HTTP 429 in the browser); assessment still rests on the 2026-09-26 web summary, corroborated by Besli et al. 2019 (checked PDF), which describes this paper's model as the '3D maze' diffusion-path algorithm",
+   "reason": "No fracture mechanics model and no numeric strength: NMC622 imaging study; the only numerical model is a geometric '3D maze' Li-diffusion-path algorithm around imaged cracks (web summary; not checked against the PDF). Besli et al. 2019 (PDF p. 14) cite this paper [ref. 30] for the same algorithm: 'we adapted a numerical model that we developed recently30 and calculated the cracking induced diffusion deterrent of the Li ions. By numerically solving the “3D maze” ...'.",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": false
+  },
+  {
+   "cite": "Besli, Xia, Kuppan et al. (2019), Chem Mater 31 (NCA in solid-state polymer batteries)",
+   "doi": "10.1021/acs.chemmater.8b04418",
+   "access": "full text read 2026-09-27: eScholarship author PDF qt91v3r4m2, a private copy of the full text",
+   "reason": "No fracture mechanics model and no numeric strength: experimental NCA study; the only model is the '3D maze' diffusion-path algorithm of Xia et al. 2018. Checked against the PDF (p. 14): 'we adapted a numerical model that we developed recently30 and calculated the cracking induced diffusion deterrent of the Li ions.' No 'cohesive', 'finite element', 'MPa' or 'GPa' in the text.",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  },
+  {
+   "cite": "Zheng, Xue et al. (2025), Science Advances (PMC12506959)",
+   "doi": "10.1126/sciadv.ady7189",
+   "access": "full text read 2026-09-27: PMC JATS XML (PMC12506959), a private copy of the full text",
+   "reason": "Not a model: experimental study of NMC811 / LiNbO3-coated NMC811 in solid-state cells; Materials and Methods headings are 'Materials and chemicals', 'Electrochemical measurements', 'Characterization' (checked in the XML); 'cohesive zone and phase-field models' appear only in the introduction as prior work. Side note for Fig. 1: single-particle compression 'fracture strength (estimated as the load at fracture divided by the cross-sectional area)', values only in fig. S11 (not opened).",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  },
+  {
+   "cite": "Barai, Higa, Ngo, Curtiss & Srinivasan (2019), J Electrochem Soc 166(10)",
+   "doi": "10.1149/2.0321910jes",
+   "access": "abstract read 2026-09-27 on OSTI.GOV record 1812866 (publisher page blocked); title confirmed by Crossref and OpenAlex",
+   "reason": "Non-layered material: the grain boundaries are in the garnet solid electrolyte, not in a layered-oxide cathode. Abstract (OSTI record, checked): 'Solid state electrolytes (SSEs) with garnet structures and chemical composition Li7La3Zr2O12 (LLZO) are being actively considered as the electrolyte for next-generation lithium ion batteries. These LLZO-based ceramic SSEs are polycrystalline and possess distinct grain-interior/grain-boundary (GI/GB) microstructure.'",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  }
+ ],
+ "unresolved_f": [
+  {
+   "cite": "Han, Sharma & Zhao (2024), J Power Sources 595:234034",
+   "doi": "10.1016/j.jpowsour.2023.234034",
+   "blocker": "PDF received 2026-09-23; values are in the Supplementary only, which was not in the file",
+   "why": "t0 and Gamma defined in the text"
+  },
+  {
+   "cite": "Chen et al. (2025), Nano Energy 141:111104",
+   "doi": "10.1016/j.nanoen.2025.111104",
+   "blocker": "CLOSED - no preprint, no repository, no author copy; Unpaywall is_oa false, Semantic Scholar status CLOSED, ResearchGate 'No full-text available'. GB IS explicit (cohesive zone, per the abstract). Route left: ResearchGate 'Request full-text' from the authors, or institutional access.",
+   "why": "uses a cohesive zone model"
+  },
+  {
+   "cite": "Tu et al. (2026), Adv Energy Mater 16(13)",
+   "doi": "10.1002/aenm.202506427",
+   "blocker": "PDF received 2026-09-23; confirmed no number in the main text, SI-only",
+   "why": "sigma_n^c defined in the main text, number in the SI"
+  },
+  {
+   "cite": "Tian, Gao, Huang, Li & Guo (2022), Eng Fract Mech 266:108381",
+   "doi": "10.1016/j.engfracmech.2022.108381",
+   "blocker": "Found by the documented re-run search of 2026-09-25 (search_log_2026-09-25.json). Paywalled (OpenAlex is_oa false); full text requested from the user.",
+   "why": "title: intergranular fracture inside randomly aggregated NCM polycrystalline particle - GBs explicit by title; same group as M05/M09"
+  },
+  {
+   "cite": "Tian, Gao & Guo (2022), J Electrochem Soc 169(9):090513",
+   "doi": "10.1149/1945-7111/ac8ee3",
+   "blocker": "Found by the documented re-run search of 2026-09-25. Open access per OpenAlex, but the publisher PDF returned an HTML challenge page to the scripted download; full text requested from the user.",
+   "why": "title: crack evolution of polycrystalline NCM particle during cycling - likely explicit GBs; same group as M05/M09"
+  },
+  {
+   "cite": "Zhu X, Chen Y, Chen H & Luan W (2020), Int J Mech Sci 178:105608",
+   "doi": "10.1016/j.ijmecsci.2020.105608",
+   "blocker": "value seen (\"Damage initiation stress (MPa) 100 [9]\", [9] = Xu 2018) but whether grain boundaries are resolved explicitly could not be confirmed from the accessible text; met only through the 100 MPa citation chain (listed 2026-09-26 after internal audit; it had been in no list)",
+   "why": "would be category (b) if GBs are explicit"
+  },
+  {
+   "cite": "Sun, Sui, Song, Zheng, Lu & Korsunsky (2016), Extreme Mech Lett 9(3):449-458",
+   "doi": "10.1016/j.eml.2016.03.018",
+   "blocker": "Paywalled; only abstract, section headings and conclusion visible on ScienceDirect; no author copy found (searched Oxford ORA / ResearchGate via WebSearch 2026-09-26). The cathode chemistry (section 'Description of material and experimental observations') and the numeric cohesive strength could not be seen.",
+   "why": "GBs are explicit by the abstract: DEM polycrystalline aggregate with cohesive cracks at primary-particle interfaces; abstract (via summariser, verify): 'cracks to form at the interfaces and grain boundaries when stresses reach the cohesive strength limit'. Would be included if the cathode is layered and a numeric strength is given.",
+   "screen_source": "title re-screen 2026-09-26"
+  }
+ ],
+ "resolved_history": [
+  {
+   "cite": "Li et al. (2025), Int J Solids Struct 313:113300",
+   "doi": "10.1016/j.ijsolstr.2025.113300",
+   "blocker": "RESOLVED 2026-09-24 -> included as M13 (full text supplied by the user). Previous blocker: CLOSED - same checks, same result. GB IS explicit (FDEM joint elements). The publisher's free preview does give the GB FRACTURE ENERGY with its source word: 'The intergranular fracture energy and transgranular fracture energy were ASSUMED to be 0.5 and 1.5 J/m2' - category (d) for the ENERGY, not for the strength. Route left: author request.",
+   "why": "FDEM normally needs a tensile strength too"
+  }
+ ],
+ "duplicates_of_screened": [
+  {
+   "cite": "Asheri, Rezaei, Glavas & Xu (2024), SSRN preprint of Eng Fract Mech 309:110370",
+   "doi": "10.2139/ssrn.4705599",
+   "reason": "Duplicate: preprint of a paper already excluded in review_b01.json (Asheri et al. 2024 EFM 309:110370: cohesive zone present but no numeric strength; parameterised by damage-initiation energy Y0 and interface stiffness k). GBs are explicit (cohesive inter-granular fracture), so the exclusion rests only on the missing numeric strength. Caveat: the SSRN preprint full text itself was not opened; the decision follows the published version."
+  },
+  {
+   "cite": "Wang, Tan & Li (2024), SSRN preprint (v1, posted 12 Dec 2024) of Eng Fract Mech 325:111250",
+   "doi": "10.2139/ssrn.5053050",
+   "reason": "Duplicate: preprint of a paper already excluded in review_b01.json (Wang et al. 2025 EFM 325:111250): the debonding interface is 'storage particles and the conductive matrix (usually composed of carbon and PVDF binder)' (via summariser), not a grain boundary; generic storage particle, no GBs."
+  },
+  {
+   "cite": "Wang, Tan & Li (2024), SSRN preprint (second posting, 14 Dec 2024) of Eng Fract Mech 325:111250",
+   "doi": "10.2139/ssrn.5056363",
+   "reason": "Duplicate of 10.2139/ssrn.5053050 and of the already-excluded EFM 325:111250; same reason (particle/conductive-matrix interface, not a GB)."
+  }
+ ]
+}

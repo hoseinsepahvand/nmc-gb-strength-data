@@ -1,0 +1,3314 @@
+{
+ "date": "2026-09-25",
+ "queries": [
+  {
+   "service": "Crossref REST /works query.bibliographic",
+   "query": "cohesive zone grain boundary strength intergranular fracture NMC cathode particle",
+   "n": 40,
+   "hits": [
+    {
+     "doi": "10.4028/0-87849-413-8.9",
+     "title": "Modelling Intergranular Microfracture Using a Boundary Cohesive Grain Element Formulation",
+     "year": 2006,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.5056113",
+     "title": "A Novel Anisotropic Grain Boundary Cohesive Zone Model for Fracture Simulation of Polycrystalline Nickel-Based Superalloy",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2025.110832",
+     "title": "A novel anisotropic grain boundary cohesive zone model for fracture simulation of polycrystalline nickel-based superalloy",
+     "year": 2025,
+     "already_screened": false
+    },
+    {
+     "doi": "10.4028/b-6nbrzc",
+     "title": "Grain Boundary Chemistry and Intergranular Fracture",
+     "year": 1989,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1115/1.0004248v",
+     "title": "Molecular Dynamics Simulation Based Cohesive Zone Representation of Intergranular Fracture Processes in Bicrystalline Graphene",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2013.05.011",
+     "title": "Cohesive element approach to grain level modelling of intergranular cracking",
+     "year": 2013,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.rinp.2018.10.001",
+     "title": "Cohesive zone modeling of hydrogen-induced delayed intergranular fracture in high strength steels",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.4028/www.scientific.net/kem.324-325.9",
+     "title": "Modelling Intergranular Microfracture Using a Boundary Cohesive Grain Element Formulation",
+     "year": 2006,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/b978-1-4832-8423-1.50110-3",
+     "title": "High Temperature Intergranular Fracture Enhanced by Grain Boundary Migration in Alpha Iron-Tin Alloy",
+     "year": 1982,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2017.03.016",
+     "title": "Micromechanical boundary element modelling of transgranular and intergranular cohesive cracking in polycrystalline materials",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.4028/www.scientific.net/msf.46.25",
+     "title": "Grain Boundary Design for the Control of Intergranular Fracture",
+     "year": 1991,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/9781118663547.ch93",
+     "title": "Influence of Grain Boundary Structure on Interfacial Fracture Under Tensile Loading: Cohesive Zone Model Informed by Atomistic Simulations",
+     "year": 2013,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2021.108167",
+     "title": "Development of a microstructural cohesive zone model for intergranular hydrogen environmentally assisted cracking",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.4028/www.scientific.net/msf.46.335",
+     "title": "Grain Boundary Chemistry and Intergranular Fracture in Austenitic Nickel-Base Alloys",
+     "year": 1991,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2172/940235",
+     "title": "THE EFFECT OF INTERSTITIAL N ON GRAIN BOUNDARY COHESIVE STRENGTH IN Fe",
+     "year": 2003,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1557/proc-586-237",
+     "title": "Grain Boundary Microstructure Dependent – Intergranular Fracture in Polycrystalline Molybdenum",
+     "year": 1999,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1115/imece2020-23624",
+     "title": "Molecular Dynamics Simulation Based Cohesive Zone Representation of Intergranular Fracture Processes in Bicrystalline Graphene",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2018.06.031",
+     "title": "Intergranular mechanical behavior in a blade groove-like component by crystal plasticity model with cohesive zone model",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.tafmec.2022.103733",
+     "title": "On the calibration of the cohesive strength for cohesive zone models in finite element analyses",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1063/1.4954682",
+     "title": "Atomistically derived cohesive zone model of intergranular fracture in polycrystalline graphene",
+     "year": 2016,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s10704-018-0319-2",
+     "title": "Influence of grain boundary misorientation on intergranular fracture of nanocrystalline palladium",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2026.112550",
+     "title": "Joint scaling of cohesive strength and CF22 fatigue parameters for accelerated fatigue cohesive-zone simulations",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/b978-0-08-034804-9.50174-1",
+     "title": "Effect of Silicon on the Grain Boundary Segregation of Phosphorus and the Phosphorus Induced Intergranular Fracture in High Purity Fe-Si-P Alloys",
+     "year": 1989,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/0026-0657(93)90304-b",
+     "title": "Grain boundary segregation in molybdenum alloys and effect on intergranular fracture",
+     "year": 1993,
+     "already_screened": false
+    },
+    {
+     "doi": "10.5006/1.3585110",
+     "title": "Grain-Boundary Chemistry and Intergranular Fracture in Austenitic Nickel-Base Alloys—A Review",
+     "year": 1990,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1557/proc-122-379",
+     "title": "Grain Boundary Segregation of Solutes and Intergranular Fracture in Iron Alloys",
+     "year": 1988,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1201/9780429070655-107",
+     "title": "Cohesive Zone Modeling of Grain Boundary Micro-cracking in Ceramics",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1115/pvp2006-icpvt-11-93492",
+     "title": "FEM-MD Coupling Simulation for Strength and Fracture Analyses Near Grain Boundary Zone of Structural Steels",
+     "year": 2006,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1103/physrevlett.58.61",
+     "title": "Localized Grain-Boundary Electronic States and Intergranular Fracture",
+     "year": 1987,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/b978-0-08-034804-9.50215-1",
+     "title": "The Grain Boundary Character Distribution and Intergranular Corrosion of Columnar Grain Structure in Iron–Chromium Alloys",
+     "year": 1989,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2019.106543",
+     "title": "A coupled diffusion and cohesive zone model for intergranular stress corrosion cracking in 316L stainless steel exposed to cold work in primary water conditions",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1051/jphyscol:1988572",
+     "title": "GRAIN BOUNDARY INTERNAL FRICTION AND RELATIONSHIP TO INTERGRANULAR FRACTURE",
+     "year": 1988,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/bf02646987",
+     "title": "Intergranular fracture by slip/grain boundary interaction",
+     "year": 1990,
+     "already_screened": false
+    },
+    {
+     "doi": "10.4028/www.scientific.net/msf.46.253",
+     "title": "Grain Boundary Segregation in Iron and Its Alloys and Its Effect on Intergranular Fracture",
+     "year": 1991,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/pamm.201710104",
+     "title": "Application and parameter identification of cohesive zone elements for intergranular fracture in thin layer",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/bf03025946",
+     "title": "Grain boundary segregation and intergranular fracture in Ferrite containing Mo, Si or Al",
+     "year": 1996,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/0036-9748(85)90133-4",
+     "title": "Intergranular fracture and grain boundary chemistry of Ni3Al and Ni3Si",
+     "year": 1985,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/0036-9748(89)90330-x",
+     "title": "Nickel enrichment near grain boundaries in chill cast Ni3Al alloys and its relation to grain boundary cohesive strength",
+     "year": 1989,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.compstruc.2015.11.004",
+     "title": "2D analysis of intergranular dynamic crack propagation in polycrystalline materials a multiscale cohesive zone model and dual reciprocity boundary elements",
+     "year": 2016,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1080/01418617808239197",
+     "title": "Grain boundary sliding and intergranular fracture behaviour of copper bicrystals",
+     "year": 1978,
+     "already_screened": false
+    }
+   ]
+  },
+  {
+   "service": "OpenAlex /works search",
+   "query": "cohesive zone grain boundary strength intergranular fracture NMC cathode particle",
+   "n": 24,
+   "hits": [
+    {
+     "doi": "10.1038/s41560-021-00782-0",
+     "title": "Reactive boride infusion stabilizes Ni-rich cathodes for lithium-ion batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.jpowsour.2024.234054",
+     "title": "Cohesive phase-field chemo-mechanical simulations of inter- and trans- granular fractures in polycrystalline NMC cathodes via image-based 3D reconstruction",
+     "year": 2024,
+     "already_screened": true
+    },
+    {
+     "doi": "10.1149/2.1751713jes",
+     "title": "Mechanical and Structural Degradation of LiNixMnyCozO2Cathode in Li-Ion Batteries: An Experimental Study",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/aenm.202201939",
+     "title": "Oxide‐Based Solid‐State Batteries: A Perspective on Composite Cathode Architecture",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/batt.202300032",
+     "title": "Fracture Testing of Lithium‐Ion Battery Cathode Secondary Particles in‐situ inside the Scanning Electron Microscope",
+     "year": 2023,
+     "already_screened": true
+    },
+    {
+     "doi": "10.1088/2515-7655/ab83e1",
+     "title": "Fracture behavior in battery materials",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-024-52123-w",
+     "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.ijmecsci.2020.105608",
+     "title": "The diffusion induced stress and cracking behaviour of primary particle for Li-ion battery electrode",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1126/science.abg5998",
+     "title": "Solid-state batteries: The critical role of mechanics",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.jpowsour.2022.231119",
+     "title": "Cracking predictions of lithium-ion battery electrodes by X-ray computed tomography and modelling",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s11340-025-01222-w",
+     "title": "Microstructure Informed Mechanical Properties and Chemomechanical Degradation of Battery Cathode Particles",
+     "year": 2025,
+     "already_screened": true
+    },
+    {
+     "doi": "10.1016/j.commatsci.2020.109990",
+     "title": "Microscale diffusion-mechanics model for a polymer-based solid-state battery cathode",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/1945-7111/ac8ee3",
+     "title": "Microstructural Adjusting Crack Evolution of Polycrystalline NCM Particle during Charge/Discharge Cycle",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1126/sciadv.ady7189",
+     "title": "Unravelling electro-chemo-mechanical interplay in layered oxide cathode degradation in solid-state batteries",
+     "year": 2025,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/1945-7111/acd47e",
+     "title": "Chemo-Mechanical Analysis of Lithiation/Delithiation of Ni-rich Single Crystals",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.21203/rs.3.rs-6620040/v1",
+     "title": "Exploring the Interaction Between Particle Cracking and Expansion in NMC811 Using an Electro-Chemo-Mechanical Model",
+     "year": 2025,
+     "already_screened": true
+    },
+    {
+     "doi": "",
+     "title": "Electrochemomechanical fatigue and fracture in electrode and electrolyte materials for Li-Ion batteries",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.est.2024.113863",
+     "title": "Review of recent progress in sintering of solid-state batteries: Application and modelling",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.26083/tuprints-00017542",
+     "title": "Chemo-mechanical Modeling of Lithium-Ion Batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "",
+     "title": "High performance alloy electroforming",
+     "year": 1989,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s40684-026-00885-7",
+     "title": "Dry Process for Green Manufacturing of Battery Electrodes: Structural Evolution of Freestanding Film During Roll-to-Roll Processing",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.48550/arxiv.2601.02879",
+     "title": "Finite Element Simulation of NMC Particle Fracture during Calendering: a Route to Optimize Electrode Microstructures",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "",
+     "title": "Finite Element Simulation of NMC Particle Fracture during Calendering: a Route to Optimize Electrode Microstructures",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.48550/arxiv.2407.20259",
+     "title": "A length-scale insensitive cohesive phase-field interface model: application to concurrent bulk and interface fracture simulation in Lithium-ion battery materials",
+     "year": 2024,
+     "already_screened": false
+    }
+   ]
+  },
+  {
+   "service": "Crossref REST /works query.bibliographic",
+   "query": "phase-field fracture polycrystalline cathode intergranular cracking lithium-ion",
+   "n": 40,
+   "hits": [
+    {
+     "doi": "10.2139/ssrn.5274461",
+     "title": "A Cohesive Phase-Field Method for Seamlessly Modelling Intergranular and Transgranular Fracture in Polycrystalline Materials",
+     "year": 2025,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.5010213",
+     "title": "A Cohesive Phase-Field Method for Seamlessly Modelling Intergranular and Transgranular Fracture in Polycrystalline Materials",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.4705599",
+     "title": "Microstructure Impact on Chemo-Mechanical Fracture of Polycrystalline Lithium-Ion Battery Cathode Materials",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2024.110370",
+     "title": "Microstructure impact on chemo-mechanical fracture of polycrystalline lithium-ion battery cathode materials",
+     "year": 2024,
+     "already_screened": true
+    },
+    {
+     "doi": "10.1016/j.apenergy.2025.127105",
+     "title": "Phase field modelling of cracking and capacity fade in core-shell cathode particles for lithium-ion batteries",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2017.03.016",
+     "title": "Micromechanical boundary element modelling of transgranular and intergranular cohesive cracking in polycrystalline materials",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2008.11.004",
+     "title": "Simulation for intergranular stress corrosion cracking based on a three-dimensional polycrystalline model",
+     "year": 2009,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s10704-025-00900-z",
+     "title": "A cohesive phase-field method for seamlessly modelling intergranular and transgranular fracture in polycrystalline materials",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acssuschemeng.0c05011.s001",
+     "title": "Superiority of Single-Crystal to Polycrystalline LiNixCoyMn1xyO2 Cathode Materials in Storage Behaviors for Lithium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.ijplas.2019.11.015",
+     "title": "Coupled chemo-mechanical modeling of fracture in polycrystalline cathode for lithium-ion battery",
+     "year": 2020,
+     "already_screened": true
+    },
+    {
+     "doi": "10.1016/j.electacta.2017.12.176",
+     "title": "Cathode materials with cross-stack structures for suppressing intergranular cracking and high-performance lithium-ion batteries",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1201/b11646-132",
+     "title": "Analysis of uniaxial tensile fracture of monomineral polycrystalline rock based on intergranular cracking",
+     "year": 2011,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.6613175",
+     "title": "Physics-Informed Neural Network Framework for Phase-Field Modeling of Intergranular Fracture",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.6570359",
+     "title": "Physics-informed Neural Network Framework for Phase-field Modeling of Intergranular Fracture",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.5c19385.s001",
+     "title": "Fast-Charging Lithium-Ion Pouch Cell by Constructing a Solid-Phase Lithium-Conducting Network in a Compacted Cathode",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.9b12578.s001",
+     "title": "Superior Stability Secured by a Four-Phase Cathode Electrolyte Interface on a Ni-Rich Cathode for Lithium Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.5056363",
+     "title": "Fracture of Storage Particle and Interfacial Debonding in Lithium-Ion Batteries: A Phase Field Model",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.5053050",
+     "title": "Fracture of Storage Particle and Interfacial Debonding in Lithium-Ion Batteries: A Phase Field Model",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1520/stp16319s",
+     "title": "Analysis of the Intergranular Cracking Process Inside Polycrystalline Heat-Resistant Materials Under Creep-Fatigue Conditions",
+     "year": 1997,
+     "already_screened": false
+    },
+    {
+     "doi": "10.21203/rs.3.rs-9407614/v1",
+     "title": "Physics-Informed Neural Network Framework for Phase-Field Modeling of Intergranular Fracture",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2025.111250",
+     "title": "Fracture of storage particle and interfacial debonding in lithium-ion batteries: A phase field model",
+     "year": 2025,
+     "already_screened": true
+    },
+    {
+     "doi": "10.1021/acsami.0c21361.s001",
+     "title": "Correction to Superior Stability Secured by a Four-phase Cathode Electrolyte Interface on Ni-rich Cathode for Lithium ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2022.108518",
+     "title": "Phase field model coupling with strain gradient plasticity for fracture in lithium-ion battery electrodes",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.4c00514.s001",
+     "title": "Comparison Study of a Thermal-Driven Microstructure in a High-Ni Cathode for Lithium-Ion Batteries: Critical Calcination Temperature for Polycrystalline and Single-Crystalline Design",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2011.06.019",
+     "title": "Hydrogen assisted intergranular cracking in steels",
+     "year": 2011,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/jacs.8b13438.s001",
+     "title": "Phase Control on Surface for the Stabilization of High Energy Cathode Materials of Lithium Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.70675/dd5dc948z70e4z44bazba35zffea98517bfa",
+     "title": "Intergranular stress corrosion cracking of ion irradiated 304L stainless steel in PWR environment",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2012.08.005",
+     "title": "Intergranular crack nuclei in polycrystalline alumina",
+     "year": 2012,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.5b10219.s001",
+     "title": "Layered Lithium-Rich Oxide Nanoparticles Doped with Spinel Phase: Acidic Sucrose-Assistant Synthesis and Excellent Performance as Cathode of Lithium Ion Battery",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2024.110251",
+     "title": "An Efficient FEniCS implementation for coupling lithium-ion battery charge/discharge processes with fatigue phase-field fracture",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.jmps.2022.104839",
+     "title": "Chemo-mechanical modeling of inter- and intra-granular fracture in heterogeneous cathode with polycrystalline particles for lithium-ion battery",
+     "year": 2022,
+     "already_screened": true
+    },
+    {
+     "doi": "10.1021/acsaem.4c00272.s001",
+     "title": "Coating Effect of Various-Phase Alumina Nanoparticles on NCM811 Cathode for Enhancing Electrochemical Performance of Lithium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.7b14117.s001",
+     "title": "Anthracite-Derived Dual-Phase Carbon-Coated Li3V2(PO4)3 as High-Performance Cathode Material for Lithium Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1036/1097-8542.abr2412201",
+     "title": "Enhanced durability and longevity in single-crystal lithium-ion batteries compared to traditional polycrystalline lithium-ion batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2004.10.016",
+     "title": "Computational simulations of intergranular fracture of polycrystalline materials and size effect",
+     "year": 2005,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.tramat.2026.100235",
+     "title": "Influence of chloride ion concentration and temperature on intergranular stress corrosion cracking of austenitic stainless steel: phase-field simulation study",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.4028/www.scientific.net/kem.713.54",
+     "title": "Micromechanical Boundary Element Modelling of Transgranular and Intergranular Cohesive Cracking in Polycrystalline Materials",
+     "year": 2016,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2013.05.011",
+     "title": "Cohesive element approach to grain level modelling of intergranular cracking",
+     "year": 2013,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.jpowsour.2022.231805",
+     "title": "A coupled phase field formulation for modelling fatigue cracking in lithium-ion battery electrode particles",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2023.109398",
+     "title": "Phase-field modeling of thermal cracking in hardening mass concrete",
+     "year": 2023,
+     "already_screened": false
+    }
+   ]
+  },
+  {
+   "service": "OpenAlex /works search",
+   "query": "phase-field fracture polycrystalline cathode intergranular cracking lithium-ion",
+   "n": 40,
+   "hits": [
+    {
+     "doi": "10.1016/j.joule.2023.09.006",
+     "title": "Cracking vs. surface reactivity in high-nickel cathodes for lithium-ion batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-020-19528-9",
+     "title": "Insights into interfacial effect and local lithium-ion transport in polycrystalline cathodes of solid-state batteries",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-020-16824-2",
+     "title": "Surface regulation enables high stability of single-crystal lithium-ion cathodes at high voltage",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/aenm.202103005",
+     "title": "A Review of Degradation Mechanisms and Recent Achievements for Ni‐Rich Cathode‐Based Li‐Ion Batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.est.2024.110807",
+     "title": "Fracture mechanisms of NCM polycrystalline particles in lithium-ion batteries: A review",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.nanoen.2018.09.051",
+     "title": "Chemomechanical interplay of layered cathode materials undergoing fast charging in lithium batteries",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.esci.2022.02.006",
+     "title": "Crack-free single-crystalline Co-free Ni-rich LiNi0.95Mn0.05O2 layered cathode",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-021-25611-6",
+     "title": "In situ inorganic conductive network formation in high-voltage single-crystal Ni-rich cathodes",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.esci.2022.02.008",
+     "title": "Solid-state lithium batteries: Safety and prospects",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsenergylett.9b02668",
+     "title": "Challenges in Lithium Metal Anodes for Solid-State Batteries",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/aenm.202100858",
+     "title": "In‐Depth Analysis of the Degradation Mechanisms of High‐Nickel, Low/No‐Cobalt Layered Oxide Cathodes for Lithium‐Ion Batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d3ta03057a",
+     "title": "Direct observations of electrochemically induced intergranular cracking in polycrystalline NMC811 particles",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1063/5.0051092",
+     "title": "Perspectives for next generation lithium-ion battery cathode materials",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/sus2.176",
+     "title": "Design of high‐performance and sustainable Co‐free Ni‐rich cathodes for next‐generation lithium‐ion batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-019-13884-x",
+     "title": "Charge distribution guided by grain crystallographic orientations in polycrystalline battery materials",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/aenm.202304295",
+     "title": "Electrolyte Degradation During Aging Process of Lithium‐Ion Batteries: Mechanisms, Characterization, and Quantitative Analysis",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/anie.202012773",
+     "title": "Kinetic Limitations in Single‐Crystal High‐Nickel Cathodes",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-024-54637-9",
+     "title": "Gradient-porous-structured Ni-rich layered oxide cathodes with high specific energy and cycle stability for lithium-ion batteries",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.partic.2021.05.006",
+     "title": "Balancing particle properties for practical lithium-ion batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.jpowsour.2024.234054",
+     "title": "Cohesive phase-field chemo-mechanical simulations of inter- and trans- granular fractures in polycrystalline NMC cathodes via image-based 3D reconstruction",
+     "year": 2024,
+     "already_screened": true
+    },
+    {
+     "doi": "10.1021/acs.chemmater.8b04418",
+     "title": "Mesoscale Chemomechanical Interplay of the LiNi 0.8 Co 0.15 Al 0.05 O 2 Cathode in Solid-State Polymer Batteries",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/nano.202000008",
+     "title": "Improving LiNixCoyMn1−x−yO2 cathode electrolyte interface under high voltage in lithium ion batteries",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.nanolett.1c03852",
+     "title": "Chemomechanically Stable Ultrahigh-Ni Single-Crystalline Cathodes with Improved Oxygen Retention and Delayed Phase Degradations",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.partic.2020.09.004",
+     "title": "Recent advances in Ni-rich layered oxide particle materials for lithium-ion batteries",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.3390/en15239168",
+     "title": "Review on the Experimental Characterization of Fracture in Active Material for Lithium-Ion Batteries",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-022-29531-x",
+     "title": "High-energy and durable lithium metal batteries using garnet-type solid electrolytes with tailored lithium-metal compatibility",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/adma.202506063",
+     "title": "Multiscale Failure Mechanisms of Ternary Oxide Cathode Materials for Lithium‐Ion Batteries",
+     "year": 2025,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s00339-024-07897-7",
+     "title": "Optimizing high-energy lithium-ion batteries: a review of single crystalline and polycrystalline nickel-rich layered cathode materials: performance, synthesis and modification",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/smll.202201946",
+     "title": "A Molten‐Salt Method to Synthesize Ultrahigh‐Nickel Single‐Crystalline LiNi0.92Co0.06Mn0.02O2 with Superior Electrochemical Performance as Cathode Material for Lithium‐Ion Batteries",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.xcrp.2022.101043",
+     "title": "Li6PS5Cl microstructure and influence on dendrite growth in solid-state batteries with lithium metal anode",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/aenm.202201939",
+     "title": "Oxide‐Based Solid‐State Batteries: A Perspective on Composite Cathode Architecture",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-022-28325-5",
+     "title": "Thermal-healing of lattice defects for high-energy single-crystalline battery cathodes",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.ijplas.2021.103123",
+     "title": "Void growth based inter-granular ductile fracture in strain gradient polycrystalline plasticity",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d3se00844d",
+     "title": "The genesis and control of microcracks in nickel-rich cathode materials for lithium-ion batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.xcrp.2020.100137",
+     "title": "Electron Backscatter Diffraction for Investigating Lithium-Ion Electrode Particle Architectures",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/anie.202401716",
+     "title": "In situ and Real‐time Monitoring the Chemical and Thermal Evolution of Lithium‐ion Batteries with Single‐crystalline Ni‐rich Layered Oxide Cathode",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/admi.202201806",
+     "title": "The Effect of Single versus Polycrystalline Cathode Particles on All‐Solid‐State Battery Performance",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/2.0321910jes",
+     "title": "Mechanical Stress Induced Current Focusing and Fracture in Grain Boundaries",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.3390/batteries9060319",
+     "title": "High-Performance High-Nickel Multi-Element Cathode Materials for Lithium-Ion Batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-024-52123-w",
+     "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries",
+     "year": 2024,
+     "already_screened": false
+    }
+   ]
+  },
+  {
+   "service": "Crossref REST /works query.bibliographic",
+   "query": "grain boundary decohesion Ni-rich layered oxide cathode chemo-mechanical model",
+   "n": 40,
+   "hits": [
+    {
+     "doi": "10.1021/acsnano.0c06910.s001",
+     "title": "Stabilization of a Highly Ni-Rich Layered Oxide Cathode through Flower-Petal Grain Arrays",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsnano.0c06910.s002",
+     "title": "Stabilization of a Highly Ni-Rich Layered Oxide Cathode through Flower-Petal Grain Arrays",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemmater.3c00924.s001",
+     "title": "Origin of Phase Separation in Ni-Rich Layered Oxide Cathode Materials During Electrochemical Cycling",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.1c15271.s001",
+     "title": "Interface-Stabilized Layered Lithium Ni-Rich Oxide Cathode via Surface Functionalization with Titanium Silicate",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.5c00212.s001",
+     "title": "Mechano-Chemo-Electrochemically Booming Nickel-Rich Layered Cathode Electrochemical Performance",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acssuschemeng.0c00404.s001",
+     "title": "Sulfonate-Based Artificial CathodeElectrolyte Interface to Enhance Electrochemical Performance of Ni-Rich Layered Oxide Cathode Materials",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.ijmecsci.2024.109034",
+     "title": "Anisotropic model to describe chemo-mechanical response of Ni-rich cathode materials",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.6c01391.s001",
+     "title": "Nitrile-Additive-Enabled Solvation Regulation and Cathode Interphase Stabilization for High-Voltage Ni-Rich Layered Oxide Cathodes",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.5b09938.s001",
+     "title": "Suppressing the Phase Transition of the Layered Ni-Rich Oxide Cathode during High-Voltage Cycling by Introducing Low-Content Li2MnO3",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.4c21263.s001",
+     "title": "Optimizing Annealing Strategy to Achieve Effective Grain Boundary Modification with Aluminum Oxide for Stable Cycling Ni-Rich Cathodes",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsenergylett.8b02499.s001",
+     "title": "Quaternary Layered Ni-Rich NCMA Cathode for Lithium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsnano.6c01776.s001",
+     "title": "Design Grain Boundary Strengthening Phase for Enhanced Stability and Ionic Conductivity in Nickel-Rich Cobalt-Free High-Entropy Layered Oxide Cathodes",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d6eb00125d/v1/review1",
+     "title": "Review for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d6eb00125d/v1/review2",
+     "title": "Review for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d6eb00125d/v2/review1",
+     "title": "Review for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.nanolett.9b04620.s001",
+     "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.nanoen.2019.05.021",
+     "title": "Realizing superior cycling stability of Ni-Rich layered cathode by combination of grain boundary engineering and surface coating",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.1c02430.s001",
+     "title": "Which Layered Cathode Suits More for Nanosilica Protection Ni-Rich LiNi0.8Co0.1Mn0.1O2 or Li-Rich Li1.2Mn0.54Co0.13Ni0.13O2?",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.9b00786.s001",
+     "title": "Hydrophobic Ni-Rich Layered Oxides as Cathode Materials for Lithium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.2c20405.s001",
+     "title": "High-Performance Layered Ni-Rich Cathode Materials Enabled by Stress-Resistant Nanosheets",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsenergylett.8b01490.s001",
+     "title": "Revealing Cycling Rate-Dependent Structure Evolution in Ni-Rich Layered Cathode Materials",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsnano.0c06910",
+     "title": "Stabilization of a Highly Ni-Rich Layered Oxide Cathode through Flower-Petal Grain Arrays",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemmater.1c03051.s001",
+     "title": "Chemical-Mechanical Effects in Ni-Rich Cathode Materials",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.54738/mi.2022.2802",
+     "title": "A Mini Review on Ni-rich Layered Oxide Cathode Materials",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.0c20100.s001",
+     "title": "Nanowelding to Improve the Chemomechanical Stability of the Ni-Rich Layered Cathode Materials",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.4630940",
+     "title": "Role of Anisotropic Diffusion and Strains in the Chemo-Mechanical Response of Single-Crystalline Ni-Rich Cathode Materials in Lithium-Ion Batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.0c02258.s001",
+     "title": "Incorporation of Titanium into Ni-Rich Layered Cathode Materials for Lithium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsnano.1c07252.s003",
+     "title": "Lithium Transport Pathways Guided by Grain Architectures in Ni-Rich Layered Cathodes",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsnano.1c07252.s002",
+     "title": "Lithium Transport Pathways Guided by Grain Architectures in Ni-Rich Layered Cathodes",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsnano.1c07252.s001",
+     "title": "Lithium Transport Pathways Guided by Grain Architectures in Ni-Rich Layered Cathodes",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.5c03511.s001",
+     "title": "Structural Rearrangements of a Cobalt-Free Lithium-Rich Layered Oxide Cathode during Formation",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/jacs.9b04974.s001",
+     "title": "Lithium Deficiencies Engineering in Li-Rich Layered Oxide Li1.098Mn0.533Ni0.113Co0.138O2 for High-Stability Cathode",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsenergylett.4c00307.s001",
+     "title": "Consolidating the Vulnerable Interphase of Ni-Rich Layered Cathode by Multifunctional Water-Based Binder",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/smll.202307678",
+     "title": "Doping‐Induced Surface and Grain Boundary Effects in Ni‐Rich Layered Cathode Materials",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.5c00714.s001",
+     "title": "Cryo-Sampling Enables Precise Evaluation of Thermal Stability of a Ni-Rich Layered Cathode",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.8b05648.s001",
+     "title": "High-Performance and Industrially Feasible Ni-Rich Layered Cathode Materials by Integrating Coherent Interphase",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.8b13766.s001",
+     "title": "Facile Mn Surface Doping of Ni-Rich Layered Cathode Materials for Lithium Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d6eb00125d/v2/decision1",
+     "title": "Decision letter for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.ensm.2019.08.013",
+     "title": "Problems and their origins of Ni-rich layered oxide cathode materials",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d6eb00125d/v1/decision1",
+     "title": "Decision letter for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+     "year": 2026,
+     "already_screened": false
+    }
+   ]
+  },
+  {
+   "service": "OpenAlex /works search",
+   "query": "grain boundary decohesion Ni-rich layered oxide cathode chemo-mechanical model",
+   "n": 9,
+   "hits": [
+    {
+     "doi": "10.26083/tuprints-00017542",
+     "title": "Chemo-mechanical Modeling of Lithium-Ion Batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.3390/ma19050898",
+     "title": "Stress Corrosion Cracking: Mechanisms, Materials Challenges, and Engineering Solutions",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d6ee01264g",
+     "title": "Contact interfaces in anodes with large volume strain for high-performance lithium-ion storage",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1088/2752-5724/ae5120",
+     "title": "2026 roadmap on next-generation solid electrolytes for battery applications",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.53623/amms.v2i2.1148",
+     "title": "On the Mechanical Stability of Nickel-Based Lithium-Ion Battery Cathodes for Electric Vehicles",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.62638/zasmat1635",
+     "title": "Stress corrosion cracking of high entropy alloys: Mechanism, microstructure and performance",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/anie.5596828",
+     "title": "A Cellulose‐Derived Polymer Additive for Stabilizing Thick Cathodes in All‐Solid‐State Batteries",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "",
+     "title": "First-Principles Study on the Mechanical Properties of Lithiated Sn Anode Materials for Li-Ion Batteries",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.48550/arxiv.2404.07736",
+     "title": "Hydrogen Trapping and Embrittlement in Metals -- A Review",
+     "year": 2024,
+     "already_screened": false
+    }
+   ]
+  },
+  {
+   "service": "Crossref REST /works query.bibliographic",
+   "query": "interfacial strength primary particles secondary particle cracking lithium-ion cathode simulation",
+   "n": 40,
+   "hits": [
+    {
+     "doi": "10.1021/acsaem.4c01099.s001",
+     "title": "CoreShell NCM Cathode Particles Mechanical Failure: Particle Cracking and Interfacial Debonding",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.energyfuels.1c02115.s001",
+     "title": "Concentration-Gradient LiNi0.85Co0.12Al0.03O2 Cathode Assembled with Primary Particles for Rechargeable Lithium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.0c02494.s001",
+     "title": "Hierarchical Structuring of NMC111-Cathode Materials in Lithium-Ion Batteries: An In-Depth Study on the Influence of Primary and Secondary Particle Sizes on Electrochemical Performance",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acssuschemeng.1c03179.s001",
+     "title": "Improved Lithium-Ion Transport Within the LiNi0.8Co0.15Al0.05O2 Secondary Cathode Particles Through a Template-Assisted Synthesis Route",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.1c20787.s001",
+     "title": "Enhancing Electrochemical Performances of Rechargeable Lithium-Ion Batteries via Cathode Interfacial Engineering",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemmater.8b04200.s001",
+     "title": "Surface Modification for Suppressing Interfacial Parasitic Reactions of a Nickel-Rich Lithium-Ion Cathode",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsnano.7b02561.s001",
+     "title": "Atomic Layer Deposition of Stable LiAlF4 Lithium Ion Conductive Interfacial Layer for Stable Cathode Cycling",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.apenergy.2025.127105",
+     "title": "Phase field modelling of cracking and capacity fade in core-shell cathode particles for lithium-ion batteries",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.1c01255.s001",
+     "title": "Analyzing Nanometer-Thin Cathode Particle Coatings for Lithium-Ion BatteriesThe Example of TiO2 on NCM622",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.8b00612.s001",
+     "title": "Degradation Analysis of LiNi0.8Co0.15Al0.05O2 for Cathode Material of Lithium-Ion Battery Using Single-Particle Measurement",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemmater.5c00906.s002",
+     "title": "Imaging of Lithium Ion Release from Individual Cathode Particles Shows Evidence for Diversity of Intraparticle Contacts",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemmater.5c00906.s001",
+     "title": "Imaging of Lithium Ion Release from Individual Cathode Particles Shows Evidence for Diversity of Intraparticle Contacts",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acssuschemeng.1c07941.s001",
+     "title": "Lattice Engineering to Refine Particles and Strengthen Bonds of the LiNi0.9Co0.05Mn0.05O2 Cathode toward Efficient Lithium Ion Storage",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.jpcc.3c06045.s001",
+     "title": "Exploring Organic Cathode Materials for Lithium-Ion Batteries through Fragment Bonding and Discharge Simulation",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsenergylett.9b01579.s001",
+     "title": "Charge Transport in Single NCM Cathode Active Material Particles for Lithium-Ion Batteries Studied under Well-Defined Contact Conditions",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemmater.7b05407.s001",
+     "title": "Mesoscopic Phase Transition Kinetics in Secondary Particles of Electrode-Active Materials in Lithium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemmater.7b05407.s002",
+     "title": "Mesoscopic Phase Transition Kinetics in Secondary Particles of Electrode-Active Materials in Lithium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1201/97810032692050-6",
+     "title": "Modeling and Simulation on the Recycling Process of Spent Lithium-Ion Battery Cathode Materials",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.2c02928.s001",
+     "title": "Profiting the Co-Modifications of Li2SnO3 Coating and Sn4+ Doping in Co-Free Ni-Rich Cathode Particles for Lithium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/ma2022-012437mtgabs",
+     "title": "The Role of Gas Evolution in Particle Surface Cracking in Nickel-Rich Lithium-Ion Cathode Materials",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.46936/aps-180259/60009668",
+     "title": "",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.4c01099",
+     "title": "Core–Shell NCM Cathode Particles Mechanical Failure: Particle Cracking and Interfacial Debonding",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/ma2023-014844mtgabs",
+     "title": "Nanoscale Lithium Distribution within a Secondary Cathode Particle for Li-Ion Battery Using Identical Location (S)TEM-EELS",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.5b11389.s001",
+     "title": "Morphological Evolution of High-Voltage Spinel LiNi0.5Mn1.5O4 Cathode Materials for Lithium-Ion Batteries: The Critical Effects of Surface Orientations and Particle Size",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.electacta.2023.143518",
+     "title": "Realizing primary/secondary particle co-coating with CoxB for lithium-rich cathodes in high-performance lithium-ion batteries",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsami.5c05879.s001",
+     "title": "Interfacial-Oxygen-Regulated Lithium-Rich Manganese-Based Cathode for High-Performance Solid-State Lithium Batteries",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.37099/mtu.dc.etds/983",
+     "title": "MODELING AND SIMULATION OF MICROSTRUCTURES, MECHANISMS, AND DIFFRACTION EFFECTS IN ENERGY MATERIALS: FERROELECTRICS AND LITHIUM ION BATTERY CATHODE MATERIALS",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acsaem.0c02494",
+     "title": "Hierarchical\nStructuring of NMC111-Cathode Materials\nin Lithium-Ion Batteries: An In-Depth Study on the Influence of Primary\nand Secondary Particle Sizes on Electrochemical Performance",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.5056363",
+     "title": "Fracture of Storage Particle and Interfacial Debonding in Lithium-Ion Batteries: A Phase Field Model",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.est.9b03064.s001",
+     "title": "Influences of Primary Emission and Secondary Coating Formation on the Particle Diversity and Mixing State of Black Carbon Particles",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.5053050",
+     "title": "Fracture of Storage Particle and Interfacial Debonding in Lithium-Ion Batteries: A Phase Field Model",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/ma2019-02/5/332",
+     "title": "Reduction of Electronic Conductivity within Secondary Particles Revealing a Degradation Mechanism of Ni-Rich Cathode for Lithium Ion Batteries",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/ma2017-01/5/396",
+     "title": "Novel Cathode Materials for Na-Ion Batteries Composed of Nano-Rod Primary Particles in Spherical Secondary Particles",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.iecr.8b04899.s002",
+     "title": "Process Synthesis: Selective Recovery of Lithium from Lithium-Ion Battery Cathode Materials",
+     "year": null,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/ma2010-03/1/325",
+     "title": "High-Power Lithium-Ion Secondary Battery Using Olivine-Type Lithium Iron Phosphate as the Cathode Material",
+     "year": 2010,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1201/9781351075350-1",
+     "title": "Surface Analyses of Small Individual Particles by Secondary Ion Mass Spectroscopy",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.xcrp.2022.100767",
+     "title": "Nickel-rich layered LiNi0.8Mn0.1Co0.1O2 with dual gradients on both primary and secondary particles in lithium-ion batteries",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/ma2017-02/4/292",
+     "title": "Enhanced Electrochemical Performance of the Cathode for a Lithium Ion Secondary Battery Using Lithium Ion Conductive Glass-Ceramics",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.22443/rms.mmc2023.120",
+     "title": "Understanding local chemistry in cross-sectioned lithium-ion battery cathode through secondary electron hyperspectral imaging",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acssuschemeng.0c08487.s001",
+     "title": "Reuse, Recycle, and Regeneration of LiFePO4 Cathode from Spent Lithium-Ion Batteries for Rechargeable Lithium- and Sodium-Ion Batteries",
+     "year": null,
+     "already_screened": false
+    }
+   ]
+  },
+  {
+   "service": "OpenAlex /works search",
+   "query": "interfacial strength primary particles secondary particle cracking lithium-ion cathode simulation",
+   "n": 40,
+   "hits": [
+    {
+     "doi": "10.1038/s41560-021-00782-0",
+     "title": "Reactive boride infusion stabilizes Ni-rich cathodes for lithium-ion batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d1cp00359c",
+     "title": "Lithium ion battery degradation: what you need to know",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.ensm.2021.02.003",
+     "title": "A perspective on single-crystal layered oxide cathodes for lithium-ion batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-020-16824-2",
+     "title": "Surface regulation enables high stability of single-crystal lithium-ion cathodes at high voltage",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.jpowsour.2020.228708",
+     "title": "Lithium-ion batteries – Current state of the art and anticipated developments",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41560-018-0312-z",
+     "title": "High electronic conductivity as the origin of lithium dendrite formation within solid electrolytes",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/aenm.202103005",
+     "title": "A Review of Degradation Mechanisms and Recent Achievements for Ni‐Rich Cathode‐Based Li‐Ion Batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.eml.2016.03.018",
+     "title": "On the fragmentation of active material secondary particles in lithium ion battery cathodes induced by charge cycling",
+     "year": 2016,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-024-52768-7",
+     "title": "Electronic structure formed by Y2O3-doping in lithium position assists improvement of charging-voltage for high-nickel cathodes",
+     "year": 2025,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemrev.0c00275",
+     "title": "Lithium Metal Anodes with Nonaqueous Electrolytes",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/aenm.202203307",
+     "title": "Lithium Batteries and the Solid Electrolyte Interphase (SEI)—Progress and Outlook",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/adma.201701169",
+     "title": "Protected Lithium‐Metal Anodes in Batteries: From Liquid to Solid",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemrev.0c00767",
+     "title": "Promises and Challenges of Next-Generation “Beyond Li-ion” Batteries for Electric Vehicles and Grid Decarbonization",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-021-24893-0",
+     "title": "Surface enrichment and diffusion enabling gradient-doping and coating of Ni-rich cathode toward Li-ion batteries",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/c7cs00139h",
+     "title": "A review of flexible lithium–sulfur and analogous alkali metal–chalcogen rechargeable batteries",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s40820-022-00844-2",
+     "title": "High-Energy Batteries: Beyond Lithium-Ion and Their Long Road to Commercialisation",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.esci.2022.02.008",
+     "title": "Solid-state lithium batteries: Safety and prospects",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/2.1441707jes",
+     "title": "Review—SEI: Past, Present and Future",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41560-023-01280-1",
+     "title": "High-entropy electrolytes for practical lithium metal batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1063/5.0051092",
+     "title": "Perspectives for next generation lithium-ion battery cathode materials",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.3389/fenrg.2019.00065",
+     "title": "Safety Issues in Lithium Ion Batteries: Materials and Cell Design",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/aenm.202000808",
+     "title": "Multiscale Understanding and Architecture Design of High Energy/Power Lithium‐Ion Battery Electrodes",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/adfm.202301109",
+     "title": "Fundamental Understanding and Facing Challenges in Structural Design of Porous Si‐Based Anodes for Lithium‐Ion Batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/inf2.12422",
+     "title": "Layered oxide cathodes for sodium‐ion batteries: From air stability, interface chemistry to phase transition",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1038/s41467-023-40609-y",
+     "title": "A reflection on polymer electrolytes for solid-state lithium metal batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.ensm.2016.02.002",
+     "title": "A promising cathode for Li-ion batteries: Li3V2(PO4)3",
+     "year": 2016,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d3im00115f",
+     "title": "Recent progress and challenges in silicon-based anode materials for lithium-ion batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s40820-024-01388-3",
+     "title": "Innovative Solutions for High-Performance Silicon Anodes in Lithium-Ion Batteries: Overcoming Challenges and Real-World Applications",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1093/nsr/nwad252",
+     "title": "Challenges and approaches of single-crystal Ni-rich layered cathodes in lithium batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.jpowsour.2021.229919",
+     "title": "Lithium solid-state batteries: State-of-the-art and challenges for materials, interfaces and processing",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s40820-023-01223-1",
+     "title": "Engineering Strategies for Suppressing the Shuttle Effect in Lithium–Sulfur Batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s41918-023-00192-8",
+     "title": "Emerging Atomic Layer Deposition for the Development of High-Performance Lithium-Ion Batteries",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.esci.2021.11.006",
+     "title": "Tailoring the structure of silicon-based materials for lithium-ion batteries via electrospinning technology",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/adma.202308494",
+     "title": "Recycling and Reusing of Graphite from Retired Lithium‐ion Batteries: A Review",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.3390/nanoenergyadv3020008",
+     "title": "Materials and Processing of Lithium-Ion Battery Cathodes",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1039/d1ee00767j",
+     "title": "Strategies towards enabling lithium metal in batteries: interphases and electrodes",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1021/acs.chemrev.1c00838",
+     "title": "Review of Multifunctional Separators: Stabilizing the Cathode and the Anode for Alkali (Li, Na, and K) Metal–Sulfur and Selenium Batteries",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.joule.2022.12.001",
+     "title": "Coupling of multiscale imaging analysis and computational modeling for understanding thick cathode degradation mechanisms",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/inf2.12189",
+     "title": "Strategies to anode protection in lithium metal battery: A review",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1149/1945-7111/ac24bb",
+     "title": "Increased Moisture Uptake of NCM622 Cathodes after Calendering due to Particle Breakage",
+     "year": 2021,
+     "already_screened": false
+    }
+   ]
+  },
+  {
+   "service": "Crossref REST /works query.bibliographic",
+   "query": "intergranular fracture LiCoO2 NCA polycrystal simulation cohesive",
+   "n": 40,
+   "hits": [
+    {
+     "doi": "10.1115/1.0004248v",
+     "title": "Molecular Dynamics Simulation Based Cohesive Zone Representation of Intergranular Fracture Processes in Bicrystalline Graphene",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1115/imece2020-23624",
+     "title": "Molecular Dynamics Simulation Based Cohesive Zone Representation of Intergranular Fracture Processes in Bicrystalline Graphene",
+     "year": 2020,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2009.07.006",
+     "title": "Polycrystal models for the analysis of intergranular crack growth in metallic materials",
+     "year": 2009,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2013.05.011",
+     "title": "Cohesive element approach to grain level modelling of intergranular cracking",
+     "year": 2013,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2017.03.016",
+     "title": "Micromechanical boundary element modelling of transgranular and intergranular cohesive cracking in polycrystalline materials",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.5274461",
+     "title": "A Cohesive Phase-Field Method for Seamlessly Modelling Intergranular and Transgranular Fracture in Polycrystalline Materials",
+     "year": 2025,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.5010213",
+     "title": "A Cohesive Phase-Field Method for Seamlessly Modelling Intergranular and Transgranular Fracture in Polycrystalline Materials",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.4028/0-87849-413-8.9",
+     "title": "Modelling Intergranular Microfracture Using a Boundary Cohesive Grain Element Formulation",
+     "year": 2006,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2021.108167",
+     "title": "Development of a microstructural cohesive zone model for intergranular hydrogen environmentally assisted cracking",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1115/pvp2013-97618",
+     "title": "The Application of Cohesive Elements in Numerical Simulations of the Intergranular Fracture in Voronoi Cellular Models",
+     "year": 2013,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2495/cmem110521",
+     "title": "Simulation of intergranular crack nucleation and evolution in polycrystal metals on mesoscale",
+     "year": 2011,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.jmps.2006.03.004",
+     "title": "Molecular-dynamics simulation-based cohesive zone representation of intergranular fracture processes in aluminum",
+     "year": 2006,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2018.06.031",
+     "title": "Intergranular mechanical behavior in a blade groove-like component by crystal plasticity model with cohesive zone model",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2014.04.019",
+     "title": "Effects of the cohesive law on ductile crack propagation simulation by using cohesive zone models",
+     "year": 2014,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s10704-025-00900-z",
+     "title": "A cohesive phase-field method for seamlessly modelling intergranular and transgranular fracture in polycrystalline materials",
+     "year": 2026,
+     "already_screened": false
+    },
+    {
+     "doi": "10.4028/0-87849-989-x.187",
+     "title": "Cohesive Zone Model for Crack Propagation in a Viscoplastic Polycrystal Material at Elevated Temperature",
+     "year": 2006,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1063/1.4954682",
+     "title": "Atomistically derived cohesive zone model of intergranular fracture in polycrystalline graphene",
+     "year": 2016,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.4672471",
+     "title": "Mechanism of Intergranular Fatigue Crack Growth in Copper Polycrystal",
+     "year": 2023,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1115/1.0004840v",
+     "title": "A Cohesive Reproducing Kernel Finite Volume Method for Brittle Fracture Simulation",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/s0013-7944(03)00133-4",
+     "title": "Simulation of cup–cone fracture using the cohesive model",
+     "year": 2003,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2009.09.013",
+     "title": "Time-dependent cohesive zone modelling for discrete fracture simulation",
+     "year": 2010,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2019.106543",
+     "title": "A coupled diffusion and cohesive zone model for intergranular stress corrosion cracking in 316L stainless steel exposed to cold work in primary water conditions",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2019.106568",
+     "title": "Non-ordinary state-based peridynamic simulation of elastoplastic deformation and dynamic cracking of polycrystal",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2020.107437",
+     "title": "Cohesive GTN model for ductile fracture simulation",
+     "year": 2021,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2019.04.014",
+     "title": "Numerical simulation of creep fracture with internal time-dependent hyperelastic-Kelvin cohesive bonds",
+     "year": 2019,
+     "already_screened": false
+    },
+    {
+     "doi": "10.2139/ssrn.5193915",
+     "title": "Fracture Simulation of Nacre-Like Structures Composed of Bricks Bonded with Cohesive Model",
+     "year": 2025,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/0036-9748(82)90374-x",
+     "title": "On intergranular constraint in polycrystal deformation",
+     "year": 1982,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1201/b11771-17",
+     "title": "Cohesive crack for quasi-brittle fracture and numerical simulation of hydraulic fracture",
+     "year": 2011,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.rinp.2018.10.001",
+     "title": "Cohesive zone modeling of hydrogen-induced delayed intergranular fracture in high strength steels",
+     "year": 2018,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1002/pamm.201710104",
+     "title": "Application and parameter identification of cohesive zone elements for intergranular fracture in thin layer",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2017.02.026",
+     "title": "Microscale simulation of adhesive and cohesive failure in rough interfaces",
+     "year": 2017,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2008.11.004",
+     "title": "Simulation for intergranular stress corrosion cracking based on a three-dimensional polycrystalline model",
+     "year": 2009,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2015.01.030",
+     "title": "A constrained intrinsic cohesive finite element method with little stiffness reduction for fracture simulation",
+     "year": 2015,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2022.108381",
+     "title": "Simulation of intergranular fracture behavior inside randomly aggregated LiNixCoyMn1-x-yO2 polycrystalline particle",
+     "year": 2022,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2024.109959",
+     "title": "Cohesive fracture simulation and failure modes of shotcrete-concrete interface bond in Mode II loading",
+     "year": 2024,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2016.06.005",
+     "title": "A hierarchical multiscale cohesive zone model and simulation of dynamic fracture in metals",
+     "year": 2016,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1007/s10704-015-0018-1",
+     "title": "Analytical homogenization modeling and computational simulation of intergranular fracture in polycrystals",
+     "year": 2015,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.tafmec.2007.11.005",
+     "title": "Cohesive fracture simulation and failure modes of FRP–concrete bonded interfaces",
+     "year": 2008,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/j.engfracmech.2012.05.016",
+     "title": "Tensile fracture simulation of random heterogeneous asphalt mixture with cohesive crack model",
+     "year": 2012,
+     "already_screened": false
+    },
+    {
+     "doi": "10.1016/s0927-0256(02)00155-6",
+     "title": "Simulation of time-discontinuous chemically-aided intergranular fracture",
+     "year": 2002,
+     "already_screened": false
+    }
+   ]
+  },
+  {
+   "service": "OpenAlex /works search",
+   "query": "intergranular fracture LiCoO2 NCA polycrystal simulation cohesive",
+   "n": 0,
+   "hits": []
+  }
+ ],
+ "not_yet_screened": [
+  {
+   "doi": "10.1002/9781118663547.ch93",
+   "title": "Influence of Grain Boundary Structure on Interfacial Fracture Under Tensile Loading: Cohesive Zone Model Informed by Atomistic Simulations",
+   "year": 2013
+  },
+  {
+   "doi": "10.1002/adfm.202301109",
+   "title": "Fundamental Understanding and Facing Challenges in Structural Design of Porous Si‐Based Anodes for Lithium‐Ion Batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1002/adma.201701169",
+   "title": "Protected Lithium‐Metal Anodes in Batteries: From Liquid to Solid",
+   "year": 2017
+  },
+  {
+   "doi": "10.1002/adma.202308494",
+   "title": "Recycling and Reusing of Graphite from Retired Lithium‐ion Batteries: A Review",
+   "year": 2023
+  },
+  {
+   "doi": "10.1002/adma.202506063",
+   "title": "Multiscale Failure Mechanisms of Ternary Oxide Cathode Materials for Lithium‐Ion Batteries",
+   "year": 2025
+  },
+  {
+   "doi": "10.1002/admi.202201806",
+   "title": "The Effect of Single versus Polycrystalline Cathode Particles on All‐Solid‐State Battery Performance",
+   "year": 2022
+  },
+  {
+   "doi": "10.1002/aenm.202000808",
+   "title": "Multiscale Understanding and Architecture Design of High Energy/Power Lithium‐Ion Battery Electrodes",
+   "year": 2020
+  },
+  {
+   "doi": "10.1002/aenm.202100858",
+   "title": "In‐Depth Analysis of the Degradation Mechanisms of High‐Nickel, Low/No‐Cobalt Layered Oxide Cathodes for Lithium‐Ion Batteries",
+   "year": 2021
+  },
+  {
+   "doi": "10.1002/aenm.202103005",
+   "title": "A Review of Degradation Mechanisms and Recent Achievements for Ni‐Rich Cathode‐Based Li‐Ion Batteries",
+   "year": 2021
+  },
+  {
+   "doi": "10.1002/aenm.202201939",
+   "title": "Oxide‐Based Solid‐State Batteries: A Perspective on Composite Cathode Architecture",
+   "year": 2022
+  },
+  {
+   "doi": "10.1002/aenm.202203307",
+   "title": "Lithium Batteries and the Solid Electrolyte Interphase (SEI)—Progress and Outlook",
+   "year": 2023
+  },
+  {
+   "doi": "10.1002/aenm.202304295",
+   "title": "Electrolyte Degradation During Aging Process of Lithium‐Ion Batteries: Mechanisms, Characterization, and Quantitative Analysis",
+   "year": 2024
+  },
+  {
+   "doi": "10.1002/anie.202012773",
+   "title": "Kinetic Limitations in Single‐Crystal High‐Nickel Cathodes",
+   "year": 2020
+  },
+  {
+   "doi": "10.1002/anie.202401716",
+   "title": "In situ and Real‐time Monitoring the Chemical and Thermal Evolution of Lithium‐ion Batteries with Single‐crystalline Ni‐rich Layered Oxide Cathode",
+   "year": 2024
+  },
+  {
+   "doi": "10.1002/anie.5596828",
+   "title": "A Cellulose‐Derived Polymer Additive for Stabilizing Thick Cathodes in All‐Solid‐State Batteries",
+   "year": 2026
+  },
+  {
+   "doi": "10.1002/inf2.12189",
+   "title": "Strategies to anode protection in lithium metal battery: A review",
+   "year": 2021
+  },
+  {
+   "doi": "10.1002/inf2.12422",
+   "title": "Layered oxide cathodes for sodium‐ion batteries: From air stability, interface chemistry to phase transition",
+   "year": 2023
+  },
+  {
+   "doi": "10.1002/nano.202000008",
+   "title": "Improving LiNixCoyMn1−x−yO2 cathode electrolyte interface under high voltage in lithium ion batteries",
+   "year": 2020
+  },
+  {
+   "doi": "10.1002/pamm.201710104",
+   "title": "Application and parameter identification of cohesive zone elements for intergranular fracture in thin layer",
+   "year": 2017
+  },
+  {
+   "doi": "10.1002/smll.202201946",
+   "title": "A Molten‐Salt Method to Synthesize Ultrahigh‐Nickel Single‐Crystalline LiNi0.92Co0.06Mn0.02O2 with Superior Electrochemical Performance as Cathode Material for Lithium‐Ion Batteries",
+   "year": 2022
+  },
+  {
+   "doi": "10.1002/smll.202307678",
+   "title": "Doping‐Induced Surface and Grain Boundary Effects in Ni‐Rich Layered Cathode Materials",
+   "year": 2024
+  },
+  {
+   "doi": "10.1002/sus2.176",
+   "title": "Design of high‐performance and sustainable Co‐free Ni‐rich cathodes for next‐generation lithium‐ion batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1007/bf02646987",
+   "title": "Intergranular fracture by slip/grain boundary interaction",
+   "year": 1990
+  },
+  {
+   "doi": "10.1007/bf03025946",
+   "title": "Grain boundary segregation and intergranular fracture in Ferrite containing Mo, Si or Al",
+   "year": 1996
+  },
+  {
+   "doi": "10.1007/s00339-024-07897-7",
+   "title": "Optimizing high-energy lithium-ion batteries: a review of single crystalline and polycrystalline nickel-rich layered cathode materials: performance, synthesis and modification",
+   "year": 2024
+  },
+  {
+   "doi": "10.1007/s10704-015-0018-1",
+   "title": "Analytical homogenization modeling and computational simulation of intergranular fracture in polycrystals",
+   "year": 2015
+  },
+  {
+   "doi": "10.1007/s10704-018-0319-2",
+   "title": "Influence of grain boundary misorientation on intergranular fracture of nanocrystalline palladium",
+   "year": 2018
+  },
+  {
+   "doi": "10.1007/s10704-025-00900-z",
+   "title": "A cohesive phase-field method for seamlessly modelling intergranular and transgranular fracture in polycrystalline materials",
+   "year": 2026
+  },
+  {
+   "doi": "10.1007/s40684-026-00885-7",
+   "title": "Dry Process for Green Manufacturing of Battery Electrodes: Structural Evolution of Freestanding Film During Roll-to-Roll Processing",
+   "year": 2026
+  },
+  {
+   "doi": "10.1007/s40820-022-00844-2",
+   "title": "High-Energy Batteries: Beyond Lithium-Ion and Their Long Road to Commercialisation",
+   "year": 2022
+  },
+  {
+   "doi": "10.1007/s40820-023-01223-1",
+   "title": "Engineering Strategies for Suppressing the Shuttle Effect in Lithium–Sulfur Batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1007/s40820-024-01388-3",
+   "title": "Innovative Solutions for High-Performance Silicon Anodes in Lithium-Ion Batteries: Overcoming Challenges and Real-World Applications",
+   "year": 2024
+  },
+  {
+   "doi": "10.1007/s41918-023-00192-8",
+   "title": "Emerging Atomic Layer Deposition for the Development of High-Performance Lithium-Ion Batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1016/0026-0657(93)90304-b",
+   "title": "Grain boundary segregation in molybdenum alloys and effect on intergranular fracture",
+   "year": 1993
+  },
+  {
+   "doi": "10.1016/0036-9748(82)90374-x",
+   "title": "On intergranular constraint in polycrystal deformation",
+   "year": 1982
+  },
+  {
+   "doi": "10.1016/0036-9748(85)90133-4",
+   "title": "Intergranular fracture and grain boundary chemistry of Ni3Al and Ni3Si",
+   "year": 1985
+  },
+  {
+   "doi": "10.1016/0036-9748(89)90330-x",
+   "title": "Nickel enrichment near grain boundaries in chill cast Ni3Al alloys and its relation to grain boundary cohesive strength",
+   "year": 1989
+  },
+  {
+   "doi": "10.1016/b978-0-08-034804-9.50174-1",
+   "title": "Effect of Silicon on the Grain Boundary Segregation of Phosphorus and the Phosphorus Induced Intergranular Fracture in High Purity Fe-Si-P Alloys",
+   "year": 1989
+  },
+  {
+   "doi": "10.1016/b978-0-08-034804-9.50215-1",
+   "title": "The Grain Boundary Character Distribution and Intergranular Corrosion of Columnar Grain Structure in Iron–Chromium Alloys",
+   "year": 1989
+  },
+  {
+   "doi": "10.1016/b978-1-4832-8423-1.50110-3",
+   "title": "High Temperature Intergranular Fracture Enhanced by Grain Boundary Migration in Alpha Iron-Tin Alloy",
+   "year": 1982
+  },
+  {
+   "doi": "10.1016/j.apenergy.2025.127105",
+   "title": "Phase field modelling of cracking and capacity fade in core-shell cathode particles for lithium-ion batteries",
+   "year": 2026
+  },
+  {
+   "doi": "10.1016/j.commatsci.2020.109990",
+   "title": "Microscale diffusion-mechanics model for a polymer-based solid-state battery cathode",
+   "year": 2020
+  },
+  {
+   "doi": "10.1016/j.compstruc.2015.11.004",
+   "title": "2D analysis of intergranular dynamic crack propagation in polycrystalline materials a multiscale cohesive zone model and dual reciprocity boundary elements",
+   "year": 2016
+  },
+  {
+   "doi": "10.1016/j.electacta.2017.12.176",
+   "title": "Cathode materials with cross-stack structures for suppressing intergranular cracking and high-performance lithium-ion batteries",
+   "year": 2018
+  },
+  {
+   "doi": "10.1016/j.electacta.2023.143518",
+   "title": "Realizing primary/secondary particle co-coating with CoxB for lithium-rich cathodes in high-performance lithium-ion batteries",
+   "year": 2024
+  },
+  {
+   "doi": "10.1016/j.eml.2016.03.018",
+   "title": "On the fragmentation of active material secondary particles in lithium ion battery cathodes induced by charge cycling",
+   "year": 2016
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2004.10.016",
+   "title": "Computational simulations of intergranular fracture of polycrystalline materials and size effect",
+   "year": 2005
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2008.11.004",
+   "title": "Simulation for intergranular stress corrosion cracking based on a three-dimensional polycrystalline model",
+   "year": 2009
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2009.07.006",
+   "title": "Polycrystal models for the analysis of intergranular crack growth in metallic materials",
+   "year": 2009
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2009.09.013",
+   "title": "Time-dependent cohesive zone modelling for discrete fracture simulation",
+   "year": 2010
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2011.06.019",
+   "title": "Hydrogen assisted intergranular cracking in steels",
+   "year": 2011
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2012.05.016",
+   "title": "Tensile fracture simulation of random heterogeneous asphalt mixture with cohesive crack model",
+   "year": 2012
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2012.08.005",
+   "title": "Intergranular crack nuclei in polycrystalline alumina",
+   "year": 2012
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2013.05.011",
+   "title": "Cohesive element approach to grain level modelling of intergranular cracking",
+   "year": 2013
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2014.04.019",
+   "title": "Effects of the cohesive law on ductile crack propagation simulation by using cohesive zone models",
+   "year": 2014
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2015.01.030",
+   "title": "A constrained intrinsic cohesive finite element method with little stiffness reduction for fracture simulation",
+   "year": 2015
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2016.06.005",
+   "title": "A hierarchical multiscale cohesive zone model and simulation of dynamic fracture in metals",
+   "year": 2016
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2017.02.026",
+   "title": "Microscale simulation of adhesive and cohesive failure in rough interfaces",
+   "year": 2017
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2017.03.016",
+   "title": "Micromechanical boundary element modelling of transgranular and intergranular cohesive cracking in polycrystalline materials",
+   "year": 2017
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2018.06.031",
+   "title": "Intergranular mechanical behavior in a blade groove-like component by crystal plasticity model with cohesive zone model",
+   "year": 2018
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2019.04.014",
+   "title": "Numerical simulation of creep fracture with internal time-dependent hyperelastic-Kelvin cohesive bonds",
+   "year": 2019
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2019.106543",
+   "title": "A coupled diffusion and cohesive zone model for intergranular stress corrosion cracking in 316L stainless steel exposed to cold work in primary water conditions",
+   "year": 2019
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2019.106568",
+   "title": "Non-ordinary state-based peridynamic simulation of elastoplastic deformation and dynamic cracking of polycrystal",
+   "year": 2019
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2020.107437",
+   "title": "Cohesive GTN model for ductile fracture simulation",
+   "year": 2021
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2021.108167",
+   "title": "Development of a microstructural cohesive zone model for intergranular hydrogen environmentally assisted cracking",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2022.108381",
+   "title": "Simulation of intergranular fracture behavior inside randomly aggregated LiNixCoyMn1-x-yO2 polycrystalline particle",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2022.108518",
+   "title": "Phase field model coupling with strain gradient plasticity for fracture in lithium-ion battery electrodes",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2023.109398",
+   "title": "Phase-field modeling of thermal cracking in hardening mass concrete",
+   "year": 2023
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2024.109959",
+   "title": "Cohesive fracture simulation and failure modes of shotcrete-concrete interface bond in Mode II loading",
+   "year": 2024
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2024.110251",
+   "title": "An Efficient FEniCS implementation for coupling lithium-ion battery charge/discharge processes with fatigue phase-field fracture",
+   "year": 2024
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2025.110832",
+   "title": "A novel anisotropic grain boundary cohesive zone model for fracture simulation of polycrystalline nickel-based superalloy",
+   "year": 2025
+  },
+  {
+   "doi": "10.1016/j.engfracmech.2026.112550",
+   "title": "Joint scaling of cohesive strength and CF22 fatigue parameters for accelerated fatigue cohesive-zone simulations",
+   "year": 2026
+  },
+  {
+   "doi": "10.1016/j.ensm.2016.02.002",
+   "title": "A promising cathode for Li-ion batteries: Li3V2(PO4)3",
+   "year": 2016
+  },
+  {
+   "doi": "10.1016/j.ensm.2019.08.013",
+   "title": "Problems and their origins of Ni-rich layered oxide cathode materials",
+   "year": 2020
+  },
+  {
+   "doi": "10.1016/j.ensm.2021.02.003",
+   "title": "A perspective on single-crystal layered oxide cathodes for lithium-ion batteries",
+   "year": 2021
+  },
+  {
+   "doi": "10.1016/j.esci.2021.11.006",
+   "title": "Tailoring the structure of silicon-based materials for lithium-ion batteries via electrospinning technology",
+   "year": 2021
+  },
+  {
+   "doi": "10.1016/j.esci.2022.02.006",
+   "title": "Crack-free single-crystalline Co-free Ni-rich LiNi0.95Mn0.05O2 layered cathode",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/j.esci.2022.02.008",
+   "title": "Solid-state lithium batteries: Safety and prospects",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/j.est.2024.110807",
+   "title": "Fracture mechanisms of NCM polycrystalline particles in lithium-ion batteries: A review",
+   "year": 2024
+  },
+  {
+   "doi": "10.1016/j.est.2024.113863",
+   "title": "Review of recent progress in sintering of solid-state batteries: Application and modelling",
+   "year": 2024
+  },
+  {
+   "doi": "10.1016/j.ijmecsci.2020.105608",
+   "title": "The diffusion induced stress and cracking behaviour of primary particle for Li-ion battery electrode",
+   "year": 2020
+  },
+  {
+   "doi": "10.1016/j.ijmecsci.2024.109034",
+   "title": "Anisotropic model to describe chemo-mechanical response of Ni-rich cathode materials",
+   "year": 2024
+  },
+  {
+   "doi": "10.1016/j.ijplas.2021.103123",
+   "title": "Void growth based inter-granular ductile fracture in strain gradient polycrystalline plasticity",
+   "year": 2021
+  },
+  {
+   "doi": "10.1016/j.jmps.2006.03.004",
+   "title": "Molecular-dynamics simulation-based cohesive zone representation of intergranular fracture processes in aluminum",
+   "year": 2006
+  },
+  {
+   "doi": "10.1016/j.joule.2022.12.001",
+   "title": "Coupling of multiscale imaging analysis and computational modeling for understanding thick cathode degradation mechanisms",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/j.joule.2023.09.006",
+   "title": "Cracking vs. surface reactivity in high-nickel cathodes for lithium-ion batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1016/j.jpowsour.2020.228708",
+   "title": "Lithium-ion batteries – Current state of the art and anticipated developments",
+   "year": 2020
+  },
+  {
+   "doi": "10.1016/j.jpowsour.2021.229919",
+   "title": "Lithium solid-state batteries: State-of-the-art and challenges for materials, interfaces and processing",
+   "year": 2021
+  },
+  {
+   "doi": "10.1016/j.jpowsour.2022.231119",
+   "title": "Cracking predictions of lithium-ion battery electrodes by X-ray computed tomography and modelling",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/j.jpowsour.2022.231805",
+   "title": "A coupled phase field formulation for modelling fatigue cracking in lithium-ion battery electrode particles",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/j.nanoen.2018.09.051",
+   "title": "Chemomechanical interplay of layered cathode materials undergoing fast charging in lithium batteries",
+   "year": 2018
+  },
+  {
+   "doi": "10.1016/j.nanoen.2019.05.021",
+   "title": "Realizing superior cycling stability of Ni-Rich layered cathode by combination of grain boundary engineering and surface coating",
+   "year": 2019
+  },
+  {
+   "doi": "10.1016/j.partic.2020.09.004",
+   "title": "Recent advances in Ni-rich layered oxide particle materials for lithium-ion batteries",
+   "year": 2020
+  },
+  {
+   "doi": "10.1016/j.partic.2021.05.006",
+   "title": "Balancing particle properties for practical lithium-ion batteries",
+   "year": 2021
+  },
+  {
+   "doi": "10.1016/j.rinp.2018.10.001",
+   "title": "Cohesive zone modeling of hydrogen-induced delayed intergranular fracture in high strength steels",
+   "year": 2018
+  },
+  {
+   "doi": "10.1016/j.tafmec.2007.11.005",
+   "title": "Cohesive fracture simulation and failure modes of FRP–concrete bonded interfaces",
+   "year": 2008
+  },
+  {
+   "doi": "10.1016/j.tafmec.2022.103733",
+   "title": "On the calibration of the cohesive strength for cohesive zone models in finite element analyses",
+   "year": 2023
+  },
+  {
+   "doi": "10.1016/j.tramat.2026.100235",
+   "title": "Influence of chloride ion concentration and temperature on intergranular stress corrosion cracking of austenitic stainless steel: phase-field simulation study",
+   "year": 2026
+  },
+  {
+   "doi": "10.1016/j.xcrp.2020.100137",
+   "title": "Electron Backscatter Diffraction for Investigating Lithium-Ion Electrode Particle Architectures",
+   "year": 2020
+  },
+  {
+   "doi": "10.1016/j.xcrp.2022.100767",
+   "title": "Nickel-rich layered LiNi0.8Mn0.1Co0.1O2 with dual gradients on both primary and secondary particles in lithium-ion batteries",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/j.xcrp.2022.101043",
+   "title": "Li6PS5Cl microstructure and influence on dendrite growth in solid-state batteries with lithium metal anode",
+   "year": 2022
+  },
+  {
+   "doi": "10.1016/s0013-7944(03)00133-4",
+   "title": "Simulation of cup–cone fracture using the cohesive model",
+   "year": 2003
+  },
+  {
+   "doi": "10.1016/s0927-0256(02)00155-6",
+   "title": "Simulation of time-discontinuous chemically-aided intergranular fracture",
+   "year": 2002
+  },
+  {
+   "doi": "10.1021/acs.chemmater.1c03051.s001",
+   "title": "Chemical-Mechanical Effects in Ni-Rich Cathode Materials",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.chemmater.3c00924.s001",
+   "title": "Origin of Phase Separation in Ni-Rich Layered Oxide Cathode Materials During Electrochemical Cycling",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.chemmater.5c00906.s001",
+   "title": "Imaging of Lithium Ion Release from Individual Cathode Particles Shows Evidence for Diversity of Intraparticle Contacts",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.chemmater.5c00906.s002",
+   "title": "Imaging of Lithium Ion Release from Individual Cathode Particles Shows Evidence for Diversity of Intraparticle Contacts",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.chemmater.7b05407.s001",
+   "title": "Mesoscopic Phase Transition Kinetics in Secondary Particles of Electrode-Active Materials in Lithium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.chemmater.7b05407.s002",
+   "title": "Mesoscopic Phase Transition Kinetics in Secondary Particles of Electrode-Active Materials in Lithium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.chemmater.8b04200.s001",
+   "title": "Surface Modification for Suppressing Interfacial Parasitic Reactions of a Nickel-Rich Lithium-Ion Cathode",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.chemmater.8b04418",
+   "title": "Mesoscale Chemomechanical Interplay of the LiNi 0.8 Co 0.15 Al 0.05 O 2 Cathode in Solid-State Polymer Batteries",
+   "year": 2018
+  },
+  {
+   "doi": "10.1021/acs.chemrev.0c00275",
+   "title": "Lithium Metal Anodes with Nonaqueous Electrolytes",
+   "year": 2020
+  },
+  {
+   "doi": "10.1021/acs.chemrev.0c00767",
+   "title": "Promises and Challenges of Next-Generation “Beyond Li-ion” Batteries for Electric Vehicles and Grid Decarbonization",
+   "year": 2020
+  },
+  {
+   "doi": "10.1021/acs.chemrev.1c00838",
+   "title": "Review of Multifunctional Separators: Stabilizing the Cathode and the Anode for Alkali (Li, Na, and K) Metal–Sulfur and Selenium Batteries",
+   "year": 2022
+  },
+  {
+   "doi": "10.1021/acs.energyfuels.1c02115.s001",
+   "title": "Concentration-Gradient LiNi0.85Co0.12Al0.03O2 Cathode Assembled with Primary Particles for Rechargeable Lithium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.est.9b03064.s001",
+   "title": "Influences of Primary Emission and Secondary Coating Formation on the Particle Diversity and Mixing State of Black Carbon Particles",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.iecr.8b04899.s002",
+   "title": "Process Synthesis: Selective Recovery of Lithium from Lithium-Ion Battery Cathode Materials",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.jpcc.3c06045.s001",
+   "title": "Exploring Organic Cathode Materials for Lithium-Ion Batteries through Fragment Bonding and Discharge Simulation",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acs.nanolett.1c03852",
+   "title": "Chemomechanically Stable Ultrahigh-Ni Single-Crystalline Cathodes with Improved Oxygen Retention and Delayed Phase Degradations",
+   "year": 2021
+  },
+  {
+   "doi": "10.1021/acs.nanolett.9b04620.s001",
+   "title": "Revealing Grain-Boundary-Induced Degradation Mechanisms in Li-Rich Cathode Materials",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.0c02258.s001",
+   "title": "Incorporation of Titanium into Ni-Rich Layered Cathode Materials for Lithium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.0c02494",
+   "title": "Hierarchical\nStructuring of NMC111-Cathode Materials\nin Lithium-Ion Batteries: An In-Depth Study on the Influence of Primary\nand Secondary Particle Sizes on Electrochemical Performance",
+   "year": 2020
+  },
+  {
+   "doi": "10.1021/acsaem.0c02494.s001",
+   "title": "Hierarchical Structuring of NMC111-Cathode Materials in Lithium-Ion Batteries: An In-Depth Study on the Influence of Primary and Secondary Particle Sizes on Electrochemical Performance",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.1c01255.s001",
+   "title": "Analyzing Nanometer-Thin Cathode Particle Coatings for Lithium-Ion BatteriesThe Example of TiO2 on NCM622",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.1c02430.s001",
+   "title": "Which Layered Cathode Suits More for Nanosilica Protection Ni-Rich LiNi0.8Co0.1Mn0.1O2 or Li-Rich Li1.2Mn0.54Co0.13Ni0.13O2?",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.2c02928.s001",
+   "title": "Profiting the Co-Modifications of Li2SnO3 Coating and Sn4+ Doping in Co-Free Ni-Rich Cathode Particles for Lithium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.4c00272.s001",
+   "title": "Coating Effect of Various-Phase Alumina Nanoparticles on NCM811 Cathode for Enhancing Electrochemical Performance of Lithium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.4c01099",
+   "title": "Core–Shell NCM Cathode Particles Mechanical Failure: Particle Cracking and Interfacial Debonding",
+   "year": 2024
+  },
+  {
+   "doi": "10.1021/acsaem.4c01099.s001",
+   "title": "CoreShell NCM Cathode Particles Mechanical Failure: Particle Cracking and Interfacial Debonding",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.5c00714.s001",
+   "title": "Cryo-Sampling Enables Precise Evaluation of Thermal Stability of a Ni-Rich Layered Cathode",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.5c03511.s001",
+   "title": "Structural Rearrangements of a Cobalt-Free Lithium-Rich Layered Oxide Cathode during Formation",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.6c01391.s001",
+   "title": "Nitrile-Additive-Enabled Solvation Regulation and Cathode Interphase Stabilization for High-Voltage Ni-Rich Layered Oxide Cathodes",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.8b00612.s001",
+   "title": "Degradation Analysis of LiNi0.8Co0.15Al0.05O2 for Cathode Material of Lithium-Ion Battery Using Single-Particle Measurement",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsaem.9b00786.s001",
+   "title": "Hydrophobic Ni-Rich Layered Oxides as Cathode Materials for Lithium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.0c20100.s001",
+   "title": "Nanowelding to Improve the Chemomechanical Stability of the Ni-Rich Layered Cathode Materials",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.0c21361.s001",
+   "title": "Correction to Superior Stability Secured by a Four-phase Cathode Electrolyte Interface on Ni-rich Cathode for Lithium ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.1c15271.s001",
+   "title": "Interface-Stabilized Layered Lithium Ni-Rich Oxide Cathode via Surface Functionalization with Titanium Silicate",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.1c20787.s001",
+   "title": "Enhancing Electrochemical Performances of Rechargeable Lithium-Ion Batteries via Cathode Interfacial Engineering",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.2c20405.s001",
+   "title": "High-Performance Layered Ni-Rich Cathode Materials Enabled by Stress-Resistant Nanosheets",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.4c00514.s001",
+   "title": "Comparison Study of a Thermal-Driven Microstructure in a High-Ni Cathode for Lithium-Ion Batteries: Critical Calcination Temperature for Polycrystalline and Single-Crystalline Design",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.4c21263.s001",
+   "title": "Optimizing Annealing Strategy to Achieve Effective Grain Boundary Modification with Aluminum Oxide for Stable Cycling Ni-Rich Cathodes",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.5b09938.s001",
+   "title": "Suppressing the Phase Transition of the Layered Ni-Rich Oxide Cathode during High-Voltage Cycling by Introducing Low-Content Li2MnO3",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.5b10219.s001",
+   "title": "Layered Lithium-Rich Oxide Nanoparticles Doped with Spinel Phase: Acidic Sucrose-Assistant Synthesis and Excellent Performance as Cathode of Lithium Ion Battery",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.5b11389.s001",
+   "title": "Morphological Evolution of High-Voltage Spinel LiNi0.5Mn1.5O4 Cathode Materials for Lithium-Ion Batteries: The Critical Effects of Surface Orientations and Particle Size",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.5c00212.s001",
+   "title": "Mechano-Chemo-Electrochemically Booming Nickel-Rich Layered Cathode Electrochemical Performance",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.5c05879.s001",
+   "title": "Interfacial-Oxygen-Regulated Lithium-Rich Manganese-Based Cathode for High-Performance Solid-State Lithium Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.5c19385.s001",
+   "title": "Fast-Charging Lithium-Ion Pouch Cell by Constructing a Solid-Phase Lithium-Conducting Network in a Compacted Cathode",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.7b14117.s001",
+   "title": "Anthracite-Derived Dual-Phase Carbon-Coated Li3V2(PO4)3 as High-Performance Cathode Material for Lithium Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.8b05648.s001",
+   "title": "High-Performance and Industrially Feasible Ni-Rich Layered Cathode Materials by Integrating Coherent Interphase",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.8b13766.s001",
+   "title": "Facile Mn Surface Doping of Ni-Rich Layered Cathode Materials for Lithium Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsami.9b12578.s001",
+   "title": "Superior Stability Secured by a Four-Phase Cathode Electrolyte Interface on a Ni-Rich Cathode for Lithium Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsenergylett.4c00307.s001",
+   "title": "Consolidating the Vulnerable Interphase of Ni-Rich Layered Cathode by Multifunctional Water-Based Binder",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsenergylett.8b01490.s001",
+   "title": "Revealing Cycling Rate-Dependent Structure Evolution in Ni-Rich Layered Cathode Materials",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsenergylett.8b02499.s001",
+   "title": "Quaternary Layered Ni-Rich NCMA Cathode for Lithium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsenergylett.9b01579.s001",
+   "title": "Charge Transport in Single NCM Cathode Active Material Particles for Lithium-Ion Batteries Studied under Well-Defined Contact Conditions",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsenergylett.9b02668",
+   "title": "Challenges in Lithium Metal Anodes for Solid-State Batteries",
+   "year": 2020
+  },
+  {
+   "doi": "10.1021/acsnano.0c06910",
+   "title": "Stabilization of a Highly Ni-Rich Layered Oxide Cathode through Flower-Petal Grain Arrays",
+   "year": 2020
+  },
+  {
+   "doi": "10.1021/acsnano.0c06910.s001",
+   "title": "Stabilization of a Highly Ni-Rich Layered Oxide Cathode through Flower-Petal Grain Arrays",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsnano.0c06910.s002",
+   "title": "Stabilization of a Highly Ni-Rich Layered Oxide Cathode through Flower-Petal Grain Arrays",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsnano.1c07252.s001",
+   "title": "Lithium Transport Pathways Guided by Grain Architectures in Ni-Rich Layered Cathodes",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsnano.1c07252.s002",
+   "title": "Lithium Transport Pathways Guided by Grain Architectures in Ni-Rich Layered Cathodes",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsnano.1c07252.s003",
+   "title": "Lithium Transport Pathways Guided by Grain Architectures in Ni-Rich Layered Cathodes",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsnano.6c01776.s001",
+   "title": "Design Grain Boundary Strengthening Phase for Enhanced Stability and Ionic Conductivity in Nickel-Rich Cobalt-Free High-Entropy Layered Oxide Cathodes",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acsnano.7b02561.s001",
+   "title": "Atomic Layer Deposition of Stable LiAlF4 Lithium Ion Conductive Interfacial Layer for Stable Cathode Cycling",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acssuschemeng.0c00404.s001",
+   "title": "Sulfonate-Based Artificial CathodeElectrolyte Interface to Enhance Electrochemical Performance of Ni-Rich Layered Oxide Cathode Materials",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acssuschemeng.0c05011.s001",
+   "title": "Superiority of Single-Crystal to Polycrystalline LiNixCoyMn1xyO2 Cathode Materials in Storage Behaviors for Lithium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acssuschemeng.0c08487.s001",
+   "title": "Reuse, Recycle, and Regeneration of LiFePO4 Cathode from Spent Lithium-Ion Batteries for Rechargeable Lithium- and Sodium-Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acssuschemeng.1c03179.s001",
+   "title": "Improved Lithium-Ion Transport Within the LiNi0.8Co0.15Al0.05O2 Secondary Cathode Particles Through a Template-Assisted Synthesis Route",
+   "year": null
+  },
+  {
+   "doi": "10.1021/acssuschemeng.1c07941.s001",
+   "title": "Lattice Engineering to Refine Particles and Strengthen Bonds of the LiNi0.9Co0.05Mn0.05O2 Cathode toward Efficient Lithium Ion Storage",
+   "year": null
+  },
+  {
+   "doi": "10.1021/jacs.8b13438.s001",
+   "title": "Phase Control on Surface for the Stabilization of High Energy Cathode Materials of Lithium Ion Batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1021/jacs.9b04974.s001",
+   "title": "Lithium Deficiencies Engineering in Li-Rich Layered Oxide Li1.098Mn0.533Ni0.113Co0.138O2 for High-Stability Cathode",
+   "year": null
+  },
+  {
+   "doi": "10.1036/1097-8542.abr2412201",
+   "title": "Enhanced durability and longevity in single-crystal lithium-ion batteries compared to traditional polycrystalline lithium-ion batteries",
+   "year": null
+  },
+  {
+   "doi": "10.1038/s41467-019-13884-x",
+   "title": "Charge distribution guided by grain crystallographic orientations in polycrystalline battery materials",
+   "year": 2020
+  },
+  {
+   "doi": "10.1038/s41467-020-16824-2",
+   "title": "Surface regulation enables high stability of single-crystal lithium-ion cathodes at high voltage",
+   "year": 2020
+  },
+  {
+   "doi": "10.1038/s41467-020-19528-9",
+   "title": "Insights into interfacial effect and local lithium-ion transport in polycrystalline cathodes of solid-state batteries",
+   "year": 2020
+  },
+  {
+   "doi": "10.1038/s41467-021-24893-0",
+   "title": "Surface enrichment and diffusion enabling gradient-doping and coating of Ni-rich cathode toward Li-ion batteries",
+   "year": 2021
+  },
+  {
+   "doi": "10.1038/s41467-021-25611-6",
+   "title": "In situ inorganic conductive network formation in high-voltage single-crystal Ni-rich cathodes",
+   "year": 2021
+  },
+  {
+   "doi": "10.1038/s41467-022-28325-5",
+   "title": "Thermal-healing of lattice defects for high-energy single-crystalline battery cathodes",
+   "year": 2022
+  },
+  {
+   "doi": "10.1038/s41467-022-29531-x",
+   "title": "High-energy and durable lithium metal batteries using garnet-type solid electrolytes with tailored lithium-metal compatibility",
+   "year": 2022
+  },
+  {
+   "doi": "10.1038/s41467-023-40609-y",
+   "title": "A reflection on polymer electrolytes for solid-state lithium metal batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1038/s41467-024-52123-w",
+   "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries",
+   "year": 2024
+  },
+  {
+   "doi": "10.1038/s41467-024-52768-7",
+   "title": "Electronic structure formed by Y2O3-doping in lithium position assists improvement of charging-voltage for high-nickel cathodes",
+   "year": 2025
+  },
+  {
+   "doi": "10.1038/s41467-024-54637-9",
+   "title": "Gradient-porous-structured Ni-rich layered oxide cathodes with high specific energy and cycle stability for lithium-ion batteries",
+   "year": 2024
+  },
+  {
+   "doi": "10.1038/s41560-018-0312-z",
+   "title": "High electronic conductivity as the origin of lithium dendrite formation within solid electrolytes",
+   "year": 2019
+  },
+  {
+   "doi": "10.1038/s41560-021-00782-0",
+   "title": "Reactive boride infusion stabilizes Ni-rich cathodes for lithium-ion batteries",
+   "year": 2021
+  },
+  {
+   "doi": "10.1038/s41560-023-01280-1",
+   "title": "High-entropy electrolytes for practical lithium metal batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1039/c7cs00139h",
+   "title": "A review of flexible lithium–sulfur and analogous alkali metal–chalcogen rechargeable batteries",
+   "year": 2017
+  },
+  {
+   "doi": "10.1039/d1cp00359c",
+   "title": "Lithium ion battery degradation: what you need to know",
+   "year": 2021
+  },
+  {
+   "doi": "10.1039/d1ee00767j",
+   "title": "Strategies towards enabling lithium metal in batteries: interphases and electrodes",
+   "year": 2021
+  },
+  {
+   "doi": "10.1039/d3im00115f",
+   "title": "Recent progress and challenges in silicon-based anode materials for lithium-ion batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1039/d3se00844d",
+   "title": "The genesis and control of microcracks in nickel-rich cathode materials for lithium-ion batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1039/d3ta03057a",
+   "title": "Direct observations of electrochemically induced intergranular cracking in polycrystalline NMC811 particles",
+   "year": 2023
+  },
+  {
+   "doi": "10.1039/d6eb00125d/v1/decision1",
+   "title": "Decision letter for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+   "year": 2026
+  },
+  {
+   "doi": "10.1039/d6eb00125d/v1/review1",
+   "title": "Review for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+   "year": 2026
+  },
+  {
+   "doi": "10.1039/d6eb00125d/v1/review2",
+   "title": "Review for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+   "year": 2026
+  },
+  {
+   "doi": "10.1039/d6eb00125d/v2/decision1",
+   "title": "Decision letter for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+   "year": 2026
+  },
+  {
+   "doi": "10.1039/d6eb00125d/v2/review1",
+   "title": "Review for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+   "year": 2026
+  },
+  {
+   "doi": "10.1039/d6ee01264g",
+   "title": "Contact interfaces in anodes with large volume strain for high-performance lithium-ion storage",
+   "year": 2026
+  },
+  {
+   "doi": "10.1051/jphyscol:1988572",
+   "title": "GRAIN BOUNDARY INTERNAL FRICTION AND RELATIONSHIP TO INTERGRANULAR FRACTURE",
+   "year": 1988
+  },
+  {
+   "doi": "10.1063/1.4954682",
+   "title": "Atomistically derived cohesive zone model of intergranular fracture in polycrystalline graphene",
+   "year": 2016
+  },
+  {
+   "doi": "10.1063/5.0051092",
+   "title": "Perspectives for next generation lithium-ion battery cathode materials",
+   "year": 2021
+  },
+  {
+   "doi": "10.1080/01418617808239197",
+   "title": "Grain boundary sliding and intergranular fracture behaviour of copper bicrystals",
+   "year": 1978
+  },
+  {
+   "doi": "10.1088/2515-7655/ab83e1",
+   "title": "Fracture behavior in battery materials",
+   "year": 2020
+  },
+  {
+   "doi": "10.1088/2752-5724/ae5120",
+   "title": "2026 roadmap on next-generation solid electrolytes for battery applications",
+   "year": 2026
+  },
+  {
+   "doi": "10.1093/nsr/nwad252",
+   "title": "Challenges and approaches of single-crystal Ni-rich layered cathodes in lithium batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.1103/physrevlett.58.61",
+   "title": "Localized Grain-Boundary Electronic States and Intergranular Fracture",
+   "year": 1987
+  },
+  {
+   "doi": "10.1115/1.0004248v",
+   "title": "Molecular Dynamics Simulation Based Cohesive Zone Representation of Intergranular Fracture Processes in Bicrystalline Graphene",
+   "year": 2021
+  },
+  {
+   "doi": "10.1115/1.0004840v",
+   "title": "A Cohesive Reproducing Kernel Finite Volume Method for Brittle Fracture Simulation",
+   "year": 2021
+  },
+  {
+   "doi": "10.1115/imece2020-23624",
+   "title": "Molecular Dynamics Simulation Based Cohesive Zone Representation of Intergranular Fracture Processes in Bicrystalline Graphene",
+   "year": 2020
+  },
+  {
+   "doi": "10.1115/pvp2006-icpvt-11-93492",
+   "title": "FEM-MD Coupling Simulation for Strength and Fracture Analyses Near Grain Boundary Zone of Structural Steels",
+   "year": 2006
+  },
+  {
+   "doi": "10.1115/pvp2013-97618",
+   "title": "The Application of Cohesive Elements in Numerical Simulations of the Intergranular Fracture in Voronoi Cellular Models",
+   "year": 2013
+  },
+  {
+   "doi": "10.1126/sciadv.ady7189",
+   "title": "Unravelling electro-chemo-mechanical interplay in layered oxide cathode degradation in solid-state batteries",
+   "year": 2025
+  },
+  {
+   "doi": "10.1126/science.abg5998",
+   "title": "Solid-state batteries: The critical role of mechanics",
+   "year": 2023
+  },
+  {
+   "doi": "10.1149/1945-7111/ac24bb",
+   "title": "Increased Moisture Uptake of NCM622 Cathodes after Calendering due to Particle Breakage",
+   "year": 2021
+  },
+  {
+   "doi": "10.1149/1945-7111/ac8ee3",
+   "title": "Microstructural Adjusting Crack Evolution of Polycrystalline NCM Particle during Charge/Discharge Cycle",
+   "year": 2022
+  },
+  {
+   "doi": "10.1149/1945-7111/acd47e",
+   "title": "Chemo-Mechanical Analysis of Lithiation/Delithiation of Ni-rich Single Crystals",
+   "year": 2023
+  },
+  {
+   "doi": "10.1149/2.0321910jes",
+   "title": "Mechanical Stress Induced Current Focusing and Fracture in Grain Boundaries",
+   "year": 2019
+  },
+  {
+   "doi": "10.1149/2.1441707jes",
+   "title": "Review—SEI: Past, Present and Future",
+   "year": 2017
+  },
+  {
+   "doi": "10.1149/2.1751713jes",
+   "title": "Mechanical and Structural Degradation of LiNixMnyCozO2Cathode in Li-Ion Batteries: An Experimental Study",
+   "year": 2017
+  },
+  {
+   "doi": "10.1149/ma2010-03/1/325",
+   "title": "High-Power Lithium-Ion Secondary Battery Using Olivine-Type Lithium Iron Phosphate as the Cathode Material",
+   "year": 2010
+  },
+  {
+   "doi": "10.1149/ma2017-01/5/396",
+   "title": "Novel Cathode Materials for Na-Ion Batteries Composed of Nano-Rod Primary Particles in Spherical Secondary Particles",
+   "year": 2017
+  },
+  {
+   "doi": "10.1149/ma2017-02/4/292",
+   "title": "Enhanced Electrochemical Performance of the Cathode for a Lithium Ion Secondary Battery Using Lithium Ion Conductive Glass-Ceramics",
+   "year": 2017
+  },
+  {
+   "doi": "10.1149/ma2019-02/5/332",
+   "title": "Reduction of Electronic Conductivity within Secondary Particles Revealing a Degradation Mechanism of Ni-Rich Cathode for Lithium Ion Batteries",
+   "year": 2019
+  },
+  {
+   "doi": "10.1149/ma2022-012437mtgabs",
+   "title": "The Role of Gas Evolution in Particle Surface Cracking in Nickel-Rich Lithium-Ion Cathode Materials",
+   "year": 2022
+  },
+  {
+   "doi": "10.1149/ma2023-014844mtgabs",
+   "title": "Nanoscale Lithium Distribution within a Secondary Cathode Particle for Li-Ion Battery Using Identical Location (S)TEM-EELS",
+   "year": 2023
+  },
+  {
+   "doi": "10.1201/9780429070655-107",
+   "title": "Cohesive Zone Modeling of Grain Boundary Micro-cracking in Ceramics",
+   "year": 2019
+  },
+  {
+   "doi": "10.1201/97810032692050-6",
+   "title": "Modeling and Simulation on the Recycling Process of Spent Lithium-Ion Battery Cathode Materials",
+   "year": 2022
+  },
+  {
+   "doi": "10.1201/9781351075350-1",
+   "title": "Surface Analyses of Small Individual Particles by Secondary Ion Mass Spectroscopy",
+   "year": 2018
+  },
+  {
+   "doi": "10.1201/b11646-132",
+   "title": "Analysis of uniaxial tensile fracture of monomineral polycrystalline rock based on intergranular cracking",
+   "year": 2011
+  },
+  {
+   "doi": "10.1201/b11771-17",
+   "title": "Cohesive crack for quasi-brittle fracture and numerical simulation of hydraulic fracture",
+   "year": 2011
+  },
+  {
+   "doi": "10.1520/stp16319s",
+   "title": "Analysis of the Intergranular Cracking Process Inside Polycrystalline Heat-Resistant Materials Under Creep-Fatigue Conditions",
+   "year": 1997
+  },
+  {
+   "doi": "10.1557/proc-122-379",
+   "title": "Grain Boundary Segregation of Solutes and Intergranular Fracture in Iron Alloys",
+   "year": 1988
+  },
+  {
+   "doi": "10.1557/proc-586-237",
+   "title": "Grain Boundary Microstructure Dependent – Intergranular Fracture in Polycrystalline Molybdenum",
+   "year": 1999
+  },
+  {
+   "doi": "10.21203/rs.3.rs-9407614/v1",
+   "title": "Physics-Informed Neural Network Framework for Phase-Field Modeling of Intergranular Fracture",
+   "year": 2026
+  },
+  {
+   "doi": "10.2139/ssrn.4630940",
+   "title": "Role of Anisotropic Diffusion and Strains in the Chemo-Mechanical Response of Single-Crystalline Ni-Rich Cathode Materials in Lithium-Ion Batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.2139/ssrn.4672471",
+   "title": "Mechanism of Intergranular Fatigue Crack Growth in Copper Polycrystal",
+   "year": 2023
+  },
+  {
+   "doi": "10.2139/ssrn.4705599",
+   "title": "Microstructure Impact on Chemo-Mechanical Fracture of Polycrystalline Lithium-Ion Battery Cathode Materials",
+   "year": 2024
+  },
+  {
+   "doi": "10.2139/ssrn.5010213",
+   "title": "A Cohesive Phase-Field Method for Seamlessly Modelling Intergranular and Transgranular Fracture in Polycrystalline Materials",
+   "year": 2024
+  },
+  {
+   "doi": "10.2139/ssrn.5053050",
+   "title": "Fracture of Storage Particle and Interfacial Debonding in Lithium-Ion Batteries: A Phase Field Model",
+   "year": 2024
+  },
+  {
+   "doi": "10.2139/ssrn.5056113",
+   "title": "A Novel Anisotropic Grain Boundary Cohesive Zone Model for Fracture Simulation of Polycrystalline Nickel-Based Superalloy",
+   "year": 2024
+  },
+  {
+   "doi": "10.2139/ssrn.5056363",
+   "title": "Fracture of Storage Particle and Interfacial Debonding in Lithium-Ion Batteries: A Phase Field Model",
+   "year": 2024
+  },
+  {
+   "doi": "10.2139/ssrn.5193915",
+   "title": "Fracture Simulation of Nacre-Like Structures Composed of Bricks Bonded with Cohesive Model",
+   "year": 2025
+  },
+  {
+   "doi": "10.2139/ssrn.5274461",
+   "title": "A Cohesive Phase-Field Method for Seamlessly Modelling Intergranular and Transgranular Fracture in Polycrystalline Materials",
+   "year": 2025
+  },
+  {
+   "doi": "10.2139/ssrn.6570359",
+   "title": "Physics-informed Neural Network Framework for Phase-field Modeling of Intergranular Fracture",
+   "year": 2026
+  },
+  {
+   "doi": "10.2139/ssrn.6613175",
+   "title": "Physics-Informed Neural Network Framework for Phase-Field Modeling of Intergranular Fracture",
+   "year": 2026
+  },
+  {
+   "doi": "10.2172/940235",
+   "title": "THE EFFECT OF INTERSTITIAL N ON GRAIN BOUNDARY COHESIVE STRENGTH IN Fe",
+   "year": 2003
+  },
+  {
+   "doi": "10.22443/rms.mmc2023.120",
+   "title": "Understanding local chemistry in cross-sectioned lithium-ion battery cathode through secondary electron hyperspectral imaging",
+   "year": 2023
+  },
+  {
+   "doi": "10.2495/cmem110521",
+   "title": "Simulation of intergranular crack nucleation and evolution in polycrystal metals on mesoscale",
+   "year": 2011
+  },
+  {
+   "doi": "10.26083/tuprints-00017542",
+   "title": "Chemo-mechanical Modeling of Lithium-Ion Batteries",
+   "year": 2021
+  },
+  {
+   "doi": "10.3389/fenrg.2019.00065",
+   "title": "Safety Issues in Lithium Ion Batteries: Materials and Cell Design",
+   "year": 2019
+  },
+  {
+   "doi": "10.3390/batteries9060319",
+   "title": "High-Performance High-Nickel Multi-Element Cathode Materials for Lithium-Ion Batteries",
+   "year": 2023
+  },
+  {
+   "doi": "10.3390/en15239168",
+   "title": "Review on the Experimental Characterization of Fracture in Active Material for Lithium-Ion Batteries",
+   "year": 2022
+  },
+  {
+   "doi": "10.3390/ma19050898",
+   "title": "Stress Corrosion Cracking: Mechanisms, Materials Challenges, and Engineering Solutions",
+   "year": 2026
+  },
+  {
+   "doi": "10.3390/nanoenergyadv3020008",
+   "title": "Materials and Processing of Lithium-Ion Battery Cathodes",
+   "year": 2023
+  },
+  {
+   "doi": "10.37099/mtu.dc.etds/983",
+   "title": "MODELING AND SIMULATION OF MICROSTRUCTURES, MECHANISMS, AND DIFFRACTION EFFECTS IN ENERGY MATERIALS: FERROELECTRICS AND LITHIUM ION BATTERY CATHODE MATERIALS",
+   "year": null
+  },
+  {
+   "doi": "10.4028/0-87849-413-8.9",
+   "title": "Modelling Intergranular Microfracture Using a Boundary Cohesive Grain Element Formulation",
+   "year": 2006
+  },
+  {
+   "doi": "10.4028/0-87849-989-x.187",
+   "title": "Cohesive Zone Model for Crack Propagation in a Viscoplastic Polycrystal Material at Elevated Temperature",
+   "year": 2006
+  },
+  {
+   "doi": "10.4028/b-6nbrzc",
+   "title": "Grain Boundary Chemistry and Intergranular Fracture",
+   "year": 1989
+  },
+  {
+   "doi": "10.4028/www.scientific.net/kem.324-325.9",
+   "title": "Modelling Intergranular Microfracture Using a Boundary Cohesive Grain Element Formulation",
+   "year": 2006
+  },
+  {
+   "doi": "10.4028/www.scientific.net/kem.713.54",
+   "title": "Micromechanical Boundary Element Modelling of Transgranular and Intergranular Cohesive Cracking in Polycrystalline Materials",
+   "year": 2016
+  },
+  {
+   "doi": "10.4028/www.scientific.net/msf.46.25",
+   "title": "Grain Boundary Design for the Control of Intergranular Fracture",
+   "year": 1991
+  },
+  {
+   "doi": "10.4028/www.scientific.net/msf.46.253",
+   "title": "Grain Boundary Segregation in Iron and Its Alloys and Its Effect on Intergranular Fracture",
+   "year": 1991
+  },
+  {
+   "doi": "10.4028/www.scientific.net/msf.46.335",
+   "title": "Grain Boundary Chemistry and Intergranular Fracture in Austenitic Nickel-Base Alloys",
+   "year": 1991
+  },
+  {
+   "doi": "10.46936/aps-180259/60009668",
+   "title": "",
+   "year": 2022
+  },
+  {
+   "doi": "10.48550/arxiv.2404.07736",
+   "title": "Hydrogen Trapping and Embrittlement in Metals -- A Review",
+   "year": 2024
+  },
+  {
+   "doi": "10.48550/arxiv.2407.20259",
+   "title": "A length-scale insensitive cohesive phase-field interface model: application to concurrent bulk and interface fracture simulation in Lithium-ion battery materials",
+   "year": 2024
+  },
+  {
+   "doi": "10.48550/arxiv.2601.02879",
+   "title": "Finite Element Simulation of NMC Particle Fracture during Calendering: a Route to Optimize Electrode Microstructures",
+   "year": 2026
+  },
+  {
+   "doi": "10.5006/1.3585110",
+   "title": "Grain-Boundary Chemistry and Intergranular Fracture in Austenitic Nickel-Base Alloys—A Review",
+   "year": 1990
+  },
+  {
+   "doi": "10.53623/amms.v2i2.1148",
+   "title": "On the Mechanical Stability of Nickel-Based Lithium-Ion Battery Cathodes for Electric Vehicles",
+   "year": 2026
+  },
+  {
+   "doi": "10.54738/mi.2022.2802",
+   "title": "A Mini Review on Ni-rich Layered Oxide Cathode Materials",
+   "year": 2022
+  },
+  {
+   "doi": "10.62638/zasmat1635",
+   "title": "Stress corrosion cracking of high entropy alloys: Mechanism, microstructure and performance",
+   "year": 2026
+  },
+  {
+   "doi": "10.70675/dd5dc948z70e4z44bazba35zffea98517bfa",
+   "title": "Intergranular stress corrosion cracking of ion irradiated 304L stainless steel in PWR environment",
+   "year": null
+  }
+ ]
+}

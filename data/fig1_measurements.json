@@ -1,0 +1,123 @@
+{
+ "_meta": {
+  "purpose": "Measured strengths plotted in Fig. 1: pristine whole-particle compression and lithiated micro-tensile tests (x_Li not reported). Model-assumed values come from review_b01.json, not from here.",
+  "compiled": "2026-09-23",
+  "imports": "Every row is registered in the private import ledger'Ch' (I-08..I-10). Borrowed read-only from the authors' private thesis repository; commit = last commit touching the cited file.",
+  "normalisation_note": "Wheatcroft uses sigma_F = P_f/D^2; Omirkhan and Han use Hiramatsu-Oka 2.8P/(pi d^2) = 0.891 P/D^2. Values are plotted AS REPORTED (not rescaled); the 11% convention gap is stated in the caption (IMPORTS section B: 14-22% after co-scaling).",
+  "excluded_on_purpose": "Dang et al. (NMC111, 188 MPa) - quoted only second-hand (via Sedlatschek), not NMC811; delithiated and cycled values are not plotted (they are quoted in Section 3 text). Inclusion rule for Fig. 1: pristine whole-particle compression, plus the micro-tensile tests, whose specimens are lithiated with x_Li not reported (corrected 2026-09-26, external audit A4; the SI figure promised earlier was never made)."
+ },
+ "particle_compression": [
+  {
+   "id": "X1",
+   "cite": "Wheatcroft et al. (2023), Batteries & Supercaps e202300032",
+   "doi": "10.1002/batt.202300032",
+   "label": "NMC811, flat platen",
+   "mean_MPa": 207,
+   "sd_MPa": 49,
+   "norm": "P_f/D^2",
+   "verbatim": "Here, the measured mean indentation strength for pristine NMC811 secondary particles under flat platen compression is 207 ± 49 MPa (Figure 3).",
+   "anchor": "library PDF text (re-read 2026-09-23); the authors' private reading notes)",
+   "short": "Wheatcroft 2023"
+  },
+  {
+   "id": "X2",
+   "cite": "Omirkhan et al. (2025), Energy Environ Sci 18:9254-9262",
+   "doi": "10.1039/d5ee00976f",
+   "label": "NMC811 calendered electrode",
+   "mean_MPa": 210,
+   "sd_MPa": 53,
+   "norm": "Hiramatsu-Oka",
+   "verbatim": "As-received pristine NMC811 cathode samples extracted from cast cathode sheets had strengths of 210 ± 53 MPa and 223 ± 71 MPa for calendered and non-calendered samples respectively.",
+   "anchor": "library PDF text (re-read 2026-09-23); HARVEST_LIT_2026-08-26 §8-1(b)",
+   "short": "Omirkhan 2025",
+   "point_tag": "cal."
+  },
+  {
+   "id": "X3",
+   "cite": "Omirkhan et al. (2025)",
+   "doi": "10.1039/d5ee00976f",
+   "label": "NMC811 non-calendered electrode",
+   "mean_MPa": 223,
+   "sd_MPa": 71,
+   "norm": "Hiramatsu-Oka",
+   "verbatim": "(same sentence as X2)",
+   "anchor": "as X2",
+   "short": "Omirkhan 2025",
+   "point_tag": "non-cal."
+  },
+  {
+   "id": "X4",
+   "cite": "Omirkhan et al. (2025)",
+   "doi": "10.1039/d5ee00976f",
+   "label": "NMC811 powder",
+   "mean_MPa": 225,
+   "sd_MPa": 67,
+   "norm": "Hiramatsu-Oka",
+   "verbatim": "Pristine powder sample had strength of 225 ± 67 MPa and is in good agreement with non-calendered cast electrode sample.",
+   "anchor": "as X2",
+   "short": "Omirkhan 2025",
+   "point_tag": "powder"
+  },
+  {
+   "id": "X5",
+   "cite": "Han, Ghosh, Lin & Zhao (2026), Experimental Mechanics",
+   "doi": "10.1007/s11340-025-01222-w",
+   "label": "three NMC811 microstructures (means only)",
+   "means_MPa": [
+    172.8,
+    180.0,
+    210.6
+   ],
+   "sd_MPa": null,
+   "norm": "Hiramatsu-Oka",
+   "verbatim": "the mean strength for large-grain gravel NMC is 172.8 MPa, small-grain gravel NMC is 180 MPa, and rod-shaped NMC is 210.6 MPa.",
+   "anchor": "the authors' private reading notes (Firecrawl snippet, not full text); SD not quoted, so no error bar is drawn; means and final citation (Exp Mech 66 (2026) 1119-1131) confirmed by the external auditor from the full DOI PDF, 2026-09-26",
+   "short": "Han 2026"
+  }
+ ],
+ "micro_tensile": {
+  "id": "X6",
+  "cite": "Sedlatschek et al. (2026), J Power Sources 681:240276",
+  "doi": "10.1016/j.jpowsour.2026.240276",
+  "label": "NMC811, FIB push-to-pull, ~2.7 x 0.5 x 1.3 um gauge",
+  "individual_MPa": [
+   840,
+   685,
+   562
+  ],
+  "weibull": {
+   "sigma_ch_MPa": 745,
+   "m": 6.91,
+   "n": 3
+  },
+  "verbatim": [
+   "The fracture stresses of the three reliable curves are 840 MPa, 685 MPa and 562 MPa.",
+   "the characteristic strength σch is 745 MPa and the Weibull modulus m is 6.91 using a Maximum Likelihood Estimation.",
+   "Since this characteristic strength is based on the relatively small number of three tests, its reported value is to be interpreted with caution.",
+   "In this study, lithiated NMC was examined.",
+   "Since only a small number of grains was present in the testing section and in particular on the fracture surface and assuming that the fracture surface is normal to the loading direction, the measured fracture stress is the average grain boundary strength over the grain boundaries on the fracture surface."
+  ],
+  "anchor": "library PDF text (re-read 2026-09-23); the authors' private reading notes",
+  "caveat": "lithiated; exact x_Li not reported. The authors read sigma_ch as the average GB strength over the boundaries on the fracture surface (two stated assumptions: few grains, fracture surface normal to load).",
+  "short": "Sedlatschek 2026",
+  "lithiation_label": "lithiated",
+  "x_Li": null,
+  "anchor_2026_09_26": "Sedlatschek et al., J Power Sources 681 (2026) 240276, pp. 5-6 (Discussion), re-read from the authors' local reference library) 2026-09-26"
+ },
+ "particle_tip_indentation": [
+  {
+   "id": "X7",
+   "short": "Wheatcroft 2023",
+   "cite": "Wheatcroft et al. (2023), Batteries & Supercaps e202300032",
+   "doi": "10.1002/batt.202300032",
+   "label": "NMC811 pristine, cono-spherical tip",
+   "mean_MPa": 67,
+   "sd_MPa": 21,
+   "norm": "P_f/D^2",
+   "verbatim": "The average indentation strengths, measured using the cono-spherical tip, of pristine and electrode extracted NMC811 secondary particles are similar (67 ± 21 MPa, and 64 ± 22 MPa respectively).",
+   "caveat_verbatim": "the maximum load measured by the conospherical tip indentation tests depends also upon the Mode I fracture toughness",
+   "anchor": "library PDF text (re-read 2026-09-23); the authors' private reading notes",
+   "why_plotted": "added after the 2026-09-23 audit: omitting a same-source value below 100 MPa would read as selection. Plotted as its own row because the authors say it is NOT a cohesive-strength measure."
+  }
+ ]
+}

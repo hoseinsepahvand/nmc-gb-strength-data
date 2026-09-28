@@ -1,0 +1,6 @@
+{
+ "protocol_file": "knowledge/steps/PREREG_B01_review_2026-09-22.md",
+ "protocol_sha256_original": "e89ddd5768d7f7d1d5382eafd0035b48a5b220c7a7dca047a882ef079f0c6aa0",
+ "protocol_first_commit": "94862be, 2026-09-22 07:13:11 UTC (private repository)",
+ "note": "The protocol copy in protocol/ has two references to private paths replaced; the hash above is of the unmodified file."
+}

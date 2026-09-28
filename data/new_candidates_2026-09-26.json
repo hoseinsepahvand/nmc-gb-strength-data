@@ -1,0 +1,93 @@
+{
+ "_meta": {
+  "step": "B-01 addendum",
+  "protocol": "paper/supplementary.md Section S1 (inclusion/exclusion, categories a-f)",
+  "compiled": "2026-09-26",
+  "note": "10 candidate DOIs (8 distinct works) screened 2026-09-26. Access via WebFetch/WebSearch only (container curl blocked by egress proxy; Unpaywall/OpenAlex/Crossref/EuropePMC API refused or rate-limited; Elicit and Scholar Gateway not usable). Every quote below was returned by the WebFetch summariser and is marked 'via summariser, verify against PDF'; none was read by eye from a PDF. Result: 0 included, 9 excluded, 1 unresolved (f).",
+  "verification_2026_09_27": "Six of the seven non-duplicate records re-read from primary text on 2026-09-27 (PDF, PMC XML, or OSTI abstract); quotes checked; one page reference corrected (Nat Commun: p. 8, not p. 6). Xia et al. 2018 could not be retrieved and keeps its web-summary basis, corroborated by the checked Besli et al. 2019 PDF. Sun et al. 2016 remains (f), paywalled (Unpaywall: no open copy)."
+ },
+ "included": [],
+ "excluded": [
+  {
+   "cite": "Asheri, Rezaei, Glavas & Xu (2024), SSRN preprint of Eng Fract Mech 309:110370",
+   "doi": "10.2139/ssrn.4705599",
+   "published_version_doi": "10.1016/j.engfracmech.2024.110370",
+   "access": "SSRN abstract page + ScienceDirect abstract page (same title and author list; SSRN posted 24 Jan 2024)",
+   "reason": "Duplicate: preprint of a paper already excluded in review_b01.json (Asheri et al. 2024 EFM 309:110370: cohesive zone present but no numeric strength; parameterised by damage-initiation energy Y0 and interface stiffness k). GBs are explicit (cohesive inter-granular fracture), so the exclusion rests only on the missing numeric strength. Caveat: the SSRN preprint full text itself was not opened; the decision follows the published version.",
+   "screen_source": "title re-screen 2026-09-26"
+  },
+  {
+   "cite": "Liu, Roters, Raabe et al. (2024), Nat Commun 15, 'Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries' (PMC11393410)",
+   "doi": "10.1038/s41467-024-52123-w",
+   "access": "full text read 2026-09-27: publisher PDF (nature.com, open access) and PMC JATS XML, a private copy of the full text",
+   "reason": "Does not model fracture, so no GB strength exists: NMC811 polycrystal with crystal plasticity; 'grain boundaries are represented by two layers of elements located between adjacent grains' with no cohesive or damage law. Quotes checked against the PDF: 'the current model does not explicitly account for mechanical fracture' (p. 3, 'Theoretical framework and model setup'); 'While this study effectively captures the heterogeneous stress response and crystalline defect formation induced by compositional strains, it does not account for crack formation.' (p. 8, 'Crack formation in composite cathodes'; the earlier record gave p. 6). The only MPa/GPa values are electrolyte yield strengths (200-450 MPa sulfide, 2 GPa oxide) and computed stresses.",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  },
+  {
+   "cite": "Boyce, Martinez-Paneda, Wade, Zhang, Bailey, Heenan, Brett & Shearing (2022), J Power Sources 525:231119 (arXiv:2202.09572)",
+   "doi": "10.1016/j.jpowsour.2022.231119",
+   "access": "full text read 2026-09-27: arXiv:2202.09572 PDF (accepted version), a private copy of the full text",
+   "reason": "GBs not represented explicitly (pre-registered exclusion): phase-field model of an XCT-reconstructed NMC622 electrode, 'NMC622 was treated as an isotropic linear-elastic solid'; the authors 'focus exclusively on the large voids and cracks that result from synthesis and manufacture' (Introduction). The strength is a bulk particle strength: Table 1 'σc MPa 100MPa Xu et al. [27]'; 'The Young's modulus and fracture toughness of NMC were obtained from [27] while we estimated the phase field length parameter, l, through its relation with the material strength σc' (Sec. 2, material properties). Checked against the PDF. Lineage note: another member of the 100 MPa / Xu cluster.",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  },
+  {
+   "cite": "Xia, Mu, Xu, Wang, Wei, Liu, Pianetta, Zhao, Yu, Lin & Liu (2018), Nano Energy 53:753-762",
+   "doi": "10.1016/j.nanoen.2018.09.051",
+   "access": "author manuscript (par.nsf.gov/servlets/purl/10110399) could not be retrieved on 2026-09-27 (timeout from WSL, HTTP 429 in the browser); assessment still rests on the 2026-09-26 web summary, corroborated by Besli et al. 2019 (checked PDF), which describes this paper's model as the '3D maze' diffusion-path algorithm",
+   "reason": "No fracture mechanics model and no numeric strength: NMC622 imaging study; the only numerical model is a geometric '3D maze' Li-diffusion-path algorithm around imaged cracks (web summary; not checked against the PDF). Besli et al. 2019 (PDF p. 14) cite this paper [ref. 30] for the same algorithm: 'we adapted a numerical model that we developed recently30 and calculated the cracking induced diffusion deterrent of the Li ions. By numerically solving the “3D maze” ...'.",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": false
+  },
+  {
+   "cite": "Besli, Xia, Kuppan et al. (2019), Chem Mater 31 (NCA in solid-state polymer batteries)",
+   "doi": "10.1021/acs.chemmater.8b04418",
+   "access": "full text read 2026-09-27: eScholarship author PDF qt91v3r4m2, a private copy of the full text",
+   "reason": "No fracture mechanics model and no numeric strength: experimental NCA study; the only model is the '3D maze' diffusion-path algorithm of Xia et al. 2018. Checked against the PDF (p. 14): 'we adapted a numerical model that we developed recently30 and calculated the cracking induced diffusion deterrent of the Li ions.' No 'cohesive', 'finite element', 'MPa' or 'GPa' in the text.",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  },
+  {
+   "cite": "Zheng, Xue et al. (2025), Science Advances (PMC12506959)",
+   "doi": "10.1126/sciadv.ady7189",
+   "access": "full text read 2026-09-27: PMC JATS XML (PMC12506959), a private copy of the full text",
+   "reason": "Not a model: experimental study of NMC811 / LiNbO3-coated NMC811 in solid-state cells; Materials and Methods headings are 'Materials and chemicals', 'Electrochemical measurements', 'Characterization' (checked in the XML); 'cohesive zone and phase-field models' appear only in the introduction as prior work. Side note for Fig. 1: single-particle compression 'fracture strength (estimated as the load at fracture divided by the cross-sectional area)', values only in fig. S11 (not opened).",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  },
+  {
+   "cite": "Barai, Higa, Ngo, Curtiss & Srinivasan (2019), J Electrochem Soc 166(10)",
+   "doi": "10.1149/2.0321910jes",
+   "access": "abstract read 2026-09-27 on OSTI.GOV record 1812866 (publisher page blocked); title confirmed by Crossref and OpenAlex",
+   "reason": "Non-layered material: the grain boundaries are in the garnet solid electrolyte, not in a layered-oxide cathode. Abstract (OSTI record, checked): 'Solid state electrolytes (SSEs) with garnet structures and chemical composition Li7La3Zr2O12 (LLZO) are being actively considered as the electrolyte for next-generation lithium ion batteries. These LLZO-based ceramic SSEs are polycrystalline and possess distinct grain-interior/grain-boundary (GI/GB) microstructure.'",
+   "screen_source": "title re-screen 2026-09-26",
+   "verified_2026_09_27": true
+  },
+  {
+   "cite": "Wang, Tan & Li (2024), SSRN preprint (v1, posted 12 Dec 2024) of Eng Fract Mech 325:111250",
+   "doi": "10.2139/ssrn.5053050",
+   "published_version_doi": "10.1016/j.engfracmech.2025.111250",
+   "access": "SSRN abstract page + ScienceDirect abstract page (same title and authors)",
+   "reason": "Duplicate: preprint of a paper already excluded in review_b01.json (Wang et al. 2025 EFM 325:111250): the debonding interface is 'storage particles and the conductive matrix (usually composed of carbon and PVDF binder)' (via summariser), not a grain boundary; generic storage particle, no GBs.",
+   "screen_source": "title re-screen 2026-09-26"
+  },
+  {
+   "cite": "Wang, Tan & Li (2024), SSRN preprint (second posting, 14 Dec 2024) of Eng Fract Mech 325:111250",
+   "doi": "10.2139/ssrn.5056363",
+   "published_version_doi": "10.1016/j.engfracmech.2025.111250",
+   "access": "SSRN abstract page",
+   "reason": "Duplicate of 10.2139/ssrn.5053050 and of the already-excluded EFM 325:111250; same reason (particle/conductive-matrix interface, not a GB).",
+   "screen_source": "title re-screen 2026-09-26"
+  }
+ ],
+ "unresolved_f": [
+  {
+   "cite": "Sun, Sui, Song, Zheng, Lu & Korsunsky (2016), Extreme Mech Lett 9(3):449-458",
+   "doi": "10.1016/j.eml.2016.03.018",
+   "blocker": "Paywalled; only abstract, section headings and conclusion visible on ScienceDirect; no author copy found (searched Oxford ORA / ResearchGate via WebSearch 2026-09-26). The cathode chemistry (section 'Description of material and experimental observations') and the numeric cohesive strength could not be seen.",
+   "why": "GBs are explicit by the abstract: DEM polycrystalline aggregate with cohesive cracks at primary-particle interfaces; abstract (via summariser, verify): 'cracks to form at the interfaces and grain boundaries when stresses reach the cohesive strength limit'. Would be included if the cathode is layered and a numeric strength is given.",
+   "screen_source": "title re-screen 2026-09-26"
+  }
+ ]
+}

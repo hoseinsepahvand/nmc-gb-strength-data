@@ -1,0 +1,320 @@
+{
+ "_meta": {
+  "purpose": "Every numerical input of lch_audit.py / make_fig3.py (Figure 3, SI S6). Moved out of the Python source 2026-09-26 (external audit finding C1).",
+  "units": "E in GPa, Gc in J/m^2, sigma in MPa, b and h in micrometres",
+  "origin_tags": "published = parameter set of a cited paper with a length scale; published_no_length = cited paper without b (printed, not counted); illustrative = this work, not a measurement",
+  "criteria_anchor": "private project notes sections 2-a..2-c (Wu & Nguyen 2018 Eq. 2.8, 2.39; Chen 2024 Eq. B.3, B.4)"
+ },
+ "rows": [
+  {
+   "label": "Chen 2024 JPS 596:234054 - grain",
+   "origin": "published",
+   "source": "Chen et al. 2024, J Power Sources 596:234054",
+   "doi": "10.1016/j.jpowsour.2024.234054",
+   "E_GPa": 138.0,
+   "Gc_J_m2": 2.0,
+   "sigma_MPa": 600.0,
+   "b_um": 0.4,
+   "h_um": 0.144,
+   "note": "Table 1; 3D runs",
+   "verbatim": [
+    "Young’s modulus E0 138 [GPa]",
+    "Critical stress under uni-axial tensile test σc 600 [MPa]",
+    "Fracture energy of grains Ggrain 2 [N/m]",
+    "Phase-field length parameter b 0.4 [μm]",
+    "the average 3D mesh size is 0.144 μm"
+   ],
+   "anchor": "Chen 2024 Table 1 (p. 8); mesh and Ggb: Sec. 5.1; 2D benchmark: Appendix B. Local PDF the authors' local reference library, read 2026-09-26",
+   "transformation": ""
+  },
+  {
+   "label": "Chen 2024 JPS 596:234054 - GB (Ggb=G/2)",
+   "origin": "published",
+   "source": "Chen et al. 2024, J Power Sources 596:234054",
+   "doi": "10.1016/j.jpowsour.2024.234054",
+   "E_GPa": 138.0,
+   "Gc_J_m2": 1.0,
+   "sigma_MPa": 600.0,
+   "b_um": 0.4,
+   "h_um": 0.144,
+   "note": "Ggb = 0.5*Ggrain, their stated benchmark ratio",
+   "verbatim": [
+    "Young’s modulus E0 138 [GPa]",
+    "Critical stress under uni-axial tensile test σc 600 [MPa]",
+    "A sharp GB having relatively weaker fracture energy Ggb = 0.5Ggrain is assumed",
+    "Phase-field length parameter b 0.4 [μm]",
+    "the average 3D mesh size is 0.144 μm"
+   ],
+   "anchor": "Chen 2024 Table 1 (p. 8); mesh and Ggb: Sec. 5.1; 2D benchmark: Appendix B. Local PDF the authors' local reference library, read 2026-09-26",
+   "transformation": "Gc = 0.5 x 2 N/m"
+  },
+  {
+   "label": "Chen 2024 JPS - 2D benchmark grain",
+   "origin": "published",
+   "source": "Chen et al. 2024, J Power Sources 596:234054",
+   "doi": "10.1016/j.jpowsour.2024.234054",
+   "E_GPa": 138.0,
+   "Gc_J_m2": 2.0,
+   "sigma_MPa": 600.0,
+   "b_um": 0.24,
+   "h_um": 0.08,
+   "note": "Appendix B benchmark",
+   "verbatim": [
+    "Young’s modulus E0 138 [GPa]",
+    "Critical stress under uni-axial tensile test σc 600 [MPa]",
+    "Fracture energy of grains Ggrain 2 [N/m]",
+    "phase-field length scale parameter b = 0.24 μm",
+    "two different FE sizes h = 0.04, 0.08 μm are studied"
+   ],
+   "anchor": "Chen 2024 Table 1 (p. 8); mesh and Ggb: Sec. 5.1; 2D benchmark: Appendix B. Local PDF the authors' local reference library, read 2026-09-26",
+   "transformation": "coarser of the two meshes taken"
+  },
+  {
+   "label": "Chen 2024 JPS - 2D benchmark GB",
+   "origin": "published",
+   "source": "Chen et al. 2024, J Power Sources 596:234054",
+   "doi": "10.1016/j.jpowsour.2024.234054",
+   "E_GPa": 138.0,
+   "Gc_J_m2": 1.0,
+   "sigma_MPa": 600.0,
+   "b_um": 0.24,
+   "h_um": 0.08,
+   "note": "Appendix B benchmark, Ggb = G/2",
+   "verbatim": [
+    "Young’s modulus E0 138 [GPa]",
+    "Critical stress under uni-axial tensile test σc 600 [MPa]",
+    "A sharp GB having relatively weaker fracture energy Ggb = 0.5Ggrain is assumed",
+    "phase-field length scale parameter b = 0.24 μm",
+    "two different FE sizes h = 0.04, 0.08 μm are studied"
+   ],
+   "anchor": "Chen 2024 Table 1 (p. 8); mesh and Ggb: Sec. 5.1; 2D benchmark: Appendix B. Local PDF the authors' local reference library, read 2026-09-26",
+   "transformation": "Gc = 0.5 x 2 N/m; coarser mesh"
+  },
+  {
+   "label": "Chen 2025 JMPS 196:106013 - grain",
+   "origin": "published",
+   "source": "Chen et al. 2025, J Mech Phys Solids 196:106013 (preprint arXiv:2407.20259)",
+   "doi": "10.1016/j.jmps.2024.106013",
+   "E_GPa": 93.0,
+   "Gc_J_m2": 5.0,
+   "sigma_MPa": 600.0,
+   "b_um": 0.24,
+   "h_um": null,
+   "note": "b reported as range 0.06-0.24; worst case taken",
+   "verbatim": [
+    "Young’s modulus E0 93000 [GPa]  (typeset unit; read as 93 GPa = 93000 MPa)",
+    "Tensile strength of grain σc,b 600 [MPa]",
+    "Fracture energy of grain Gb 5 [N/m]",
+    "Phase-field length-scale b 0.06 ∼ 0.24 [µm]"
+   ],
+   "anchor": "arXiv:2407.20259 Table 3 'Material parameters in the chemo-mechanical examples'; a private copy of the full text, read 2026-09-26",
+   "transformation": "EMENDATION: Table 3 prints 'E0 93000 [GPa]'; treated as a unit typo for 93000 MPa = 93 GPa (strengths in the same table are in MPa). E unit typeset as 93000 GPa, read as 93 GPa; b = upper end of range",
+   "E_printed": "93000 [GPa]",
+   "E_read": "93 GPa"
+  },
+  {
+   "label": "Chen 2025 JMPS 196:106013 - GB",
+   "origin": "published",
+   "source": "Chen et al. 2025, J Mech Phys Solids 196:106013 (preprint arXiv:2407.20259)",
+   "doi": "10.1016/j.jmps.2024.106013",
+   "E_GPa": 93.0,
+   "Gc_J_m2": 2.5,
+   "sigma_MPa": 425.0,
+   "b_um": 0.24,
+   "h_um": null,
+   "note": "GB strength 425 MPa, Gi 2.5 N/m",
+   "verbatim": [
+    "Young’s modulus E0 93000 [GPa]  (typeset unit; read as 93 GPa = 93000 MPa)",
+    "Tensile strength of grain boundary σc,i 425 [MPa]",
+    "Fracture energy of grain boundary Gi 2.5 [N/m]",
+    "Phase-field length-scale b 0.06 ∼ 0.24 [µm]"
+   ],
+   "anchor": "arXiv:2407.20259 Table 3 'Material parameters in the chemo-mechanical examples'; a private copy of the full text, read 2026-09-26",
+   "transformation": "EMENDATION: Table 3 prints 'E0 93000 [GPa]'; treated as a unit typo for 93000 MPa = 93 GPa (strengths in the same table are in MPa). as above",
+   "E_printed": "93000 [GPa]",
+   "E_read": "93 GPa"
+  },
+  {
+   "label": "Chen 2025 JMPS - grain, b=0.06",
+   "origin": "published",
+   "source": "Chen et al. 2025, J Mech Phys Solids 196:106013 (preprint arXiv:2407.20259)",
+   "doi": "10.1016/j.jmps.2024.106013",
+   "E_GPa": 93.0,
+   "Gc_J_m2": 5.0,
+   "sigma_MPa": 600.0,
+   "b_um": 0.06,
+   "h_um": null,
+   "note": "best case of the reported range",
+   "verbatim": [
+    "Young’s modulus E0 93000 [GPa]  (typeset unit; read as 93 GPa = 93000 MPa)",
+    "Tensile strength of grain σc,b 600 [MPa]",
+    "Fracture energy of grain Gb 5 [N/m]",
+    "Phase-field length-scale b 0.06 ∼ 0.24 [µm]"
+   ],
+   "anchor": "arXiv:2407.20259 Table 3 'Material parameters in the chemo-mechanical examples'; a private copy of the full text, read 2026-09-26",
+   "transformation": "EMENDATION: Table 3 prints 'E0 93000 [GPa]'; treated as a unit typo for 93000 MPa = 93 GPa (strengths in the same table are in MPa). b = lower end of range",
+   "E_printed": "93000 [GPa]",
+   "E_read": "93 GPa"
+  },
+  {
+   "label": "Chen 2025 JMPS - GB, b=0.06",
+   "origin": "published",
+   "source": "Chen et al. 2025, J Mech Phys Solids 196:106013 (preprint arXiv:2407.20259)",
+   "doi": "10.1016/j.jmps.2024.106013",
+   "E_GPa": 93.0,
+   "Gc_J_m2": 2.5,
+   "sigma_MPa": 425.0,
+   "b_um": 0.06,
+   "h_um": null,
+   "note": "best case of the reported range",
+   "verbatim": [
+    "Young’s modulus E0 93000 [GPa]  (typeset unit; read as 93 GPa = 93000 MPa)",
+    "Tensile strength of grain boundary σc,i 425 [MPa]",
+    "Fracture energy of grain boundary Gi 2.5 [N/m]",
+    "Phase-field length-scale b 0.06 ∼ 0.24 [µm]"
+   ],
+   "anchor": "arXiv:2407.20259 Table 3 'Material parameters in the chemo-mechanical examples'; a private copy of the full text, read 2026-09-26",
+   "transformation": "EMENDATION: Table 3 prints 'E0 93000 [GPa]'; treated as a unit typo for 93000 MPa = 93 GPa (strengths in the same table are in MPa). b = lower end of range",
+   "E_printed": "93000 [GPa]",
+   "E_read": "93 GPa"
+  },
+  {
+   "label": "Bai 2020 Scripta 183:45 - GB",
+   "origin": "published_no_length",
+   "source": "Bai et al. 2020, Scripta Mater 183:45",
+   "doi": "10.1016/j.scriptamat.2020.03.027",
+   "E_GPa": 140.0,
+   "Gc_J_m2": 2.0,
+   "sigma_MPa": 100.0,
+   "b_um": null,
+   "h_um": null,
+   "note": "no length scale or mesh reported",
+   "verbatim": [
+    "sigma_max = 100 MPa (no source) - the authors' private reading notes"
+   ],
+   "anchor": "E and Gc NOT verified against full text; the row enters no count (no b), only l_ch is printed",
+   "transformation": ""
+  },
+  {
+   "label": "Guichard 2026 B&S - cohesive elems",
+   "origin": "published_no_length",
+   "source": "Guichard, Mathieu & Woillez 2026, Batteries & Supercaps (arXiv:2601.02879)",
+   "doi": "10.1002/batt.202500749",
+   "E_GPa": 200.0,
+   "Gc_J_m2": 2.0,
+   "sigma_MPa": 400.0,
+   "b_um": null,
+   "h_um": null,
+   "note": "CZM not PF; no regularization length",
+   "verbatim": [
+    "NMC Young modulus ENMC (GPa) 200",
+    "Fracture energy G (J.m−2 ) 2",
+    "tmax = 0.4 GPa, the value reproducing the experimental results of the left panel the most accurately"
+   ],
+   "anchor": "arXiv:2601.02879 parameter table (p. 6) and pp. 5-6; a private copy of the full text",
+   "transformation": ""
+  },
+  {
+   "label": "this work: sigma = 210 MPa (whole-particle)",
+   "origin": "illustrative",
+   "source": null,
+   "doi": null,
+   "E_GPa": 169.8,
+   "Gc_J_m2": 1.0,
+   "sigma_MPa": 210.0,
+   "b_um": 0.4,
+   "h_um": null,
+   "note": "E0 = Hill(Liu); Gc,GB = 1 J/m2; b = 0.4 µm",
+   "verbatim": [
+    "E0 = 169.8 GPa derived; b = 0.4 µm (the private import ledger)"
+   ],
+   "anchor": "our own working values, not measurements; sigma = Omirkhan calendered mean 210 MPa (fig1_measurements.json X2)",
+   "transformation": ""
+  },
+  {
+   "label": "this work: sigma = 300 MPa (model value)",
+   "origin": "illustrative",
+   "source": null,
+   "doi": null,
+   "E_GPa": 169.8,
+   "Gc_J_m2": 1.0,
+   "sigma_MPa": 300.0,
+   "b_um": 0.4,
+   "h_um": null,
+   "note": "illustrative value",
+   "verbatim": [
+    "illustrative value (the private import ledger)"
+   ],
+   "anchor": "our own working value",
+   "transformation": ""
+  },
+  {
+   "label": "this work: sigma = 745 MPa (micro-tensile)",
+   "origin": "illustrative",
+   "source": "Sedlatschek et al. 2026, J Power Sources 681:240276",
+   "doi": "10.1016/j.jpowsour.2026.240276",
+   "E_GPa": 169.8,
+   "Gc_J_m2": 1.0,
+   "sigma_MPa": 745.0,
+   "b_um": 0.4,
+   "h_um": null,
+   "note": "micro-tensile characteristic strength",
+   "verbatim": [
+    "the characteristic strength σch is 745 MPa and the Weibull modulus m is 6.91"
+   ],
+   "anchor": "Sedlatschek 2026 p. 5; E, Gc, b are our working values",
+   "transformation": ""
+  },
+  {
+   "label": "this work: sigma = 745, Gc = 0.53",
+   "origin": "illustrative",
+   "source": "Sedlatschek et al. 2026, J Power Sources 681:240276",
+   "doi": "10.1016/j.jpowsour.2026.240276",
+   "E_GPa": 138.0,
+   "Gc_J_m2": 0.53,
+   "sigma_MPa": 745.0,
+   "b_um": 0.4,
+   "h_um": null,
+   "note": "Gc and E = 138 GPa (nanoindentation) as used together in the micro-tensile source",
+   "verbatim": [
+    "Using KIcrit = 0.271 MPa m [23] and E = 138 GPa from nanoindentation, the critical energy release rate becomes Gcrit = 0.53 J m−2"
+   ],
+   "anchor": "Sedlatschek 2026 p. 6, Eq. (3); b = our working value",
+   "transformation": ""
+  }
+ ],
+ "mesh_cases": [
+  {
+   "id": "chen2024_3d_2grain",
+   "source": "Chen et al. 2024, J Power Sources 596:234054",
+   "b_um": 0.4,
+   "h_um": 0.144,
+   "verbatim": "the average 3D mesh size is 0.144 μm",
+   "anchor": "Sec. 5.1, two-grain 3D benchmark"
+  },
+  {
+   "id": "chen2024_3d_8grain",
+   "source": "Chen et al. 2024, J Power Sources 596:234054",
+   "b_um": 0.4,
+   "h_um": 0.141,
+   "verbatim": "mesh size is 0.141 μm, which satisfies the requirements of FE mesh",
+   "anchor": "Sec. 5.2, eight-grain 3D simulation (p. 18 of author PDF)"
+  }
+ ],
+ "appendixB_crosscheck": {
+  "row_label": "Chen 2024 JPS 596:234054 - grain",
+  "paper_reported_um": 0.217,
+  "anchor": "Chen 2024 Appendix B, sentence following Eq. (B.4), p. 17 of the author PDF (a private copy of the full text); mathematical italic glyphs of the PDF normalised to plain letters, nothing else changed",
+  "note": "the value 0.217 and the sentence are verbatim; only the symbol glyphs were normalised",
+  "verbatim": "Regarding the requirement from energy convexity and the material properties of NMC in Table 1, h ≤ 8l_ch/(9π) = 0.217 μm is supposed to be satisfied"
+ },
+ "emendations": [
+  {
+   "rows": "Chen 2025 (all)",
+   "field": "E",
+   "printed": "93000 [GPa]",
+   "read_as": "93 GPa",
+   "reason": "unit typo: 93000 MPa = 93 GPa, consistent with the strengths printed in MPa in the same table"
+  }
+ ]
+}

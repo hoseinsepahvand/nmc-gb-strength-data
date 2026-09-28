@@ -1,0 +1,4962 @@
+{
+ "_meta": {
+  "step": "S8 atomistic search (third external audit, finding B1)",
+  "run_from": "WSL bridge (jobs/inbox), user's Windows machine",
+  "script": "paper/data/s8_atomistic_search.py",
+  "note": "raw retrieval as written by s8_atomistic_search.py on 2026-09-27; never edited; screening is done by s8_screen.py"
+ },
+ "queries": [
+  {
+   "id": "A01",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=work+of+separation+grain+boundary+LiCoO2&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:10Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 50,
+   "n_results_reported_by_service": 469,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Trace doping of multiple elements enables stable battery cycling of LiCoO2 at 4.6 V",
+     "year": 2019,
+     "doi_or_url": "10.1038/s41560-019-0409-z",
+     "openalex_id": "https://openalex.org/W2953097421"
+    },
+    {
+     "rank": 2,
+     "title": "Sputtered LiCoO2 Cathode Materials for All-Solid-State Thin-Film Lithium Microbatteries",
+     "year": 2019,
+     "doi_or_url": "10.3390/ma12172687",
+     "openalex_id": "https://openalex.org/W2969225354"
+    },
+    {
+     "rank": 3,
+     "title": "Structure-related intercalation behaviour of LiCoO2 films",
+     "year": 2002,
+     "doi_or_url": "10.1016/s0167-2738(02)00298-9",
+     "openalex_id": "https://openalex.org/W2122808794"
+    },
+    {
+     "rank": 4,
+     "title": "Lithium and sodium battery cathode materials: computational insights into voltage, diffusion and nanostructural properties",
+     "year": 2013,
+     "doi_or_url": "10.1039/c3cs60199d",
+     "openalex_id": "https://openalex.org/W2147069536"
+    },
+    {
+     "rank": 5,
+     "title": "Multiple Surface Optimizations for a Highly Durable LiCoO2 beyond 4.6 V",
+     "year": 2023,
+     "doi_or_url": "10.1002/adfm.202307913",
+     "openalex_id": "https://openalex.org/W4386391705"
+    },
+    {
+     "rank": 6,
+     "title": "Raman Imaging Analysis of Local Crystal Structures in LiCoO2 Thin Films Calcined at Different Temperatures",
+     "year": 2017,
+     "doi_or_url": "10.2116/analsci.33.853",
+     "openalex_id": "https://openalex.org/W2724817738"
+    },
+    {
+     "rank": 7,
+     "title": "Reuse of LiCoO2 Electrodes Collected from Spent Li‐Ion Batteries after Electrochemical Re‐Lithiation of the Electrode",
+     "year": 2021,
+     "doi_or_url": "10.1002/cssc.202100629",
+     "openalex_id": "https://openalex.org/W3155928386"
+    },
+    {
+     "rank": 8,
+     "title": "Synthesis and Characterization of LiCoO2 from Different Precursors by Sol‑Gel Method",
+     "year": 2017,
+     "doi_or_url": "10.21577/0103-5053.20170077",
+     "openalex_id": "https://openalex.org/W2608598882"
+    },
+    {
+     "rank": 9,
+     "title": "Electrode materials for aqueous asymmetric supercapacitors",
+     "year": 2013,
+     "doi_or_url": "10.1039/c3ra23466e",
+     "openalex_id": "https://openalex.org/W2054806846"
+    },
+    {
+     "rank": 10,
+     "title": "Layered LiCoO2–LiFeO2 Heterostructure Composite for Semiconductor-Based Fuel Cells",
+     "year": 2021,
+     "doi_or_url": "10.3390/nano11051224",
+     "openalex_id": "https://openalex.org/W3158731419"
+    },
+    {
+     "rank": 11,
+     "title": "In Situ Constructed Spinel Layer Stabilized Upcycled LiCoO2 for High Performance Lithium‐Ion Batteries",
+     "year": 2024,
+     "doi_or_url": "10.1002/smll.202401089",
+     "openalex_id": "https://openalex.org/W4396672275"
+    },
+    {
+     "rank": 12,
+     "title": "Liquid-phase syntheses of sulfide electrolytes for all-solid-state lithium battery",
+     "year": 2019,
+     "doi_or_url": "10.1038/s41570-019-0078-2",
+     "openalex_id": "https://openalex.org/W2915638557"
+    },
+    {
+     "rank": 13,
+     "title": "Three-dimensional imaging of grain boundaries via quantitative fluorescence X-ray tomography analysis",
+     "year": 2022,
+     "doi_or_url": "10.1038/s43246-022-00259-x",
+     "openalex_id": "https://openalex.org/W4281644068"
+    },
+    {
+     "rank": 14,
+     "title": "In-situ visualization of the space-charge-layer effect on interfacial lithium-ion transport in all-solid-state batteries",
+     "year": 2020,
+     "doi_or_url": "10.1038/s41467-020-19726-5",
+     "openalex_id": "https://openalex.org/W3102869822"
+    },
+    {
+     "rank": 15,
+     "title": "Lithium ion battery active material dissolution kinetics in Fe(II)/Fe(III) catalyzed Cu-H2SO4 leaching system",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.seppur.2019.116305",
+     "openalex_id": "https://openalex.org/W2984866503"
+    },
+    {
+     "rank": 16,
+     "title": "Review of Recent Development of In Situ/Operando Characterization Techniques for Lithium Battery Research",
+     "year": 2019,
+     "doi_or_url": "10.1002/adma.201806620",
+     "openalex_id": "https://openalex.org/W2945331209"
+    },
+    {
+     "rank": 17,
+     "title": "Li Metal‐Free Rechargeable LiMn2 O 4 / Carbon Cells: Their Understanding and Optimization",
+     "year": 1992,
+     "doi_or_url": "10.1149/1.2069372",
+     "openalex_id": "https://openalex.org/W1999713970"
+    },
+    {
+     "rank": 18,
+     "title": "Lithium intercalation in preferentially oriented submicron LiCoO2 films",
+     "year": 2002,
+     "doi_or_url": "10.3990/1.9789036517287",
+     "openalex_id": "https://openalex.org/W2104762557"
+    },
+    {
+     "rank": 19,
+     "title": "Interfacial Reactions of Lithium-ion Batteries",
+     "year": 2010,
+     "doi_or_url": "10.5796/electrochemistry.78.319",
+     "openalex_id": "https://openalex.org/W2089448509"
+    },
+    {
+     "rank": 20,
+     "title": "Solid-state rigid-rod polymer composite electrolytes with nanocrystalline lithium ion pathways",
+     "year": 2021,
+     "doi_or_url": "10.1038/s41563-021-00995-4",
+     "openalex_id": "https://openalex.org/W3158939840"
+    },
+    {
+     "rank": 21,
+     "title": "Structured information extraction from scientific text with large language models",
+     "year": 2024,
+     "doi_or_url": "10.1038/s41467-024-45563-x",
+     "openalex_id": "https://openalex.org/W4391836235"
+    },
+    {
+     "rank": 22,
+     "title": "Strain-retardant coherent perovskite phase stabilized Ni-rich cathode",
+     "year": 2022,
+     "doi_or_url": "10.1038/s41586-022-05238-3",
+     "openalex_id": "https://openalex.org/W4307930853"
+    },
+    {
+     "rank": 23,
+     "title": "Commercialization of Lithium Battery Technologies for Electric Vehicles",
+     "year": 2019,
+     "doi_or_url": "10.1002/aenm.201900161",
+     "openalex_id": "https://openalex.org/W2948999417"
+    },
+    {
+     "rank": 24,
+     "title": "Surface and Grain Boundary Coating for Stabilizing LiNi0.8Mn0.1Co0.1O2 Based Electrodes",
+     "year": 2024,
+     "doi_or_url": "10.1002/cssc.202400272",
+     "openalex_id": "https://openalex.org/W4399829755"
+    },
+    {
+     "rank": 25,
+     "title": "Lithium-ion batteries – Current state of the art and anticipated developments",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.jpowsour.2020.228708",
+     "openalex_id": "https://openalex.org/W3086341487"
+    },
+    {
+     "rank": 26,
+     "title": "Inhibiting the current spikes within the channel layer of LiCoO2-based three-terminal synaptic transistors",
+     "year": 2024,
+     "doi_or_url": "10.1063/5.0200811",
+     "openalex_id": "https://openalex.org/W4403248582"
+    },
+    {
+     "rank": 27,
+     "title": "Nanoscale Solid State Batteries Enabled by Thermal Atomic Layer Deposition of a Lithium Polyphosphazene Solid State Electrolyte",
+     "year": 2017,
+     "doi_or_url": "10.1021/acs.chemmater.7b00805",
+     "openalex_id": "https://openalex.org/W2599228926"
+    },
+    {
+     "rank": 28,
+     "title": "Ionic conductivity and ion transport mechanisms of solid‐state lithium‐ion battery electrolytes: A review",
+     "year": 2022,
+     "doi_or_url": "10.1002/ese3.1163",
+     "openalex_id": "https://openalex.org/W4293238043"
+    },
+    {
+     "rank": 29,
+     "title": "Pushing the boundaries of lithium battery research with atomistic modelling on different scales",
+     "year": 2021,
+     "doi_or_url": "10.1088/2516-1083/ac3894",
+     "openalex_id": "https://openalex.org/W3214229233"
+    },
+    {
+     "rank": 30,
+     "title": "Interface‐Engineered All‐Solid‐State Li‐Ion Batteries Based on Garnet‐Type Fast Li+ Conductors",
+     "year": 2016,
+     "doi_or_url": "10.1002/aenm.201600736",
+     "openalex_id": "https://openalex.org/W2469210545"
+    },
+    {
+     "rank": 31,
+     "title": "Degradation analysis of a Ni-based layered positive-electrode active material cycled at elevated temperatures studied by scanning transmission electron microscopy and electron energy-loss spectroscopy",
+     "year": 2011,
+     "doi_or_url": "10.1016/j.jpowsour.2011.05.017",
+     "openalex_id": "https://openalex.org/W2059635252"
+    },
+    {
+     "rank": 32,
+     "title": "Carbon-Coatings Improve Performance of Li-Ion Battery",
+     "year": 2022,
+     "doi_or_url": "10.3390/nano12111936",
+     "openalex_id": "https://openalex.org/W4281904354"
+    },
+    {
+     "rank": 33,
+     "title": "High‐Voltage Charging‐Induced Strain, Heterogeneity, and Micro‐Cracks in Secondary Particles of a Nickel‐Rich Layered Cathode Material",
+     "year": 2019,
+     "doi_or_url": "10.1002/adfm.201900247",
+     "openalex_id": "https://openalex.org/W2921742660"
+    },
+    {
+     "rank": 34,
+     "title": "Multiscale dynamics of charging and plating in graphite electrodes coupling operando microscopy and phase-field modelling",
+     "year": 2023,
+     "doi_or_url": "10.1038/s41467-023-40574-6",
+     "openalex_id": "https://openalex.org/W4386142013"
+    },
+    {
+     "rank": 35,
+     "title": "Selective sulfidation of metal compounds",
+     "year": 2021,
+     "doi_or_url": "10.1038/s41586-021-04321-5",
+     "openalex_id": "https://openalex.org/W4200072044"
+    },
+    {
+     "rank": 36,
+     "title": "Evaluating the performance of nanostructured materials as lithium-ion battery electrodes",
+     "year": 2013,
+     "doi_or_url": "10.1007/s12274-013-0375-x",
+     "openalex_id": "https://openalex.org/W2002128287"
+    },
+    {
+     "rank": 37,
+     "title": "Enhancement of lithium-ion conductivity for Li2.2C0.8B0.2O3 by spark plasma sintering",
+     "year": 2017,
+     "doi_or_url": "10.2109/jcersj2.16276",
+     "openalex_id": "https://openalex.org/W2600713552"
+    },
+    {
+     "rank": 38,
+     "title": "Probing lattice defects in crystalline battery cathode using hard X-ray nanoprobe with data-driven modeling",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.ensm.2021.12.019",
+     "openalex_id": "https://openalex.org/W4200547963"
+    },
+    {
+     "rank": 39,
+     "title": "Copper-Mediated Leaching of LiCoO2 in H3PO4: Kinetics and Residue Transformation",
+     "year": 2025,
+     "doi_or_url": "10.3390/chemistry7060203",
+     "openalex_id": "https://openalex.org/W4417435773"
+    },
+    {
+     "rank": 40,
+     "title": "Influence of Grain Size on the Electrochemical Performance of Li7‐3xLa3Zr2AlxO12 Solid Electrolyte",
+     "year": 2024,
+     "doi_or_url": "10.1002/batt.202300370",
+     "openalex_id": "https://openalex.org/W4396596693"
+    },
+    {
+     "rank": 41,
+     "title": "Li-ion dynamics and reactivity on the nanoscale",
+     "year": 2011,
+     "doi_or_url": "10.1016/s1369-7021(11)70280-2",
+     "openalex_id": "https://openalex.org/W2012504664"
+    },
+    {
+     "rank": 42,
+     "title": "Continuous Hydrothermal Synthesis of Inorganic Nanoparticles: Applications and Future Directions",
+     "year": 2017,
+     "doi_or_url": "10.1021/acs.chemrev.6b00417",
+     "openalex_id": "https://openalex.org/W2743810445"
+    },
+    {
+     "rank": 43,
+     "title": "Assessing cathode–electrolyte interphases in batteries",
+     "year": 2024,
+     "doi_or_url": "10.1038/s41560-024-01639-y",
+     "openalex_id": "https://openalex.org/W4403196724"
+    },
+    {
+     "rank": 44,
+     "title": "Automated mineralogy as a novel approach for the compositional and textural characterization of spent lithium-ion batteries",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.mineng.2021.106924",
+     "openalex_id": "https://openalex.org/W3163188597"
+    },
+    {
+     "rank": 45,
+     "title": "Progress in Solid Polymer Electrolytes for Lithium‐Ion Batteries and Beyond",
+     "year": 2021,
+     "doi_or_url": "10.1002/smll.202103617",
+     "openalex_id": "https://openalex.org/W3201843844"
+    },
+    {
+     "rank": 46,
+     "title": "Anomalous Thermal Decomposition Behavior of Polycrystalline LiNi0.8Mn0.1Co0.1O2 in PEO‐Based Solid Polymer Electrolyte",
+     "year": 2022,
+     "doi_or_url": "10.1002/adfm.202200096",
+     "openalex_id": "https://openalex.org/W4214831562"
+    },
+    {
+     "rank": 47,
+     "title": "Ionic liquids and derived materials for lithium and sodium batteries",
+     "year": 2018,
+     "doi_or_url": "10.1039/c7cs00464h",
+     "openalex_id": "https://openalex.org/W2787667840"
+    },
+    {
+     "rank": 48,
+     "title": "Oxide‐Based Solid‐State Batteries: A Perspective on Composite Cathode Architecture",
+     "year": 2022,
+     "doi_or_url": "10.1002/aenm.202201939",
+     "openalex_id": "https://openalex.org/W4309554819"
+    },
+    {
+     "rank": 49,
+     "title": "Current status and future directions of all-solid-state batteries with lithium metal anodes, sulfide electrolytes, and layered transition metal oxide cathodes",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.nanoen.2021.106081",
+     "openalex_id": "https://openalex.org/W3163234030"
+    },
+    {
+     "rank": 50,
+     "title": "A Comprehensive Understanding of the Aging Effects of Extreme Fast Charging on High Ni NMC Cathode",
+     "year": 2022,
+     "doi_or_url": "10.1002/aenm.202103712",
+     "openalex_id": "https://openalex.org/W4280495976"
+    }
+   ]
+  },
+  {
+   "id": "A02",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=grain+boundary+cohesion+first-principles+LiNiO2&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:13Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 8,
+   "n_results_reported_by_service": 8,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Effect of a Two-Step Temperature-Swing Synthesis on Coarse-Grained LiNiO2 Secondary Particles Characterized by Scanning Transmission Electron Microscopy",
+     "year": 2025,
+     "doi_or_url": "10.1021/acs.chemmater.5c00108",
+     "openalex_id": "https://openalex.org/W4410425682"
+    },
+    {
+     "rank": 2,
+     "title": "Molecular Dynamics (MD) Study on the Electrochemical Properties of Electrolytes in Lithium-Ion Battery (LIB) Applications",
+     "year": 2014,
+     "doi_or_url": "https://openalex.org/w15802238",
+     "openalex_id": "https://openalex.org/W15802238"
+    },
+    {
+     "rank": 3,
+     "title": "Synthesis and Characterizations of Lithium Aluminum Titanium Phosphate (Li1+xAlxTi2-x(PO4)3) Solid Electrolytes for All-Solid-State Li-ion Batteries",
+     "year": 2017,
+     "doi_or_url": "https://openalex.org/w2796483292",
+     "openalex_id": "https://openalex.org/W2796483292"
+    },
+    {
+     "rank": 4,
+     "title": "First-Principles Study on the Mechanical Properties of Lithiated Sn Anode Materials for Li-Ion Batteries",
+     "year": 2019,
+     "doi_or_url": "https://openalex.org/w2977884191",
+     "openalex_id": "https://openalex.org/W2977884191"
+    },
+    {
+     "rank": 5,
+     "title": "On the Mechanical Stability of Nickel-Based Lithium-Ion Battery Cathodes for Electric Vehicles",
+     "year": 2026,
+     "doi_or_url": "10.53623/amms.v2i2.1148",
+     "openalex_id": "https://openalex.org/W7166478510"
+    },
+    {
+     "rank": 6,
+     "title": "Critical review of interfacial engineering for ultra-high voltage LiCoO2",
+     "year": 2026,
+     "doi_or_url": "10.1016/j.esen.2026.100119",
+     "openalex_id": "https://openalex.org/W7203825574"
+    },
+    {
+     "rank": 7,
+     "title": "Advanced characterization and modeling of next generation lithium ion electrodes and interfaces",
+     "year": 2020,
+     "doi_or_url": "https://openalex.org/w3175664935",
+     "openalex_id": "https://openalex.org/W3175664935"
+    },
+    {
+     "rank": 8,
+     "title": "Enhanced 3-Dimensional Carbon Nanotube Based Anodes for Li-ion Battery Applications",
+     "year": 2013,
+     "doi_or_url": "10.25148/etd.fi13080904",
+     "openalex_id": "https://openalex.org/W1583840160"
+    }
+   ]
+  },
+  {
+   "id": "A03",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=first-principles+grain+boundary+tensile+strength+layered+oxide+cathode&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:16Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 50,
+   "n_results_reported_by_service": 3263,
+   "results": [
+    {
+     "rank": 1,
+     "title": "A Review of Degradation Mechanisms and Recent Achievements for Ni‐Rich Cathode‐Based Li‐Ion Batteries",
+     "year": 2021,
+     "doi_or_url": "10.1002/aenm.202103005",
+     "openalex_id": "https://openalex.org/W3213328656"
+    },
+    {
+     "rank": 2,
+     "title": "Surface enrichment and diffusion enabling gradient-doping and coating of Ni-rich cathode toward Li-ion batteries",
+     "year": 2021,
+     "doi_or_url": "10.1038/s41467-021-24893-0",
+     "openalex_id": "https://openalex.org/W3185901858"
+    },
+    {
+     "rank": 3,
+     "title": "Magnetron sputtering of transparent conductive zinc oxide: relation between the sputtering parameters and the electronic properties",
+     "year": 2000,
+     "doi_or_url": "10.1088/0022-3727/33/4/201",
+     "openalex_id": "https://openalex.org/W2051955688"
+    },
+    {
+     "rank": 4,
+     "title": "Review of Multifunctional Separators: Stabilizing the Cathode and the Anode for Alkali (Li, Na, and K) Metal–Sulfur and Selenium Batteries",
+     "year": 2022,
+     "doi_or_url": "10.1021/acs.chemrev.1c00838",
+     "openalex_id": "https://openalex.org/W4220815223"
+    },
+    {
+     "rank": 5,
+     "title": "The 2016 oxide electronic materials and oxide interfaces roadmap",
+     "year": 2016,
+     "doi_or_url": "10.1088/0022-3727/49/43/433001",
+     "openalex_id": "https://openalex.org/W2528511242"
+    },
+    {
+     "rank": 6,
+     "title": "Raman spectroscopy of graphene-based materials and its applications in related devices",
+     "year": 2018,
+     "doi_or_url": "10.1039/c6cs00915h",
+     "openalex_id": "https://openalex.org/W2784368966"
+    },
+    {
+     "rank": 7,
+     "title": "Safety Issues and Improvement Measures of Ni-Rich Layered Oxide Cathode Materials for Li-Ion Batteries",
+     "year": 2024,
+     "doi_or_url": "10.1007/s41918-024-00211-2",
+     "openalex_id": "https://openalex.org/W4400885847"
+    },
+    {
+     "rank": 8,
+     "title": "Oxygen vacancies in metal oxides: recent progress towards advanced catalyst design",
+     "year": 2020,
+     "doi_or_url": "10.1007/s40843-020-1305-6",
+     "openalex_id": "https://openalex.org/W3027818642"
+    },
+    {
+     "rank": 9,
+     "title": "Towards developing Mg alloys with simultaneously improved strength and corrosion resistance via RE alloying",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.jma.2020.08.016",
+     "openalex_id": "https://openalex.org/W3089695361"
+    },
+    {
+     "rank": 10,
+     "title": "Raman Spectroscopy of nanomaterials: How spectra relate to disorder, particle size and mechanical properties",
+     "year": 2007,
+     "doi_or_url": "10.1016/j.pcrysgrow.2007.01.001",
+     "openalex_id": "https://openalex.org/W2141014647"
+    },
+    {
+     "rank": 11,
+     "title": "Degradation of solid oxide electrolysis cells: Phenomena, mechanisms, and emerging mitigation strategies—A review",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.jmst.2019.07.026",
+     "openalex_id": "https://openalex.org/W2963662383"
+    },
+    {
+     "rank": 12,
+     "title": "Phase-engineered cathode for super-stable potassium storage",
+     "year": 2023,
+     "doi_or_url": "10.1038/s41467-023-36385-4",
+     "openalex_id": "https://openalex.org/W4319315050"
+    },
+    {
+     "rank": 13,
+     "title": "New Developments of Ti-Based Alloys for Biomedical Applications",
+     "year": 2014,
+     "doi_or_url": "10.3390/ma7031709",
+     "openalex_id": "https://openalex.org/W2110610796"
+    },
+    {
+     "rank": 14,
+     "title": "Expanding frontiers in materials chemistry and physics with multiple anions",
+     "year": 2018,
+     "doi_or_url": "10.1038/s41467-018-02838-4",
+     "openalex_id": "https://openalex.org/W2791003600"
+    },
+    {
+     "rank": 15,
+     "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries",
+     "year": 2024,
+     "doi_or_url": "10.1038/s41467-024-52123-w",
+     "openalex_id": "https://openalex.org/W4402494746"
+    },
+    {
+     "rank": 16,
+     "title": "A Review on Anodizing of Aerospace Aluminum Alloys for Corrosion Protection",
+     "year": 2020,
+     "doi_or_url": "10.3390/coatings10111106",
+     "openalex_id": "https://openalex.org/W3102512241"
+    },
+    {
+     "rank": 17,
+     "title": "Review of Recent Development of In Situ/Operando Characterization Techniques for Lithium Battery Research",
+     "year": 2019,
+     "doi_or_url": "10.1002/adma.201806620",
+     "openalex_id": "https://openalex.org/W2945331209"
+    },
+    {
+     "rank": 18,
+     "title": "Computing grain boundary “phase” diagrams",
+     "year": 2023,
+     "doi_or_url": "10.1002/idm2.12067",
+     "openalex_id": "https://openalex.org/W4320009095"
+    },
+    {
+     "rank": 19,
+     "title": "A first-principles analysis of the charge transfer in magnesium corrosion",
+     "year": 2020,
+     "doi_or_url": "10.1038/s41598-020-71694-4",
+     "openalex_id": "https://openalex.org/W3085737042"
+    },
+    {
+     "rank": 20,
+     "title": "Corrosion of Metallic Biomaterials: A Review",
+     "year": 2019,
+     "doi_or_url": "10.3390/ma12030407",
+     "openalex_id": "https://openalex.org/W2913840193"
+    },
+    {
+     "rank": 21,
+     "title": "Emerging Atomic Layer Deposition for the Development of High-Performance Lithium-Ion Batteries",
+     "year": 2023,
+     "doi_or_url": "10.1007/s41918-023-00192-8",
+     "openalex_id": "https://openalex.org/W4384039564"
+    },
+    {
+     "rank": 22,
+     "title": "Growth and applications of Group III-nitrides",
+     "year": 1998,
+     "doi_or_url": "10.1088/0022-3727/31/20/001",
+     "openalex_id": "https://openalex.org/W2032261336"
+    },
+    {
+     "rank": 23,
+     "title": "Humidity Sensors Principle, Mechanism, and Fabrication Technologies: A Comprehensive Review",
+     "year": 2014,
+     "doi_or_url": "10.3390/s140507881",
+     "openalex_id": "https://openalex.org/W2001086979"
+    },
+    {
+     "rank": 24,
+     "title": "Mechanical and Structural Degradation of LiNixMnyCozO2Cathode in Li-Ion Batteries: An Experimental Study",
+     "year": 2017,
+     "doi_or_url": "10.1149/2.1751713jes",
+     "openalex_id": "https://openalex.org/W2766242415"
+    },
+    {
+     "rank": 25,
+     "title": "Challenges and Modification Strategies of Ni-Rich Cathode Materials Operating at High-Voltage",
+     "year": 2022,
+     "doi_or_url": "10.3390/nano12111888",
+     "openalex_id": "https://openalex.org/W4281734827"
+    },
+    {
+     "rank": 26,
+     "title": "Synchrotron X-ray quantitative evaluation of transient deformation and damage phenomena in a single nickel-rich cathode particle",
+     "year": 2020,
+     "doi_or_url": "10.1039/d0ee02290j",
+     "openalex_id": "https://openalex.org/W3080717620"
+    },
+    {
+     "rank": 27,
+     "title": "Ionic conductivity and ion transport mechanisms of solid‐state lithium‐ion battery electrolytes: A review",
+     "year": 2022,
+     "doi_or_url": "10.1002/ese3.1163",
+     "openalex_id": "https://openalex.org/W4293238043"
+    },
+    {
+     "rank": 28,
+     "title": "Effect of grain size and volume fraction of eutectic structure on mechanical properties and corrosion behavior of as-cast Zn–Mg binary alloys",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.jmrt.2021.12.101",
+     "openalex_id": "https://openalex.org/W4200421618"
+    },
+    {
+     "rank": 29,
+     "title": "Direct atomic-scale confirmation of three-phase storage mechanism in Li4Ti5O12 anodes for room-temperature sodium-ion batteries",
+     "year": 2013,
+     "doi_or_url": "10.1038/ncomms2878",
+     "openalex_id": "https://openalex.org/W2117499552"
+    },
+    {
+     "rank": 30,
+     "title": "A review of topology optimization for additive manufacturing: Status and challenges",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.cja.2020.09.020",
+     "openalex_id": "https://openalex.org/W3093210795"
+    },
+    {
+     "rank": 31,
+     "title": "Applying multi-pass friction stir processing to refine the microstructure and enhance the strength, ductility and corrosion resistance of WE43 magnesium alloy",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.jmrt.2021.03.021",
+     "openalex_id": "https://openalex.org/W3137710536"
+    },
+    {
+     "rank": 32,
+     "title": "A defect-resistant Co–Ni superalloy for 3D printing",
+     "year": 2020,
+     "doi_or_url": "10.1038/s41467-020-18775-0",
+     "openalex_id": "https://openalex.org/W3089741238"
+    },
+    {
+     "rank": 33,
+     "title": "Defects in complex oxide thin films for electronics and energy applications: challenges and opportunities",
+     "year": 2020,
+     "doi_or_url": "10.1039/d0mh00899k",
+     "openalex_id": "https://openalex.org/W3044922775"
+    },
+    {
+     "rank": 34,
+     "title": "Materials of solid oxide electrolysis cells for H 2 O and CO 2 electrolysis: A review",
+     "year": 2023,
+     "doi_or_url": "10.26599/jac.2023.9220767",
+     "openalex_id": "https://openalex.org/W4377041093"
+    },
+    {
+     "rank": 35,
+     "title": "A Review on the Properties of Iron Aluminide Intermetallics",
+     "year": 2016,
+     "doi_or_url": "10.3390/cryst6010010",
+     "openalex_id": "https://openalex.org/W2236179741"
+    },
+    {
+     "rank": 36,
+     "title": "An updated roadmap for the integration of metal–organic frameworks with electronic devices and chemical sensors",
+     "year": 2017,
+     "doi_or_url": "10.1039/c7cs00122c",
+     "openalex_id": "https://openalex.org/W2607848054"
+    },
+    {
+     "rank": 37,
+     "title": "Strain localisation and failure at twin-boundary complexions in nickel-based superalloys",
+     "year": 2020,
+     "doi_or_url": "10.1038/s41467-020-18641-z",
+     "openalex_id": "https://openalex.org/W3089476949"
+    },
+    {
+     "rank": 38,
+     "title": "Biodegradable magnesium alloys for orthopaedic applications: A review on corrosion, biocompatibility and surface modifications",
+     "year": 2016,
+     "doi_or_url": "10.1016/j.msec.2016.06.020",
+     "openalex_id": "https://openalex.org/W2418599019"
+    },
+    {
+     "rank": 39,
+     "title": "Calcium Phosphate Bioceramics: A Review of Their History, Structure, Properties, Coating Technologies and Biomedical Applications",
+     "year": 2017,
+     "doi_or_url": "10.3390/ma10040334",
+     "openalex_id": "https://openalex.org/W2601284383"
+    },
+    {
+     "rank": 40,
+     "title": "Review Paper: Residual Stresses in Deposited Thin-Film Material Layers for Micro- and Nano-Systems Manufacturing",
+     "year": 2022,
+     "doi_or_url": "10.3390/mi13122084",
+     "openalex_id": "https://openalex.org/W4310224720"
+    },
+    {
+     "rank": 41,
+     "title": "Hydrogen Impact: A Review on Diffusibility, Embrittlement Mechanisms, and Characterization",
+     "year": 2024,
+     "doi_or_url": "10.3390/ma17040965",
+     "openalex_id": "https://openalex.org/W4391996208"
+    },
+    {
+     "rank": 42,
+     "title": "High Entropy Oxides: Mapping the Landscape from Fundamentals to Future Vistas",
+     "year": 2024,
+     "doi_or_url": "10.1021/acsenergylett.4c01129",
+     "openalex_id": "https://openalex.org/W4400353409"
+    },
+    {
+     "rank": 43,
+     "title": "Insight of magnesium alloys and composites for orthopedic implant applications – a review",
+     "year": 2017,
+     "doi_or_url": "10.1016/j.jma.2017.08.003",
+     "openalex_id": "https://openalex.org/W2753373802"
+    },
+    {
+     "rank": 44,
+     "title": "Tuning Point Defects by Elastic Strain Modulates Nanoparticle Exsolution on Perovskite Oxides",
+     "year": 2021,
+     "doi_or_url": "10.1021/acs.chemmater.1c00821",
+     "openalex_id": "https://openalex.org/W3172391783"
+    },
+    {
+     "rank": 45,
+     "title": "Materials and Processing of Lithium-Ion Battery Cathodes",
+     "year": 2023,
+     "doi_or_url": "10.3390/nanoenergyadv3020008",
+     "openalex_id": "https://openalex.org/W4377116046"
+    },
+    {
+     "rank": 46,
+     "title": "Enhancing the Faradaic efficiency of solid oxide electrolysis cells: progress and perspective",
+     "year": 2023,
+     "doi_or_url": "10.1038/s41524-023-01044-1",
+     "openalex_id": "https://openalex.org/W4386043892"
+    },
+    {
+     "rank": 47,
+     "title": "Synergistic Effect of Graphene Oxide for Impeding the Dendritic Plating of Li",
+     "year": 2018,
+     "doi_or_url": "10.1002/adfm.201705917",
+     "openalex_id": "https://openalex.org/W2793268605"
+    },
+    {
+     "rank": 48,
+     "title": "Graphitic carbon nitride “reloaded”: emerging applications beyond (photo)catalysis",
+     "year": 2016,
+     "doi_or_url": "10.1039/c5cs00767d",
+     "openalex_id": "https://openalex.org/W2253812227"
+    },
+    {
+     "rank": 49,
+     "title": "Particle-reinforced metal matrix nanocomposites fabricated by selective laser melting: A state of the art review",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.pmatsci.2019.04.006",
+     "openalex_id": "https://openalex.org/W2941420794"
+    },
+    {
+     "rank": 50,
+     "title": "Grain boundary carbides as hydrogen diffusion barrier in a Fe-Ni alloy: A thermal desorption and modelling study",
+     "year": 2018,
+     "doi_or_url": "10.1016/j.matdes.2018.10.012",
+     "openalex_id": "https://openalex.org/W2897645295"
+    }
+   ]
+  },
+  {
+   "id": "A04",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=molecular+dynamics+grain+boundary+fracture+NMC+cathode&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:19Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 50,
+   "n_results_reported_by_service": 183,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Intragranular cracking as a critical barrier for high-voltage usage of layer-structured cathode for lithium-ion batteries",
+     "year": 2017,
+     "doi_or_url": "10.1038/ncomms14101",
+     "openalex_id": "https://openalex.org/W2576928823"
+    },
+    {
+     "rank": 2,
+     "title": "Reactive boride infusion stabilizes Ni-rich cathodes for lithium-ion batteries",
+     "year": 2021,
+     "doi_or_url": "10.1038/s41560-021-00782-0",
+     "openalex_id": "https://openalex.org/W3135713975"
+    },
+    {
+     "rank": 3,
+     "title": "The effects of ambient storage conditions on the structural and electrochemical properties of NMC-811 cathodes for Li-ion batteries",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.electacta.2020.137358",
+     "openalex_id": "https://openalex.org/W3097188294"
+    },
+    {
+     "rank": 4,
+     "title": "Challenges and approaches of single-crystal Ni-rich layered cathodes in lithium batteries",
+     "year": 2023,
+     "doi_or_url": "10.1093/nsr/nwad252",
+     "openalex_id": "https://openalex.org/W4386980065"
+    },
+    {
+     "rank": 5,
+     "title": "Degradation by Kinking in Layered Cathode Materials",
+     "year": 2021,
+     "doi_or_url": "10.1021/acsenergylett.1c01976",
+     "openalex_id": "https://openalex.org/W3208234481"
+    },
+    {
+     "rank": 6,
+     "title": "Oxide‐Based Solid‐State Batteries: A Perspective on Composite Cathode Architecture",
+     "year": 2022,
+     "doi_or_url": "10.1002/aenm.202201939",
+     "openalex_id": "https://openalex.org/W4309554819"
+    },
+    {
+     "rank": 7,
+     "title": "Perspectives for next generation lithium-ion battery cathode materials",
+     "year": 2021,
+     "doi_or_url": "10.1063/5.0051092",
+     "openalex_id": "https://openalex.org/W3202586009"
+    },
+    {
+     "rank": 8,
+     "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries",
+     "year": 2024,
+     "doi_or_url": "10.1038/s41467-024-52123-w",
+     "openalex_id": "https://openalex.org/W4402494746"
+    },
+    {
+     "rank": 9,
+     "title": "Fracture behavior in battery materials",
+     "year": 2020,
+     "doi_or_url": "10.1088/2515-7655/ab83e1",
+     "openalex_id": "https://openalex.org/W3013325357"
+    },
+    {
+     "rank": 10,
+     "title": "Current status and future directions of all-solid-state batteries with lithium metal anodes, sulfide electrolytes, and layered transition metal oxide cathodes",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.nanoen.2021.106081",
+     "openalex_id": "https://openalex.org/W3163234030"
+    },
+    {
+     "rank": 11,
+     "title": "All solid thick oxide cathodes based on low temperature sintering for high energy solid batteries",
+     "year": 2021,
+     "doi_or_url": "10.1039/d1ee01494c",
+     "openalex_id": "https://openalex.org/W3185259357"
+    },
+    {
+     "rank": 12,
+     "title": "Propagation topography of redox phase transformations in heterogeneous layered oxide cathode materials",
+     "year": 2018,
+     "doi_or_url": "10.1038/s41467-018-05172-x",
+     "openalex_id": "https://openalex.org/W2843565412"
+    },
+    {
+     "rank": 13,
+     "title": "Structural and chemical evolution in layered oxide cathodes of lithium-ion batteries revealed by synchrotron techniques",
+     "year": 2021,
+     "doi_or_url": "10.1093/nsr/nwab146",
+     "openalex_id": "https://openalex.org/W3193851028"
+    },
+    {
+     "rank": 14,
+     "title": "Effects of Diffusion-Induced Nonlinear Local Volume Change on the Structural Stability of NMC Cathode Materials of Lithium-Ion Batteries",
+     "year": 2022,
+     "doi_or_url": "10.3390/math10244697",
+     "openalex_id": "https://openalex.org/W4312127295"
+    },
+    {
+     "rank": 15,
+     "title": "Advancements and Challenges in High-Capacity Ni-Rich Cathode Materials for Lithium-Ion Batteries",
+     "year": 2024,
+     "doi_or_url": "10.3390/ma17040801",
+     "openalex_id": "https://openalex.org/W4391606443"
+    },
+    {
+     "rank": 16,
+     "title": "Review of Recent Development of In Situ/Operando Characterization Techniques for Lithium Battery Research",
+     "year": 2019,
+     "doi_or_url": "10.1002/adma.201806620",
+     "openalex_id": "https://openalex.org/W2945331209"
+    },
+    {
+     "rank": 17,
+     "title": "Stability Enhancement and Microstructural Modification of Ni-Rich Cathodes via Halide Doping",
+     "year": 2022,
+     "doi_or_url": "10.1021/acsami.2c11773",
+     "openalex_id": "https://openalex.org/W4303453308"
+    },
+    {
+     "rank": 18,
+     "title": "Lithium-ion batteries – Current state of the art and anticipated developments",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.jpowsour.2020.228708",
+     "openalex_id": "https://openalex.org/W3086341487"
+    },
+    {
+     "rank": 19,
+     "title": "Design-of-experiments-guided optimization of slurry-cast cathodes for solid-state batteries",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.xcrp.2021.100465",
+     "openalex_id": "https://openalex.org/W3168927019"
+    },
+    {
+     "rank": 20,
+     "title": "Multiscale Failure Mechanisms of Ternary Oxide Cathode Materials for Lithium‐Ion Batteries",
+     "year": 2025,
+     "doi_or_url": "10.1002/adma.202506063",
+     "openalex_id": "https://openalex.org/W4415385244"
+    },
+    {
+     "rank": 21,
+     "title": "Solid-state batteries: The critical role of mechanics",
+     "year": 2023,
+     "doi_or_url": "10.1126/science.abg5998",
+     "openalex_id": "https://openalex.org/W4386917125"
+    },
+    {
+     "rank": 22,
+     "title": "A Comparative Review of Metal Oxide Surface Coatings on Three Families of Cathode Materials for Lithium Ion Batteries",
+     "year": 2021,
+     "doi_or_url": "10.3390/coatings11070744",
+     "openalex_id": "https://openalex.org/W3174151790"
+    },
+    {
+     "rank": 23,
+     "title": "Microscale diffusion-mechanics model for a polymer-based solid-state battery cathode",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.commatsci.2020.109990",
+     "openalex_id": "https://openalex.org/W3059087437"
+    },
+    {
+     "rank": 24,
+     "title": "High-Performance High-Nickel Multi-Element Cathode Materials for Lithium-Ion Batteries",
+     "year": 2023,
+     "doi_or_url": "10.3390/batteries9060319",
+     "openalex_id": "https://openalex.org/W4380085018"
+    },
+    {
+     "rank": 25,
+     "title": "Lithium solid-state batteries: State-of-the-art and challenges for materials, interfaces and processing",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.jpowsour.2021.229919",
+     "openalex_id": "https://openalex.org/W3163813770"
+    },
+    {
+     "rank": 26,
+     "title": "Sulfide and Oxide Inorganic Solid Electrolytes for All-Solid-State Li Batteries: A Review",
+     "year": 2020,
+     "doi_or_url": "10.3390/nano10081606",
+     "openalex_id": "https://openalex.org/W3049304483"
+    },
+    {
+     "rank": 27,
+     "title": "Computational Model for Predicting Particle Fracture During Electrode Calendering",
+     "year": 2023,
+     "doi_or_url": "10.1002/batt.202300371",
+     "openalex_id": "https://openalex.org/W4379539248"
+    },
+    {
+     "rank": 28,
+     "title": "Unravelling electro-chemo-mechanical interplay in layered oxide cathode degradation in solid-state batteries",
+     "year": 2025,
+     "doi_or_url": "10.1126/sciadv.ady7189",
+     "openalex_id": "https://openalex.org/W4414941480"
+    },
+    {
+     "rank": 29,
+     "title": "Modified Coprecipitation Synthesis of Nickel-Rich NMC (Li1.0Ni0.6Mn0.2Co0.2O2) for Lithium-Ion Batteries: A Simple, Cost-Effective, Environmentally Friendly Method",
+     "year": 2023,
+     "doi_or_url": "10.1021/acsomega.3c04717",
+     "openalex_id": "https://openalex.org/W4388819511"
+    },
+    {
+     "rank": 30,
+     "title": "Process design for calcination of nickel-based cathode materials by in situ characterization and multiscale modeling",
+     "year": 2022,
+     "doi_or_url": "10.1557/s43578-022-00678-z",
+     "openalex_id": "https://openalex.org/W4293475245"
+    },
+    {
+     "rank": 31,
+     "title": "Machine learning for a sustainable energy future",
+     "year": 2022,
+     "doi_or_url": "10.1038/s41578-022-00490-5",
+     "openalex_id": "https://openalex.org/W4306698380"
+    },
+    {
+     "rank": 32,
+     "title": "Pushing the boundaries of lithium battery research with atomistic modelling on different scales",
+     "year": 2021,
+     "doi_or_url": "10.1088/2516-1083/ac3894",
+     "openalex_id": "https://openalex.org/W3214229233"
+    },
+    {
+     "rank": 33,
+     "title": "Progress in electrode and electrolyte materials: path to all-solid-state Li-ion batteries",
+     "year": 2022,
+     "doi_or_url": "10.1039/d2ya00043a",
+     "openalex_id": "https://openalex.org/W4285144809"
+    },
+    {
+     "rank": 34,
+     "title": "Surface and Grain Boundary Coating for Stabilizing LiNi0.8Mn0.1Co0.1O2 Based Electrodes",
+     "year": 2024,
+     "doi_or_url": "10.1002/cssc.202400272",
+     "openalex_id": "https://openalex.org/W4399829755"
+    },
+    {
+     "rank": 35,
+     "title": "Protective coatings for lithium metal anodes: Recent progress and future perspectives",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.jpowsour.2019.227632",
+     "openalex_id": "https://openalex.org/W2997395051"
+    },
+    {
+     "rank": 36,
+     "title": "Rechargeable Batteries of the Future—The State of the Art from a BATTERY 2030+ Perspective",
+     "year": 2021,
+     "doi_or_url": "10.1002/aenm.202102904",
+     "openalex_id": "https://openalex.org/W4200062753"
+    },
+    {
+     "rank": 37,
+     "title": "Lithium-Ion Diffusion in Near-Stoichiometric Polycrystalline and Monocrystalline LiCoO2",
+     "year": 2023,
+     "doi_or_url": "10.1021/acs.chemmater.3c00359",
+     "openalex_id": "https://openalex.org/W4364374865"
+    },
+    {
+     "rank": 38,
+     "title": "Rational Design of High-Performance PEO/Ceramic Composite Solid Electrolytes for Lithium Metal Batteries",
+     "year": 2023,
+     "doi_or_url": "10.1007/s40820-023-01055-z",
+     "openalex_id": "https://openalex.org/W4362475299"
+    },
+    {
+     "rank": 39,
+     "title": "First Principle Material Genome Approach for All Solid‐State Batteries",
+     "year": 2019,
+     "doi_or_url": "10.1002/eem2.12053",
+     "openalex_id": "https://openalex.org/W2981715222"
+    },
+    {
+     "rank": 40,
+     "title": "Raman spectroscopy complemented with XRD and TEM for studying structural evolution in initial cycles of LiNi1/3Mn1/3Co1/3O2 cathode material",
+     "year": 2025,
+     "doi_or_url": "10.1186/s11671-025-04319-2",
+     "openalex_id": "https://openalex.org/W4415382184"
+    },
+    {
+     "rank": 41,
+     "title": "Developments in X-ray tomography characterization for electrochemical devices",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.mattod.2019.05.019",
+     "openalex_id": "https://openalex.org/W2953078715"
+    },
+    {
+     "rank": 42,
+     "title": "Probing Multiscale Dynamics of Energy-Dense Batteries by Operando Imaging",
+     "year": 2024,
+     "doi_or_url": "10.1021/cbe.4c00097",
+     "openalex_id": "https://openalex.org/W4402101749"
+    },
+    {
+     "rank": 43,
+     "title": "Experimental and Computational Analysis of Slurry‐Based Manufacturing of Solid‐State Battery Composite Cathode",
+     "year": 2024,
+     "doi_or_url": "10.1002/batt.202400709",
+     "openalex_id": "https://openalex.org/W4404274185"
+    },
+    {
+     "rank": 44,
+     "title": "Improving damage resistance of solid-state battery cathodes with block copolymers: A non-linear diffusion-mechanics study at the microscale",
+     "year": 2023,
+     "doi_or_url": "10.1016/j.ijmecsci.2023.108808",
+     "openalex_id": "https://openalex.org/W4387580593"
+    },
+    {
+     "rank": 45,
+     "title": "Magnetic microscopy for operando imaging of battery dynamics",
+     "year": 2025,
+     "doi_or_url": "10.1038/s41467-025-63409-y",
+     "openalex_id": "https://openalex.org/W4414291122"
+    },
+    {
+     "rank": 46,
+     "title": "The role of polymers in lithium solid-state batteries with inorganic solid electrolytes",
+     "year": 2021,
+     "doi_or_url": "10.1039/d1ta02796d",
+     "openalex_id": "https://openalex.org/W3185282058"
+    },
+    {
+     "rank": 47,
+     "title": "Advancements and Challenges in Solid-State Battery Technology: An In-Depth Review of Solid Electrolytes and Anode Innovations",
+     "year": 2024,
+     "doi_or_url": "10.3390/batteries10010029",
+     "openalex_id": "https://openalex.org/W4390954856"
+    },
+    {
+     "rank": 48,
+     "title": "Recent advances in battery characterization using in situ XAFS, SAXS, XRD, and their combining techniques: From single scale to multiscale structure detection",
+     "year": 2023,
+     "doi_or_url": "10.1002/exp.20230056",
+     "openalex_id": "https://openalex.org/W4388851765"
+    },
+    {
+     "rank": 49,
+     "title": "Enabling Metal Fluorides Cathodes at Elevated Temperatures Using a Molten Salt Electrolyte",
+     "year": 2025,
+     "doi_or_url": "10.1002/aenm.202500293",
+     "openalex_id": "https://openalex.org/W4409270108"
+    },
+    {
+     "rank": 50,
+     "title": "Modeling the 4D discharge of lithium-ion batteries with a multiscale time-dependent deep learning framework",
+     "year": 2023,
+     "doi_or_url": "10.1016/j.ensm.2023.102927",
+     "openalex_id": "https://openalex.org/W4385955646"
+    }
+   ]
+  },
+  {
+   "id": "A05",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=machine+learning+interatomic+potential+grain+boundary+fracture+cathode&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:23Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 50,
+   "n_results_reported_by_service": 229,
+   "results": [
+    {
+     "rank": 1,
+     "title": "DScribe: Library of descriptors for machine learning in materials science",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.cpc.2019.106949",
+     "openalex_id": "https://openalex.org/W2976720228"
+    },
+    {
+     "rank": 2,
+     "title": "Machine-learning potentials for nanoscale simulations of tensile deformation and fracture in ceramics",
+     "year": 2024,
+     "doi_or_url": "10.1038/s41524-024-01252-3",
+     "openalex_id": "https://openalex.org/W4393404238"
+    },
+    {
+     "rank": 3,
+     "title": "Perspectives for next generation lithium-ion battery cathode materials",
+     "year": 2021,
+     "doi_or_url": "10.1063/5.0051092",
+     "openalex_id": "https://openalex.org/W3202586009"
+    },
+    {
+     "rank": 4,
+     "title": "An understanding of hydrogen embrittlement in nickel grain boundaries from first principles",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.matdes.2021.110283",
+     "openalex_id": "https://openalex.org/W3215583397"
+    },
+    {
+     "rank": 5,
+     "title": "Computing grain boundary “phase” diagrams",
+     "year": 2023,
+     "doi_or_url": "10.1002/idm2.12067",
+     "openalex_id": "https://openalex.org/W4320009095"
+    },
+    {
+     "rank": 6,
+     "title": "Machine Learning Paves the Way for High Entropy Compounds Exploration: Challenges, Progress, and Outlook",
+     "year": 2023,
+     "doi_or_url": "10.1002/adma.202305192",
+     "openalex_id": "https://openalex.org/W4386564702"
+    },
+    {
+     "rank": 7,
+     "title": "Interatomic potentials: Achievements and challenges",
+     "year": 2022,
+     "doi_or_url": "10.48550/arxiv.2204.09563",
+     "openalex_id": "https://openalex.org/W4224228865"
+    },
+    {
+     "rank": 8,
+     "title": "High-entropy ceramics: Present status, challenges, and a look forward",
+     "year": 2021,
+     "doi_or_url": "10.1007/s40145-021-0477-y",
+     "openalex_id": "https://openalex.org/W3152601855"
+    },
+    {
+     "rank": 9,
+     "title": "The data-intensive scientific revolution occurring where two-dimensional materials meet machine learning",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.xcrp.2021.100482",
+     "openalex_id": "https://openalex.org/W3175157436"
+    },
+    {
+     "rank": 10,
+     "title": "Structural and chemical evolution in layered oxide cathodes of lithium-ion batteries revealed by synchrotron techniques",
+     "year": 2021,
+     "doi_or_url": "10.1093/nsr/nwab146",
+     "openalex_id": "https://openalex.org/W3193851028"
+    },
+    {
+     "rank": 11,
+     "title": "Understanding and mitigating hydrogen embrittlement of steels: a review of experimental, modelling and design progress from atomistic to continuum",
+     "year": 2018,
+     "doi_or_url": "10.1007/s10853-017-1978-5",
+     "openalex_id": "https://openalex.org/W2785624757"
+    },
+    {
+     "rank": 12,
+     "title": "Hydration-induced stiffness enabling robust thermal cycling of high temperature fuel cells cathode",
+     "year": 2025,
+     "doi_or_url": "10.1038/s41467-025-57611-1",
+     "openalex_id": "https://openalex.org/W4409147916"
+    },
+    {
+     "rank": 13,
+     "title": "Machine-learning-accelerated mechanistic exploration of interface modification in lithium metal anode",
+     "year": 2025,
+     "doi_or_url": "10.1038/s41524-025-01747-7",
+     "openalex_id": "https://openalex.org/W4412834754"
+    },
+    {
+     "rank": 14,
+     "title": "A machine learning–based framework for mapping hydrogen at the atomic scale",
+     "year": 2024,
+     "doi_or_url": "10.1073/pnas.2410968121",
+     "openalex_id": "https://openalex.org/W4402580356"
+    },
+    {
+     "rank": 15,
+     "title": "New frontiers for the materials genome initiative",
+     "year": 2019,
+     "doi_or_url": "10.1038/s41524-019-0173-4",
+     "openalex_id": "https://openalex.org/W2929465105"
+    },
+    {
+     "rank": 16,
+     "title": "A Comprehensive Review of Machine-Learning Approaches for Crystal Structure/Property Prediction",
+     "year": 2025,
+     "doi_or_url": "10.3390/cryst15110925",
+     "openalex_id": "https://openalex.org/W4415683904"
+    },
+    {
+     "rank": 17,
+     "title": "Grain Boundaries in Ceramic Solid-State Lithium Metal Batteries: A Review",
+     "year": 2025,
+     "doi_or_url": "10.1021/acs.iecr.5c03294",
+     "openalex_id": "https://openalex.org/W4416177664"
+    },
+    {
+     "rank": 18,
+     "title": "Pushing the boundaries of lithium battery research with atomistic modelling on different scales",
+     "year": 2021,
+     "doi_or_url": "10.1088/2516-1083/ac3894",
+     "openalex_id": "https://openalex.org/W3214229233"
+    },
+    {
+     "rank": 19,
+     "title": "Controlling factor for fracture resistance and ionic conduction in glassy lithium borophosphate electrolytes",
+     "year": 2023,
+     "doi_or_url": "10.1016/j.mtener.2023.101390",
+     "openalex_id": "https://openalex.org/W4386082931"
+    },
+    {
+     "rank": 20,
+     "title": "Machine-learned interatomic potentials for modeling multicomponent metallic systems: a comprehensive review",
+     "year": 2026,
+     "doi_or_url": "10.1080/21663831.2026.2684721",
+     "openalex_id": "https://openalex.org/W7164926280"
+    },
+    {
+     "rank": 21,
+     "title": "Enhancing the Faradaic efficiency of solid oxide electrolysis cells: progress and perspective",
+     "year": 2023,
+     "doi_or_url": "10.1038/s41524-023-01044-1",
+     "openalex_id": "https://openalex.org/W4386043892"
+    },
+    {
+     "rank": 22,
+     "title": "Efficient machine learning interatomic potentials robust for liquid and multiple solid polymorphs of NaF and KF",
+     "year": 2025,
+     "doi_or_url": "10.1103/xbfm-clgd",
+     "openalex_id": "https://openalex.org/W4415757374"
+    },
+    {
+     "rank": 23,
+     "title": "Elucidating oxide-ion and proton transport in ionic conductors using machine learning potentials",
+     "year": 2025,
+     "doi_or_url": "10.1038/s41524-025-01807-y",
+     "openalex_id": "https://openalex.org/W4415930226"
+    },
+    {
+     "rank": 24,
+     "title": "Dynamic oxygen-redox evolution of cathode reactions based on the multistate equilibrium potential model",
+     "year": 2025,
+     "doi_or_url": "10.1038/s41524-025-01714-2",
+     "openalex_id": "https://openalex.org/W4411945895"
+    },
+    {
+     "rank": 25,
+     "title": "First-principles study on segregation anisotropy of grain boundaries in Pt–Au alloys",
+     "year": 2025,
+     "doi_or_url": "10.1063/5.0238622",
+     "openalex_id": "https://openalex.org/W4407223209"
+    },
+    {
+     "rank": 26,
+     "title": "Amorphous Materials for Lithium‐Ion and Post‐Lithium‐Ion Batteries",
+     "year": 2023,
+     "doi_or_url": "10.1002/smll.202304270",
+     "openalex_id": "https://openalex.org/W4387392271"
+    },
+    {
+     "rank": 27,
+     "title": "A review of advances in tribology in 2020–2021",
+     "year": 2022,
+     "doi_or_url": "10.1007/s40544-022-0685-7",
+     "openalex_id": "https://openalex.org/W4304202738"
+    },
+    {
+     "rank": 28,
+     "title": "Exploring Hydrogen Embrittlement: Mechanisms, Consequences, and Advances in Metal Science",
+     "year": 2024,
+     "doi_or_url": "10.3390/en17122972",
+     "openalex_id": "https://openalex.org/W4399743127"
+    },
+    {
+     "rank": 29,
+     "title": "High Entropy Oxides: Mapping the Landscape from Fundamentals to Future Vistas",
+     "year": 2024,
+     "doi_or_url": "10.1021/acsenergylett.4c01129",
+     "openalex_id": "https://openalex.org/W4400353409"
+    },
+    {
+     "rank": 30,
+     "title": "Some Advances on Antagonist Effects of Grain Boundaries between the Trapping Process and the Fast Diffusion Path Investigated on Nickel Bicrystals",
+     "year": 2021,
+     "doi_or_url": "10.21203/rs.3.rs-461172/v1",
+     "openalex_id": "https://openalex.org/W3164647488"
+    },
+    {
+     "rank": 31,
+     "title": "Modeling in tribology: Recent advances, applications, and open questions",
+     "year": 2025,
+     "doi_or_url": "10.1016/j.triboint.2025.111326",
+     "openalex_id": "https://openalex.org/W4415679868"
+    },
+    {
+     "rank": 32,
+     "title": "Phase instability-coupled fracture behavior in garnet LLZO solid electrolytes: a machine learning-enabled atomistic study",
+     "year": 2026,
+     "doi_or_url": "10.1039/d6eb00053c",
+     "openalex_id": "https://openalex.org/W7140913941"
+    },
+    {
+     "rank": 33,
+     "title": "High-entropy transition metal nitride thin films alloyed with Al: Microstructure, phase composition and mechanical properties",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.matdes.2022.110798",
+     "openalex_id": "https://openalex.org/W4281699432"
+    },
+    {
+     "rank": 34,
+     "title": "Prognosis and Health Management (PHM) of Solid-State Batteries: Perspectives, Challenges, and Opportunities",
+     "year": 2022,
+     "doi_or_url": "10.3390/en15186599",
+     "openalex_id": "https://openalex.org/W4295598716"
+    },
+    {
+     "rank": 35,
+     "title": "Accelerating the Discovery of High-Conductivity Glass Electrolytes via Machine Learning",
+     "year": 2025,
+     "doi_or_url": "10.26434/chemrxiv-2025-7csf2",
+     "openalex_id": "https://openalex.org/W4412391265"
+    },
+    {
+     "rank": 36,
+     "title": "Tailoring precipitates for enhanced hydrogen trapping in aluminum alloys",
+     "year": 2025,
+     "doi_or_url": "10.1038/s41467-025-66998-w",
+     "openalex_id": "https://openalex.org/W4416912011"
+    },
+    {
+     "rank": 37,
+     "title": "Preparation of high entropy alloys and application to catalytical water electrolysis",
+     "year": 2022,
+     "doi_or_url": "10.1063/5.0097479",
+     "openalex_id": "https://openalex.org/W4284895170"
+    },
+    {
+     "rank": 38,
+     "title": "Grain boundary metastability controls irradiation resistance in nanocrystalline metals",
+     "year": 2024,
+     "doi_or_url": "10.48550/arxiv.2404.10144",
+     "openalex_id": "https://openalex.org/W4394907101"
+    },
+    {
+     "rank": 39,
+     "title": "Defect engineering in carbon materials for electrochemical energy storage and catalytic conversion",
+     "year": 2023,
+     "doi_or_url": "10.1039/d2ma01009g",
+     "openalex_id": "https://openalex.org/W4313889665"
+    },
+    {
+     "rank": 40,
+     "title": "Review on Electrode Degradation at Fast Charging of Li-Ion and Li Metal Batteries from a Kinetic Perspective",
+     "year": 2023,
+     "doi_or_url": "10.3390/electrochem4020013",
+     "openalex_id": "https://openalex.org/W4360865087"
+    },
+    {
+     "rank": 41,
+     "title": "Prognosis methods of stress corrosion cracking under harsh environmental conditions",
+     "year": 2024,
+     "doi_or_url": "10.1016/j.heliyon.2024.e25276",
+     "openalex_id": "https://openalex.org/W4391430244"
+    },
+    {
+     "rank": 42,
+     "title": "Unveiling State-of-Charge Effects on Elastic Properties of LiCoO2 via Deep Learning and Empirical Models",
+     "year": 2025,
+     "doi_or_url": "10.3390/app15147809",
+     "openalex_id": "https://openalex.org/W4412201566"
+    },
+    {
+     "rank": 43,
+     "title": "Atomic-scale understanding of oxidation mechanisms of materials by computational approaches: A review",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.matdes.2022.110605",
+     "openalex_id": "https://openalex.org/W4220862464"
+    },
+    {
+     "rank": 44,
+     "title": "Prediction of hydrogen concentration responsible for hydrogen-induced mechanical failure in martensitic high-strength steels",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.ijhydene.2022.11.151",
+     "openalex_id": "https://openalex.org/W4311172723"
+    },
+    {
+     "rank": 45,
+     "title": "Machine Learning Towards Large-scale Atomistic Simulation and Materials Discovery",
+     "year": 2021,
+     "doi_or_url": "https://openalex.org/w3211286040",
+     "openalex_id": "https://openalex.org/W3211286040"
+    },
+    {
+     "rank": 46,
+     "title": "Emerging Advanced Electronic Packaging Materials for Thermal Management in Power Electronics",
+     "year": 2026,
+     "doi_or_url": "10.1002/advs.202524348",
+     "openalex_id": "https://openalex.org/W7129069555"
+    },
+    {
+     "rank": 47,
+     "title": "Multi-solute solid solution behavior and its effect on the properties of magnesium alloys",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.jma.2022.06.015",
+     "openalex_id": "https://openalex.org/W4288045857"
+    },
+    {
+     "rank": 48,
+     "title": "Mg-based bulk metallic glasses: A review of recent developments",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.jma.2021.10.010",
+     "openalex_id": "https://openalex.org/W4200336635"
+    },
+    {
+     "rank": 49,
+     "title": "Using artificial intelligence to accelerate materials development",
+     "year": 2019,
+     "doi_or_url": "10.1557/mrs.2019.113",
+     "openalex_id": "https://openalex.org/W2944184415"
+    },
+    {
+     "rank": 50,
+     "title": "First principles and machine learning investigation of structural stability and optoelectronic behavior in A2GaAgF6 (A = Na, K, Rb, Cs) double perovskite solar cells",
+     "year": 2026,
+     "doi_or_url": "10.1038/s41598-026-49631-8",
+     "openalex_id": "https://openalex.org/W7155044237"
+    }
+   ]
+  },
+  {
+   "id": "A06",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=traction-separation+law+grain+boundary+density+functional+theory+oxide+cathode&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:26Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 50,
+   "n_results_reported_by_service": 205,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Improving the durability of cobaltite cathode of solid oxide fuel cells – a review",
+     "year": 2023,
+     "doi_or_url": "10.1039/d3ra02571c",
+     "openalex_id": "https://openalex.org/W4386077610"
+    },
+    {
+     "rank": 2,
+     "title": "Metal oxide semiconducting interfacial layers for photovoltaic and photocatalytic applications",
+     "year": 2015,
+     "doi_or_url": "10.1007/s40243-015-0054-9",
+     "openalex_id": "https://openalex.org/W828890944"
+    },
+    {
+     "rank": 3,
+     "title": "Corrosion of Metallic Biomaterials: A Review",
+     "year": 2019,
+     "doi_or_url": "10.3390/ma12030407",
+     "openalex_id": "https://openalex.org/W2913840193"
+    },
+    {
+     "rank": 4,
+     "title": "Joint Optimization of Radio and Computational Resources for Multicell Mobile-Edge Computing",
+     "year": 2015,
+     "doi_or_url": "10.1109/tsipn.2015.2448520",
+     "openalex_id": "https://openalex.org/W1904504745"
+    },
+    {
+     "rank": 5,
+     "title": "Understanding and mitigating hydrogen embrittlement of steels: a review of experimental, modelling and design progress from atomistic to continuum",
+     "year": 2018,
+     "doi_or_url": "10.1007/s10853-017-1978-5",
+     "openalex_id": "https://openalex.org/W2785624757"
+    },
+    {
+     "rank": 6,
+     "title": "A scalable life cycle inventory of an electrical automotive traction machine—Part II: manufacturing processes",
+     "year": 2017,
+     "doi_or_url": "10.1007/s11367-017-1309-8",
+     "openalex_id": "https://openalex.org/W2604892369"
+    },
+    {
+     "rank": 7,
+     "title": "Cohesive phase-field chemo-mechanical simulations of inter- and trans- granular fractures in polycrystalline NMC cathodes via image-based 3D reconstruction",
+     "year": 2024,
+     "doi_or_url": "10.1016/j.jpowsour.2024.234054",
+     "openalex_id": "https://openalex.org/W4391127887"
+    },
+    {
+     "rank": 8,
+     "title": "Hydrogen as an energy carrier for railway traction",
+     "year": 2013,
+     "doi_or_url": "https://openalex.org/w29159926",
+     "openalex_id": "https://openalex.org/W29159926"
+    },
+    {
+     "rank": 9,
+     "title": "The Glossary of Prosthodontic Terms",
+     "year": 2017,
+     "doi_or_url": "10.1016/j.prosdent.2016.12.001",
+     "openalex_id": "https://openalex.org/W4255105359"
+    },
+    {
+     "rank": 10,
+     "title": "Responsive materials architected in space and time",
+     "year": 2022,
+     "doi_or_url": "10.1038/s41578-022-00450-z",
+     "openalex_id": "https://openalex.org/W4283161827"
+    },
+    {
+     "rank": 11,
+     "title": "New Insights into the Interphase between the Na Metal Anode and Sulfide Solid-State Electrolytes: A Joint Experimental and Computational Study",
+     "year": 2018,
+     "doi_or_url": "10.1021/acsami.7b19037",
+     "openalex_id": "https://openalex.org/W2793204661"
+    },
+    {
+     "rank": 12,
+     "title": "A review of advances in tribology in 2020–2021",
+     "year": 2022,
+     "doi_or_url": "10.1007/s40544-022-0685-7",
+     "openalex_id": "https://openalex.org/W4304202738"
+    },
+    {
+     "rank": 13,
+     "title": "Towards a new class of stimuli-responsive polymer-based materials – Recent advances and challenges",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.apsadv.2021.100068",
+     "openalex_id": "https://openalex.org/W3130303459"
+    },
+    {
+     "rank": 14,
+     "title": "A coupled model of transport-reaction-mechanics with trapping. Part I – Small strain analysis",
+     "year": 2018,
+     "doi_or_url": "10.1016/j.jmps.2018.02.006",
+     "openalex_id": "https://openalex.org/W2792677321"
+    },
+    {
+     "rank": 15,
+     "title": "A Scalable Life Cycle Inventory of an Electrical Automotive Traction Machine – Technical and Methodological Description",
+     "year": 2016,
+     "doi_or_url": "https://openalex.org/w2605459653",
+     "openalex_id": "https://openalex.org/W2605459653"
+    },
+    {
+     "rank": 16,
+     "title": "Deep learning in two-dimensional materials: Characterization, prediction, and design",
+     "year": 2024,
+     "doi_or_url": "10.1007/s11467-024-1394-7",
+     "openalex_id": "https://openalex.org/W4394845933"
+    },
+    {
+     "rank": 17,
+     "title": "The Influence of Inert Anode Material and Electrolyte Composition on the Electrochemical Production of Oxygen from Molten Oxides",
+     "year": 2008,
+     "doi_or_url": "https://openalex.org/w1511180342",
+     "openalex_id": "https://openalex.org/W1511180342"
+    },
+    {
+     "rank": 18,
+     "title": "Chemo-Mechanical Analysis of Lithiation/Delithiation of Ni-rich Single Crystals",
+     "year": 2023,
+     "doi_or_url": "10.1149/1945-7111/acd47e",
+     "openalex_id": "https://openalex.org/W4376126949"
+    },
+    {
+     "rank": 19,
+     "title": "Electro-chemo-mechanical simulation for lithium ion batteries across the scales",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.ijsolstr.2019.05.002",
+     "openalex_id": "https://openalex.org/W2946037705"
+    },
+    {
+     "rank": 20,
+     "title": "Plasma oxidation of liquid precursors for complex metal oxides.",
+     "year": 2019,
+     "doi_or_url": "10.18297/etd/3145",
+     "openalex_id": "https://openalex.org/W2978071258"
+    },
+    {
+     "rank": 21,
+     "title": "Securing Hardware Accelerators: A New Challenge for High-Level Synthesis",
+     "year": 2017,
+     "doi_or_url": "10.1109/les.2017.2774800",
+     "openalex_id": "https://openalex.org/W2889495953"
+    },
+    {
+     "rank": 22,
+     "title": "Advances in Honeycomb Layered Oxides: Part I - Syntheses and Characterisations of Pnictogen- and Chalcogen-Based Honeycomb Layered Oxides",
+     "year": 2022,
+     "doi_or_url": "10.26434/chemrxiv-2022-6dt28-v2",
+     "openalex_id": "https://openalex.org/W4297848513"
+    },
+    {
+     "rank": 23,
+     "title": "Roadmap on Li-ion battery manufacturing research",
+     "year": 2022,
+     "doi_or_url": "10.1088/2515-7655/ac8e30",
+     "openalex_id": "https://openalex.org/W4297686154"
+    },
+    {
+     "rank": 24,
+     "title": "Reliability of NAND Flash Memories: Planar Cells and Emerging Issues in 3D Devices",
+     "year": 2017,
+     "doi_or_url": "10.3390/computers6020016",
+     "openalex_id": "https://openalex.org/W2607424069"
+    },
+    {
+     "rank": 25,
+     "title": "Chemo-Thermo-Mechanical Coupling in Protonic Ceramic Fuel Cells from Fabrication to Operation",
+     "year": 2019,
+     "doi_or_url": "10.1149/2.1071912jes",
+     "openalex_id": "https://openalex.org/W2971579619"
+    },
+    {
+     "rank": 26,
+     "title": "The Glossary of Prosthodontic Terms 2023",
+     "year": 2023,
+     "doi_or_url": "10.1016/j.prosdent.2023.03.002",
+     "openalex_id": "https://openalex.org/W4388087930"
+    },
+    {
+     "rank": 27,
+     "title": "Emerging Advanced Electronic Packaging Materials for Thermal Management in Power Electronics",
+     "year": 2026,
+     "doi_or_url": "10.1002/advs.202524348",
+     "openalex_id": "https://openalex.org/W7129069555"
+    },
+    {
+     "rank": 28,
+     "title": "PMU placement for power system observability using binary particle swarm optimization",
+     "year": 2008,
+     "doi_or_url": "https://openalex.org/w2116040783",
+     "openalex_id": "https://openalex.org/W2116040783"
+    },
+    {
+     "rank": 29,
+     "title": "Roadmap on emerging concepts in the physical biology of bacterial biofilms: from surface sensing to community formation",
+     "year": 2021,
+     "doi_or_url": "10.1088/1478-3975/abdc0e",
+     "openalex_id": "https://openalex.org/W3122210030"
+    },
+    {
+     "rank": 30,
+     "title": "Modeling in tribology: Recent advances, applications, and open questions",
+     "year": 2025,
+     "doi_or_url": "10.1016/j.triboint.2025.111326",
+     "openalex_id": "https://openalex.org/W4415679868"
+    },
+    {
+     "rank": 31,
+     "title": "Nanobiolubricant grinding: a comprehensive review",
+     "year": 2024,
+     "doi_or_url": "10.1007/s40436-023-00477-7",
+     "openalex_id": "https://openalex.org/W4392622378"
+    },
+    {
+     "rank": 32,
+     "title": "Morphology-Related Functionality in Nanoarchitectured GaN",
+     "year": 2020,
+     "doi_or_url": "10.1146/annurev-matsci-081919-014810",
+     "openalex_id": "https://openalex.org/W3020819512"
+    },
+    {
+     "rank": 33,
+     "title": "A critical appraisal of advances in integrated CO 2 capture and electrochemical conversion",
+     "year": 2025,
+     "doi_or_url": "10.1039/d4sc06642a",
+     "openalex_id": "https://openalex.org/W4406806876"
+    },
+    {
+     "rank": 34,
+     "title": "Tailored Engineering on the Interface Between Lithium Metal Anode and Solid‐State Electrolytes",
+     "year": 2024,
+     "doi_or_url": "10.1002/eem2.12831",
+     "openalex_id": "https://openalex.org/W4403157853"
+    },
+    {
+     "rank": 35,
+     "title": "Modélisation de la diffusion de l’hydrogène dans les matériaux hétérogènes : implications de la connectivité des joints de grains",
+     "year": 2015,
+     "doi_or_url": "https://openalex.org/w4392539981",
+     "openalex_id": "https://openalex.org/W4392539981"
+    },
+    {
+     "rank": 36,
+     "title": "Toward Real Setting Applications of Organic and Perovskite Solar Cells: A Comparative Review",
+     "year": 2021,
+     "doi_or_url": "10.1002/ente.202000901",
+     "openalex_id": "https://openalex.org/W3152831373"
+    },
+    {
+     "rank": 37,
+     "title": "Electrical Power Systems Availability in Buildings Exposed to Seismic Hazard—Part I: Electrical Criteria and Part II: Mechanical Criteria",
+     "year": 2010,
+     "doi_or_url": "10.1109/tia.2010.2091480",
+     "openalex_id": "https://openalex.org/W2113912652"
+    },
+    {
+     "rank": 38,
+     "title": "Review on Improvement the Turbine Oxidation and Hot Resistant against Corrosion by Nickel–Based Superalloy",
+     "year": 2024,
+     "doi_or_url": "10.52209/2706-977x_2024_4_89",
+     "openalex_id": "https://openalex.org/W4416310012"
+    },
+    {
+     "rank": 39,
+     "title": "Strain-assisted corrosion cracking and growth rate inhibitors",
+     "year": 2002,
+     "doi_or_url": "https://openalex.org/w158471821",
+     "openalex_id": "https://openalex.org/W158471821"
+    },
+    {
+     "rank": 40,
+     "title": "Oxygen-defective electrostrictors for soft electromechanics",
+     "year": 2024,
+     "doi_or_url": "10.1126/sciadv.adq3444",
+     "openalex_id": "https://openalex.org/W4402039591"
+    },
+    {
+     "rank": 41,
+     "title": "Viscoplastic response of electrode particles in Li-ion batteries driven by insertion of lithium",
+     "year": 2013,
+     "doi_or_url": "10.1016/j.ijsolstr.2013.10.033",
+     "openalex_id": "https://openalex.org/W1995585464"
+    },
+    {
+     "rank": 42,
+     "title": "Iron Oxide Nanoparticles",
+     "year": 2014,
+     "doi_or_url": "10.1081/e-enn3-120009149",
+     "openalex_id": "https://openalex.org/W2950896864"
+    },
+    {
+     "rank": 43,
+     "title": "Polymeric hybrid nanocomposites processing and finite element modeling: An overview",
+     "year": 2021,
+     "doi_or_url": "10.1177/00368504211029471",
+     "openalex_id": "https://openalex.org/W3185246913"
+    },
+    {
+     "rank": 44,
+     "title": "A Comprehensive Examination of High-Temperature Hydrogen Attack—A Review of over a Century of Investigations",
+     "year": 2021,
+     "doi_or_url": "10.1007/s11665-021-06045-z",
+     "openalex_id": "https://openalex.org/W3191539173"
+    },
+    {
+     "rank": 45,
+     "title": "Current progress, challenges, and future prospects in composite cryogenic hydrogen storage tanks",
+     "year": 2025,
+     "doi_or_url": "10.1002/pc.29872",
+     "openalex_id": "https://openalex.org/W4409183557"
+    },
+    {
+     "rank": 46,
+     "title": "AI‐Driven Advances in Sustainable Materials for Green Energy: From Innovation to Lifecycle Management",
+     "year": 2025,
+     "doi_or_url": "10.1002/sus2.70030",
+     "openalex_id": "https://openalex.org/W4413950047"
+    },
+    {
+     "rank": 47,
+     "title": "Towards a solution of the closure problem for convective atmospheric boundary-layer turbulence",
+     "year": 2017,
+     "doi_or_url": "https://openalex.org/w2794529255",
+     "openalex_id": "https://openalex.org/W2794529255"
+    },
+    {
+     "rank": 48,
+     "title": "Ultra Low Energy Store-Carry and Forward Relaying within the Cell",
+     "year": 2009,
+     "doi_or_url": "10.1109/vetecf.2009.5379030",
+     "openalex_id": "https://openalex.org/W2124882294"
+    },
+    {
+     "rank": 49,
+     "title": "Electrooxidation of alcohols under the operating conditions of industrial alkaline water electrolysis",
+     "year": 2025,
+     "doi_or_url": "10.1039/d5im00071h",
+     "openalex_id": "https://openalex.org/W4411974934"
+    },
+    {
+     "rank": 50,
+     "title": "The Late Cryogenian Warm Interval, NE Svalbard: Chemostratigraphy and genesis",
+     "year": 2016,
+     "doi_or_url": "10.1016/j.precamres.2016.05.013",
+     "openalex_id": "https://openalex.org/W2514562299"
+    }
+   ]
+  },
+  {
+   "id": "A07",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=ab+initio+tensile+test+grain+boundary+lithium+cobalt+oxide&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:28Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 50,
+   "n_results_reported_by_service": 233,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Solid-State Electrolytes for Lithium-Ion Batteries: Fundamentals, Challenges and Perspectives",
+     "year": 2019,
+     "doi_or_url": "10.1007/s41918-019-00048-0",
+     "openalex_id": "https://openalex.org/W2967943101"
+    },
+    {
+     "rank": 2,
+     "title": "Resolving atomic-scale phase transformation and oxygen loss mechanism in ultrahigh-nickel layered cathodes for cobalt-free lithium-ion batteries",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.matt.2021.03.012",
+     "openalex_id": "https://openalex.org/W3142693677"
+    },
+    {
+     "rank": 3,
+     "title": "Evaluating the performance of nanostructured materials as lithium-ion battery electrodes",
+     "year": 2013,
+     "doi_or_url": "10.1007/s12274-013-0375-x",
+     "openalex_id": "https://openalex.org/W2002128287"
+    },
+    {
+     "rank": 4,
+     "title": "Insights into interfacial effect and local lithium-ion transport in polycrystalline cathodes of solid-state batteries",
+     "year": 2020,
+     "doi_or_url": "10.1038/s41467-020-19528-9",
+     "openalex_id": "https://openalex.org/W3103159778"
+    },
+    {
+     "rank": 5,
+     "title": "Misoriented high-entropy iridium ruthenium oxide for acidic water splitting",
+     "year": 2023,
+     "doi_or_url": "10.1126/sciadv.adf9144",
+     "openalex_id": "https://openalex.org/W4386766553"
+    },
+    {
+     "rank": 6,
+     "title": "Lithium solid-state batteries: State-of-the-art and challenges for materials, interfaces and processing",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.jpowsour.2021.229919",
+     "openalex_id": "https://openalex.org/W3163813770"
+    },
+    {
+     "rank": 7,
+     "title": "Tin oxide for optoelectronic, photovoltaic and energy storage devices: a review",
+     "year": 2021,
+     "doi_or_url": "10.1039/d1ta01291f",
+     "openalex_id": "https://openalex.org/W3176233721"
+    },
+    {
+     "rank": 8,
+     "title": "Amorphous Materials for Lithium‐Ion and Post‐Lithium‐Ion Batteries",
+     "year": 2023,
+     "doi_or_url": "10.1002/smll.202304270",
+     "openalex_id": "https://openalex.org/W4387392271"
+    },
+    {
+     "rank": 9,
+     "title": "Current status and future directions of all-solid-state batteries with lithium metal anodes, sulfide electrolytes, and layered transition metal oxide cathodes",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.nanoen.2021.106081",
+     "openalex_id": "https://openalex.org/W3163234030"
+    },
+    {
+     "rank": 10,
+     "title": "Emerging Atomic Layer Deposition for the Development of High-Performance Lithium-Ion Batteries",
+     "year": 2023,
+     "doi_or_url": "10.1007/s41918-023-00192-8",
+     "openalex_id": "https://openalex.org/W4384039564"
+    },
+    {
+     "rank": 11,
+     "title": "Recycling of graphite anode from spent lithium‐ion batteries: Advances and perspectives",
+     "year": 2023,
+     "doi_or_url": "10.1002/eom2.12321",
+     "openalex_id": "https://openalex.org/W4316095720"
+    },
+    {
+     "rank": 12,
+     "title": "Electrolytes for high-energy lithium batteries",
+     "year": 2011,
+     "doi_or_url": "10.1007/s13204-011-0044-x",
+     "openalex_id": "https://openalex.org/W2014309335"
+    },
+    {
+     "rank": 13,
+     "title": "A Critical Review of Li/Air Batteries",
+     "year": 2011,
+     "doi_or_url": "10.1149/2.086202jes",
+     "openalex_id": "https://openalex.org/W2124845074"
+    },
+    {
+     "rank": 14,
+     "title": "Achieving Thermodynamic Stability of Single‐Crystal Co‐Free Ni‐Rich Cathode Material for High Voltage Lithium‐Ion Batteries",
+     "year": 2023,
+     "doi_or_url": "10.1002/adfm.202300081",
+     "openalex_id": "https://openalex.org/W4324379371"
+    },
+    {
+     "rank": 15,
+     "title": "Nanomaterials by severe plastic deformation: review of historical developments and recent advances",
+     "year": 2022,
+     "doi_or_url": "10.1080/21663831.2022.2029779",
+     "openalex_id": "https://openalex.org/W4213192013"
+    },
+    {
+     "rank": 16,
+     "title": "A comprehensive review of lithium-ion battery components degradation and operational considerations: a safety perspective",
+     "year": 2025,
+     "doi_or_url": "10.1039/d5ya00065c",
+     "openalex_id": "https://openalex.org/W4409919684"
+    },
+    {
+     "rank": 17,
+     "title": "Surface enrichment and diffusion enabling gradient-doping and coating of Ni-rich cathode toward Li-ion batteries",
+     "year": 2021,
+     "doi_or_url": "10.1038/s41467-021-24893-0",
+     "openalex_id": "https://openalex.org/W3185901858"
+    },
+    {
+     "rank": 18,
+     "title": "Safety Issues and Improvement Measures of Ni-Rich Layered Oxide Cathode Materials for Li-Ion Batteries",
+     "year": 2024,
+     "doi_or_url": "10.1007/s41918-024-00211-2",
+     "openalex_id": "https://openalex.org/W4400885847"
+    },
+    {
+     "rank": 19,
+     "title": "High-entropy ceramics: Present status, challenges, and a look forward",
+     "year": 2021,
+     "doi_or_url": "10.1007/s40145-021-0477-y",
+     "openalex_id": "https://openalex.org/W3152601855"
+    },
+    {
+     "rank": 20,
+     "title": "A Short Review on Ultra-High-Strength Maraging Steels and Future Perspectives",
+     "year": 2021,
+     "doi_or_url": "10.1590/1980-5373-mr-2020-0470",
+     "openalex_id": "https://openalex.org/W3134222169"
+    },
+    {
+     "rank": 21,
+     "title": "Toward Computational Materials Design: The Impact of Density Functional Theory on Materials Research",
+     "year": 2006,
+     "doi_or_url": "10.1557/mrs2006.174",
+     "openalex_id": "https://openalex.org/W2157955200"
+    },
+    {
+     "rank": 22,
+     "title": "One-dimensional nanomaterials in lithium-ion batteries",
+     "year": 2020,
+     "doi_or_url": "10.1088/1361-6463/abc3eb",
+     "openalex_id": "https://openalex.org/W3094210613"
+    },
+    {
+     "rank": 23,
+     "title": "Chemical and mechanical degradation and mitigation strategies for Si anodes",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.jpowsour.2019.02.054",
+     "openalex_id": "https://openalex.org/W2922320916"
+    },
+    {
+     "rank": 24,
+     "title": "2020 roadmap on solid-state batteries",
+     "year": 2020,
+     "doi_or_url": "10.1088/2515-7655/ab95f4",
+     "openalex_id": "https://openalex.org/W3048055373"
+    },
+    {
+     "rank": 25,
+     "title": "High-entropy materials for electrocatalytic applications: a review of first principles modeling and simulations",
+     "year": 2023,
+     "doi_or_url": "10.1080/21663831.2023.2224397",
+     "openalex_id": "https://openalex.org/W4382135274"
+    },
+    {
+     "rank": 26,
+     "title": "A review of passivity breakdown on metal surfaces: influence of chloride- and sulfide-ion concentrations, temperature, and pH",
+     "year": 2021,
+     "doi_or_url": "10.1007/s42247-021-00194-6",
+     "openalex_id": "https://openalex.org/W3159495581"
+    },
+    {
+     "rank": 27,
+     "title": "Kinetic Monte Carlo simulations applied to Li-ion and post Li-ion batteries: a key link in the multi-scale chain",
+     "year": 2021,
+     "doi_or_url": "10.1088/2516-1083/ac1a65",
+     "openalex_id": "https://openalex.org/W3191214789"
+    },
+    {
+     "rank": 28,
+     "title": "The processing and analysis of graphene and the strength enhancement effect of graphene-based filler materials: A review",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.mtphys.2020.100257",
+     "openalex_id": "https://openalex.org/W3047078789"
+    },
+    {
+     "rank": 29,
+     "title": "Polymer-stable magnesium nanocomposites prepared by laser ablation for efficient hydrogen storage",
+     "year": 2013,
+     "doi_or_url": "10.1016/j.ijhydene.2013.04.031",
+     "openalex_id": "https://openalex.org/W1986475666"
+    },
+    {
+     "rank": 30,
+     "title": "Progress in electrode and electrolyte materials: path to all-solid-state Li-ion batteries",
+     "year": 2022,
+     "doi_or_url": "10.1039/d2ya00043a",
+     "openalex_id": "https://openalex.org/W4285144809"
+    },
+    {
+     "rank": 31,
+     "title": "Effect of Mo on the Mechanical and Corrosion Behaviors in Non-Equal Molar AlCrFeMnNi BCC High-Entropy Alloys",
+     "year": 2022,
+     "doi_or_url": "10.3390/ma15030751",
+     "openalex_id": "https://openalex.org/W4205552138"
+    },
+    {
+     "rank": 32,
+     "title": "Oxidation and electrical properties of chromium–iron alloys in a corrosive molten electrolyte environment",
+     "year": 2020,
+     "doi_or_url": "10.1038/s41598-020-71903-0",
+     "openalex_id": "https://openalex.org/W3083908556"
+    },
+    {
+     "rank": 33,
+     "title": "Synthesis of noble metal-free monodisperse high-entropy oxides hollow nanocubes libraries via a coordination etching strategy",
+     "year": 2025,
+     "doi_or_url": "10.1038/s41467-025-64796-y",
+     "openalex_id": "https://openalex.org/W4415958218"
+    },
+    {
+     "rank": 34,
+     "title": "Emergence of MXene and MXene–Polymer Hybrid Membranes as Future‐ Environmental Remediation Strategies",
+     "year": 2022,
+     "doi_or_url": "10.1002/advs.202203527",
+     "openalex_id": "https://openalex.org/W4307844955"
+    },
+    {
+     "rank": 35,
+     "title": "The Evaluation of Lithium Hydride for Use in a Space Nuclear Reactor Shield, Including a Historical Perspective",
+     "year": 2005,
+     "doi_or_url": "10.2172/883692",
+     "openalex_id": "https://openalex.org/W1558988766"
+    },
+    {
+     "rank": 36,
+     "title": "High temperature zirconium alloys for fusion energy",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.jnucmat.2021.153431",
+     "openalex_id": "https://openalex.org/W3217011536"
+    },
+    {
+     "rank": 37,
+     "title": "Interface Aspects in All‐Solid‐State Li‐Based Batteries Reviewed",
+     "year": 2021,
+     "doi_or_url": "10.1002/aenm.202003939",
+     "openalex_id": "https://openalex.org/W3130208562"
+    },
+    {
+     "rank": 38,
+     "title": "Tensile Mechanical Properties and Failure Behaviors of Friction Stir Processing (FSP) Modified Mg-Al-Zn and Dual-Phase Mg-Li-Al-Zn Alloys",
+     "year": 2013,
+     "doi_or_url": "10.5772/54313",
+     "openalex_id": "https://openalex.org/W1590251027"
+    },
+    {
+     "rank": 39,
+     "title": "Complementary probes for the electrochemical interface",
+     "year": 2024,
+     "doi_or_url": "10.1038/s41570-024-00575-5",
+     "openalex_id": "https://openalex.org/W4392044291"
+    },
+    {
+     "rank": 40,
+     "title": "Preparation, synthesis, properties and characterization of graphene-based 2D nano-materials for biosensors and bioelectronics",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.jmrt.2022.06.023",
+     "openalex_id": "https://openalex.org/W4282560622"
+    },
+    {
+     "rank": 41,
+     "title": "Anisotropic magnetoresistance: materials, models and applications",
+     "year": 2023,
+     "doi_or_url": "10.1098/rsos.230564",
+     "openalex_id": "https://openalex.org/W4387745646"
+    },
+    {
+     "rank": 42,
+     "title": "UNDERSTANDING AND IMPROVING LITHIUM ION BATTERIES THROUGH MATHEMATICAL MODELING AND EXPERIMENTS",
+     "year": 2011,
+     "doi_or_url": "https://openalex.org/w1603196346",
+     "openalex_id": "https://openalex.org/W1603196346"
+    },
+    {
+     "rank": 43,
+     "title": "Complex Concentrated Alloys for Substitution of Critical Raw Materials in Applications for Extreme Conditions",
+     "year": 2021,
+     "doi_or_url": "10.3390/ma14051197",
+     "openalex_id": "https://openalex.org/W3134640819"
+    },
+    {
+     "rank": 44,
+     "title": "Synthesis and applications of carbon nanomaterials for energy generation and storage",
+     "year": 2016,
+     "doi_or_url": "10.3762/bjnano.7.17",
+     "openalex_id": "https://openalex.org/W2278796762"
+    },
+    {
+     "rank": 45,
+     "title": "Synthesis of hexagonal boron nitrides by chemical vapor deposition and their use as single photon emitters",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.nanoms.2021.03.002",
+     "openalex_id": "https://openalex.org/W3159615778"
+    },
+    {
+     "rank": 46,
+     "title": "Electrochemical Random-Access Memory: Progress, Perspectives, and Opportunities",
+     "year": 2025,
+     "doi_or_url": "10.1021/acs.chemrev.4c00512",
+     "openalex_id": "https://openalex.org/W4407624421"
+    },
+    {
+     "rank": 47,
+     "title": "SnO 2 /Perovskite Interface Engineering with Mixed-Halide Potassium Salts: A Pathway to Efficient and Stable Perovskite Solar Cells through a Combined Experimental-Density Functional Theory Approach",
+     "year": 2025,
+     "doi_or_url": "10.1021/acsami.5c04415",
+     "openalex_id": "https://openalex.org/W4410370665"
+    },
+    {
+     "rank": 48,
+     "title": "MXenes in healthcare: synthesis, fundamentals and applications",
+     "year": 2025,
+     "doi_or_url": "10.1039/d3cs01024d",
+     "openalex_id": "https://openalex.org/W4407848322"
+    },
+    {
+     "rank": 49,
+     "title": "The data-intensive scientific revolution occurring where two-dimensional materials meet machine learning",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.xcrp.2021.100482",
+     "openalex_id": "https://openalex.org/W3175157436"
+    },
+    {
+     "rank": 50,
+     "title": "High-throughput design of magnetic materials",
+     "year": 2020,
+     "doi_or_url": "10.1088/2516-1075/abbb25",
+     "openalex_id": "https://openalex.org/W3082238948"
+    }
+   ]
+  },
+  {
+   "id": "A08",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=grain+boundary+decohesion+lithium+transition+metal+oxide&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:31Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 50,
+   "n_results_reported_by_service": 160,
+   "results": [
+    {
+     "rank": 1,
+     "title": "On Modeling the Detrimental Effects of Inhomogeneous Plating-and-Stripping at a Lithium-Metal/Solid-Electrolyte Interface in a Solid-State-Battery",
+     "year": 2020,
+     "doi_or_url": "10.1149/1945-7111/ab75c1",
+     "openalex_id": "https://openalex.org/W3010003093"
+    },
+    {
+     "rank": 2,
+     "title": "Sintering of Ceramics",
+     "year": 2007,
+     "doi_or_url": "10.1201/9781003638544",
+     "openalex_id": "https://openalex.org/W654434355"
+    },
+    {
+     "rank": 3,
+     "title": "A Review of Recent Advances in the Understanding of Liquid Metal Embrittlement",
+     "year": 2018,
+     "doi_or_url": "10.5006/2904",
+     "openalex_id": "https://openalex.org/W2890643367"
+    },
+    {
+     "rank": 4,
+     "title": "Mutual modulation between surface chemistry and bulk microstructure within secondary particles of nickel-rich layered oxides",
+     "year": 2020,
+     "doi_or_url": "10.1038/s41467-020-18278-y",
+     "openalex_id": "https://openalex.org/W3083455799"
+    },
+    {
+     "rank": 5,
+     "title": "Corrosion-fatigue lifetime of Aluminium–Copper–Lithium alloy 2050 in chloride solution",
+     "year": 2015,
+     "doi_or_url": "10.1016/j.matdes.2015.08.003",
+     "openalex_id": "https://openalex.org/W1104818627"
+    },
+    {
+     "rank": 6,
+     "title": "Mechanical integrity of solution-processed perovskite solar cells",
+     "year": 2016,
+     "doi_or_url": "10.1016/j.eml.2016.06.006",
+     "openalex_id": "https://openalex.org/W2466423473"
+    },
+    {
+     "rank": 7,
+     "title": "Defect-characterized phase transition kinetics",
+     "year": 2022,
+     "doi_or_url": "10.1063/5.0117234",
+     "openalex_id": "https://openalex.org/W4309187520"
+    },
+    {
+     "rank": 8,
+     "title": "NanoSIMS Imaging and Analysis in Materials Science",
+     "year": 2020,
+     "doi_or_url": "10.1146/annurev-anchem-092019-032524",
+     "openalex_id": "https://openalex.org/W3004799476"
+    },
+    {
+     "rank": 9,
+     "title": "Current Trends in Metallic Materials for Body Panels and Structural Members Used in the Automotive Industry",
+     "year": 2024,
+     "doi_or_url": "10.3390/ma17030590",
+     "openalex_id": "https://openalex.org/W4391263328"
+    },
+    {
+     "rank": 10,
+     "title": "Contact interfaces in anodes with large volume strain for high-performance lithium-ion storage",
+     "year": 2026,
+     "doi_or_url": "10.1039/d6ee01264g",
+     "openalex_id": "https://openalex.org/W7139072273"
+    },
+    {
+     "rank": 11,
+     "title": "Wear properties of graphene-reinforced aluminium metal matrix composite: A review",
+     "year": 2023,
+     "doi_or_url": "10.1515/rams-2022-0326",
+     "openalex_id": "https://openalex.org/W4383960342"
+    },
+    {
+     "rank": 12,
+     "title": "Evidence for Anisotropic Mechanical Behavior and Nanoscale Chemical Heterogeneity in Cycled LiCoO 2",
+     "year": 2014,
+     "doi_or_url": "10.1149/2.0071411jes",
+     "openalex_id": "https://openalex.org/W2069047251"
+    },
+    {
+     "rank": 13,
+     "title": "Superplastic Behavioral Characteristics of Fine-Grained 5A70 Aluminum Alloy",
+     "year": 2019,
+     "doi_or_url": "10.3390/met9010062",
+     "openalex_id": "https://openalex.org/W2909465041"
+    },
+    {
+     "rank": 14,
+     "title": "Engineering a new class of thermal spray nano-based microstructures from agglomerated nanostructured particles, suspensions and solutions: an invited review",
+     "year": 2011,
+     "doi_or_url": "10.1088/0022-3727/44/9/093001",
+     "openalex_id": "https://openalex.org/W2112202196"
+    },
+    {
+     "rank": 15,
+     "title": "Circular Steel for Fast Decarbonization: Thermodynamics, Kinetics, and Microstructure Behind Upcycling Scrap into High-Performance Sheet Steel",
+     "year": 2024,
+     "doi_or_url": "10.1146/annurev-matsci-080222-123648",
+     "openalex_id": "https://openalex.org/W4396213528"
+    },
+    {
+     "rank": 16,
+     "title": "Challenges in additive manufacturing of high-strength aluminium alloys and current developments in hybrid additive manufacturing",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.ijlmm.2020.12.004",
+     "openalex_id": "https://openalex.org/W3116908889"
+    },
+    {
+     "rank": 17,
+     "title": "Mechanical analysis of the delamination of artificial solid electrolyte interface in lithium-ion batteries",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.apples.2022.100088",
+     "openalex_id": "https://openalex.org/W4210941397"
+    },
+    {
+     "rank": 18,
+     "title": "Electrochemical and spectroscopic characterization of oxide films formed on Alloy 182 in simulated boiling water reactor environment: Effect of dissolved hydrogen",
+     "year": 2018,
+     "doi_or_url": "10.1016/j.corsci.2018.01.024",
+     "openalex_id": "https://openalex.org/W2794347737"
+    },
+    {
+     "rank": 19,
+     "title": "Innovations in hydrogen storage materials: Synthesis, applications, and prospects",
+     "year": 2024,
+     "doi_or_url": "10.1016/j.est.2024.112376",
+     "openalex_id": "https://openalex.org/W4400284211"
+    },
+    {
+     "rank": 20,
+     "title": "Dielectric Studies of Bi2MoO6/Graphene Oxide and La-Doped Bi2MoO6/Graphene Oxide Nanocomposites",
+     "year": 2021,
+     "doi_or_url": "10.3390/met11040559",
+     "openalex_id": "https://openalex.org/W3144929411"
+    },
+    {
+     "rank": 21,
+     "title": "Duplex Stainless Steels for Thermal Energy Storage: Characterization of Oxide Scales Formed in Carbonate Salts at 500 °C",
+     "year": 2022,
+     "doi_or_url": "10.3390/met12122156",
+     "openalex_id": "https://openalex.org/W4311793719"
+    },
+    {
+     "rank": 22,
+     "title": "Atomistic to continuum simulations of fracture and damage evolutions in oxide glass and glass-ceramic materials: A critical review",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.nocx.2022.100102",
+     "openalex_id": "https://openalex.org/W4282000512"
+    },
+    {
+     "rank": 23,
+     "title": "The diffusion induced stress and cracking behaviour of primary particle for Li-ion battery electrode",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.ijmecsci.2020.105608",
+     "openalex_id": "https://openalex.org/W3011178875"
+    },
+    {
+     "rank": 24,
+     "title": "Materials science and engineering",
+     "year": 1997,
+     "doi_or_url": "10.2172/623044",
+     "openalex_id": "https://openalex.org/W4232238914"
+    },
+    {
+     "rank": 25,
+     "title": "Insights into Chemo-Mechanical Yielding and Eigenstrains in Lithium-Ion Battery Degradation",
+     "year": 2025,
+     "doi_or_url": "10.3390/batteries11120465",
+     "openalex_id": "https://openalex.org/W7115892241"
+    },
+    {
+     "rank": 26,
+     "title": "The Role of Precipitates in Hydrogen Embrittlement of Precipitation-Hardenable Aluminum Alloys",
+     "year": 2024,
+     "doi_or_url": "10.3390/met14111287",
+     "openalex_id": "https://openalex.org/W4404377862"
+    },
+    {
+     "rank": 27,
+     "title": "SCC in PWRs: Learning from a Bottom-Up Approach",
+     "year": 2014,
+     "doi_or_url": "10.1007/s40553-014-0020-y",
+     "openalex_id": "https://openalex.org/W2090803229"
+    },
+    {
+     "rank": 28,
+     "title": "Effect of particulate reinforcement on the aging behavior of aluminium metal matrix composites - A review",
+     "year": 2025,
+     "doi_or_url": "10.1016/j.jmrt.2025.12.211",
+     "openalex_id": "https://openalex.org/W4417529155"
+    },
+    {
+     "rank": 29,
+     "title": "Microstructure and fracture toughness characterization of three 9Cr ODS EUROFER steels with different thermo-mechanical treatments",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.jnucmat.2020.152464",
+     "openalex_id": "https://openalex.org/W3064631559"
+    },
+    {
+     "rank": 30,
+     "title": "Chemo-mechanical Modeling of Lithium-Ion Batteries",
+     "year": 2021,
+     "doi_or_url": "10.26083/tuprints-00017542",
+     "openalex_id": "https://openalex.org/W3195587484"
+    },
+    {
+     "rank": 31,
+     "title": "Influence of Interstitial Oxygen on the Tribology of Ti6Al4V",
+     "year": 2020,
+     "doi_or_url": "10.1007/s11249-020-01327-4",
+     "openalex_id": "https://openalex.org/W3083037057"
+    },
+    {
+     "rank": 32,
+     "title": "Magnesium Alloys - Properties in Solid and Liquid States",
+     "year": 2014,
+     "doi_or_url": "10.5772/58293",
+     "openalex_id": "https://openalex.org/W2477304272"
+    },
+    {
+     "rank": 33,
+     "title": "Microstructure and Mechanical Properties at Elevated Temperature of Powder Metallurgy Al-Zn-Mg-Cu Alloy Subjected to Hot Extrusion",
+     "year": 2022,
+     "doi_or_url": "10.3390/met12020259",
+     "openalex_id": "https://openalex.org/W4226334227"
+    },
+    {
+     "rank": 34,
+     "title": "Review on the design of high-strength and hydrogen-embrittlement-resistant steels",
+     "year": 2024,
+     "doi_or_url": "10.1007/s12613-024-2900-1",
+     "openalex_id": "https://openalex.org/W4399054685"
+    },
+    {
+     "rank": 35,
+     "title": "Current progress, challenges, and future prospects in composite cryogenic hydrogen storage tanks",
+     "year": 2025,
+     "doi_or_url": "10.1002/pc.29872",
+     "openalex_id": "https://openalex.org/W4409183557"
+    },
+    {
+     "rank": 36,
+     "title": "Small-Scale Mechanical Testing",
+     "year": 2022,
+     "doi_or_url": "10.1146/annurev-matsci-080819-123640",
+     "openalex_id": "https://openalex.org/W4281485840"
+    },
+    {
+     "rank": 37,
+     "title": "Effect of microstructure on low temperature hydrogen-induced cracking behaviour of nickel-based alloy weld metals",
+     "year": 2016,
+     "doi_or_url": "10.13140/rg.2.1.5057.4484",
+     "openalex_id": "https://openalex.org/W2597687182"
+    },
+    {
+     "rank": 38,
+     "title": "Basic Research Needs for the Hydrogen Economy. Report of the Basic Energy Sciences Workshop on Hydrogen Production, Storage and Use, May 13-15, 2003",
+     "year": 2004,
+     "doi_or_url": "10.2172/899224",
+     "openalex_id": "https://openalex.org/W1558886088"
+    },
+    {
+     "rank": 39,
+     "title": "Gas Diffusion in Metals: Fundamental Study of Helium-Point Defect Interactions in Iron and Kinetics of Hydrogen Desorption from Zirconium Hydride",
+     "year": 2013,
+     "doi_or_url": "https://openalex.org/w1679443087",
+     "openalex_id": "https://openalex.org/W1679443087"
+    },
+    {
+     "rank": 40,
+     "title": "Towards sustainable mobility: A systematic review of hydrogen refueling station security assessment and risk prevention",
+     "year": 2025,
+     "doi_or_url": "10.1016/j.ijhydene.2025.01.348",
+     "openalex_id": "https://openalex.org/W4406999340"
+    },
+    {
+     "rank": 41,
+     "title": "Environmental fatigue of an Al-Li-Cu alloy. Part 2: Microscopic hydrogen cracking processes",
+     "year": 1992,
+     "doi_or_url": "https://openalex.org/w3047547203",
+     "openalex_id": "https://openalex.org/W3047547203"
+    },
+    {
+     "rank": 42,
+     "title": "X-ray absorption spectromicroscopy gives access to Li1+xAlxGe2−x(PO4)3 (LAGP) local degradation at the anode-electrolyte interface",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.powera.2022.100106",
+     "openalex_id": "https://openalex.org/W4309334387"
+    },
+    {
+     "rank": 43,
+     "title": "Metallurgical aspects of the corrosion resistance of 7000 series aluminum alloys – a review",
+     "year": 2023,
+     "doi_or_url": "10.2478/msp-2023-0041",
+     "openalex_id": "https://openalex.org/W4392412265"
+    },
+    {
+     "rank": 44,
+     "title": "Revisiting the High‐Entropy Paradigm for Ni‐Rich Cathodes: Dopant‐Induced Surface Engineering as the Key to Stability",
+     "year": 2025,
+     "doi_or_url": "10.1002/smll.202510198",
+     "openalex_id": "https://openalex.org/W7117698026"
+    },
+    {
+     "rank": 45,
+     "title": "Prognosis methods of stress corrosion cracking under harsh environmental conditions",
+     "year": 2024,
+     "doi_or_url": "10.1016/j.heliyon.2024.e25276",
+     "openalex_id": "https://openalex.org/W4391430244"
+    },
+    {
+     "rank": 46,
+     "title": "In Situ Metal Matrix Nanocomposites: Towards Understanding Formation Mechanisms and Microstructural Control",
+     "year": 2020,
+     "doi_or_url": "https://openalex.org/w3120375792",
+     "openalex_id": "https://openalex.org/W3120375792"
+    },
+    {
+     "rank": 47,
+     "title": "2026 roadmap on next-generation solid electrolytes for battery applications",
+     "year": 2026,
+     "doi_or_url": "10.1088/2752-5724/ae5120",
+     "openalex_id": "https://openalex.org/W7135091947"
+    },
+    {
+     "rank": 48,
+     "title": "Effect of thermal ageing on Alloys 690 and 52 in pressurized water reactor applications",
+     "year": 2017,
+     "doi_or_url": "10.13140/rg.2.2.26196.86404",
+     "openalex_id": "https://openalex.org/W2611314384"
+    },
+    {
+     "rank": 49,
+     "title": "Tensile Mechanical Properties and Failure Behaviors of Friction Stir Processing (FSP) Modified Mg-Al-Zn and Dual-Phase Mg-Li-Al-Zn Alloys",
+     "year": 2013,
+     "doi_or_url": "10.5772/54313",
+     "openalex_id": "https://openalex.org/W1590251027"
+    },
+    {
+     "rank": 50,
+     "title": "Corrosion of Materials in Liquid Magnesium Alloys and Its Prevention",
+     "year": 2014,
+     "doi_or_url": "10.5772/59181",
+     "openalex_id": "https://openalex.org/W1482016573"
+    }
+   ]
+  },
+  {
+   "id": "A09",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=grain+boundary+DFT+NCM811+intergranular+cracking&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:34Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 49,
+   "n_results_reported_by_service": 49,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Reactive boride infusion stabilizes Ni-rich cathodes for lithium-ion batteries",
+     "year": 2021,
+     "doi_or_url": "10.1038/s41560-021-00782-0",
+     "openalex_id": "https://openalex.org/W3135713975"
+    },
+    {
+     "rank": 2,
+     "title": "A Review of Degradation Mechanisms and Recent Achievements for Ni‐Rich Cathode‐Based Li‐Ion Batteries",
+     "year": 2021,
+     "doi_or_url": "10.1002/aenm.202103005",
+     "openalex_id": "https://openalex.org/W3213328656"
+    },
+    {
+     "rank": 3,
+     "title": "Transition metal-doped Ni-rich layered cathode materials for durable Li-ion batteries",
+     "year": 2021,
+     "doi_or_url": "10.1038/s41467-021-26815-6",
+     "openalex_id": "https://openalex.org/W3213318764"
+    },
+    {
+     "rank": 4,
+     "title": "Extending the high-voltage operation of Graphite/NCM811 cells by constructing a robust electrode/electrolyte interphase layer",
+     "year": 2023,
+     "doi_or_url": "10.1016/j.mtener.2023.101301",
+     "openalex_id": "https://openalex.org/W4362663164"
+    },
+    {
+     "rank": 5,
+     "title": "Multifunctional solvent molecule design enables high-voltage Li-ion batteries",
+     "year": 2023,
+     "doi_or_url": "10.1038/s41467-023-37999-4",
+     "openalex_id": "https://openalex.org/W4366270301"
+    },
+    {
+     "rank": 6,
+     "title": "Thermodynamically Stable Dual‐Modified LiF&FeF 3 layer Empowering Ni‐Rich Cathodes with Superior Cyclabilities",
+     "year": 2023,
+     "doi_or_url": "10.1002/adma.202212308",
+     "openalex_id": "https://openalex.org/W4324027453"
+    },
+    {
+     "rank": 7,
+     "title": "Chemical, Structural, and Electronic Aspects of Formation and Degradation Behavior on Different Length Scales of Ni‐Rich NCM and Li‐Rich HE‐NCM Cathode Materials in Li‐Ion Batteries",
+     "year": 2019,
+     "doi_or_url": "10.1002/adma.201900985",
+     "openalex_id": "https://openalex.org/W2942348480"
+    },
+    {
+     "rank": 8,
+     "title": "Degradation Mechanisms and Mitigation Strategies of Nickel-Rich NMC-Based Lithium-Ion Batteries",
+     "year": 2019,
+     "doi_or_url": "10.1007/s41918-019-00053-3",
+     "openalex_id": "https://openalex.org/W2981478793"
+    },
+    {
+     "rank": 9,
+     "title": "Recent progress in synthesis and surface modification of nickel-rich layered oxide cathode materials for lithium-ion batteries",
+     "year": 2022,
+     "doi_or_url": "10.1088/2631-7990/ac92ef",
+     "openalex_id": "https://openalex.org/W4296380447"
+    },
+    {
+     "rank": 10,
+     "title": "High-energy and durable lithium metal batteries using garnet-type solid electrolytes with tailored lithium-metal compatibility",
+     "year": 2022,
+     "doi_or_url": "10.1038/s41467-022-29531-x",
+     "openalex_id": "https://openalex.org/W4224321801"
+    },
+    {
+     "rank": 11,
+     "title": "Sulfide and Oxide Inorganic Solid Electrolytes for All-Solid-State Li Batteries: A Review",
+     "year": 2020,
+     "doi_or_url": "10.3390/nano10081606",
+     "openalex_id": "https://openalex.org/W3049304483"
+    },
+    {
+     "rank": 12,
+     "title": "Improving LiNixCoyMn1−x−yO2 cathode electrolyte interface under high voltage in lithium ion batteries",
+     "year": 2020,
+     "doi_or_url": "10.1002/nano.202000008",
+     "openalex_id": "https://openalex.org/W3037655691"
+    },
+    {
+     "rank": 13,
+     "title": "Regulating electrostatic phenomena by cationic polymer binder for scalable high-areal-capacity Li battery electrodes",
+     "year": 2023,
+     "doi_or_url": "10.1038/s41467-023-41513-1",
+     "openalex_id": "https://openalex.org/W4386772569"
+    },
+    {
+     "rank": 14,
+     "title": "Interfacial gliding-driven lattice oxygen release in layered cathodes",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.xcrp.2021.100695",
+     "openalex_id": "https://openalex.org/W4200095277"
+    },
+    {
+     "rank": 15,
+     "title": "Elucidating and Mitigating High‐Voltage Degradation Cascades in Cobalt‐Free LiNiO2 Lithium‐Ion Battery Cathodes",
+     "year": 2021,
+     "doi_or_url": "10.1002/adma.202106402",
+     "openalex_id": "https://openalex.org/W3209624812"
+    },
+    {
+     "rank": 16,
+     "title": "Oxide‐Based Solid‐State Batteries: A Perspective on Composite Cathode Architecture",
+     "year": 2022,
+     "doi_or_url": "10.1002/aenm.202201939",
+     "openalex_id": "https://openalex.org/W4309554819"
+    },
+    {
+     "rank": 17,
+     "title": "Improving Cyclability and Structural Stability of Co‐Free Layered Cathode by Controlling Porosity and Cracks in Secondary Particles for Low‐Cost and High‐Energy LIBs",
+     "year": 2025,
+     "doi_or_url": "10.1002/adfm.202424880",
+     "openalex_id": "https://openalex.org/W4407550533"
+    },
+    {
+     "rank": 18,
+     "title": "Recent Progress in and Perspectives on Emerging Halide Superionic Conductors for All-Solid-State Batteries",
+     "year": 2023,
+     "doi_or_url": "10.1007/s41918-023-00179-5",
+     "openalex_id": "https://openalex.org/W4363651897"
+    },
+    {
+     "rank": 19,
+     "title": "Surface Modification Strategies for Improving the Cycling Performance of Ni‐Rich Cathode Materials",
+     "year": 2020,
+     "doi_or_url": "10.1002/ejic.202000408",
+     "openalex_id": "https://openalex.org/W3041777379"
+    },
+    {
+     "rank": 20,
+     "title": "Advances in All-Solid-State Lithium–Sulfur Batteries for Commercialization",
+     "year": 2024,
+     "doi_or_url": "10.1007/s40820-024-01385-6",
+     "openalex_id": "https://openalex.org/W4394819936"
+    },
+    {
+     "rank": 21,
+     "title": "Manipulating the crystal plane angle within the primary particle arrangement for the radial ordered structure in a Ni-rich cathode",
+     "year": 2023,
+     "doi_or_url": "10.1039/d3sc05461f",
+     "openalex_id": "https://openalex.org/W4389050754"
+    },
+    {
+     "rank": 22,
+     "title": "Recent progress in Ni-rich layered oxides and related cathode materials for Li-ion cells",
+     "year": 2024,
+     "doi_or_url": "10.1007/s12613-024-2948-y",
+     "openalex_id": "https://openalex.org/W4403244123"
+    },
+    {
+     "rank": 23,
+     "title": "The role of niobium in layered oxide cathodes for conventional lithium-ion and solid-state batteries",
+     "year": 2023,
+     "doi_or_url": "10.1039/d3qi01857a",
+     "openalex_id": "https://openalex.org/W4388543150"
+    },
+    {
+     "rank": 24,
+     "title": "High-Performance High-Nickel Multi-Element Cathode Materials for Lithium-Ion Batteries",
+     "year": 2023,
+     "doi_or_url": "10.3390/batteries9060319",
+     "openalex_id": "https://openalex.org/W4380085018"
+    },
+    {
+     "rank": 25,
+     "title": "Kosmotropic aqueous processing solution for green lithium battery cathode manufacturing",
+     "year": 2025,
+     "doi_or_url": "10.1038/s41467-025-56831-9",
+     "openalex_id": "https://openalex.org/W4407605456"
+    },
+    {
+     "rank": 26,
+     "title": "Review on Electrode Degradation at Fast Charging of Li-Ion and Li Metal Batteries from a Kinetic Perspective",
+     "year": 2023,
+     "doi_or_url": "10.3390/electrochem4020013",
+     "openalex_id": "https://openalex.org/W4360865087"
+    },
+    {
+     "rank": 27,
+     "title": "Safety Issues of Layered Nickel-Based Cathode Materials for Lithium-Ion Batteries: Origin, Strategies and Prospects",
+     "year": 2023,
+     "doi_or_url": "10.3390/batteries9030156",
+     "openalex_id": "https://openalex.org/W4322770942"
+    },
+    {
+     "rank": 28,
+     "title": "Advances of sulfide‐type solid‐state batteries with negative electrodes: Progress and perspectives",
+     "year": 2023,
+     "doi_or_url": "10.1002/eom2.12338",
+     "openalex_id": "https://openalex.org/W4324146035"
+    },
+    {
+     "rank": 29,
+     "title": "Quasi-solid-state electrolytes - strategy towards stabilising Li|inorganic solid electrolyte interfaces in solid-state Li metal batteries",
+     "year": 2023,
+     "doi_or_url": "10.20517/energymater.2023.03",
+     "openalex_id": "https://openalex.org/W4366962378"
+    },
+    {
+     "rank": 30,
+     "title": "Review—Key Strategies to Increase the Rate Capacity of Cathode Materials for High Power Lithium-Ion Batteries",
+     "year": 2020,
+     "doi_or_url": "10.1149/1945-7111/abc4bf",
+     "openalex_id": "https://openalex.org/W3096719358"
+    },
+    {
+     "rank": 31,
+     "title": "Modification Strategies of High‐Nickel Layered Oxide Cathode for Lithium‐Ion Batteries",
+     "year": 2025,
+     "doi_or_url": "10.1002/batt.202500095",
+     "openalex_id": "https://openalex.org/W4409342423"
+    },
+    {
+     "rank": 32,
+     "title": "Advancements and Challenges in Solid-State Battery Technology: An In-Depth Review of Solid Electrolytes and Anode Innovations",
+     "year": 2024,
+     "doi_or_url": "10.20944/preprints202401.0401.v1",
+     "openalex_id": "https://openalex.org/W4390655446"
+    },
+    {
+     "rank": 33,
+     "title": "Boosting Li+ Diffusion in Lithium-Rich Oxides through Intrinsic Structural Design: Insights and Design Principles",
+     "year": 2026,
+     "doi_or_url": "10.1007/s40820-026-02099-7",
+     "openalex_id": "https://openalex.org/W7133919365"
+    },
+    {
+     "rank": 34,
+     "title": "Strategies to Boost the Safety and Ionic Conductivity of Lithium‐Ion Batteries Using Solid State Electrolytes: A Review",
+     "year": 2025,
+     "doi_or_url": "10.1002/wene.544",
+     "openalex_id": "https://openalex.org/W4406042473"
+    },
+    {
+     "rank": 35,
+     "title": "New internal stress mechanisms of phase transformations caused by lattice distortion in single-crystal Ni-rich cathodes",
+     "year": 2025,
+     "doi_or_url": "10.21203/rs.3.rs-6946109/v1",
+     "openalex_id": "https://openalex.org/W4413110073"
+    },
+    {
+     "rank": 36,
+     "title": "Tailoring Cathode Interfaces in Sodium‐Ion Batteries: Advanced Coating Strategies and Electrochemical Interface Regulation",
+     "year": 2025,
+     "doi_or_url": "10.1002/adfm.202507781",
+     "openalex_id": "https://openalex.org/W4411499299"
+    },
+    {
+     "rank": 37,
+     "title": "Regulating Lithium Metal Nucleation and Growth for Dendrite Suppression: from Liquid-Electrolyte to Solid-State Batteries",
+     "year": 2025,
+     "doi_or_url": "10.61558/2993-074x.3594",
+     "openalex_id": "https://openalex.org/W4416817375"
+    },
+    {
+     "rank": 38,
+     "title": "Electro‐Chemo‐Mechanical Coupling in Composite Cathodes of Sulfide‐Based All‐Solid‐State Batteries: Pathways, Degradation, and Design Rules",
+     "year": 2026,
+     "doi_or_url": "10.1002/advs.202524187",
+     "openalex_id": "https://openalex.org/W7128805721"
+    },
+    {
+     "rank": 39,
+     "title": "Anion–Diluent Decoupled Solvation Chemistry in Ionic Liquid-Based Localized High-Concentration Electrolytes Toward High-Voltage Lithium Metal Batteries",
+     "year": 2026,
+     "doi_or_url": "10.1007/s40820-026-02242-4",
+     "openalex_id": "https://openalex.org/W7163064857"
+    },
+    {
+     "rank": 40,
+     "title": "Mitigation strategies for Li 2 CO 3 contamination in garnet-type solid-state electrolytes: formation mechanisms and interfacial engineering",
+     "year": 2026,
+     "doi_or_url": "10.1039/d5sc09699e",
+     "openalex_id": "https://openalex.org/W7123347675"
+    },
+    {
+     "rank": 41,
+     "title": "Research Progress on Challenges and Modification Strategies for Lithium-Ion Battery Layered Oxide Cathode Materials",
+     "year": 2026,
+     "doi_or_url": "10.3390/nanoenergyadv6010012",
+     "openalex_id": "https://openalex.org/W7140079666"
+    },
+    {
+     "rank": 42,
+     "title": "LiNi 1/3 Mn 1/3 Co 1/3 O 2 nanoparticles produced by flame spray pyrolysis with crystallinity characteristics similar to commercial NMC particles",
+     "year": 2025,
+     "doi_or_url": "10.1039/d5ra02976g",
+     "openalex_id": "https://openalex.org/W4413049998"
+    },
+    {
+     "rank": 43,
+     "title": "2026 roadmap on next-generation solid electrolytes for battery applications",
+     "year": 2026,
+     "doi_or_url": "10.1088/2752-5724/ae5120",
+     "openalex_id": "https://openalex.org/W7135091947"
+    },
+    {
+     "rank": 44,
+     "title": "High‐Entropy Materials for Energy Storage Applications",
+     "year": 2025,
+     "doi_or_url": "10.1002/9783527849192.ch09",
+     "openalex_id": "https://openalex.org/W4417328013"
+    },
+    {
+     "rank": 45,
+     "title": "Halide-Based Solid Electrolytes for Advanced All-Solid-State Batteries: Design, Interfaces, and Electrochemical Performance",
+     "year": 2026,
+     "doi_or_url": "10.1007/s40820-026-02251-3",
+     "openalex_id": "https://openalex.org/W7165526969"
+    },
+    {
+     "rank": 46,
+     "title": "Coupling Grain Architecture Control With Oxygen‐Vacancy Suppression in Ultra‐Large Single‐ and Quasi‐Single‐Crystal Ni‐Rich Cathodes",
+     "year": 2026,
+     "doi_or_url": "10.1002/adfm.78468",
+     "openalex_id": "https://openalex.org/W7212362222"
+    },
+    {
+     "rank": 47,
+     "title": "On the Mechanical Stability of Nickel-Based Lithium-Ion Battery Cathodes for Electric Vehicles",
+     "year": 2026,
+     "doi_or_url": "10.53623/amms.v2i2.1148",
+     "openalex_id": "https://openalex.org/W7166478510"
+    },
+    {
+     "rank": 48,
+     "title": "Nanoscale Failure Mechanism and Nanoengineering Modification Strategies of Layered NCM Cathodes",
+     "year": 2026,
+     "doi_or_url": "10.3390/nano16171102",
+     "openalex_id": "https://openalex.org/W7204958624"
+    },
+    {
+     "rank": 49,
+     "title": "Lithium Dendrite-Free Li7N2I-LiOH Solid Electrolytes for High Energy Lithium Batteries",
+     "year": 2024,
+     "doi_or_url": "10.2172/2479519",
+     "openalex_id": "https://openalex.org/W4406032859"
+    }
+   ]
+  },
+  {
+   "id": "A10",
+   "service": "OpenAlex search",
+   "query": "https://api.openalex.org/works?search=cleavage+energy+grain+boundary+layered+cathode+atomistic&per-page=50&select=id%2Cdoi%2Ctitle%2Cpublication_year%2Cprimary_location&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:37Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 50,
+   "n_results_reported_by_service": 392,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Lithium and sodium battery cathode materials: computational insights into voltage, diffusion and nanostructural properties",
+     "year": 2013,
+     "doi_or_url": "10.1039/c3cs60199d",
+     "openalex_id": "https://openalex.org/W2147069536"
+    },
+    {
+     "rank": 2,
+     "title": "Understanding and mitigating hydrogen embrittlement of steels: a review of experimental, modelling and design progress from atomistic to continuum",
+     "year": 2018,
+     "doi_or_url": "10.1007/s10853-017-1978-5",
+     "openalex_id": "https://openalex.org/W2785624757"
+    },
+    {
+     "rank": 3,
+     "title": "Membrane pore formation in atomistic and coarse-grained simulations",
+     "year": 2015,
+     "doi_or_url": "10.1016/j.bbamem.2015.12.031",
+     "openalex_id": "https://openalex.org/W2217503625"
+    },
+    {
+     "rank": 4,
+     "title": "Atomistic simulation study of the grain-size effect on hydrogen embrittlement of nanograined Fe",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.ijhydene.2019.11.131",
+     "openalex_id": "https://openalex.org/W2995516746"
+    },
+    {
+     "rank": 5,
+     "title": "An understanding of hydrogen embrittlement in nickel grain boundaries from first principles",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.matdes.2021.110283",
+     "openalex_id": "https://openalex.org/W3215583397"
+    },
+    {
+     "rank": 6,
+     "title": "Review on modeling of the anode solid electrolyte interphase (SEI) for lithium-ion batteries",
+     "year": 2018,
+     "doi_or_url": "10.1038/s41524-018-0064-0",
+     "openalex_id": "https://openalex.org/W2796282060"
+    },
+    {
+     "rank": 7,
+     "title": "Hydrogen Embrittlement Understood",
+     "year": 2015,
+     "doi_or_url": "10.1007/s11661-015-2836-1",
+     "openalex_id": "https://openalex.org/W1993152008"
+    },
+    {
+     "rank": 8,
+     "title": "Machine learning-accelerated quantum mechanics-based atomistic simulations for industrial applications",
+     "year": 2020,
+     "doi_or_url": "10.1007/s10822-020-00346-6",
+     "openalex_id": "https://openalex.org/W3092198360"
+    },
+    {
+     "rank": 9,
+     "title": "Role of grain-level chemo-mechanics in composite cathode degradation of solid-state lithium batteries",
+     "year": 2024,
+     "doi_or_url": "10.1038/s41467-024-52123-w",
+     "openalex_id": "https://openalex.org/W4402494746"
+    },
+    {
+     "rank": 10,
+     "title": "Heteroatom-doped graphene materials: syntheses, properties and applications",
+     "year": 2014,
+     "doi_or_url": "10.1039/c4cs00141a",
+     "openalex_id": "https://openalex.org/W2157202716"
+    },
+    {
+     "rank": 11,
+     "title": "Highly reversible oxygen redox in layered compounds enabled by surface polyanions",
+     "year": 2020,
+     "doi_or_url": "10.1038/s41467-020-17126-3",
+     "openalex_id": "https://openalex.org/W3040754199"
+    },
+    {
+     "rank": 12,
+     "title": "Hydrogen Embrittlement Understood",
+     "year": 2015,
+     "doi_or_url": "10.1007/s11663-015-0325-y",
+     "openalex_id": "https://openalex.org/W2034173330"
+    },
+    {
+     "rank": 13,
+     "title": "Optimal annealing of Al foil anode for prelithiation and full-cell cycling in Li-ion battery: The role of grain boundaries in lithiation/delithiation ductility",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.nanoen.2019.104274",
+     "openalex_id": "https://openalex.org/W2987717576"
+    },
+    {
+     "rank": 14,
+     "title": "The Atomistic Structure of Metal/Ceramic Interfaces Is the Key Issue for Developing Better Properties",
+     "year": 2014,
+     "doi_or_url": "10.3390/met4030410",
+     "openalex_id": "https://openalex.org/W2136586570"
+    },
+    {
+     "rank": 15,
+     "title": "Analysis of hydrogen permeation tests considering two different modelling approaches for grain boundary trapping in iron",
+     "year": 2019,
+     "doi_or_url": "10.1007/s10704-019-00411-8",
+     "openalex_id": "https://openalex.org/W2996073201"
+    },
+    {
+     "rank": 16,
+     "title": "Hydroxide promotes carbon dioxide electroreduction to ethanol on copper via tuning of adsorbed hydrogen",
+     "year": 2019,
+     "doi_or_url": "10.1038/s41467-019-13833-8",
+     "openalex_id": "https://openalex.org/W2996510623"
+    },
+    {
+     "rank": 17,
+     "title": "Si-based polymer-derived ceramics for energy conversion and storage",
+     "year": 2022,
+     "doi_or_url": "10.1007/s40145-021-0562-2",
+     "openalex_id": "https://openalex.org/W4205822828"
+    },
+    {
+     "rank": 18,
+     "title": "Two-Dimensional Black Phosphorus Nanomaterials: Emerging Advances in Electrochemical Energy Storage Science",
+     "year": 2020,
+     "doi_or_url": "10.1007/s40820-020-00510-5",
+     "openalex_id": "https://openalex.org/W3082188803"
+    },
+    {
+     "rank": 19,
+     "title": "Investigation of Hydrogen Embrittlement Susceptibility and Fracture Toughness Drop after in situ Hydrogen Cathodic Charging for an X65 Pipeline Steel",
+     "year": 2020,
+     "doi_or_url": "10.3390/mi11040430",
+     "openalex_id": "https://openalex.org/W3016992890"
+    },
+    {
+     "rank": 20,
+     "title": "Topochemical stabilization and single-crystal transformations of a metastable 2D γʹ-V2O5 intercalation cathode",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.xcrp.2021.100712",
+     "openalex_id": "https://openalex.org/W4205684847"
+    },
+    {
+     "rank": 21,
+     "title": "Atomic-scale investigation of deep hydrogen trapping in NbC/α-Fe semi-coherent interfaces",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.actamat.2020.09.031",
+     "openalex_id": "https://openalex.org/W3087080893"
+    },
+    {
+     "rank": 22,
+     "title": "A review of experimental approaches to fracture toughness evaluation at the micro-scale",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.matdes.2019.107762",
+     "openalex_id": "https://openalex.org/W2929761513"
+    },
+    {
+     "rank": 23,
+     "title": "Cleavage-dissolution assisted stress corrosion cracking under elastic loads",
+     "year": 2021,
+     "doi_or_url": "10.1038/s41529-021-00172-7",
+     "openalex_id": "https://openalex.org/W3161108977"
+    },
+    {
+     "rank": 24,
+     "title": "Exfoliation mechanisms of 2D materials and their applications",
+     "year": 2022,
+     "doi_or_url": "10.1063/5.0090717",
+     "openalex_id": "https://openalex.org/W4301594521"
+    },
+    {
+     "rank": 25,
+     "title": "Development of nickel based cermet anode materials in solid oxide fuel cells – Now and future",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.matre.2020.11.002",
+     "openalex_id": "https://openalex.org/W3112380455"
+    },
+    {
+     "rank": 26,
+     "title": "Single‐atom catalysis for carbon neutrality",
+     "year": 2022,
+     "doi_or_url": "10.1002/cey2.194",
+     "openalex_id": "https://openalex.org/W4285386567"
+    },
+    {
+     "rank": 27,
+     "title": "Facilitating alkaline hydrogen evolution reaction on the hetero-interfaced Ru/RuO2 through Pt single atoms doping",
+     "year": 2024,
+     "doi_or_url": "10.1038/s41467-024-45654-9",
+     "openalex_id": "https://openalex.org/W4391877561"
+    },
+    {
+     "rank": 28,
+     "title": "Effect of hydrogen on nanomechanical properties in Fe-22Mn-0.6C TWIP steel revealed by in-situ electrochemical nanoindentation",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.actamat.2018.12.055",
+     "openalex_id": "https://openalex.org/W2907904050"
+    },
+    {
+     "rank": 29,
+     "title": "Joining of dissimilar materials",
+     "year": 2015,
+     "doi_or_url": "10.1016/j.cirp.2015.05.006",
+     "openalex_id": "https://openalex.org/W3104490855"
+    },
+    {
+     "rank": 30,
+     "title": "Influence of dislocations on hydrogen diffusion and trapping in an Al-Zn-Mg aluminium alloy",
+     "year": 2019,
+     "doi_or_url": "10.1016/j.matdes.2019.107901",
+     "openalex_id": "https://openalex.org/W2947068409"
+    },
+    {
+     "rank": 31,
+     "title": "Electrocatalytic synthesis of adipic acid coupled with H2 production enhanced by a ligand modification strategy",
+     "year": 2022,
+     "doi_or_url": "10.1038/s41467-022-32769-0",
+     "openalex_id": "https://openalex.org/W4293240395"
+    },
+    {
+     "rank": 32,
+     "title": "Ultralow energy adaptive neuromorphic computing using reconfigurable zinc phosphorus trisulfide memristors",
+     "year": 2025,
+     "doi_or_url": "10.1038/s41467-025-62306-8",
+     "openalex_id": "https://openalex.org/W4412652541"
+    },
+    {
+     "rank": 33,
+     "title": "Integrated computational materials engineering of corrosion resistant alloys",
+     "year": 2018,
+     "doi_or_url": "10.1038/s41529-018-0027-4",
+     "openalex_id": "https://openalex.org/W2806483775"
+    },
+    {
+     "rank": 34,
+     "title": "Physical modeling of chemical membrane degradation in polymer electrolyte membrane fuel cells: Influence of pressure, relative humidity and cell voltage",
+     "year": 2018,
+     "doi_or_url": "10.1016/j.jpowsour.2018.10.085",
+     "openalex_id": "https://openalex.org/W2899696513"
+    },
+    {
+     "rank": 35,
+     "title": "Two-Dimensional Black Phosphorus: An Emerging Anode Material for Lithium-Ion Batteries",
+     "year": 2020,
+     "doi_or_url": "10.1007/s40820-020-00453-x",
+     "openalex_id": "https://openalex.org/W3033722804"
+    },
+    {
+     "rank": 36,
+     "title": "Atomically Thin 2D Transition Metal Oxides: Structural Reconstruction, Interaction with Substrates, and Potential Applications",
+     "year": 2018,
+     "doi_or_url": "10.1002/admi.201801160",
+     "openalex_id": "https://openalex.org/W2899192377"
+    },
+    {
+     "rank": 37,
+     "title": "The role of incoherent twin boundaries on the plasticity of Cu micropillars",
+     "year": 2023,
+     "doi_or_url": "10.1016/j.matdes.2023.112164",
+     "openalex_id": "https://openalex.org/W4384344254"
+    },
+    {
+     "rank": 38,
+     "title": "A generalised, multi-phase-field theory for dissolution-driven stress corrosion cracking and hydrogen embrittlement",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.jmps.2022.104951",
+     "openalex_id": "https://openalex.org/W4281568897"
+    },
+    {
+     "rank": 39,
+     "title": "A Review of Polyolefin‐Insulation Materials in High Voltage Transmission; From Electronic Structures to Final Products",
+     "year": 2024,
+     "doi_or_url": "10.1002/adma.202401464",
+     "openalex_id": "https://openalex.org/W4399618564"
+    },
+    {
+     "rank": 40,
+     "title": "A review of advances in tribology in 2020–2021",
+     "year": 2022,
+     "doi_or_url": "10.1007/s40544-022-0685-7",
+     "openalex_id": "https://openalex.org/W4304202738"
+    },
+    {
+     "rank": 41,
+     "title": "Advanced Processing and Machining of Tungsten and Its Alloys",
+     "year": 2022,
+     "doi_or_url": "10.3390/jmmp6010015",
+     "openalex_id": "https://openalex.org/W4207064390"
+    },
+    {
+     "rank": 42,
+     "title": "Correlating point defects with mechanical properties in nanocrystalline TiN thin films",
+     "year": 2021,
+     "doi_or_url": "10.1016/j.matdes.2021.109844",
+     "openalex_id": "https://openalex.org/W3165319283"
+    },
+    {
+     "rank": 43,
+     "title": "Synthesis of graphene: Potential carbon precursors and approaches",
+     "year": 2020,
+     "doi_or_url": "10.1515/ntrev-2020-0100",
+     "openalex_id": "https://openalex.org/W3121649759"
+    },
+    {
+     "rank": 44,
+     "title": "First-principles design of nanostructured electrode materials for Na-ion batteries: challenges and perspectives",
+     "year": 2023,
+     "doi_or_url": "10.1039/d3cp01201h",
+     "openalex_id": "https://openalex.org/W4381546199"
+    },
+    {
+     "rank": 45,
+     "title": "Graphene-Enhanced Piezoelectric Nanogenerators for Efficient Energy Harvesting",
+     "year": 2025,
+     "doi_or_url": "10.3390/c11010003",
+     "openalex_id": "https://openalex.org/W4405980052"
+    },
+    {
+     "rank": 46,
+     "title": "Nanotomographic observation and statistical analysis of overcharging induced cracks in LiCoO2 single crystalline particles",
+     "year": 2022,
+     "doi_or_url": "10.1016/j.ensm.2022.08.011",
+     "openalex_id": "https://openalex.org/W4290052488"
+    },
+    {
+     "rank": 47,
+     "title": "Relationship of grain boundary structure and mechanical properties of Inconel 690",
+     "year": 2009,
+     "doi_or_url": "https://openalex.org/w1489283725",
+     "openalex_id": "https://openalex.org/W1489283725"
+    },
+    {
+     "rank": 48,
+     "title": "Emerging Role of Non-crystalline Electrolytes in Solid-State Battery Research",
+     "year": 2020,
+     "doi_or_url": "10.3389/fenrg.2020.00218",
+     "openalex_id": "https://openalex.org/W3084245703"
+    },
+    {
+     "rank": 49,
+     "title": "A review on hazards and risks to pipeline operation under transporting hydrogen energy and hydrogen-mixed natural gas",
+     "year": 2024,
+     "doi_or_url": "10.2516/stet/2024004",
+     "openalex_id": "https://openalex.org/W4391361192"
+    },
+    {
+     "rank": 50,
+     "title": "Au-activated N motifs in non-coherent cupric porphyrin metal organic frameworks for promoting and stabilizing ethylene production",
+     "year": 2022,
+     "doi_or_url": "10.1038/s41467-021-27768-6",
+     "openalex_id": "https://openalex.org/W4205984286"
+    }
+   ]
+  },
+  {
+   "id": "A11",
+   "service": "Crossref REST API",
+   "query": "https://api.crossref.org/works?query=work+of+separation+grain+boundary+LiCoO2+OR+LiNiO2+OR+NMC+first-principles&rows=40&select=DOI%2Ctitle%2Cissued%2Ccontainer-title&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:40Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 40,
+   "n_results_reported_by_service": 3186600,
+   "results": [
+    {
+     "rank": 1,
+     "title": "First-principles and experimental investigation of the morphology of layer-structured LiNiO2 and LiCoO2",
+     "year": 2012,
+     "doi_or_url": "10.1039/c2jm31145c",
+     "venue": "Journal of Materials Chemistry"
+    },
+    {
+     "rank": 2,
+     "title": "First-principles calculation of grain boundary energy and grain boundary excess free volume in aluminum: role of grain boundary elastic energy",
+     "year": 2011,
+     "doi_or_url": "10.1007/s10853-011-5305-2",
+     "venue": "Journal of Materials Science"
+    },
+    {
+     "rank": 3,
+     "title": "First-Principles Study of the Doping Effect in Half Delithiated LiNiO2 Cathodes",
+     "year": null,
+     "doi_or_url": "10.1021/acsaem.2c02390.s001",
+     "venue": ""
+    },
+    {
+     "rank": 4,
+     "title": "Segregation and Oxidation Behavior in Be {1011} Grain Boundary by First-Principles Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.jpcc.2c07667.s001",
+     "venue": ""
+    },
+    {
+     "rank": 5,
+     "title": "Modelling Grain Boundary Sliding from First Principles",
+     "year": 2004,
+     "doi_or_url": "10.4028/www.scientific.net/msf.447-448.11",
+     "venue": "Materials Science Forum"
+    },
+    {
+     "rank": 6,
+     "title": "First-Principles Study of Grain Boundary Wetting in Fe-Σ5(013)[100] Tilt Boundary",
+     "year": 2023,
+     "doi_or_url": "10.2139/ssrn.4596083",
+     "venue": ""
+    },
+    {
+     "rank": 7,
+     "title": "Grain Boundary Sliding of Ʃ5(001) Twist Grain Boundary in Aluminium Bicrystal from First-Principles Calculations",
+     "year": 2004,
+     "doi_or_url": "10.4028/www.scientific.net/msf.447-448.27",
+     "venue": "Materials Science Forum"
+    },
+    {
+     "rank": 8,
+     "title": "Solute Segregation at Σ11(113)[110] Grain Boundary and Effect of the Segregation on Grain Boundary Cohesion in Aluminum from First Principles",
+     "year": 2010,
+     "doi_or_url": "10.4028/www.scientific.net/msf.654-656.942",
+     "venue": "Materials Science Forum"
+    },
+    {
+     "rank": 9,
+     "title": "Revealing the Grain-Boundary-Cracking Induced Capacity Decay of a High-Voltage LiCoO2 at 4.6 V",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.3c09043.s001",
+     "venue": ""
+    },
+    {
+     "rank": 10,
+     "title": "First-Principles Studies on Grain Boundary Energies of [110] Tilt Grain Boundaries in Aluminum",
+     "year": 2007,
+     "doi_or_url": "10.4028/0-87849-462-6.1837",
+     "venue": "Materials Science Forum"
+    },
+    {
+     "rank": 11,
+     "title": "First-Principles Study of Structural Transitions in LiNiO2 and High-Throughput Screening for Long Life Battery",
+     "year": null,
+     "doi_or_url": "10.1021/acs.jpcc.8b12556.s001",
+     "venue": ""
+    },
+    {
+     "rank": 12,
+     "title": "Significant effect of magnetism on grain boundary segregation in γ-Fe: A systematic comparison of grain boundary segregation in nonmagnetic and paramagnetic γ-Fe by first-principles calculations",
+     "year": 2024,
+     "doi_or_url": "10.1016/j.mtcomm.2023.107849",
+     "venue": "Materials Today Communications"
+    },
+    {
+     "rank": 13,
+     "title": "Modulating CO2 Electroreduction Activity on Mo2C and Promoting C2 Product by Grain Boundary Engineering: Insights from First-Principles Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acscatal.4c03202.s001",
+     "venue": ""
+    },
+    {
+     "rank": 14,
+     "title": "First-Principles Studies on Grain Boundary Energies of [110] Tilt Grain Boundaries in Aluminum",
+     "year": 2007,
+     "doi_or_url": "10.4028/www.scientific.net/msf.561-565.1837",
+     "venue": "Materials Science Forum"
+    },
+    {
+     "rank": 15,
+     "title": "First-Principles Study of Segregation Behavior of Cr/Ti/Y at Grain Boundary in Vanadium",
+     "year": 2018,
+     "doi_or_url": "10.18178/ijmmm.2018.6.1.342",
+     "venue": "International Journal of Materials, Mechanics and Manufacturing"
+    },
+    {
+     "rank": 16,
+     "title": "First-principles study of grain-boundary wetting in Fe-Σ5(013)[100] tilt boundary",
+     "year": 2024,
+     "doi_or_url": "10.1016/j.actamat.2023.119635",
+     "venue": "Acta Materialia"
+    },
+    {
+     "rank": 17,
+     "title": "First-Principles Calculations of Grain Boundary-Surface for Various Grain Boundaries with Different Energies in Aluminum",
+     "year": 2007,
+     "doi_or_url": "10.4028/www.scientific.net/msf.551-552.331",
+     "venue": "Materials Science Forum"
+    },
+    {
+     "rank": 18,
+     "title": "Screening and Manipulation by Segregation of Dopants in Grain Boundary of Siliconcarbide: First-Principles Calculations",
+     "year": 2023,
+     "doi_or_url": "10.2139/ssrn.4347870",
+     "venue": ""
+    },
+    {
+     "rank": 19,
+     "title": "Grain Boundary Embrittlement of Fe Induced by P Segregation: First-Principles Tensile Tests",
+     "year": 2011,
+     "doi_or_url": "10.4028/www.scientific.net/amr.409.455",
+     "venue": "Advanced Materials Research"
+    },
+    {
+     "rank": 20,
+     "title": "First-Principles Calculations of Grain Boundary-Surface for Various Grain Boundaries with Different Energies in Aluminum",
+     "year": 2007,
+     "doi_or_url": "10.4028/0-87849-435-9.331",
+     "venue": "Materials Science Forum"
+    },
+    {
+     "rank": 21,
+     "title": "Local Atomic Configuration of Dislocation-Accumulated Grain Boundary and Energetics of Gradual Transition from Low Angle to High Angle Grain Boundary in Pure Aluminum by First-Principles Calculations",
+     "year": 2010,
+     "doi_or_url": "10.2320/matertrans.mb200917",
+     "venue": "MATERIALS TRANSACTIONS"
+    },
+    {
+     "rank": 22,
+     "title": "First-principles study of grain boundary embrittlement in Fe–Ni–S alloy",
+     "year": 2012,
+     "doi_or_url": "10.1016/j.commatsci.2011.11.023",
+     "venue": "Computational Materials Science"
+    },
+    {
+     "rank": 23,
+     "title": "Developing a Realistic Grain Boundary Model to Study Solute Segregation from First Principles",
+     "year": 2019,
+     "doi_or_url": "10.7449/2019/mst_2019_952_959",
+     "venue": "Contributed Papers from MS&amp;T19"
+    },
+    {
+     "rank": 24,
+     "title": "Degradation Mechanism of Dimethyl Carbonate (DMC) Dissociation on the LiCoO2 Cathode Surface: A First-Principles Study",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.7b09352.s001",
+     "venue": ""
+    },
+    {
+     "rank": 25,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s006",
+     "venue": ""
+    },
+    {
+     "rank": 26,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s004",
+     "venue": ""
+    },
+    {
+     "rank": 27,
+     "title": "Glycine-Assisted Hydrothermal Leaching of LiCoO2/LiNiO2 Cathode Materials with High Efficiency and Negligible Acid Corrosion Employing Batch and Continuous Flow System",
+     "year": null,
+     "doi_or_url": "10.1021/acssuschemeng.0c08703.s001",
+     "venue": ""
+    },
+    {
+     "rank": 28,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s011",
+     "venue": ""
+    },
+    {
+     "rank": 29,
+     "title": "First-principles calculations of defects near a grain boundary in MgO",
+     "year": 2009,
+     "doi_or_url": "10.1103/physrevb.79.224116",
+     "venue": "Physical Review B"
+    },
+    {
+     "rank": 30,
+     "title": "Interaction of vacancies with a grain boundary in aluminum: A first-principles study",
+     "year": 2001,
+     "doi_or_url": "10.1103/physrevb.64.024101",
+     "venue": "Physical Review B"
+    },
+    {
+     "rank": 31,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s003",
+     "venue": ""
+    },
+    {
+     "rank": 32,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s002",
+     "venue": ""
+    },
+    {
+     "rank": 33,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s010",
+     "venue": ""
+    },
+    {
+     "rank": 34,
+     "title": "Effect of Fission Defects on Tensile Strength of U3si2 Σ5(210) Grain Boundary from First-Principles Calculations",
+     "year": 2023,
+     "doi_or_url": "10.2139/ssrn.4570629",
+     "venue": ""
+    },
+    {
+     "rank": 35,
+     "title": "First-Principles Study on Enhanced Grain Boundary Embrittlement of Iron by Phosphorus Segregation",
+     "year": 2011,
+     "doi_or_url": "10.2320/matertrans.mbw201022",
+     "venue": "MATERIALS TRANSACTIONS"
+    },
+    {
+     "rank": 36,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s005",
+     "venue": ""
+    },
+    {
+     "rank": 37,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s008",
+     "venue": ""
+    },
+    {
+     "rank": 38,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s007",
+     "venue": ""
+    },
+    {
+     "rank": 39,
+     "title": "Stability and Redox Mechanisms of Ni-Rich NMC Cathodes: Insights from First-Principles Many-Body Calculations",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.4c00928.s009",
+     "venue": ""
+    },
+    {
+     "rank": 40,
+     "title": "Effect of Fission Defects on Tensile Strength of U3si2 Σ5(210) Grain Boundary from First-Principles Calculations",
+     "year": 2023,
+     "doi_or_url": "10.2139/ssrn.4545706",
+     "venue": ""
+    }
+   ]
+  },
+  {
+   "id": "A12",
+   "service": "Crossref REST API",
+   "query": "https://api.crossref.org/works?query=grain+boundary+fracture+molecular+dynamics+layered+oxide+cathode+lithium&rows=40&select=DOI%2Ctitle%2Cissued%2Ccontainer-title&mailto=hosein.sepahvand7%40gmail.com",
+   "timestamp_utc": "2026-09-27T16:57:42Z",
+   "status": "ok",
+   "error": null,
+   "n_results_returned": 40,
+   "n_results_reported_by_service": 5112845,
+   "results": [
+    {
+     "rank": 1,
+     "title": "Accelerated Degradation in a Quasi-Single-Crystalline Layered Oxide Cathode for Lithium-Ion Batteries Caused by Residual Grain Boundaries",
+     "year": null,
+     "doi_or_url": "10.1021/acs.nanolett.2c01103.s001",
+     "venue": ""
+    },
+    {
+     "rank": 2,
+     "title": "Review for \"Recycling and regeneration of failed layered oxide cathode materials for lithium-ion batteries\"",
+     "year": 2025,
+     "doi_or_url": "10.1039/d4mh01803f/v1/review2",
+     "venue": ""
+    },
+    {
+     "rank": 3,
+     "title": "Review for \"Recycling and regeneration of failed layered oxide cathode materials for lithium-ion batteries\"",
+     "year": 2025,
+     "doi_or_url": "10.1039/d4mh01803f/v2/review1",
+     "venue": ""
+    },
+    {
+     "rank": 4,
+     "title": "Review for \"Recycling and regeneration of failed layered oxide cathode materials for lithium-ion batteries\"",
+     "year": 2024,
+     "doi_or_url": "10.1039/d4mh01803f/v1/review1",
+     "venue": ""
+    },
+    {
+     "rank": 5,
+     "title": "Spinel/Layered Heterostructured Lithium-Rich Oxide Nanowires as Cathode Material for High-Energy Lithium-Ion Batteries",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.7b11942.s001",
+     "venue": ""
+    },
+    {
+     "rank": 6,
+     "title": "Stabilization of a Highly Ni-Rich Layered Oxide Cathode through Flower-Petal Grain Arrays",
+     "year": null,
+     "doi_or_url": "10.1021/acsnano.0c06910.s002",
+     "venue": ""
+    },
+    {
+     "rank": 7,
+     "title": "Competitive Occupation Induced Grain Boundary Enrichment Enables Crack-Free Layered Cathode Materials for Sodium-Ion Batteries",
+     "year": null,
+     "doi_or_url": "10.1021/acsenergylett.6c01088.s001",
+     "venue": ""
+    },
+    {
+     "rank": 8,
+     "title": "Lithium Deficiencies Engineering in Li-Rich Layered Oxide Li1.098Mn0.533Ni0.113Co0.138O2 for High-Stability Cathode",
+     "year": null,
+     "doi_or_url": "10.1021/jacs.9b04974.s001",
+     "venue": ""
+    },
+    {
+     "rank": 9,
+     "title": "Stabilization of a Highly Ni-Rich Layered Oxide Cathode through Flower-Petal Grain Arrays",
+     "year": null,
+     "doi_or_url": "10.1021/acsnano.0c06910.s001",
+     "venue": ""
+    },
+    {
+     "rank": 10,
+     "title": "Structural Rearrangements of a Cobalt-Free Lithium-Rich Layered Oxide Cathode during Formation",
+     "year": null,
+     "doi_or_url": "10.1021/acsaem.5c03511.s001",
+     "venue": ""
+    },
+    {
+     "rank": 11,
+     "title": "Enhanced Electrochemical Performance of YDoped and ZrO2Coated Lithium-Rich Manganese-Based Layered Oxide Cathode Materials for Lithium-Ion Batteries",
+     "year": null,
+     "doi_or_url": "10.1021/acsaem.6c00551.s001",
+     "venue": ""
+    },
+    {
+     "rank": 12,
+     "title": "Synthesis Pathway of Layered-Oxide Cathode Materials for Lithium-Ion Batteries by Spray Pyrolysis",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.4c06503.s001",
+     "venue": ""
+    },
+    {
+     "rank": 13,
+     "title": "Stabilizing a High-Voltage Lithium-Rich Layered Oxide Cathode with a Novel Electrolyte Additive",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.9b07441.s001",
+     "venue": ""
+    },
+    {
+     "rank": 14,
+     "title": "Interface-Stabilized Layered Lithium Ni-Rich Oxide Cathode via Surface Functionalization with Titanium Silicate",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.1c15271.s001",
+     "venue": ""
+    },
+    {
+     "rank": 15,
+     "title": "Decision letter for \"Recycling and regeneration of failed layered oxide cathode materials for lithium-ion batteries\"",
+     "year": 2025,
+     "doi_or_url": "10.1039/d4mh01803f/v2/decision1",
+     "venue": ""
+    },
+    {
+     "rank": 16,
+     "title": "Decision letter for \"Recycling and regeneration of failed layered oxide cathode materials for lithium-ion batteries\"",
+     "year": 2025,
+     "doi_or_url": "10.1039/d4mh01803f/v1/decision1",
+     "venue": ""
+    },
+    {
+     "rank": 17,
+     "title": "Crystalline Grain Interior Configuration Affects Lithium Migration Kinetics in Li-Rich Layered Oxide",
+     "year": null,
+     "doi_or_url": "10.1021/acs.nanolett.5b03933.s001",
+     "venue": ""
+    },
+    {
+     "rank": 18,
+     "title": "The role of grain boundaries in suppressing particle fracture in Li-rich layered oxide cathode materials",
+     "year": 2025,
+     "doi_or_url": "10.1016/j.jpowsour.2025.236473",
+     "venue": "Journal of Power Sources"
+    },
+    {
+     "rank": 19,
+     "title": "Extrinsic Design of Ni-Rich Layered Cathode for Lithium-Ion Batteries",
+     "year": 2022,
+     "doi_or_url": "10.1007/978-981-19-6398-8_3",
+     "venue": "Springer Theses"
+    },
+    {
+     "rank": 20,
+     "title": "Intrinsic Design of Ni-Rich Layered Cathode for Lithium-Ion Batteries",
+     "year": 2022,
+     "doi_or_url": "10.1007/978-981-19-6398-8_2",
+     "venue": "Springer Theses"
+    },
+    {
+     "rank": 21,
+     "title": "Ternary Layered Oxide Cathode",
+     "year": 2025,
+     "doi_or_url": "10.1007/978-981-96-3021-9_7",
+     "venue": "Electrode Development for Lithium-ion Batteries"
+    },
+    {
+     "rank": 22,
+     "title": "Review for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+     "year": 2026,
+     "doi_or_url": "10.1039/d6eb00125d/v2/review1",
+     "venue": ""
+    },
+    {
+     "rank": 23,
+     "title": "Review for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+     "year": 2026,
+     "doi_or_url": "10.1039/d6eb00125d/v1/review1",
+     "venue": ""
+    },
+    {
+     "rank": 24,
+     "title": "Electrolyte Regulating toward Stabilization of Cobalt-Free Ultrahigh-Nickel Layered Oxide Cathode in Lithium-Ion Batteries",
+     "year": null,
+     "doi_or_url": "10.1021/acsenergylett.1c00374.s001",
+     "venue": ""
+    },
+    {
+     "rank": 25,
+     "title": "Review for \"Degradation Origins and Performance Optimization Guidelines of Ni-Rich Layered Oxide Cathode Materials for Next-generation Lithium-ion Batteries\"",
+     "year": 2026,
+     "doi_or_url": "10.1039/d6eb00125d/v1/review2",
+     "venue": ""
+    },
+    {
+     "rank": 26,
+     "title": "Layered Lithium-Rich Oxide Nanoparticles Doped with Spinel Phase: Acidic Sucrose-Assistant Synthesis and Excellent Performance as Cathode of Lithium Ion Battery",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.5b10219.s001",
+     "venue": ""
+    },
+    {
+     "rank": 27,
+     "title": "Lithium-Rich Layered Oxide Cathode Materials Modified for Lithium-Ion Batteries by CoS of a 3D Rock Salt Structure Assisted by PVP",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.4c15367.s001",
+     "venue": ""
+    },
+    {
+     "rank": 28,
+     "title": "Molecular Dynamics Simulation of the Role of Grain Boundary Chemistry on Intergranuar Fracture",
+     "year": 1991,
+     "doi_or_url": "10.4028/www.scientific.net/msf.46.199",
+     "venue": "Materials Science Forum"
+    },
+    {
+     "rank": 29,
+     "title": "A molecular dynamics study of lithium grain boundary intercalation in graphite",
+     "year": 2015,
+     "doi_or_url": "10.1016/j.scriptamat.2015.02.010",
+     "venue": "Scripta Materialia"
+    },
+    {
+     "rank": 30,
+     "title": "Gospel for Improving the Lithium Storage Performance of High-Voltage High-Nickel Low-Cobalt Layered Oxide Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.1c20568.s001",
+     "venue": ""
+    },
+    {
+     "rank": 31,
+     "title": "Regulation of Extra Li Inventory in Anode-Free Lithium Metal Batteries by Li-Rich Layered Oxide Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acs.nanolett.4c05721.s001",
+     "venue": ""
+    },
+    {
+     "rank": 32,
+     "title": "Development and characterization of mid-nickel layered oxide cathode applying niobium as a doping element for lithium-ion batteries",
+     "year": null,
+     "doi_or_url": "10.47328/ufvbbt.2024.065",
+     "venue": ""
+    },
+    {
+     "rank": 33,
+     "title": "Enhanced Electrochemical Performance of Layered Lithium-Rich Cathode Materials by Constructing Spinel-Structure Skin and Ferric Oxide Islands",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.6b14862.s001",
+     "venue": ""
+    },
+    {
+     "rank": 34,
+     "title": "A New Anion Receptor for Improving the Interface between Lithium- and Manganese-Rich Layered Oxide Cathode and the Electrolyte",
+     "year": null,
+     "doi_or_url": "10.1021/acs.chemmater.6b04784.s001",
+     "venue": ""
+    },
+    {
+     "rank": 35,
+     "title": "Surface Spinel-Coated and Polyanion-Doped Co-Free Li-Rich Layered Oxide Cathode for High-Performance Lithium-Ion Batteries",
+     "year": null,
+     "doi_or_url": "10.1021/acs.iecr.1c04047.s001",
+     "venue": ""
+    },
+    {
+     "rank": 36,
+     "title": "Structural Disorder of a Layered Lithium Manganese Oxide Cathode Paving a Reversible Phase Transition Route toward Its Theoretical Capacity",
+     "year": null,
+     "doi_or_url": "10.1021/jacs.4c12248.s001",
+     "venue": ""
+    },
+    {
+     "rank": 37,
+     "title": "Molecular dynamics modelling of metric scaling effects in nanosized Cu beams holding a grain boundary",
+     "year": 2020,
+     "doi_or_url": "10.1016/j.tafmec.2020.102509",
+     "venue": "Theoretical and Applied Fracture Mechanics"
+    },
+    {
+     "rank": 38,
+     "title": "Building Honeycomb-Like Hollow Microsphere Architecture in a Bubble Template Reaction for High-Performance Lithium-Rich Layered Oxide Cathode Materials",
+     "year": null,
+     "doi_or_url": "10.1021/acsami.7b07542.s001",
+     "venue": ""
+    },
+    {
+     "rank": 39,
+     "title": "Molecular Dynamics Studies of Helium Bubble Effects on Grain Boundary Fracture in Fe70Ni11Cr19-1%H Austenitic Stainless Steel.",
+     "year": 2022,
+     "doi_or_url": "10.2172/2006031",
+     "venue": "Proposed for presentation at the International Conference on Plasticity, Damage &amp; Fracture in ,"
+    },
+    {
+     "rank": 40,
+     "title": "Layered Lithium-Sodium Manganese Oxide As a Cathode Material for Lithium Ion Batteries",
+     "year": 2014,
+     "doi_or_url": "10.1149/ma2014-04/2/275",
+     "venue": "ECS Meeting Abstracts"
+    }
+   ]
+  }
+ ],
+ "citation_chains": [
+  {
+   "seed": "Dahl 2022",
+   "doi": "10.1021/acs.chemmater.2c01246",
+   "resolution": {
+    "timestamp_utc": "2026-09-27T16:57:45Z",
+    "status": "ok",
+    "error": null
+   },
+   "openalex_id": "W4292770281",
+   "cited_by_count": 10,
+   "forward": {
+    "url": "https://api.openalex.org/works?filter=cites%3AW4292770281&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year&mailto=hosein.sepahvand7%40gmail.com",
+    "timestamp_utc": "2026-09-27T16:57:46Z",
+    "status": "ok",
+    "error": null,
+    "n": 10,
+    "results": [
+     {
+      "rank": 1,
+      "title": "Advances and perspectives in understanding the structure-redox relationship of layered Li-Co-Ni-Mn oxide cathode materials",
+      "year": 2024,
+      "doi_or_url": "10.1016/j.pmatsci.2024.101247",
+      "openalex_id": "https://openalex.org/W4391687303"
+     },
+     {
+      "rank": 2,
+      "title": "Band Gap Engineering of AlYN Films for Solar-Blind Ultraviolet Photodetection",
+      "year": 2023,
+      "doi_or_url": "10.1021/acsaelm.2c01581",
+      "openalex_id": "https://openalex.org/W4320725719"
+     },
+     {
+      "rank": 3,
+      "title": "Enhanced Thermodynamic Stability of Delithiated Nano-LiCoO2 by Lanthanum Doping",
+      "year": 2024,
+      "doi_or_url": "10.1021/acs.jpcc.4c03415",
+      "openalex_id": "https://openalex.org/W4403322963"
+     },
+     {
+      "rank": 4,
+      "title": "Lattice, Grain, and Texture: Opportunities for Performance Enhancement of Layered Oxide Cathodes Informed by LiCoO 2",
+      "year": 2026,
+      "doi_or_url": "10.1021/acs.chemrev.5c00985",
+      "openalex_id": "https://openalex.org/W7161635164"
+     },
+     {
+      "rank": 5,
+      "title": "Origin of surface segregation in LiCoO2 : A DFT+U study",
+      "year": 2024,
+      "doi_or_url": "10.1103/physrevmaterials.8.055403",
+      "openalex_id": "https://openalex.org/W4396857595"
+     },
+     {
+      "rank": 6,
+      "title": "Molecular dynamics simulation unveiling anion charge and lattice volume dependent Li ion diffusion in lithium compounds",
+      "year": 2023,
+      "doi_or_url": "10.1016/j.commatsci.2023.112372",
+      "openalex_id": "https://openalex.org/W4384197273"
+     },
+     {
+      "rank": 7,
+      "title": "Copper regulated facet dependent surface behavior promoting single crystal growth of sodium layered cathodes",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.jpowsour.2026.239795",
+      "openalex_id": "https://openalex.org/W7133618471"
+     },
+     {
+      "rank": 8,
+      "title": "Liquid-phase impregnation from the precursor stage enables favorable grain boundary modification for high voltage LiCoO2 over 4.6 V",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.electacta.2026.148886",
+      "openalex_id": "https://openalex.org/W7154828315"
+     },
+     {
+      "rank": 9,
+      "title": "In Situ Tailoring of Entropy‐Window in High‐Entropy LiMn 2 O 4 During Closed‐Loop Regeneration Toward Superior Energy‐Storage Properties",
+      "year": 2026,
+      "doi_or_url": "10.1002/adfm.77202",
+      "openalex_id": "https://openalex.org/W7169804255"
+     },
+     {
+      "rank": 10,
+      "title": "PVC‐Mediated Chlorination Roasting Enables Green and Selective Lithium Recovery From Mixed Spent LiMn 2 O 4– LiCoO 2 Batteries",
+      "year": 2026,
+      "doi_or_url": "10.1002/smll.74845",
+      "openalex_id": "https://openalex.org/W7171352273"
+     }
+    ]
+   }
+  },
+  {
+   "seed": "Kuo 2024",
+   "doi": "10.1002/smll.202307678",
+   "resolution": {
+    "timestamp_utc": "2026-09-27T16:57:48Z",
+    "status": "ok",
+    "error": null
+   },
+   "openalex_id": "W4391140502",
+   "cited_by_count": 22,
+   "forward": {
+    "url": "https://api.openalex.org/works?filter=cites%3AW4391140502&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year&mailto=hosein.sepahvand7%40gmail.com",
+    "timestamp_utc": "2026-09-27T16:57:49Z",
+    "status": "ok",
+    "error": null,
+    "n": 22,
+    "results": [
+     {
+      "rank": 1,
+      "title": "Challenges and opportunities using Ni-rich layered oxide cathodes in Li-ion rechargeable batteries: the case of nickel cobalt manganese oxides",
+      "year": 2024,
+      "doi_or_url": "10.1039/d3ya00631j",
+      "openalex_id": "https://openalex.org/W4400508311"
+     },
+     {
+      "rank": 2,
+      "title": "Importance of High Valence Element Nb in Ni-Rich Layered Cathodes for High-Voltage Lithium-Metal Batteries",
+      "year": 2024,
+      "doi_or_url": "10.1021/acsenergylett.4c01230",
+      "openalex_id": "https://openalex.org/W4403030312"
+     },
+     {
+      "rank": 3,
+      "title": "Design Principles and Engineering Strategies for Stabilizing Ni-Rich Layered Oxides in Lithium-Ion Batteries",
+      "year": 2025,
+      "doi_or_url": "10.3390/batteries11070254",
+      "openalex_id": "https://openalex.org/W4412031925"
+     },
+     {
+      "rank": 4,
+      "title": "Multifunctional Zwitterionic Self‐Healing Polymer Electrolytes for Anode‐Free Lithium‐Metal Batteries: a Computational Perspective",
+      "year": 2025,
+      "doi_or_url": "10.1002/smll.202503382",
+      "openalex_id": "https://openalex.org/W4410773404"
+     },
+     {
+      "rank": 5,
+      "title": "Closed-loop recovery of nickel sulfate hexahydrate from spent lithium-ion batteries for fabrication high-performances Ni-rich LiNi0.8Co0.1Mn0.1O2 cathode materials",
+      "year": 2025,
+      "doi_or_url": "10.1016/j.cej.2025.171806",
+      "openalex_id": "https://openalex.org/W4417248064"
+     },
+     {
+      "rank": 6,
+      "title": "Dual-Gradient Structural Design for Synchronized Phase Transitions and Stress-Resilient O3-Type Sodium Cathodes",
+      "year": 2026,
+      "doi_or_url": "10.1021/acsnano.5c22366",
+      "openalex_id": "https://openalex.org/W7131638113"
+     },
+     {
+      "rank": 7,
+      "title": "Modeling Single-Crystal Battery Materials: From Fundamental Understanding to Performance Evaluation",
+      "year": 2026,
+      "doi_or_url": "10.1021/acs.chemrev.5c00360",
+      "openalex_id": "https://openalex.org/W7118161630"
+     },
+     {
+      "rank": 8,
+      "title": "Machine learning-guided screening of phase-stable high-entropy Na cathodes to enable EVs and low-cost charging storage systems",
+      "year": 2026,
+      "doi_or_url": "10.1039/d6ta00306k",
+      "openalex_id": "https://openalex.org/W7138849337"
+     },
+     {
+      "rank": 9,
+      "title": "Optimizing Ruddlesden-Popper perovskite anodes, La0.6Sr1.4Mn0.9X0.1O4 (X = Ni and Fe) for solid oxide fuel cell application: A comparative study on structural, morphological, and electrochemical performance",
+      "year": 2024,
+      "doi_or_url": "10.1016/j.ceramint.2024.12.212",
+      "openalex_id": "https://openalex.org/W4405455793"
+     },
+     {
+      "rank": 10,
+      "title": "Insights into the Crystal Structure and Magnetodielectric Properties of High-Energy Ball Milled Sr Substituted LaFeO3",
+      "year": 2025,
+      "doi_or_url": "10.3390/ma18133014",
+      "openalex_id": "https://openalex.org/W4411700922"
+     },
+     {
+      "rank": 11,
+      "title": "Challenges and strategies for enhancing surface stability of high-nickel layered oxide cathodes for lithium-ion batteries",
+      "year": 2026,
+      "doi_or_url": "10.1039/d5nr04265h",
+      "openalex_id": "https://openalex.org/W7130651248"
+     },
+     {
+      "rank": 12,
+      "title": "Dynamic cathode–electrolyte interphase structuring by Al F dual surface engineering for exceptional stability of Ni-rich NCM811 cathodes",
+      "year": 2025,
+      "doi_or_url": "10.1016/j.jcis.2025.139387",
+      "openalex_id": "https://openalex.org/W4415771964"
+     },
+     {
+      "rank": 13,
+      "title": "Photocatalytic Decomposition of Carmoisine and Crystal Violet by Ho-Doped TiO2 Sol-Gel Powders",
+      "year": 2025,
+      "doi_or_url": "10.3390/ma19010017",
+      "openalex_id": "https://openalex.org/W7116682636"
+     },
+     {
+      "rank": 14,
+      "title": "Unlocking the potential of Ni-rich NCM811 cathodes: chlorine substitution as a pathway to prevent oxygen release and transition-metal dissolution",
+      "year": 2026,
+      "doi_or_url": "10.1039/d5ta07961f",
+      "openalex_id": "https://openalex.org/W7118303045"
+     },
+     {
+      "rank": 15,
+      "title": "Tailoring Intergranular Interfaces through Zirconium Solubility‐Controlled Segregation for Optimized LiNiO 2 Cathodes",
+      "year": 2025,
+      "doi_or_url": "10.1002/smtd.202501612",
+      "openalex_id": "https://openalex.org/W4415783102"
+     },
+     {
+      "rank": 16,
+      "title": "Stability-performance trade-off in multi-metal layered oxide cathode material derived from Al-Zr modified Ni-Co-Zn-(OH)2 precursor",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.jpowsour.2026.239655",
+      "openalex_id": "https://openalex.org/W7129660440"
+     },
+     {
+      "rank": 17,
+      "title": "Synergistic bulk boron doping and aluminum oxide surface coating enable durable all-solid-state lithium batteries",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.cclet.2026.112954",
+      "openalex_id": "https://openalex.org/W7161413640"
+     },
+     {
+      "rank": 18,
+      "title": "Role of boron doping in bulk and surface structural regulation of cobalt-free high-nickel layered cathodes",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.cej.2026.178096",
+      "openalex_id": "https://openalex.org/W7163526360"
+     },
+     {
+      "rank": 19,
+      "title": "Na/Cu‐Doping Engineering of Carbon Nitride for High‐Performance Visible‐Light Degradation of Iopamidol",
+      "year": 2026,
+      "doi_or_url": "10.1002/smsc.70341",
+      "openalex_id": "https://openalex.org/W7167790823"
+     },
+     {
+      "rank": 20,
+      "title": "Acoustic Resonance-Built Island Al2O3/Li3PO4 Coating Realizes Bulk Dual Synergy for Stabilizing Single-Crystal High-Ni Cathodes",
+      "year": 2026,
+      "doi_or_url": "10.1021/acsaem.6c01357",
+      "openalex_id": "https://openalex.org/W7167823098"
+     },
+     {
+      "rank": 21,
+      "title": "Divergent Electrochemical Behaviors of O2 and O3 Phases in Li‐Rich Layered Oxides",
+      "year": 2026,
+      "doi_or_url": "10.1002/rar2.70494",
+      "openalex_id": "https://openalex.org/W7202243478"
+     },
+     {
+      "rank": 22,
+      "title": "Ru‐Doping‐Engineered Oxygen Vacancies in MoO 3‐ x Nanostructured Films With Ultrahigh Capacitance for Flexible Asymmetric Supercapacitors",
+      "year": 2026,
+      "doi_or_url": "10.1002/advs.77131",
+      "openalex_id": "https://openalex.org/W7203647761"
+     }
+    ]
+   }
+  },
+  {
+   "seed": "Min & Cho 2018",
+   "doi": "10.1039/c7cp06615e",
+   "resolution": {
+    "timestamp_utc": "2026-09-27T16:57:51Z",
+    "status": "ok",
+    "error": null
+   },
+   "openalex_id": "W2771107347",
+   "cited_by_count": 111,
+   "forward": {
+    "url": "https://api.openalex.org/works?filter=cites%3AW2771107347&per-page=200&select=id%2Cdoi%2Ctitle%2Cpublication_year&mailto=hosein.sepahvand7%40gmail.com",
+    "timestamp_utc": "2026-09-27T16:57:52Z",
+    "status": "ok",
+    "error": null,
+    "n": 109,
+    "results": [
+     {
+      "rank": 1,
+      "title": "A Review of Degradation Mechanisms and Recent Achievements for Ni‐Rich Cathode‐Based Li‐Ion Batteries",
+      "year": 2021,
+      "doi_or_url": "10.1002/aenm.202103005",
+      "openalex_id": "https://openalex.org/W3213328656"
+     },
+     {
+      "rank": 2,
+      "title": "Fundamental and solutions of microcrack in Ni-rich layered oxide cathode materials of lithium-ion batteries",
+      "year": 2021,
+      "doi_or_url": "10.1016/j.nanoen.2021.105854",
+      "openalex_id": "https://openalex.org/W3127395325"
+     },
+     {
+      "rank": 3,
+      "title": "Controllable Cathode–Electrolyte Interface of Li[Ni0.8Co0.1Mn0.1]O2 for Lithium Ion Batteries: A Review",
+      "year": 2019,
+      "doi_or_url": "10.1002/aenm.201901597",
+      "openalex_id": "https://openalex.org/W2969535951"
+     },
+     {
+      "rank": 4,
+      "title": "Oxygen Loss in Layered Oxide Cathodes for Li-Ion Batteries: Mechanisms, Effects, and Mitigation",
+      "year": 2022,
+      "doi_or_url": "10.1021/acs.chemrev.1c00327",
+      "openalex_id": "https://openalex.org/W4206522497"
+     },
+     {
+      "rank": 5,
+      "title": "Challenges and Strategies to Advance High‐Energy Nickel‐Rich Layered Lithium Transition Metal Oxide Cathodes for Harsh Operation",
+      "year": 2020,
+      "doi_or_url": "10.1002/adfm.202004748",
+      "openalex_id": "https://openalex.org/W3084230050"
+     },
+     {
+      "rank": 6,
+      "title": "Understanding of performance degradation of LiNi0.80Co0.10Mn0.10O2 cathode material operating at high potentials",
+      "year": 2019,
+      "doi_or_url": "10.1016/j.jechem.2019.05.013",
+      "openalex_id": "https://openalex.org/W2965034984"
+     },
+     {
+      "rank": 7,
+      "title": "Surface/Interface Structure Degradation of Ni‐Rich Layered Oxide Cathodes toward Lithium‐Ion Batteries: Fundamental Mechanisms and Remedying Strategies",
+      "year": 2019,
+      "doi_or_url": "10.1002/admi.201901749",
+      "openalex_id": "https://openalex.org/W2997969465"
+     },
+     {
+      "rank": 8,
+      "title": "Ni-rich cathode materials for stable high-energy lithium-ion batteries",
+      "year": 2024,
+      "doi_or_url": "10.1016/j.nanoen.2024.109620",
+      "openalex_id": "https://openalex.org/W4394935125"
+     },
+     {
+      "rank": 9,
+      "title": "Chemomechanical behaviors of layered cathode materials in alkali metal ion batteries",
+      "year": 2018,
+      "doi_or_url": "10.1039/c8ta06875e",
+      "openalex_id": "https://openalex.org/W2897283896"
+     },
+     {
+      "rank": 10,
+      "title": "Challenges and Strategies for Fast Charge of Li‐Ion Batteries",
+      "year": 2020,
+      "doi_or_url": "10.1002/celc.202000650",
+      "openalex_id": "https://openalex.org/W3034487657"
+     },
+     {
+      "rank": 11,
+      "title": "LiNi0.9Co0.09Mo0.01O2 Cathode with Li3PO4 Coating and Ti Doping for Next-Generation Lithium-Ion Batteries",
+      "year": 2023,
+      "doi_or_url": "10.1021/acsenergylett.2c02412",
+      "openalex_id": "https://openalex.org/W4322620276"
+     },
+     {
+      "rank": 12,
+      "title": "High-Performance and Industrially Feasible Ni-Rich Layered Cathode Materials by Integrating Coherent Interphase",
+      "year": 2018,
+      "doi_or_url": "10.1021/acsami.8b05648",
+      "openalex_id": "https://openalex.org/W2808136086"
+     },
+     {
+      "rank": 13,
+      "title": "Challenges and Modification Strategies of Ni-Rich Cathode Materials Operating at High-Voltage",
+      "year": 2022,
+      "doi_or_url": "10.3390/nano12111888",
+      "openalex_id": "https://openalex.org/W4281734827"
+     },
+     {
+      "rank": 14,
+      "title": "Influence of Calendering on the Electrochemical Performance of LiNi0.9Mn0.05Al0.05O2 Cathodes in Lithium-Ion Cells",
+      "year": 2021,
+      "doi_or_url": "10.1021/acsami.1c12543",
+      "openalex_id": "https://openalex.org/W3197588002"
+     },
+     {
+      "rank": 15,
+      "title": "Electron Backscatter Diffraction for Investigating Lithium-Ion Electrode Particle Architectures",
+      "year": 2020,
+      "doi_or_url": "10.1016/j.xcrp.2020.100137",
+      "openalex_id": "https://openalex.org/W3045937196"
+     },
+     {
+      "rank": 16,
+      "title": "Understanding high-temperature cycling-induced crack evolution and associated atomic-scale structure in a Ni-rich LiNi0.8Co0.1Mn0.1O2 layered cathode material",
+      "year": 2022,
+      "doi_or_url": "10.1016/j.nanoen.2022.107222",
+      "openalex_id": "https://openalex.org/W4220853728"
+     },
+     {
+      "rank": 17,
+      "title": "Enabling stable and high-rate cycling of a Ni-rich layered oxide cathode for lithium-ion batteries by modification with an artificial Li + -conducting cathode-electrolyte interphase",
+      "year": 2021,
+      "doi_or_url": "10.1039/d1ta02563e",
+      "openalex_id": "https://openalex.org/W3155914955"
+     },
+     {
+      "rank": 18,
+      "title": "TiO 2 ‐coated LiNi 0.9 Co 0.08 Al 0.02 O 2 cathode materials with enhanced cycle performance for Li‐ion batteries",
+      "year": 2020,
+      "doi_or_url": "10.1007/s12598-020-01483-5",
+      "openalex_id": "https://openalex.org/W3039758370"
+     },
+     {
+      "rank": 19,
+      "title": "Understanding the formation of antiphase boundaries in layered oxide cathode materials and their evolution upon electrochemical cycling",
+      "year": 2021,
+      "doi_or_url": "10.1016/j.matt.2021.10.001",
+      "openalex_id": "https://openalex.org/W3207157400"
+     },
+     {
+      "rank": 20,
+      "title": "Origins and Importance of Intragranular Cracking in Layered Lithium Transition Metal Oxide Cathodes",
+      "year": 2024,
+      "doi_or_url": "10.1021/acsaem.4c00279",
+      "openalex_id": "https://openalex.org/W4395448696"
+     },
+     {
+      "rank": 21,
+      "title": "A review of problems and solutions in Ni-rich cathode-based Li-ion batteries from two research aspects: Experimental studies and computational insights",
+      "year": 2024,
+      "doi_or_url": "10.1016/j.jpowsour.2024.234132",
+      "openalex_id": "https://openalex.org/W4391524802"
+     },
+     {
+      "rank": 22,
+      "title": "Understanding Degradation in Single-Crystalline Ni-Rich Li-Ion Battery Cathodes",
+      "year": 2025,
+      "doi_or_url": "10.1021/acs.chemrev.5c00330",
+      "openalex_id": "https://openalex.org/W4415010293"
+     },
+     {
+      "rank": 23,
+      "title": "Oxygen Vacancies Driven by Co in the Deeply Charged State Inducing Intragranular Cracking of Ni‐Rich Cathodes",
+      "year": 2024,
+      "doi_or_url": "10.1002/smll.202310321",
+      "openalex_id": "https://openalex.org/W4390616733"
+     },
+     {
+      "rank": 24,
+      "title": "Revealing structural degradation in layered structure oxides cathode of lithium ion batteries via in-situ transmission electron microscopy",
+      "year": 2023,
+      "doi_or_url": "10.1016/j.jmst.2023.02.005",
+      "openalex_id": "https://openalex.org/W4323922484"
+     },
+     {
+      "rank": 25,
+      "title": "A Full Oxide-Based Solid-State Lithium Battery and Its Unexpected Cathode Degradation Mechanism",
+      "year": 2023,
+      "doi_or_url": "10.1021/acsenergylett.3c01759",
+      "openalex_id": "https://openalex.org/W4387875133"
+     },
+     {
+      "rank": 26,
+      "title": "Intrinsic Mechanical Parameters and their Characterization in Solid‐State Lithium Batteries",
+      "year": 2024,
+      "doi_or_url": "10.1002/aenm.202404384",
+      "openalex_id": "https://openalex.org/W4405797917"
+     },
+     {
+      "rank": 27,
+      "title": "Unraveling the oxygen evolution in layered LiNiO2 with the role of Li/Ni disordering",
+      "year": 2024,
+      "doi_or_url": "10.1016/j.ensm.2024.103632",
+      "openalex_id": "https://openalex.org/W4400624264"
+     },
+     {
+      "rank": 28,
+      "title": "High-Mass Loading Nickel-Rich Cathode Electrode Design Incorporating Multidimensional Carbon Conductive Additives to Minimize Ohmic Contact Resistance for High-Performance Lithium-Ion Batteries",
+      "year": 2025,
+      "doi_or_url": "10.1021/acsami.5c12663",
+      "openalex_id": "https://openalex.org/W4413277304"
+     },
+     {
+      "rank": 29,
+      "title": "S-containing and Si-containing compounds as highly effective electrolyte additives for SiOx -based anodes/NCM 811 cathodes in lithium ion cells",
+      "year": 2019,
+      "doi_or_url": "10.1038/s41598-019-49568-1",
+      "openalex_id": "https://openalex.org/W2978488681"
+     },
+     {
+      "rank": 30,
+      "title": "High-Ni cathode material improved with Zr for stable cycling of Li-ion rechargeable batteries",
+      "year": 2020,
+      "doi_or_url": "10.1039/d0ra01543a",
+      "openalex_id": "https://openalex.org/W3043509941"
+     },
+     {
+      "rank": 31,
+      "title": "Realizing Superior Cycle Stability of a Ni‐Rich Layered LiNi0.83Co0.12Mn0.05O2 Cathode with a B2O3 Surface Modification",
+      "year": 2020,
+      "doi_or_url": "10.1002/celc.201901991",
+      "openalex_id": "https://openalex.org/W3000193295"
+     },
+     {
+      "rank": 32,
+      "title": "The role of metal substitutions in the development of Li batteries, part I: cathodes",
+      "year": 2021,
+      "doi_or_url": "10.1039/d1ma00081k",
+      "openalex_id": "https://openalex.org/W3163058578"
+     },
+     {
+      "rank": 33,
+      "title": "Impact of Bracing on Large Format Prismatic Lithium‐Ion Battery Cells during Aging",
+      "year": 2021,
+      "doi_or_url": "10.1002/aenm.202102448",
+      "openalex_id": "https://openalex.org/W4200371887"
+     },
+     {
+      "rank": 34,
+      "title": "Revealing two distinctive intergranular cracking mechanisms of Ni-rich layered cathode by cross-sectional scanning electron microscopy",
+      "year": 2021,
+      "doi_or_url": "10.1016/j.jpowsour.2021.230066",
+      "openalex_id": "https://openalex.org/W3164743309"
+     },
+     {
+      "rank": 35,
+      "title": "Heteroepitaxial interface of layered cathode materials for lithium ion batteries",
+      "year": 2021,
+      "doi_or_url": "10.1016/j.ensm.2021.02.009",
+      "openalex_id": "https://openalex.org/W3127962265"
+     },
+     {
+      "rank": 36,
+      "title": "Pre‐Deoxidation of Layered Ni‐Rich Cathodes to Construct a Stable Interface with Electrolyte for Long Cycling Life",
+      "year": 2022,
+      "doi_or_url": "10.1002/adfm.202211171",
+      "openalex_id": "https://openalex.org/W4309554678"
+     },
+     {
+      "rank": 37,
+      "title": "Recent advance in understanding the electro-chemo-mechanical behavior of lithium-ion batteries by electron microscopy",
+      "year": 2019,
+      "doi_or_url": "10.1016/j.mtnano.2019.100040",
+      "openalex_id": "https://openalex.org/W2947049757"
+     },
+     {
+      "rank": 38,
+      "title": "Inhibited intracrystalline cracks and enhanced electrochemical properties of NCM811 cathode materials coated by EPS",
+      "year": 2021,
+      "doi_or_url": "10.1016/j.ceramint.2021.08.167",
+      "openalex_id": "https://openalex.org/W3195383157"
+     },
+     {
+      "rank": 39,
+      "title": "Interplay between Elastic and Electrochemical Properties during Active Material Transitions and Aging of a Lithium‐Ion Battery",
+      "year": 2023,
+      "doi_or_url": "10.1002/batt.202200518",
+      "openalex_id": "https://openalex.org/W4320734018"
+     },
+     {
+      "rank": 40,
+      "title": "Probing and Resolving the Heterogeneous Degradation of Nickel‐Rich Layered Oxide Cathodes across Multi‐Length Scales",
+      "year": 2020,
+      "doi_or_url": "10.1002/smtd.202000551",
+      "openalex_id": "https://openalex.org/W3083578244"
+     },
+     {
+      "rank": 41,
+      "title": "Effect of charging protocols on electrochemical performance and failure mechanism of commercial level Ni-rich NMC811 thick electrode",
+      "year": 2022,
+      "doi_or_url": "10.1016/j.elecom.2022.107309",
+      "openalex_id": "https://openalex.org/W4283645918"
+     },
+     {
+      "rank": 42,
+      "title": "Lattice engineering to alleviate microcrack of LiNi0.9Co0.05Mn0.05O2 cathode for optimization their Li+ storage functionalities",
+      "year": 2021,
+      "doi_or_url": "10.1016/j.electacta.2021.139482",
+      "openalex_id": "https://openalex.org/W3208003939"
+     },
+     {
+      "rank": 43,
+      "title": "Improved Cycling Stability of LiNi0.8Co0.1Mn0.1O2 Cathode Material via Variable Temperature Atomic Surface Reduction with Diethyl Zinc",
+      "year": 2021,
+      "doi_or_url": "10.1002/smll.202104625",
+      "openalex_id": "https://openalex.org/W4200477153"
+     },
+     {
+      "rank": 44,
+      "title": "Essential effect of the electrolyte on the mechanical and chemical degradation of LiNi 0.8 Co 0.15 Al 0.05 O 2 cathodes upon long-term cycling",
+      "year": 2021,
+      "doi_or_url": "10.1039/d0ta07814j",
+      "openalex_id": "https://openalex.org/W3123185224"
+     },
+     {
+      "rank": 45,
+      "title": "Elucidating and Mitigating High-Voltage Interfacial Chemomechanical Degradation of Nickel-Rich Lithium-Ion Battery Cathodes via Conformal Graphene Coating",
+      "year": 2021,
+      "doi_or_url": "10.1021/acsaem.1c01995",
+      "openalex_id": "https://openalex.org/W3202465584"
+     },
+     {
+      "rank": 46,
+      "title": "High-Throughput Ab Initio Investigation of the Elastic Properties of Inorganic Electrolytes for All-Solid-State Na-Ion Batteries",
+      "year": 2021,
+      "doi_or_url": "10.1149/1945-7111/abf015",
+      "openalex_id": "https://openalex.org/W3135927299"
+     },
+     {
+      "rank": 47,
+      "title": "In-situ construction of a thermodynamically stabilized interface on the surface of single crystalline Ni-rich cathode materials via a one-step molten-salt route",
+      "year": 2022,
+      "doi_or_url": "10.1007/s12274-022-4768-6",
+      "openalex_id": "https://openalex.org/W4292415551"
+     },
+     {
+      "rank": 48,
+      "title": "Unraveling the Dynamic Correlations between Transition Metal Migration and the Oxygen Dimer Formation in the Highly Delithiated Li x CoO 2 Cathode",
+      "year": 2023,
+      "doi_or_url": "10.1021/acs.jpclett.3c00506",
+      "openalex_id": "https://openalex.org/W4363645924"
+     },
+     {
+      "rank": 49,
+      "title": "Advances and perspectives in understanding the structure-redox relationship of layered Li-Co-Ni-Mn oxide cathode materials",
+      "year": 2024,
+      "doi_or_url": "10.1016/j.pmatsci.2024.101247",
+      "openalex_id": "https://openalex.org/W4391687303"
+     },
+     {
+      "rank": 50,
+      "title": "Electrochemical-mechanical coupling failure of Ni-rich cathodes: Failure mechanisms and remedying strategies",
+      "year": 2024,
+      "doi_or_url": "10.1016/j.ensm.2024.103949",
+      "openalex_id": "https://openalex.org/W4405106299"
+     },
+     {
+      "rank": 51,
+      "title": "Understanding the Effects of Tetrahedral Site Occupancy by the Zn Dopant in Li-NMCs toward High-Voltage Compositional–Structural–Mechanical Stability via Operando and 3D Atom Probe Tomography Studies",
+      "year": 2023,
+      "doi_or_url": "10.1021/acsami.2c15054",
+      "openalex_id": "https://openalex.org/W4313454315"
+     },
+     {
+      "rank": 52,
+      "title": "Synergistic effects of Zr doping and Li2ZrO3/WO3 co-coating on the physicochemical and electrochemical properties of cobalt-free LiNi0.8Mn0.2O2",
+      "year": 2023,
+      "doi_or_url": "10.1016/j.apsusc.2023.156346",
+      "openalex_id": "https://openalex.org/W4313645365"
+     },
+     {
+      "rank": 53,
+      "title": "Degradation of Ni-rich cathode materials: A multiple fields coupling with negative feedback process",
+      "year": 2023,
+      "doi_or_url": "10.1016/j.ensm.2023.103050",
+      "openalex_id": "https://openalex.org/W4388421925"
+     },
+     {
+      "rank": 54,
+      "title": "Enhanced electrochemical performance of Ni-rich layered LiNi0.9Co0.05Mn0.05O2 cathode material via synergistic modification of cerium doping and ceria coating",
+      "year": 2022,
+      "doi_or_url": "10.1007/s11581-022-04832-9",
+      "openalex_id": "https://openalex.org/W4310105182"
+     },
+     {
+      "rank": 55,
+      "title": "Stabilizing the (003) Facet of Micron-Sized LiNi0.6Co0.2Mn0.2O2 Cathode Material Using Tungsten Oxide as an Exemplar",
+      "year": 2022,
+      "doi_or_url": "10.3390/inorganics10080111",
+      "openalex_id": "https://openalex.org/W4289711206"
+     },
+     {
+      "rank": 56,
+      "title": "Core–Shell NCM Cathode Particles Mechanical Failure: Particle Cracking and Interfacial Debonding",
+      "year": 2024,
+      "doi_or_url": "10.1021/acsaem.4c01099",
+      "openalex_id": "https://openalex.org/W4400599840"
+     },
+     {
+      "rank": 57,
+      "title": "Decoupling the Capacity Fading in Ni‐Rich Layered Materials during High‐Temperature Cycling in the Full‐Cell System",
+      "year": 2023,
+      "doi_or_url": "10.1002/aenm.202302209",
+      "openalex_id": "https://openalex.org/W4386809583"
+     },
+     {
+      "rank": 58,
+      "title": "Atomic-Resolution In Situ Exploration of the Phase Transition Triggered Failure in a Single-Crystalline Ni-Rich Cathode",
+      "year": 2024,
+      "doi_or_url": "10.1021/acsami.3c18027",
+      "openalex_id": "https://openalex.org/W4393199785"
+     },
+     {
+      "rank": 59,
+      "title": "Understanding fracture mechanisms in NMC811 particles via stochastic anisotropic phase-field modelling",
+      "year": 2025,
+      "doi_or_url": "10.1016/j.jpowsour.2025.239125",
+      "openalex_id": "https://openalex.org/W4417412888"
+     },
+     {
+      "rank": 60,
+      "title": "Modeling Single-Crystal Battery Materials: From Fundamental Understanding to Performance Evaluation",
+      "year": 2026,
+      "doi_or_url": "10.1021/acs.chemrev.5c00360",
+      "openalex_id": "https://openalex.org/W7118161630"
+     },
+     {
+      "rank": 61,
+      "title": "Releasing lattice stress during Na+ (de)intercalation in layered oxides through c-axis dimension tailoring",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.esen.2026.100070",
+      "openalex_id": "https://openalex.org/W7161797149"
+     },
+     {
+      "rank": 62,
+      "title": "Mechanistic understanding of intergranular cracking in NCM cathode material: mesoscale simulation with three-dimensional microstructure",
+      "year": 2018,
+      "doi_or_url": "10.1039/c8cp04927k",
+      "openalex_id": "https://openalex.org/W2894831118"
+     },
+     {
+      "rank": 63,
+      "title": "Atomic-scale constituting stable interface for improved LiNi 0.6 Mn 0.2 Co 0.2 O 2 cathodes of lithium-ion batteries",
+      "year": 2020,
+      "doi_or_url": "10.1088/1361-6528/abd127",
+      "openalex_id": "https://openalex.org/W3111658052"
+     },
+     {
+      "rank": 64,
+      "title": "Boosting the electrochemical performance of LiNi0.8Co0.1Mn0.1O2 cathode materials with Zn3(PO4)2 surface coating",
+      "year": 2021,
+      "doi_or_url": "10.1016/j.apt.2021.10.016",
+      "openalex_id": "https://openalex.org/W3213375363"
+     },
+     {
+      "rank": 65,
+      "title": "Uncovering the Structural Evolution in Na-Excess Layered Cathodes for Rational Use of an Anionic Redox Reaction",
+      "year": 2020,
+      "doi_or_url": "10.1021/acsami.0c04212",
+      "openalex_id": "https://openalex.org/W3032144242"
+     },
+     {
+      "rank": 66,
+      "title": "Computational screening of dopants for mitigating degradation behaviors in sodium-ion layered oxide cathode material",
+      "year": 2020,
+      "doi_or_url": "10.1016/j.jallcom.2020.157785",
+      "openalex_id": "https://openalex.org/W3095051898"
+     },
+     {
+      "rank": 67,
+      "title": "Sol/Antisolvent Coating for High Initial Coulombic Efficiency and Ultra-stable Mechanical Integrity of Ni-Rich Cathode Materials",
+      "year": 2022,
+      "doi_or_url": "10.1021/acsami.2c10613",
+      "openalex_id": "https://openalex.org/W4297339133"
+     },
+     {
+      "rank": 68,
+      "title": "Degradation Mechanism of LiNi 0.5 Co 0.2 Mn 0.3 O 2 /Graphite Cells at Elevated State of Charge and High Temperature",
+      "year": 2020,
+      "doi_or_url": "10.1149/1945-7111/abcf18",
+      "openalex_id": "https://openalex.org/W3109604371"
+     },
+     {
+      "rank": 69,
+      "title": "Morphological effect on high compaction density nickel-rich layered oxide cathodes during electrochemical lithiation and delithiation",
+      "year": 2021,
+      "doi_or_url": "10.1016/j.electacta.2021.138118",
+      "openalex_id": "https://openalex.org/W3135889288"
+     },
+     {
+      "rank": 70,
+      "title": "Fluorophenyl methyl sulfone as an interface modifier for Ni-rich cathode materials of lithium-ion batteries",
+      "year": 2022,
+      "doi_or_url": "10.1016/j.jpowsour.2022.232202",
+      "openalex_id": "https://openalex.org/W4304112165"
+     },
+     {
+      "rank": 71,
+      "title": "The Evolution of LiNi0.5Mn0.3Co0.2O2 Particle Damage from Fast Charging in Optimized, Full Li-Ion Cells",
+      "year": 2022,
+      "doi_or_url": "10.1021/acs.jpcc.2c06977",
+      "openalex_id": "https://openalex.org/W4312193241"
+     },
+     {
+      "rank": 72,
+      "title": "Ni‐rich Cathode Materials for High‐performance Li‐ion Batteries: Challenges, Progress and Perspectives",
+      "year": 2023,
+      "doi_or_url": "10.1002/cnma.202300148",
+      "openalex_id": "https://openalex.org/W4377965400"
+     },
+     {
+      "rank": 73,
+      "title": "Sustainable regeneration of a spent layered lithium nickel cobalt manganese oxide cathode from a scrapped lithium-ion battery",
+      "year": 2024,
+      "doi_or_url": "10.1039/d4ta05089d",
+      "openalex_id": "https://openalex.org/W4403901737"
+     },
+     {
+      "rank": 74,
+      "title": "Exploring the graphene effect of graphene ball coating on Ni-rich layered oxide materials for high-performance Li-ion batteries",
+      "year": 2024,
+      "doi_or_url": "10.1016/j.jpowsour.2024.234450",
+      "openalex_id": "https://openalex.org/W4394789154"
+     },
+     {
+      "rank": 75,
+      "title": "Origin of environmentally structural susceptibility of nickel-based layered oxide cathodes",
+      "year": 2023,
+      "doi_or_url": "10.1016/j.actamat.2023.119392",
+      "openalex_id": "https://openalex.org/W4387038173"
+     },
+     {
+      "rank": 76,
+      "title": "Effects of cathode loadings and anode protection on the performance of lithium metal batteries",
+      "year": 2023,
+      "doi_or_url": "10.1088/1361-6528/ad0d25",
+      "openalex_id": "https://openalex.org/W4388721915"
+     },
+     {
+      "rank": 77,
+      "title": "Progress of anion redox in Na-rich layered transition metal oxides (Na2MO3) as cathode materials for sodium-ion batteries",
+      "year": 2024,
+      "doi_or_url": "10.1088/1361-648x/ad9f06",
+      "openalex_id": "https://openalex.org/W4405353325"
+     },
+     {
+      "rank": 78,
+      "title": "Mechanical properties modeling of cathode materials for lithium-ion batteries based on bond valence model",
+      "year": 2024,
+      "doi_or_url": "10.1016/j.mtcomm.2024.108852",
+      "openalex_id": "https://openalex.org/W4393970047"
+     },
+     {
+      "rank": 79,
+      "title": "Li-rich Mn-based cathode materials for next-generation Batteries: Degradation mechanisms, mitigation strategies, and advances toward solid-state batteries",
+      "year": 2025,
+      "doi_or_url": "10.1016/j.mtener.2025.102015",
+      "openalex_id": "https://openalex.org/W4413452844"
+     },
+     {
+      "rank": 80,
+      "title": "SOC-Dependent Compression of Lithium-Ion Battery Electrodes",
+      "year": 2025,
+      "doi_or_url": "10.3390/batteries11120430",
+      "openalex_id": "https://openalex.org/W4416576078"
+     },
+     {
+      "rank": 81,
+      "title": "Functionalized water washing engineering to improve the electrochemical performance of single-crystal Ni-rich cathode for lithium-ion battery",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.jpowsour.2026.239775",
+      "openalex_id": "https://openalex.org/W7133889223"
+     },
+     {
+      "rank": 82,
+      "title": "High-Voltage Induced Stable Interface Promoting Electrochemical Performance for Halide-Based All-Solid-State Batteries",
+      "year": 2025,
+      "doi_or_url": "10.1021/acsaem.5c02238",
+      "openalex_id": "https://openalex.org/W4413806440"
+     },
+     {
+      "rank": 83,
+      "title": "Precursor Engineering for Kinetically Controlled Synthesis of Crack‐Resistant LiCoO 2 Cathodes",
+      "year": 2025,
+      "doi_or_url": "10.1002/adsu.202501240",
+      "openalex_id": "https://openalex.org/W4416535414"
+     },
+     {
+      "rank": 84,
+      "title": "Controlled synthesis and interfacial properties of polyvinylidene fluoride based metal-fluoride surface treatments for high-nickel NCM cathodes",
+      "year": 2026,
+      "doi_or_url": "10.1039/d6ta00410e",
+      "openalex_id": "https://openalex.org/W7155039966"
+     },
+     {
+      "rank": 85,
+      "title": "Anisotropic fracture-diffusion modeling of void-crack interaction and parallel crack patterns in single-crystal cathode particles",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.engfracmech.2026.112349",
+      "openalex_id": "https://openalex.org/W7163547691"
+     },
+     {
+      "rank": 86,
+      "title": "On the origin of non-monotonic variation of the lattice parameters of LiNi 1/3 Co 1/3 Mn 1/3 O 2 with lithiation/delithiation: a first-principles study",
+      "year": 2020,
+      "doi_or_url": "10.1039/d0ta02319a",
+      "openalex_id": "https://openalex.org/W3033720176"
+     },
+     {
+      "rank": 87,
+      "title": "Effect of Magnesium Doping on Voltage Decay of Nickel‐Rich Cathode Materials",
+      "year": 2021,
+      "doi_or_url": "10.1002/slct.202103232",
+      "openalex_id": "https://openalex.org/W4200493589"
+     },
+     {
+      "rank": 88,
+      "title": "In situ characterization of crystal phase evolution of the LiNi 0.6 Co 0.2 Mn 0.2 O 2 cathode at different current densities",
+      "year": 2023,
+      "doi_or_url": "10.1039/d3ta02279j",
+      "openalex_id": "https://openalex.org/W4385011528"
+     },
+     {
+      "rank": 89,
+      "title": "Investigation on the Impact of Coating Thickness Setting and Calendering on the NMC 811 Cathode Performances for Lithium-Ion Batteries",
+      "year": 2024,
+      "doi_or_url": "10.14447/jnmes.v27i1.a10",
+      "openalex_id": "https://openalex.org/W4392872811"
+     },
+     {
+      "rank": 90,
+      "title": "Simulating Electrochemical Aging in NCM111 Materials Through Controlled Chemical Delithiation",
+      "year": 2025,
+      "doi_or_url": "10.1149/1945-7111/adfca2",
+      "openalex_id": "https://openalex.org/W4413304728"
+     },
+     {
+      "rank": 91,
+      "title": "Triple Stabilization of Phase, Electron, and Cation to Enhance the Lithium Storage Performance of High-Voltage Medium-Ni, Low-Co Layered Oxide Cathodes",
+      "year": 2025,
+      "doi_or_url": "10.1021/acs.inorgchem.5c04055",
+      "openalex_id": "https://openalex.org/W4415218082"
+     },
+     {
+      "rank": 92,
+      "title": "Impact of Compression and Temperature on Microstructural Parameters for Lithium-Ion Battery Electrodes",
+      "year": 2025,
+      "doi_or_url": "10.1149/1945-7111/ae2894",
+      "openalex_id": "https://openalex.org/W7116085791"
+     },
+     {
+      "rank": 93,
+      "title": "The Effect of Ni Doping on the Mechanical and Thermal Properties of Spinel-Type LiMn2O4: A Theoretical Study",
+      "year": 2026,
+      "doi_or_url": "10.3390/ceramics9010005",
+      "openalex_id": "https://openalex.org/W7122677280"
+     },
+     {
+      "rank": 94,
+      "title": "3D phase-field modeling of H2→H3 phase transition induced intragranular cracking in single-crystal Ni-rich layered cathodes",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.jmps.2026.106528",
+      "openalex_id": "https://openalex.org/W7125474933"
+     },
+     {
+      "rank": 95,
+      "title": "Bifunctional Role of Surface Cobalt Doping as a Lithium‐Residue Scavenger and Surface Stabilizer in Single‐Crystalline Ultrahigh‐Ni Cathodes",
+      "year": 2026,
+      "doi_or_url": "10.1002/eem2.70343",
+      "openalex_id": "https://openalex.org/W7143321768"
+     },
+     {
+      "rank": 96,
+      "title": "Revealing the role of dopants in mitigating degradation phenomena in sodium-ion layered cathodes",
+      "year": 2021,
+      "doi_or_url": "10.1039/d0cp04974c",
+      "openalex_id": "https://openalex.org/W3121186058"
+     },
+     {
+      "rank": 97,
+      "title": "Electrochemical oxygen evolution coupled structure and capacity decay of single-crystal LiNi0.6Co0.2Mn0.2O2 cathode materials",
+      "year": 2023,
+      "doi_or_url": "10.1016/j.jpowsour.2023.233714",
+      "openalex_id": "https://openalex.org/W4388326197"
+     },
+     {
+      "rank": 98,
+      "title": "Origins and importance of intragranular cracking in layered lithium transition metal oxide cathodes",
+      "year": 2023,
+      "doi_or_url": "10.26434/chemrxiv-2023-b86zb",
+      "openalex_id": "https://openalex.org/W4386328888"
+     },
+     {
+      "rank": 99,
+      "title": "Surface Chemistry of Alkali‐Ion Battery Cathode Materials",
+      "year": 2019,
+      "doi_or_url": "10.1002/9781119951438.eibc2689",
+      "openalex_id": "https://openalex.org/W2921264974"
+     },
+     {
+      "rank": 100,
+      "title": "Single-Crystal Oxide Cathode Materials",
+      "year": 2021,
+      "doi_or_url": "10.1016/b978-0-12-819723-3.00093-7",
+      "openalex_id": "https://openalex.org/W3177014008"
+     },
+     {
+      "rank": 101,
+      "title": "Unraveling the Dynamic Correlations between Transition Metal Migrations and the Oxygen Dimer Formation in the Layered LiCoO2 Cathode",
+      "year": 2023,
+      "doi_or_url": "10.26434/chemrxiv-2023-r12zw",
+      "openalex_id": "https://openalex.org/W4321500209"
+     },
+     {
+      "rank": 102,
+      "title": "Unraveling the Dynamic Correlations between Transition Metal Migrations and the Oxygen Dimer Formation in the Layered LiCoO2 Cathode",
+      "year": 2023,
+      "doi_or_url": "10.26434/chemrxiv-2023-r12zw-v2",
+      "openalex_id": "https://openalex.org/W4321787875"
+     },
+     {
+      "rank": 103,
+      "title": "Origins and importance of intragranular cracking in layered lithium transition metal oxide cathodes",
+      "year": 2023,
+      "doi_or_url": "10.21203/rs.3.rs-2499466/v1",
+      "openalex_id": "https://openalex.org/W4387376121"
+     },
+     {
+      "rank": 104,
+      "title": "State of Charge-Dependent Changes in Spectral Composition of Guided Lamb Waves in Lithium-Ion Batteries",
+      "year": 2023,
+      "doi_or_url": "10.1109/ius51837.2023.10306413",
+      "openalex_id": "https://openalex.org/W4388450350"
+     },
+     {
+      "rank": 105,
+      "title": "Linking Microstructure to Lithium-Ion Diffusion in NMC811: a Multimodal Electron Microscopy and Deep Learning Study",
+      "year": 2025,
+      "doi_or_url": "10.2139/ssrn.5778987",
+      "openalex_id": "https://openalex.org/W4416436784"
+     },
+     {
+      "rank": 106,
+      "title": "Anisotropic Fracture-Diffusion Modeling of Void-Crack Interaction and Parallel Cracks Patterns in Single-Crystal Cathode Particles",
+      "year": 2026,
+      "doi_or_url": "10.2139/ssrn.6282645",
+      "openalex_id": "https://openalex.org/W7130825876"
+     },
+     {
+      "rank": 107,
+      "title": "Direct Synthesis of Single‐Crystalline LiNi 0.8 Co 0.1 Mn 0.1 O 2 Cathodes From Lithium‐Containing Precursors via Spray Pyrolysis",
+      "year": 2026,
+      "doi_or_url": "10.1002/smsc.70397",
+      "openalex_id": "https://openalex.org/W7207641239"
+     },
+     {
+      "rank": 108,
+      "title": "Degradation mechanisms and modification strategies for Ni-rich cathode materials: Challenges and recent advances",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.jpowsour.2026.241443",
+      "openalex_id": "https://openalex.org/W7208787601"
+     },
+     {
+      "rank": 109,
+      "title": "Advanced direct regeneration and upcycling strategies for degraded ternary cathodes",
+      "year": 2026,
+      "doi_or_url": "10.1016/j.susmat.2026.e02267",
+      "openalex_id": "https://openalex.org/W7213470178"
+     }
+    ]
+   }
+  }
+ ]
+}
