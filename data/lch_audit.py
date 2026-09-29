@@ -71,7 +71,7 @@ for m in _IN["mesh_cases"]:
     print(f"  {m['id']}: b = {m['b_um']} um -> b/3 = {lim:.4f} um ; h = {m['h_um']} um -> {'mean h above' if fail else 'mean h within'} b/3 by {ex:.1f}% (a mean cannot verify the local rule)")
 print(f"  simulation runs checked: {len(_IN['mesh_cases'])}, reported mean h above b/3: {n_run_fail}  (run-level count, separate from the parameter-set count above)")
 for _e in _IN.get("emendations", []):
-    print(f"  note: {_e['rows']} {_e['field']} is an emendation of the printed '{_e['printed']}' to {_e['read_as']} ({_e['reason']})")
+    print(f"  note: {_e['rows']} {_e['field']}: the printed '{_e['printed']}' is read as {_e['read_as']}; this is our assumption of a unit typo, not confirmed by the authors ({_e['reason']})")
 # regression: no source-specific numeric text in this script outside lch_inputs.json
 import re as _re
 _src = open(__file__, encoding="utf-8").read().split("# regression:")[0]

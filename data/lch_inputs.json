@@ -215,20 +215,20 @@
    "transformation": ""
   },
   {
-   "label": "this work: sigma = 210 MPa (whole-particle)",
+   "label": "this work: sigma = 207 MPa (whole-particle)",
    "origin": "illustrative",
    "source": null,
    "doi": null,
    "E_GPa": 169.8,
    "Gc_J_m2": 1.0,
-   "sigma_MPa": 210.0,
+   "sigma_MPa": 207.0,
    "b_um": 0.4,
    "h_um": null,
    "note": "E0 = Hill(Liu); Gc,GB = 1 J/m2; b = 0.4 µm",
    "verbatim": [
     "E0 = 169.8 GPa derived; b = 0.4 µm (the private import ledger)"
    ],
-   "anchor": "our own working values, not measurements; sigma = Omirkhan calendered mean 210 MPa (fig1_measurements.json X2)",
+   "anchor": "our own working values, not measurements; sigma = Wheatcroft flat-platen mean 207 MPa (fig1_measurements.json X1), the value used in Fig. 3 and Section 4 (changed from 210 MPa on 2026-09-29 for consistency, Reviewer 1 round 2)",
    "transformation": ""
   },
   {

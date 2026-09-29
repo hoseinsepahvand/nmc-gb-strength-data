@@ -17,7 +17,7 @@ def box(x, y, text, ec=INK2, fc=SURF, bold=False):
                    bbox=dict(boxstyle="round,pad=0.5,rounding_size=0.4", fc=fc, ec=ec, lw=1.2))
 B = {}
 B[1] = box(1.05, 3.3, "1  Which scale does\nthe model resolve?\n(grain boundary /\nwhole particle)", ec=BLUE)
-B[2] = box(3.35, 3.3, r"2  Choose $\sigma_{GB}^{eff}$ from the" + "\nmeasurement that matches\nthat scale (geometry,\nvolume, lithiation state)", ec=BLUE)
+B[2] = box(3.35, 3.3, r"2  Calibrate $\sigma_{GB}^{eff}$ against" + "\nthe measurement of that\nscale (geometry, volume,\nlithiation state)", ec=BLUE)
 B[3] = box(5.75, 3.3, r"3  Compute" + "\n" + r"$\ell_{ch} = E G_c/\sigma^2$" + "\n" + r"and $b/\ell_{ch}$", ec=BLUE)
 B[4] = box(8.35, 3.3, r"4  $b/\ell_{ch}$ ≤ threshold?" + "\n(convexity: 0.85;\noperative: ≪ 1, e.g. 0.1)", ec=INK, bold=False)
 B[5] = box(8.35, 1.25, "yes → run", ec=BLUE)
